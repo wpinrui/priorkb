@@ -1,0 +1,3489 @@
+{
+  "formatVersion": 1,
+  "scope": "single-topic-trial",
+  "target": {
+    "id": "mathematics-skill-421dd2683faa2ab3",
+    "subject": "mathematics",
+    "label": "use of Pythagoras’ theorem",
+    "description": "use of Pythagoras’ theorem",
+    "appearanceIds": [
+      "math-secondary-g1-sec-2-3-1-059:part-01",
+      "math-secondary-g3-sec-2-4-1-168:part-01",
+      "math-secondary-g2-sec-2-4-1-309:part-01"
+    ],
+    "topics": [
+      "G3. Pythagoras’ theorem",
+      "G4. Pythagoras’ theorem and trigonometry"
+    ],
+    "appearances": [
+      {
+        "id": "math-secondary-g1-sec-2-3-1-059:part-01",
+        "objectiveId": "math-secondary-g1-sec-2-3-1-059",
+        "pathway": "secondary-g1",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G3. Pythagoras’ theorem",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g1-secondary",
+          "pdfPages": [
+            20
+          ],
+          "printedPages": [
+            "18"
+          ],
+          "item": "3.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      },
+      {
+        "id": "math-secondary-g3-sec-2-4-1-168:part-01",
+        "objectiveId": "math-secondary-g3-sec-2-4-1-168",
+        "pathway": "secondary-g3",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G4. Pythagoras’ theorem and trigonometry",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g2-g3-secondary",
+          "pdfPages": [
+            20
+          ],
+          "printedPages": [
+            "18"
+          ],
+          "item": "4.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      },
+      {
+        "id": "math-secondary-g2-sec-2-4-1-309:part-01",
+        "objectiveId": "math-secondary-g2-sec-2-4-1-309",
+        "pathway": "secondary-g2",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G4. Pythagoras’ theorem and trigonometry",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g2-g3-secondary",
+          "pdfPages": [
+            30
+          ],
+          "printedPages": [
+            "28"
+          ],
+          "item": "4.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      }
+    ]
+  },
+  "knowledgeSha256": "b388810a6dd525c226a84c242621518a357ca44f19b9e8a54f1919915f7ee9ab",
+  "packetSha256": "7a6b6214a792e8fd6eff85d0d55db2c5a20a1d794e2b5c85c2c795adfd5b4595",
+  "policy": {
+    "policyVersion": "conceptual-understanding-v2",
+    "essentialDefinition": "Prior mastery of the specific prerequisite competence is required to understand and explain the dependent concept as scoped, rather than merely to execute a procedure.",
+    "helpfulDefinition": "The prerequisite provides a concrete explanatory bridge or useful interpretation for understanding or explaining the dependent concept, but is not necessary.",
+    "noneDefinition": "There is no defensible conceptual or explanatory bridge in the stated direction; not being required alone is insufficient for this classification."
+  },
+  "assessors": [
+    {
+      "id": "concepts",
+      "agentTask": "/root/pythagoras_concepts",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-concepts.json",
+      "votes": "votes-concepts.json"
+    },
+    {
+      "id": "teaching",
+      "agentTask": "/root/mvp_ui",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-teaching.json",
+      "votes": "votes-teaching.json"
+    },
+    {
+      "id": "misconceptions",
+      "agentTask": "/root/mvp_data",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-misconceptions.json",
+      "votes": "votes-misconceptions.json"
+    },
+    {
+      "id": "routes",
+      "agentTask": "/root/pythagoras_routes",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-routes.json",
+      "votes": "votes-routes.json"
+    },
+    {
+      "id": "challenge",
+      "agentTask": "/root/pythagoras_challenge",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-challenge.json",
+      "votes": "votes-challenge.json"
+    }
+  ],
+  "summary": {
+    "candidateCount": 45,
+    "voteCount": 225,
+    "classifications": {
+      "essential": 10,
+      "helpful": 17,
+      "needs-decision": 15,
+      "none": 3
+    },
+    "candidateKinds": {
+      "catalogue-skill": 29,
+      "inferred-instructional-subskill": 16
+    }
+  },
+  "entries": [
+    {
+      "id": "pyth-01",
+      "skillId": "mathematics-skill-b8e579ca9d227a35",
+      "label": "Identify right angles",
+      "description": "Identify right angles.",
+      "topics": [
+        "G1. Angles, triangles and polygons"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-1-129:part-01",
+          "objectiveId": "math-secondary-g3-sec-1-1-1-129",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b8e579ca9d227a35"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-1-1-269:part-01",
+          "objectiveId": "math-secondary-g2-sec-1-1-1-269",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              28
+            ],
+            "printedPages": [
+              "26"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b8e579ca9d227a35"
+        }
+      ],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-01",
+          "classification": "essential",
+          "rationale": "The theorem applies only when a triangle contains a right angle, so the learner must recognise that condition."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-01",
+          "classification": "essential",
+          "rationale": "Without identifying a right angle, the learner cannot know when the theorem applies or explain which triangle is in scope."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-01",
+          "classification": "essential",
+          "rationale": "Without identifying a right angle, a learner cannot know which triangle qualifies or which side is opposite it; this directly causes the wrong-side explanation."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-01",
+          "classification": "essential",
+          "rationale": "Every route must identify the right angle because it determines the theorem's applicable triangle."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-01",
+          "classification": "essential",
+          "rationale": "A learner may be shown a marked corner, but understanding the theorem's scope requires recognising that the marked angle is right; without that, they cannot identify when the relation applies."
+        }
+      ]
+    },
+    {
+      "id": "pyth-02",
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "description": "Describe the properties of right-angled triangles.",
+      "topics": [
+        "Geometry: Triangle",
+        "Geometry: Rectangle, square and triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-1:part-03",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-1",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "2.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-06ee3a60b051acf1"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-1:part-03",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-1",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Rectangle, square and triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-06ee3a60b051acf1"
+        }
+      ],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 4,
+        "helpful": 1,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-02",
+          "classification": "essential",
+          "rationale": "The learner must understand the right-angled triangle structure and distinguish its special sides before the equation has geometric meaning."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-02",
+          "classification": "essential",
+          "rationale": "The properties of a right-angled triangle provide the figure and side relationships that the theorem explains."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-02",
+          "classification": "essential",
+          "rationale": "The target requires explaining properties of a right-angled triangle, so lacking this exact description leaves the theorem as an ungrounded formula rather than an interpretable relation."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-02",
+          "classification": "essential",
+          "rationale": "Understanding the relevant right-triangle structure supports visual, numerical, and algebraic explanations."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-02",
+          "classification": "helpful",
+          "rationale": "A learner can understand the formula from a labelled right triangle without describing every right-triangle property; the broader description gives useful context but is not required."
+        }
+      ]
+    },
+    {
+      "id": "pyth-03",
+      "skillId": "mathematics-skill-0d3bd526e6bd05bf",
+      "label": "perpendicular and parallel lines",
+      "description": "perpendicular and parallel lines",
+      "topics": [
+        "Geometry: Perpendicular and Parallel Lines"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-2-1:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-2-1",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Perpendicular and Parallel Lines",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "2.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d3bd526e6bd05bf"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-1-1:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-1-1",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Perpendicular and Parallel Lines",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d3bd526e6bd05bf"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 4,
+        "none": 1
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-03",
+          "classification": "helpful",
+          "rationale": "Perpendicularity explains the right angle and supports a geometric account, but recognising a right angle can establish the condition without the broader line skill."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-03",
+          "classification": "none",
+          "rationale": "Parallel and perpendicular line knowledge is not itself needed to explain the side-square relationship."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-03",
+          "classification": "helpful",
+          "rationale": "Perpendicular lines provide a useful geometric interpretation of a right angle, but a learner can understand and explain the theorem without a broad parallel-lines competence."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-03",
+          "classification": "helpful",
+          "rationale": "Perpendicularity clarifies the two legs and area construction, but can be introduced while teaching the target."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-03",
+          "classification": "helpful",
+          "rationale": "Perpendicularity explains why the sides form a right angle, but a learner can use a right-angle marker and explain the theorem without general parallel-line knowledge."
+        }
+      ]
+    },
+    {
+      "id": "pyth-04",
+      "skillId": "mathematics-skill-abbe29f3b6286878",
+      "label": "area of rectangle/square",
+      "description": "area of rectangle/square",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-4:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-4",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-abbe29f3b6286878"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 4,
+        "none": 1
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-04",
+          "classification": "helpful",
+          "rationale": "Rectangle and square area gives the concrete area interpretation of squared sides, but ordinary formula use does not require an area proof."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-04",
+          "classification": "helpful",
+          "rationale": "Rectangle and square area gives a concrete area interpretation, but the theorem can be understood without using that proof route."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-04",
+          "classification": "none",
+          "rationale": "Rectangle or square area is a different mensuration procedure; its absence does not create a necessary misconception about the Pythagorean length relation."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-04",
+          "classification": "helpful",
+          "rationale": "Rectangle and square area is a concrete bridge for area proofs, but numerical and algebraic routes can explain the theorem without it."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-04",
+          "classification": "helpful",
+          "rationale": "Square areas provide a concrete proof or interpretation, but a learner can explain squared side lengths numerically without knowing rectangle or square area formulas."
+        }
+      ]
+    },
+    {
+      "id": "pyth-05",
+      "skillId": "mathematics-skill-1e2ddb09fbd8f406",
+      "label": "Interpret algebraic notation and equivalent forms",
+      "description": "Interpret ab as a x b, a/b as a divided by b or a x 1/b, powers such as a^2, a^3 and a^2b, repeated addition such as 3y, multiplication such as 3(x + y), and division such as (3 + y)/5.",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-5-2-022:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-5-2-022",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-1e2ddb09fbd8f406"
+        }
+      ],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 4,
+        "helpful": 1,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-05",
+          "classification": "essential",
+          "rationale": "The learner must read powers, multiplication, addition, and equality in a²+b²=c² for the statement to be understood rather than memorised."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-05",
+          "classification": "essential",
+          "rationale": "The learner must interpret powers and multiplication in expressions such as a²+b²=c² to explain the statement rather than repeat symbols."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-05",
+          "classification": "essential",
+          "rationale": "If powers and multiplication notation are misread, a learner can interpret a squared side as doubling or as a label, preventing a conceptual explanation of the equation."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-05",
+          "classification": "helpful",
+          "rationale": "Equivalent algebraic forms help a symbolic explanation, while visual and numerical explanations can avoid formal notation."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-05",
+          "classification": "essential",
+          "rationale": "To explain a^2+b^2=c^2 rather than recite it, the learner must interpret multiplication and powers in the expression; the full notation skill is the closest available match."
+        }
+      ]
+    },
+    {
+      "id": "pyth-06",
+      "skillId": "mathematics-skill-fe3edd15df2533f0",
+      "label": "Perform the four operations on numbers",
+      "description": "Perform the four operations on numbers.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-3-095:part-05",
+          "objectiveId": "math-secondary-g3-sec-1-1-3-095",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              17
+            ],
+            "printedPages": [
+              "15"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fe3edd15df2533f0"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-1-3-233:part-05",
+          "objectiveId": "math-secondary-g2-sec-1-1-3-233",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              27
+            ],
+            "printedPages": [
+              "25"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fe3edd15df2533f0"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-06",
+          "classification": "helpful",
+          "rationale": "Numerical operations enable calculation with the relation, but arithmetic fluency is execution support rather than the theorem's conceptual condition."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-06",
+          "classification": "helpful",
+          "rationale": "Reliable operations support checking and using the theorem, but an operation gap does not make its geometric explanation incoherent."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-06",
+          "classification": "helpful",
+          "rationale": "The four operations support checking numerical instances, but operation fluency is an execution aid and does not itself explain why the theorem relates the sides."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-06",
+          "classification": "helpful",
+          "rationale": "General arithmetic supports checking examples and expressions but does not itself supply the theorem's conceptual relation."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-06",
+          "classification": "helpful",
+          "rationale": "Arithmetic supports worked examples, but a learner can explain the invariant relation with symbolic or simple values and does not need the full four-operation competence first."
+        }
+      ]
+    },
+    {
+      "id": "pyth-07",
+      "skillId": "mathematics-skill-f207aae3904c6d8c",
+      "label": "Calculate square roots and cube roots with a calculator",
+      "description": "Use a calculator to calculate square roots and cube roots.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-4-004:part-02",
+          "objectiveId": "math-secondary-g1-sec-1-1-4-004",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f207aae3904c6d8c"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-07",
+          "classification": "helpful",
+          "rationale": "Square-root calculation helps recover an unknown side, while calculator use itself is not needed to understand why the relation applies."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-07",
+          "classification": "helpful",
+          "rationale": "Calculator square-root use supports numerical applications, while the conceptual theorem can be explained without calculator procedure."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-07",
+          "classification": "none",
+          "rationale": "Calculator extraction of roots is optional technology use; it does not supply the conceptual meaning of the theorem or prevent the central wrong-side and equality errors."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-07",
+          "classification": "none",
+          "rationale": "Calculator root procedures execute a consequence and provide no necessary bridge to understanding why the squared relation holds."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-07",
+          "classification": "helpful",
+          "rationale": "Calculator roots help produce decimal answers, while a learner can explain the theorem and leave an answer as a square root or use perfect squares."
+        }
+      ]
+    },
+    {
+      "id": "pyth-08",
+      "skillId": "mathematics-skill-13280dc03d854ab6",
+      "label": "finding the value of an unknown quantity in a given formula",
+      "description": "finding the value of an unknown quantity in a given formula",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-3-4-5-12-076:part-01",
+          "objectiveId": "math-secondary-g1-sec-3-4-5-12-076",
+          "pathway": "secondary-g1",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "5.12"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        },
+        {
+          "id": "math-secondary-g3-sec-2-5-11-149:part-01",
+          "objectiveId": "math-secondary-g3-sec-2-5-11-149",
+          "pathway": "secondary-g3",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "5.11"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        },
+        {
+          "id": "math-secondary-g2-sec-3-4-5-17-326:part-01",
+          "objectiveId": "math-secondary-g2-sec-3-4-5-17-326",
+          "pathway": "secondary-g2",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ],
+            "item": "5.17"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-08",
+          "classification": "helpful",
+          "rationale": "Evaluating an unknown in a formula supports use cases, but the target relation can be understood before this general formula skill is mastered."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-08",
+          "classification": "helpful",
+          "rationale": "Finding an unknown in a formula helps solve variants of the theorem, but is downstream of understanding the theorem's relationship."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-08",
+          "classification": "helpful",
+          "rationale": "Finding an unknown in a formula supports using the relation in varied directions, but the target can be understood before a general formula-solving competence is developed."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-08",
+          "classification": "helpful",
+          "rationale": "Evaluating an unknown from a formula helps a chosen application route, but formula evaluation is not required to explain the theorem."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-08",
+          "classification": "helpful",
+          "rationale": "Evaluating an unknown from a formula supports applications, but a learner can understand the theorem by explaining the known-side relation without solving a general formula."
+        }
+      ]
+    },
+    {
+      "id": "pyth-09",
+      "skillId": "mathematics-skill-0e0a095410df4fc3",
+      "label": "changing the subject of a simple formula",
+      "description": "changing the subject of a simple formula",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-3-4-5-11-075:part-01",
+          "objectiveId": "math-secondary-g1-sec-3-4-5-11-075",
+          "pathway": "secondary-g1",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "5.11"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0e0a095410df4fc3"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-09",
+          "classification": "helpful",
+          "rationale": "Changing the subject supports alternate arrangements for an unknown side, but it is algebraic manipulation after the theorem's meaning is understood."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-09",
+          "classification": "helpful",
+          "rationale": "Changing the subject helps derive a missing-side form, but that algebraic route is not required to understand the original statement."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-09",
+          "classification": "helpful",
+          "rationale": "Changing a formula's subject helps avoid leaving the requested side hidden, yet it is a broader algebraic method rather than a conceptual prerequisite to explaining the theorem."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-09",
+          "classification": "helpful",
+          "rationale": "Changing a formula's subject supports solving for a side in an algebraic route, not every explanation."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-09",
+          "classification": "helpful",
+          "rationale": "Changing the subject helps solve for a missing side, yet rearrangement can be demonstrated with one concrete equation and is not needed to explain the geometric claim."
+        }
+      ]
+    },
+    {
+      "id": "pyth-10",
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "description": "Find the area of a triangle using one half times base times perpendicular height.",
+      "topics": [
+        "Area And Volume: Area of Triangle",
+        "G4. Mensuration"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-2",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-2",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        },
+        {
+          "id": "math-secondary-g1-sec-1-4-1-032:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-4-1-032",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "4.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-10",
+          "classification": "helpful",
+          "rationale": "Triangle area can support an area-based explanation, but that proof route is optional for understanding or using the theorem."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-10",
+          "classification": "helpful",
+          "rationale": "Triangle area can support an area-based explanation, but it is one optional proof route."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-10",
+          "classification": "helpful",
+          "rationale": "Triangle area helps distinguish square units and multiplication of dimensions from a side-length theorem, but the Pythagorean relation does not require knowing the area formula."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-10",
+          "classification": "helpful",
+          "rationale": "Triangle area supports some rearrangement proofs, but is unnecessary for numerical or algebraic explanations."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-10",
+          "classification": "helpful",
+          "rationale": "Triangle area is an explanatory bridge for an area dissection proof, but numerical examples or a direct geometric statement let a learner explain Pythagoras without triangle-area calculation."
+        }
+      ]
+    },
+    {
+      "id": "pyth-11",
+      "skillId": "mathematics-skill-d742f69680f9e577",
+      "label": "finding the area of composite figures made up of rectangles, squares and triangles",
+      "description": "finding the area of composite figures made up of rectangles, squares and triangles",
+      "topics": [
+        "Area And Volume: Area of Triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-3:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-3",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-d742f69680f9e577"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-11",
+          "classification": "helpful",
+          "rationale": "Composite-area work can support rearrangement proofs, but no such proof construction is required for the theorem's conceptual use."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-11",
+          "classification": "helpful",
+          "rationale": "Composite-area work can support a visual proof, but the theorem's meaning does not depend on that procedure."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-11",
+          "classification": "none",
+          "rationale": "Composite-area problem solving is unrelated to the conceptual bridge for right-triangle side equality and would not explain a characteristic Pythagoras misconception."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-11",
+          "classification": "helpful",
+          "rationale": "Composite-area calculation supports a particular visual proof, while other valid routes avoid it."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-11",
+          "classification": "none",
+          "rationale": "Composite-area procedures are one proof or application technique; a learner can explain Pythagoras using a single right triangle and the squared-side relation."
+        }
+      ]
+    },
+    {
+      "id": "pyth-12",
+      "skillId": "mathematics-skill-0d02b5f4eda3ccc3",
+      "label": "Use properties of triangles",
+      "description": "Use properties of triangles.",
+      "topics": [
+        "G1. Angles, triangles and polygons"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-4-132:part-04",
+          "objectiveId": "math-secondary-g3-sec-1-1-4-132",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [
+            "Triangles are included in the source scope."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d02b5f4eda3ccc3"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-12",
+          "classification": "helpful",
+          "rationale": "General triangle properties provide geometric context, but the specific right-angle condition and side roles carry the necessary meaning."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-12",
+          "classification": "helpful",
+          "rationale": "General triangle properties support diagram interpretation, but the right-angle and side concepts are the direct bridge."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-12",
+          "classification": "helpful",
+          "rationale": "General triangle properties support interpreting diagrams and checking claims, but the exact right-angle and square relation can be explained without the full broad skill."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-12",
+          "classification": "helpful",
+          "rationale": "Triangle properties can support a geometric account, but the theorem can be explained without a general triangle-properties skill."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-12",
+          "classification": "helpful",
+          "rationale": "Triangle properties can support interpreting the diagram, but a learner needs only the right-angle configuration and can be taught the theorem without the full properties catalogue."
+        }
+      ]
+    },
+    {
+      "id": "pyth-13",
+      "skillId": "mathematics-skill-b61572aa2e145ff7",
+      "label": "Find the area of rectangles and squares",
+      "description": "Find the area of rectangles and squares.",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b61572aa2e145ff7"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-13",
+          "classification": "helpful",
+          "rationale": "Square and rectangle area makes a², b², and c² visually interpretable, but is an explanatory bridge rather than a universal prerequisite."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-13",
+          "classification": "helpful",
+          "rationale": "Square and rectangle area makes the squared lengths interpretable in a proof, but is not the only way to understand the theorem."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-13",
+          "classification": "helpful",
+          "rationale": "Rectangle and square area can illuminate why a squared length has square units, but this particular area procedure is not required to understand the theorem."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-13",
+          "classification": "helpful",
+          "rationale": "Computing rectangle and square areas supports area rearrangement, but is not needed in every route."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-13",
+          "classification": "helpful",
+          "rationale": "Rectangle and square area calculations support an area proof, but they are unnecessary for a numerical or symbolic explanation of the theorem."
+        }
+      ]
+    },
+    {
+      "id": "pyth-14",
+      "skillId": null,
+      "label": "Square a number and interpret a square root",
+      "description": "Square a number and interpret a square root",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 4,
+        "helpful": 1,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-14",
+          "classification": "essential",
+          "rationale": "Understanding a square and its inverse square root is necessary to interpret the powers as quantities and recover a length from a squared side."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-14",
+          "classification": "essential",
+          "rationale": "Understanding both squaring and square roots is needed to explain the meaning of the squared terms and recover a length."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-14",
+          "classification": "essential",
+          "rationale": "Misunderstanding a square or square root directly produces doubling, wrong inverse, and reporting-a-square errors, so the exact numerical interpretation is fundamental to explaining the target."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-14",
+          "classification": "helpful",
+          "rationale": "Connecting squares and roots helps numerical side-recovery, but root calculation is an application rather than the theorem's core."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-14",
+          "classification": "essential",
+          "rationale": "Using the theorem for an unknown side requires understanding squaring and square roots; a learner unable to relate these inverse operations cannot explain the complete side-finding use."
+        }
+      ]
+    },
+    {
+      "id": "pyth-15",
+      "skillId": null,
+      "label": "Substitute measured side lengths into a formula",
+      "description": "Substitute measured side lengths into a formula",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 4,
+        "none": 1
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-15",
+          "classification": "helpful",
+          "rationale": "Substitution is needed for routine numerical application, but it does not supply the prior geometric meaning of the theorem."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-15",
+          "classification": "helpful",
+          "rationale": "Substitution is needed for many numerical exercises, but it does not establish what the theorem means."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-15",
+          "classification": "helpful",
+          "rationale": "Substitution lets a learner instantiate the relation and check a case, but substitution is a route for applying the theorem rather than the conceptual basis of its meaning."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-15",
+          "classification": "none",
+          "rationale": "Substituting measured lengths into a formula is procedural execution and supplies no earlier explanatory bridge."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-15",
+          "classification": "helpful",
+          "rationale": "Substitution connects measured sides to the formula in practice, but a learner can explain the theorem abstractly or with already-labelled values without this general competence."
+        }
+      ]
+    },
+    {
+      "id": "pyth-16",
+      "skillId": null,
+      "label": "Rearrange an equation to make a missing side the subject",
+      "description": "Rearrange an equation to make a missing side the subject",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-16",
+          "classification": "helpful",
+          "rationale": "Rearranging to isolate a missing side supports common applications, but the original equality can be understood before this manipulation skill."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-16",
+          "classification": "helpful",
+          "rationale": "Rearrangement supports finding a missing side, while the theorem can be explained in its stated form without it."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-16",
+          "classification": "helpful",
+          "rationale": "Rearrangement is needed for some unknown-side presentations, but the theorem can be understood in its canonical form before this broader algebraic manipulation is mastered."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-16",
+          "classification": "helpful",
+          "rationale": "Rearranging to solve for a missing side supports an algebraic application, but not all explanations require solving for a side."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-16",
+          "classification": "helpful",
+          "rationale": "Rearranging to find a missing side is a useful application bridge, but it is downstream algebra and not necessary to understand what the theorem asserts."
+        }
+      ]
+    },
+    {
+      "id": "pyth-17",
+      "skillId": null,
+      "label": "Multiply, add, subtract, and divide positive numbers accurately",
+      "description": "Multiply, add, subtract, and divide positive numbers accurately",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-17",
+          "classification": "helpful",
+          "rationale": "Accurate positive-number arithmetic supports calculation, but it is not the conceptual reason the relation is restricted to right triangles."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-17",
+          "classification": "helpful",
+          "rationale": "Arithmetic fluency supports calculation and error checking, but an arithmetic deficit does not block the conceptual bridge."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-17",
+          "classification": "helpful",
+          "rationale": "Positive-number arithmetic helps calculate an example, but arithmetic accuracy alone cannot prevent treating a numerical pattern as the theorem's justification."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-17",
+          "classification": "helpful",
+          "rationale": "Accurate arithmetic supports numerical checks, but calculation accuracy alone does not explain the invariant relationship."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-17",
+          "classification": "helpful",
+          "rationale": "Accurate positive arithmetic makes examples workable, but an explanation can use simple perfect-square values or symbolic quantities without full procedural mastery."
+        }
+      ]
+    },
+    {
+      "id": "pyth-18",
+      "skillId": null,
+      "label": "Use consistent length units and compare measured lengths",
+      "description": "Use consistent length units and compare measured lengths",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 1,
+        "helpful": 4,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-18",
+          "classification": "helpful",
+          "rationale": "Consistent lengths and comparisons prevent dimensional misinterpretation, yet unit consistency can be introduced alongside the theorem."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-18",
+          "classification": "helpful",
+          "rationale": "Comparable units matter in applied measurements, but unit comparison is not the theorem's explanatory basis."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-18",
+          "classification": "essential",
+          "rationale": "Without consistent length units, a learner may compare unlike quantities or read squared lengths as ordinary lengths; dimensional consistency is fundamental to the equality's interpretation."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-18",
+          "classification": "helpful",
+          "rationale": "Consistent lengths and comparisons support measured investigations, yet exact measurement is avoidable in symbolic or area routes."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-18",
+          "classification": "helpful",
+          "rationale": "Consistent units prevent invalid comparisons in applied examples, but a learner can explain the dimensionless relationship in one unit or use a diagram with equal units."
+        }
+      ]
+    },
+    {
+      "id": "pyth-19",
+      "skillId": null,
+      "label": "Read a scale drawing and identify the relevant lengths",
+      "description": "Read a scale drawing and identify the relevant lengths",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-19",
+          "classification": "none",
+          "rationale": "Scale drawings are a later measurement context and provide no necessary conceptual bridge to why the three squared side lengths are related."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-19",
+          "classification": "helpful",
+          "rationale": "Reading a diagram supports application problems, but is not required to understand the theorem with a supplied triangle."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-19",
+          "classification": "helpful",
+          "rationale": "Scale-drawing reading helps select relevant measured sides in an application, but the theorem's conceptual explanation does not depend on extracting lengths from a scale diagram."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-19",
+          "classification": "helpful",
+          "rationale": "Scale drawings can supply lengths for a visual or numerical exploration, but are optional and not explanatory in every route."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-19",
+          "classification": "none",
+          "rationale": "Scale-drawing interpretation is an application context; a learner can understand and explain the theorem from a direct labelled diagram without reading a scale."
+        }
+      ]
+    },
+    {
+      "id": "pyth-20",
+      "skillId": "mathematics-skill-ad6b0bdfed823beb",
+      "label": "Identify, name, describe and classify basic 2D shapes",
+      "description": "Identify, name, describe and classify rectangles, squares, triangles, circles, half circles and quarter circles.",
+      "topics": [
+        "Geometry: 2D Shapes"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-1:part-01",
+          "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-1",
+          "pathway": "primary-common",
+          "year": "P1",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: 2D Shapes",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "32"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ad6b0bdfed823beb"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-20",
+          "classification": "helpful",
+          "rationale": "Recognising basic shapes helps interpret diagrams and constructed squares, but the theorem can be understood from a labelled triangle alone."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-20",
+          "classification": "helpful",
+          "rationale": "Basic shape recognition helps parse diagrams, but the target can be explained from an explicitly identified triangle."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-20",
+          "classification": "helpful",
+          "rationale": "Recognising and describing 2D shapes supports reading a rotated or embedded triangle, but the target's essential geometric object is more specific than all basic-shape classification."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-20",
+          "classification": "helpful",
+          "rationale": "Recognising basic shapes helps parse a rearrangement diagram, while other routes need no shape-classification exercise."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-20",
+          "classification": "helpful",
+          "rationale": "Recognising a triangle and its sides helps read a diagram, but the target can introduce the one needed shape and does not require classifying all basic 2D shapes."
+        }
+      ]
+    },
+    {
+      "id": "pyth-21",
+      "skillId": "mathematics-skill-65e91f5bf9463246",
+      "label": "angle sum of a triangle",
+      "description": "angle sum of a triangle",
+      "topics": [
+        "Geometry: Triangle",
+        "Geometry: Rectangle, square and triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-2:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-2",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "2.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-65e91f5bf9463246"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-2",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Rectangle, square and triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-65e91f5bf9463246"
+        }
+      ],
+      "classification": "none",
+      "status": "rejected",
+      "counts": {
+        "essential": 0,
+        "helpful": 1,
+        "none": 4
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-21",
+          "classification": "none",
+          "rationale": "The angle sum of a triangle does not explain the squared-length equality or establish the special right-angle condition."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-21",
+          "classification": "none",
+          "rationale": "The angle sum of a triangle does not provide a necessary explanatory bridge to the sum of squared side lengths."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-21",
+          "classification": "helpful",
+          "rationale": "Triangle angle sum provides a possible check on angle claims, but Pythagoras can be explained without deriving rightness from three angles."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-21",
+          "classification": "none",
+          "rationale": "Triangle angle sum is not an essential bridge to the squared-side relationship in any of the stated routes."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-21",
+          "classification": "none",
+          "rationale": "Triangle angle sums do not explain the squared-length relation and are not needed when the right angle is given; this is a separate geometry result."
+        }
+      ]
+    },
+    {
+      "id": "pyth-22",
+      "skillId": "mathematics-skill-55899274f9ae21c9",
+      "label": "determining whether a triangle is right-angled given the lengths of three sides",
+      "description": "determining whether a triangle is right-angled given the lengths of three sides",
+      "topics": [
+        "G3. Pythagoras’ theorem",
+        "G4. Pythagoras’ theorem and trigonometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-2-3-2-060:part-01",
+          "objectiveId": "math-secondary-g1-sec-2-3-2-060",
+          "pathway": "secondary-g1",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G3. Pythagoras’ theorem",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "3.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-55899274f9ae21c9"
+        },
+        {
+          "id": "math-secondary-g3-sec-2-4-2-169:part-01",
+          "objectiveId": "math-secondary-g3-sec-2-4-2-169",
+          "pathway": "secondary-g3",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Pythagoras’ theorem and trigonometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "4.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-55899274f9ae21c9"
+        }
+      ],
+      "classification": "none",
+      "status": "rejected",
+      "counts": {
+        "essential": 0,
+        "helpful": 1,
+        "none": 4
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-22",
+          "classification": "none",
+          "rationale": "Testing whether side lengths imply a right angle is the converse application, introduced after the theorem rather than prior knowledge for it."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-22",
+          "classification": "none",
+          "rationale": "Testing whether a triangle is right-angled from three lengths is a later converse-style application, not a prerequisite for understanding the theorem."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-22",
+          "classification": "helpful",
+          "rationale": "Testing whether a triangle is right-angled from three lengths is a useful converse and can expose reversal errors, but it is a later application rather than a prerequisite to the theorem's direct use."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-22",
+          "classification": "none",
+          "rationale": "Testing whether side lengths imply a right triangle is a converse direction and does not explain the target theorem."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-22",
+          "classification": "none",
+          "rationale": "Determining whether a triangle is right from its lengths is the converse direction, which uses Pythagoras rather than preparing a learner to understand the forward theorem."
+        }
+      ]
+    },
+    {
+      "id": "pyth-23",
+      "skillId": "mathematics-skill-6456067a4eda8336",
+      "label": "Calculate squares and cubes with a calculator",
+      "description": "Use a calculator to calculate squares and cubes.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-4-004:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-4-004",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-6456067a4eda8336"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-23",
+          "classification": "helpful",
+          "rationale": "Calculator square operations support numerical application, but the device-based procedure is not needed to grasp the relation's meaning."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-23",
+          "classification": "helpful",
+          "rationale": "Calculator square and cube operations support computation, but calculator technique is not required for conceptual understanding."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-23",
+          "classification": "none",
+          "rationale": "Calculator squaring is a procedure and may even reinforce a misconception that pressing a key explains squaring; it is not a conceptual prerequisite."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-23",
+          "classification": "none",
+          "rationale": "Calculator square computation only executes a numerical operation and does not build conceptual understanding."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-23",
+          "classification": "helpful",
+          "rationale": "Calculator powers ease computation, but a learner can understand the theorem through mental perfect squares, symbolic notation, or a diagram without calculator skill."
+        }
+      ]
+    },
+    {
+      "id": "pyth-24",
+      "skillId": null,
+      "label": "Explain squaring as multiplying a length by itself and interpret the resulting square units",
+      "description": "Explain squaring as multiplying a length by itself and interpret the resulting square units",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-24",
+          "classification": "essential",
+          "rationale": "The learner must connect squaring a length with multiplying it by itself and understand the resulting square-unit quantity in the equation."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-24",
+          "classification": "essential",
+          "rationale": "The learner must connect a squared length with repeated multiplication and square units to explain the quantities in the theorem."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-24",
+          "classification": "essential",
+          "rationale": "This exact meaning prevents replacing squaring with doubling and explains square units, making it fundamental to understanding what each term in the theorem asserts."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-24",
+          "classification": "essential",
+          "rationale": "All routes must understand a squared length as multiplying that length by itself and interpret the resulting quantity."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-24",
+          "classification": "essential",
+          "rationale": "A learner must understand that squaring a length means multiplying it by itself and yields square units to explain what each term represents, rather than memorising symbols."
+        }
+      ]
+    },
+    {
+      "id": "pyth-25",
+      "skillId": null,
+      "label": "Distinguish a length from its numerical square and preserve units when comparing them",
+      "description": "Distinguish a length from its numerical square and preserve units when comparing them",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-25",
+          "classification": "essential",
+          "rationale": "The learner must distinguish a length from its square so that a²+b²=c² is read as an equality of areas or squared measures, not lengths."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-25",
+          "classification": "essential",
+          "rationale": "Distinguishing a length from its square prevents category and unit errors in the explanation of the relationship."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-25",
+          "classification": "essential",
+          "rationale": "The theorem equates sums of squared lengths with a squared length, so confusing lengths with their numerical squares blocks any coherent explanation of the equality and units."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-25",
+          "classification": "essential",
+          "rationale": "Keeping lengths distinct from their squared quantities and preserving units is required to make the theorem's equality meaningful."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-25",
+          "classification": "essential",
+          "rationale": "The theorem equates squared lengths, not lengths themselves; without distinguishing a length from its square and tracking units, a learner cannot give a coherent conceptual explanation."
+        }
+      ]
+    },
+    {
+      "id": "pyth-26",
+      "skillId": null,
+      "label": "Identify the hypotenuse as the side opposite the right angle and the longest side",
+      "description": "Identify the hypotenuse as the side opposite the right angle and the longest side",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-26",
+          "classification": "essential",
+          "rationale": "Identifying the hypotenuse as opposite the right angle is required to know which side is c and when the equation's arrangement applies."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-26",
+          "classification": "essential",
+          "rationale": "Identifying the hypotenuse is necessary to state which side is represented by c and why it occupies the sum's other side."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-26",
+          "classification": "essential",
+          "rationale": "Choosing the hypotenuse by the right angle is required to assign c and prevents the characteristic wrong-side interpretation; visual length alone is an unreliable substitute."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-26",
+          "classification": "essential",
+          "rationale": "Identifying the hypotenuse locates c and distinguishes it from the legs in every explanation of the theorem."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-26",
+          "classification": "essential",
+          "rationale": "The hypotenuse determines which side is c and must be identified to state or apply the theorem correctly; a learner who cannot locate it cannot explain the scope of the relation."
+        }
+      ]
+    },
+    {
+      "id": "pyth-27",
+      "skillId": null,
+      "label": "Understand equality as a statement that two quantities have the same value under the stated conditions",
+      "description": "Understand equality as a statement that two quantities have the same value under the stated conditions",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-27",
+          "classification": "essential",
+          "rationale": "The theorem is an equality asserting that two quantities have the same value under a right-angle condition, so equality must be conceptually understood."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-27",
+          "classification": "essential",
+          "rationale": "The theorem asserts equality between quantities, so equality must be understood as a value relationship rather than a procedural symbol."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-27",
+          "classification": "essential",
+          "rationale": "Reading equality as sameness under stated triangle conditions prevents treating the equals sign as an instruction to calculate and is fundamental to explaining the theorem rather than executing it."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-27",
+          "classification": "essential",
+          "rationale": "The target is an equality of quantities, so understanding equality under the stated right-triangle conditions is cross-route essential."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-27",
+          "classification": "essential",
+          "rationale": "The theorem is an equality of quantities under right-triangle conditions. A learner can calculate examples mechanically without this, but cannot explain what the equation claims."
+        }
+      ]
+    },
+    {
+      "id": "pyth-28",
+      "skillId": null,
+      "label": "Use inverse operations conceptually to recover a length from its square",
+      "description": "Use inverse operations conceptually to recover a length from its square",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 2,
+        "helpful": 3,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-28",
+          "classification": "helpful",
+          "rationale": "Inverse operations explain recovering a side from its square, but this is needed for solving a missing side rather than for understanding the theorem's condition."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-28",
+          "classification": "essential",
+          "rationale": "Recovering a length from its square is needed to explain how the theorem yields a missing side, including why a square root appears."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-28",
+          "classification": "helpful",
+          "rationale": "Inverse operations explain how a squared result can yield a missing length, but the target can be conceptually understood first in a case where the hypotenuse is known."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-28",
+          "classification": "helpful",
+          "rationale": "Conceptual inverse operations support recovering a side from its square, but understanding the theorem does not require that application."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-28",
+          "classification": "essential",
+          "rationale": "Recovering a side from its square is central to using Pythagoras for unknown lengths; inverse-square reasoning is required for that conceptual use, even if numerical extraction is deferred."
+        }
+      ]
+    },
+    {
+      "id": "pyth-29",
+      "skillId": "mathematics-skill-09d63c9b2a245efc",
+      "label": "using appropriate units of measurement and their abbreviations m, g, kg, ℓ",
+      "description": "using appropriate units of measurement and their abbreviations m, g, kg, ℓ",
+      "topics": [
+        "Measurement: Length, Mass and Volume"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-2:part-01",
+          "objectiveId": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-2",
+          "pathway": "primary-common",
+          "year": "P2",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Measurement: Length, Mass and Volume",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              34
+            ],
+            "printedPages": [
+              "34"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-09d63c9b2a245efc"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-29",
+          "classification": "none",
+          "rationale": "The listed measurement units include mass and volume and do not provide a defensible bridge to the geometric relation between side lengths."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-29",
+          "classification": "helpful",
+          "rationale": "Unit vocabulary supports interpreting measured sides, but it is not a conceptual prerequisite for the theorem's geometric statement."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-29",
+          "classification": "helpful",
+          "rationale": "General measurement-unit conventions support interpreting length labels, but this broad unit skill does not itself establish square units or the theorem's equality."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-29",
+          "classification": "none",
+          "rationale": "Generic measurement-unit abbreviations do not provide a specific explanatory bridge to the theorem."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-29",
+          "classification": "helpful",
+          "rationale": "Unit names support interpreting real measurements, but the theorem can be understood with abstract lengths or a single consistent unit; mass and volume units are extraneous."
+        }
+      ]
+    },
+    {
+      "id": "pyth-30",
+      "skillId": "mathematics-skill-14ca6dc56a8db954",
+      "label": "measuring area in square units, cm² and m², excluding conversion between cm² and m²",
+      "description": "measuring area in square units, cm² and m², excluding conversion between cm² and m²",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [
+            "measuring area in square units, cm² and m², excluding conversion between cm² and m²"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-14ca6dc56a8db954"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [
+            "measuring area in square units, cm² and m², excluding conversion between cm² and m²"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-14ca6dc56a8db954"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-30",
+          "classification": "helpful",
+          "rationale": "Square units support the area interpretation of the powers, but an area-based explanation is optional and not required for formula meaning."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-30",
+          "classification": "helpful",
+          "rationale": "Square-unit measurement can support an area-based explanation, but the theorem does not require this measurement procedure."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-30",
+          "classification": "helpful",
+          "rationale": "Square-unit measurement gives a concrete area interpretation for squared lengths, yet a learner can understand the theorem through numerical and geometric square constructions without this full measurement skill."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-30",
+          "classification": "helpful",
+          "rationale": "Area units make the area interpretation concrete, especially visually, but algebraic and numerical routes can proceed without formal unit measurement."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-30",
+          "classification": "helpful",
+          "rationale": "Square-unit area language strengthens a geometric explanation, but a learner can explain the theorem numerically without measuring areas or converting cm2 and m2."
+        }
+      ]
+    },
+    {
+      "id": "pyth-31",
+      "skillId": null,
+      "label": "Understand a square of a length as the area of a square with that side length",
+      "description": "Understand a square of a length as the area of a square with that side length",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 3,
+        "helpful": 2,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-31",
+          "classification": "helpful",
+          "rationale": "Viewing a squared length as the area of its constructed square is a strong explanatory bridge, but the theorem can be taught algebraically without it."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-31",
+          "classification": "essential",
+          "rationale": "Seeing a squared side as the area of a square is a direct conceptual bridge for explaining the theorem geometrically."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-31",
+          "classification": "essential",
+          "rationale": "Seeing a squared length as the area of a square supplies the central conceptual decomposition of the theorem and prevents treating squares as arbitrary calculator outputs."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-31",
+          "classification": "essential",
+          "rationale": "Linking a squared side to the area of its square unifies the visual and symbolic meanings across reasonable explanations."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-31",
+          "classification": "helpful",
+          "rationale": "Viewing a squared length as a square's area supplies a powerful area-dissection bridge, but direct numerical and symbolic routes leave the theorem understandable without it."
+        }
+      ]
+    },
+    {
+      "id": "pyth-32",
+      "skillId": null,
+      "label": "Recognise that rearrangement or calculation can preserve an equality of quantities",
+      "description": "Recognise that rearrangement or calculation can preserve an equality of quantities",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 3,
+        "helpful": 2,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-32",
+          "classification": "helpful",
+          "rationale": "Preserving equality during rearrangement supports solving variants, but it is not needed to understand the original geometric assertion."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-32",
+          "classification": "essential",
+          "rationale": "A learner explaining rearranged forms must understand that valid operations preserve the equality of the quantities."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-32",
+          "classification": "essential",
+          "rationale": "Understanding that valid calculation preserves equality prevents equals-as-command and unjustified rearrangement explanations, directly supporting a conceptual account of the theorem."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-32",
+          "classification": "essential",
+          "rationale": "Every conceptual explanation must track that rearrangement or calculation preserves the same quantity and hence the equality."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-32",
+          "classification": "helpful",
+          "rationale": "Preserving equality during rearrangement supports solving variants, but the un-rearranged theorem can be understood and explained without general equality-preservation reasoning."
+        }
+      ]
+    },
+    {
+      "id": "pyth-33",
+      "skillId": "mathematics-skill-719175609974e18e",
+      "label": "Perform the four operations with integers",
+      "description": "Perform addition, subtraction, multiplication and division with integers.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-2-002:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-2-002",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-719175609974e18e"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-33",
+          "classification": "helpful",
+          "rationale": "Integer operations support exact numerical examples, but the target concerns positive lengths and can be conceptually understood without this narrower number domain."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-33",
+          "classification": "helpful",
+          "rationale": "Integer operations support common examples, but the exact integer scope is narrower than the conceptual theorem."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-33",
+          "classification": "helpful",
+          "rationale": "Integer operations help with some examples, but they are procedural support and do not provide the geometric or dimensional bridge required to explain Pythagoras."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-33",
+          "classification": "helpful",
+          "rationale": "Integer operations support concrete checks and examples, but they are procedural support rather than the theorem's meaning."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-33",
+          "classification": "helpful",
+          "rationale": "Integer arithmetic supports clean examples, but it is narrower than the target's conceptual need and can be replaced by simple positive values or symbolic reasoning."
+        }
+      ]
+    },
+    {
+      "id": "pyth-34",
+      "skillId": "mathematics-skill-002d3eb1b93b596f",
+      "label": "identifying the 2D shapes that make up a given figure",
+      "description": "identifying the 2D shapes that make up a given figure",
+      "topics": [
+        "Geometry: 2D Shapes"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-3:part-01",
+          "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-3",
+          "pathway": "primary-common",
+          "year": "P1",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: 2D Shapes",
+          "constraints": [
+            "identifying the 2D shapes that make up a given figure"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "32"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-002d3eb1b93b596f"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 2,
+        "none": 3
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-34",
+          "classification": "helpful",
+          "rationale": "Identifying component shapes helps with visual proof constructions, but no composite diagram is required for the core theorem."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-34",
+          "classification": "none",
+          "rationale": "Decomposing a composite figure is an optional diagram strategy and does not explain the theorem itself."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-34",
+          "classification": "none",
+          "rationale": "Decomposing a figure into basic shapes is not needed for a right-triangle side relation and does not address the target misconceptions unless a separate composite-figure task is introduced."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-34",
+          "classification": "helpful",
+          "rationale": "Decomposing a diagram into component shapes supports the visual route only."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-34",
+          "classification": "none",
+          "rationale": "Decomposing arbitrary figures into 2D shapes is not an explanatory prerequisite; a single right triangle diagram suffices and composite decomposition is a later application route."
+        }
+      ]
+    },
+    {
+      "id": "pyth-35",
+      "skillId": "mathematics-skill-025f37bd8cbf6edf",
+      "label": "Find the area of composite plane figures",
+      "description": "Find or solve problems involving the area of composite plane figures.",
+      "topics": [
+        "G4. Mensuration",
+        "G5. Mensuration"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-4-4-035:part-02",
+          "objectiveId": "math-secondary-g1-sec-1-4-4-035",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Mensuration",
+          "constraints": [],
+          "scopeNotes": [
+            "Figures are composite plane figures."
+          ],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "4.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        },
+        {
+          "id": "math-secondary-g3-sec-1-5-2-137:part-02",
+          "objectiveId": "math-secondary-g3-sec-1-5-2-137",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G5. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-5-2-274:part-02",
+          "objectiveId": "math-secondary-g2-sec-1-5-2-274",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G5. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              28
+            ],
+            "printedPages": [
+              "26"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-35",
+          "classification": "helpful",
+          "rationale": "Composite-area calculation can substantiate an area proof, but that optional proof route is not a universal prerequisite."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-35",
+          "classification": "helpful",
+          "rationale": "Composite-area calculation can support one proof or application route, but is not needed for the theorem's core explanation."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-35",
+          "classification": "none",
+          "rationale": "Composite-plane-figure area is a distinct application and does not provide a necessary conceptual bridge to the theorem's relation among three side lengths."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-35",
+          "classification": "helpful",
+          "rationale": "Composite-area methods provide a visual proof bridge, but are optional when using numerical or algebraic explanations."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-35",
+          "classification": "none",
+          "rationale": "Composite-plane-area calculation is an optional area proof or application. A learner can explain the theorem without learning this broad procedure."
+        }
+      ]
+    },
+    {
+      "id": "pyth-36",
+      "skillId": "mathematics-skill-fc95079990371f20",
+      "label": "using a letter to represent an unknown number",
+      "description": "using a letter to represent an unknown number",
+      "topics": [
+        "Algebra: Algebra"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-1:part-01",
+          "objectiveId": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-1",
+          "pathway": "primary-standard",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "Algebra: Algebra",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              43
+            ],
+            "printedPages": [
+              "43"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fc95079990371f20"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-36",
+          "classification": "helpful",
+          "rationale": "Letters as unknowns help read side symbols algebraically, but the theorem can first be understood with named or measured sides."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-36",
+          "classification": "helpful",
+          "rationale": "Letters for unknowns help read the formula and missing-side problems, but a learner can understand the relationship with named sides."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-36",
+          "classification": "helpful",
+          "rationale": "Letters for unknowns help read a symbolic theorem, but the equality and square meanings can be understood with named sides or numbers before this notation skill is formalised."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-36",
+          "classification": "helpful",
+          "rationale": "Using variables supports a general algebraic statement, but is not required for visual or numerical conceptual understanding."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-36",
+          "classification": "helpful",
+          "rationale": "Letters make the general relationship visible and support unknown-side notation, but the theorem can first be understood with named or numerical side lengths."
+        }
+      ]
+    },
+    {
+      "id": "pyth-37",
+      "skillId": null,
+      "label": "Distinguish a pattern supported by examples from a general theorem",
+      "description": "Distinguish a pattern supported by examples from a general theorem",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 3,
+        "helpful": 2,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-37",
+          "classification": "helpful",
+          "rationale": "Distinguishing examples from a general theorem helps understand the relation as universally conditional, but it is not required for initial use."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-37",
+          "classification": "essential",
+          "rationale": "An explanation of a theorem must distinguish a general guaranteed relationship from a pattern noticed in examples."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-37",
+          "classification": "essential",
+          "rationale": "Without distinguishing examples from a general theorem, a learner may treat a few integer triples as proof; that misconception directly undermines explaining why the relation holds."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-37",
+          "classification": "helpful",
+          "rationale": "Separating numerical evidence from a general theorem is crucial to a rigorous exploration, but visual or algebraic routes can establish the relation without an exploratory pattern phase."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-37",
+          "classification": "essential",
+          "rationale": "To explain a theorem rather than report a pattern from examples, the learner must understand that the relation is general for all right triangles; otherwise the central claim is missing."
+        }
+      ]
+    },
+    {
+      "id": "pyth-38",
+      "skillId": null,
+      "label": "recognise a right-angled triangle and identify the hypotenuse",
+      "description": "recognise a right-angled triangle and identify the hypotenuse",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-38",
+          "classification": "essential",
+          "rationale": "Recognising the right triangle and locating its hypotenuse combines the geometric condition and side role needed to apply the equation correctly."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-38",
+          "classification": "essential",
+          "rationale": "Recognising the right triangle and hypotenuse combines the figure-selection decisions required before the theorem can be explained."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-38",
+          "classification": "essential",
+          "rationale": "Recognising the right triangle and locating its hypotenuse is the immediate geometric interpretation needed before the formula can be assigned correctly; it prevents the wrong-side error."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-38",
+          "classification": "essential",
+          "rationale": "Every route needs the right triangle and hypotenuse identified before the side relation can be interpreted."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-38",
+          "classification": "essential",
+          "rationale": "Recognising the right triangle and locating its hypotenuse is the domain condition of the theorem. Without it, a learner cannot say when the relation applies."
+        }
+      ]
+    },
+    {
+      "id": "pyth-39",
+      "skillId": null,
+      "label": "understand a square as multiplying a number by itself",
+      "description": "understand a square as multiplying a number by itself",
+      "kind": "inferred-instructional-subskill",
+      "appearances": [],
+      "classification": "essential",
+      "status": "accepted",
+      "counts": {
+        "essential": 5,
+        "helpful": 0,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-39",
+          "classification": "essential",
+          "rationale": "Understanding a square as a number multiplied by itself is necessary to decode the powers in the theorem's statement."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-39",
+          "classification": "essential",
+          "rationale": "Interpreting a square as multiplying a number by itself is foundational to reading the theorem's squared terms."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-39",
+          "classification": "essential",
+          "rationale": "Interpreting a square as multiplication by itself is the exact conceptual safeguard against doubling or calculator-only explanations of a squared side."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-39",
+          "classification": "essential",
+          "rationale": "Understanding a square as self-multiplication is the shared numerical and symbolic meaning of the theorem's squared terms."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-39",
+          "classification": "essential",
+          "rationale": "The formula's powers must be understood as products of a number by itself; otherwise the learner can only memorise notation and cannot explain the squared-length relationship."
+        }
+      ]
+    },
+    {
+      "id": "pyth-40",
+      "skillId": "mathematics-skill-ce21c87d0d544933",
+      "label": "Identify right, acute, obtuse and reflex angles",
+      "description": "Identify right, acute, obtuse and reflex angles.",
+      "topics": [
+        "G1. Angles, triangles and quadrilaterals"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-1-026:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-1-026",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and quadrilaterals",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ce21c87d0d544933"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 2,
+        "helpful": 3,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-40",
+          "classification": "helpful",
+          "rationale": "A broader angle classification includes the needed right-angle recognition, but its acute, obtuse, and reflex cases are extra context."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-40",
+          "classification": "essential",
+          "rationale": "Identifying the right angle is necessary to distinguish the theorem's triangle from other triangles."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-40",
+          "classification": "essential",
+          "rationale": "Identifying a right angle among angle types is directly necessary for deciding whether the theorem applies and for locating the opposite hypotenuse."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-40",
+          "classification": "helpful",
+          "rationale": "Classifying angle types helps recognise the right-angle case, but the narrower right-angle competence is the actual cross-route need."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-40",
+          "classification": "helpful",
+          "rationale": "The full classification of acute, obtuse and reflex angles is unnecessary; only recognising a right angle matters, which can be supplied independently of the broader skill."
+        }
+      ]
+    },
+    {
+      "id": "pyth-41",
+      "skillId": "mathematics-skill-e488912f1bb94adb",
+      "label": "Cartesian coordinates in two dimensions",
+      "description": "Cartesian coordinates in two dimensions",
+      "topics": [
+        "N6. Functions and graphs"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-2-6-1-047:part-01",
+          "objectiveId": "math-secondary-g1-sec-2-6-1-047",
+          "pathway": "secondary-g1",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        },
+        {
+          "id": "math-secondary-g3-sec-1-6-1-120:part-01",
+          "objectiveId": "math-secondary-g3-sec-1-6-1-120",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        },
+        {
+          "id": "math-secondary-g2-sec-2-6-1-290:part-01",
+          "objectiveId": "math-secondary-g2-sec-2-6-1-290",
+          "pathway": "secondary-g2",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        }
+      ],
+      "classification": "none",
+      "status": "rejected",
+      "counts": {
+        "essential": 0,
+        "helpful": 1,
+        "none": 4
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-41",
+          "classification": "none",
+          "rationale": "Cartesian coordinates are a later representation for distance problems and are not needed for the geometric or algebraic meaning of the theorem."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-41",
+          "classification": "none",
+          "rationale": "Cartesian coordinates are not part of the theorem's conceptual statement or its basic explanation."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-41",
+          "classification": "none",
+          "rationale": "Cartesian coordinates are a later representation route; the theorem's conceptual side relation does not require coordinate knowledge."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-41",
+          "classification": "helpful",
+          "rationale": "Cartesian coordinates enable a valid coordinate explanation or investigation, but are not needed by area or elementary algebra routes."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-41",
+          "classification": "none",
+          "rationale": "Cartesian coordinates are an alternative representation and proof route. A learner can explain the theorem geometrically without coordinates, which are often introduced after the target."
+        }
+      ]
+    },
+    {
+      "id": "pyth-42",
+      "skillId": "mathematics-skill-f18c5a005cb855d2",
+      "label": "geometric problems involving the use of coordinates",
+      "description": "geometric problems involving the use of coordinates",
+      "topics": [
+        "G6. Coordinate geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-3-4-6-4-214:part-01",
+          "objectiveId": "math-secondary-g3-sec-3-4-6-4-214",
+          "pathway": "secondary-g3",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G6. Coordinate geometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "6.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f18c5a005cb855d2"
+        },
+        {
+          "id": "math-secondary-g2-sec-3-4-6-4-354:part-01",
+          "objectiveId": "math-secondary-g2-sec-3-4-6-4-354",
+          "pathway": "secondary-g2",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G6. Coordinate geometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "30"
+            ],
+            "item": "6.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f18c5a005cb855d2"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 2,
+        "none": 3
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-42",
+          "classification": "none",
+          "rationale": "Coordinate geometry supplies later problem contexts, not a prerequisite explanation of why the squared side relation holds."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-42",
+          "classification": "none",
+          "rationale": "Coordinate geometry is a later application route and does not provide an earlier conceptual bridge to the theorem."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-42",
+          "classification": "helpful",
+          "rationale": "Coordinate geometry can provide an alternative proof or application route, but it is neither required for the standard geometric explanation nor an immediate safeguard against core misconceptions."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-42",
+          "classification": "helpful",
+          "rationale": "Coordinate geometry supplies an optional explanatory route, not a universal prerequisite."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-42",
+          "classification": "none",
+          "rationale": "Coordinate geometry problems are downstream applications and may themselves use the distance formula derived from Pythagoras; they cannot be required as a prior foundation."
+        }
+      ]
+    },
+    {
+      "id": "pyth-43",
+      "skillId": "mathematics-skill-bf6173e91a146d89",
+      "label": "Use similar triangles in proofs",
+      "description": "Use similar triangles in proofs.",
+      "topics": [
+        "G3. Proofs in plane geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-additional-sec-5-3-2-488:part-02",
+          "objectiveId": "math-secondary-g3-additional-sec-5-3-2-488",
+          "pathway": "secondary-g3-additional",
+          "year": "Sec 5",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G3. Proofs in plane geometry",
+          "constraints": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-additional-secondary",
+            "pdfPages": [
+              26
+            ],
+            "printedPages": [
+              "24"
+            ],
+            "item": "3.2"
+          },
+          "status": "source-uncertain",
+          "skillId": "mathematics-skill-bf6173e91a146d89"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 2,
+        "none": 3
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-43",
+          "classification": "helpful",
+          "rationale": "Similar triangles can support one proof of the theorem, but proof by similarity is optional and not necessary for its use."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-43",
+          "classification": "none",
+          "rationale": "Similar-triangle proofs are an advanced alternative proof context, not a prerequisite for understanding the theorem at this target scope."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-43",
+          "classification": "none",
+          "rationale": "Similar-triangle proofs are a possible later justification route, not a prerequisite to understanding or explaining the stated theorem in its scoped use."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-43",
+          "classification": "helpful",
+          "rationale": "Similar triangles can support a formal proof, but an area, numerical-with-explanation, or algebraic route can avoid this technique."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-43",
+          "classification": "none",
+          "rationale": "Similar-triangle proofs can justify one derivation, but a learner can understand and explain the theorem from its statement, diagram, or area argument without this later proof skill."
+        }
+      ]
+    },
+    {
+      "id": "pyth-44",
+      "skillId": "mathematics-skill-051b9d0e45383abf",
+      "label": "Use triangle properties in proofs",
+      "description": "Use properties of triangles in proofs.",
+      "topics": [
+        "G3. Proofs in plane geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-additional-sec-3-4-3-1-416:part-02",
+          "objectiveId": "math-secondary-g3-additional-sec-3-4-3-1-416",
+          "pathway": "secondary-g3-additional",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Trigonometry",
+          "topic": "G3. Proofs in plane geometry",
+          "constraints": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-additional-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "3.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-051b9d0e45383abf"
+        }
+      ],
+      "classification": null,
+      "status": "needs-decision",
+      "counts": {
+        "essential": 0,
+        "helpful": 3,
+        "none": 2
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-44",
+          "classification": "helpful",
+          "rationale": "Triangle-proof methods may support a formal justification, but the theorem's condition and meanings do not require prior proof technique."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-44",
+          "classification": "none",
+          "rationale": "Formal triangle proofs are later reasoning work and are not required for the theorem's initial conceptual explanation."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-44",
+          "classification": "helpful",
+          "rationale": "Triangle proof properties can support a formal justification, but requiring this broad proof skill would confuse one optional proof route with the conceptual prerequisite for using the theorem."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-44",
+          "classification": "helpful",
+          "rationale": "Triangle proof properties may support one formal geometry route, but no advanced proof method is required across all valid explanations."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-44",
+          "classification": "none",
+          "rationale": "General triangle-proof technique is broader than the target and not needed for conceptual use; requiring it confuses a formal proof route with prerequisite understanding."
+        }
+      ]
+    },
+    {
+      "id": "pyth-45",
+      "skillId": "mathematics-skill-ff206476f8a1e86d",
+      "label": "Understand the concept of area of a plane figure",
+      "description": "Understand the concept of area of a plane figure.",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ff206476f8a1e86d"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ff206476f8a1e86d"
+        }
+      ],
+      "classification": "helpful",
+      "status": "accepted",
+      "counts": {
+        "essential": 0,
+        "helpful": 5,
+        "none": 0
+      },
+      "votes": [
+        {
+          "assessor": "concepts",
+          "candidateId": "pyth-45",
+          "classification": "helpful",
+          "rationale": "The concept of area supports the square-area interpretation of the powers, but that explanatory interpretation is not universally necessary for use."
+        },
+        {
+          "assessor": "teaching",
+          "candidateId": "pyth-45",
+          "classification": "helpful",
+          "rationale": "The general concept of area supports a geometric explanation, but the theorem can be understood without an area proof."
+        },
+        {
+          "assessor": "misconceptions",
+          "candidateId": "pyth-45",
+          "classification": "helpful",
+          "rationale": "The concept of area helps interpret square constructions and avoid length-area confusion, but the theorem can be explained through squared quantities without a full general area concept."
+        },
+        {
+          "assessor": "routes",
+          "candidateId": "pyth-45",
+          "classification": "helpful",
+          "rationale": "Area meaning is a strong bridge for rearrangement and squared quantities, but a coherent numerical or algebraic explanation need not use plane-area language explicitly."
+        },
+        {
+          "assessor": "challenge",
+          "candidateId": "pyth-45",
+          "classification": "helpful",
+          "rationale": "Area gives a concrete bridge through squares on the three sides, but it is not unavoidable because numerical, symbolic, or direct geometric explanations remain available."
+        }
+      ]
+    }
+  ],
+  "editorialFindings": [
+    {
+      "id": "square-root-scope",
+      "candidateIds": [
+        "pyth-14",
+        "pyth-28"
+      ],
+      "status": "needs-decision",
+      "description": "The combined squares-and-roots candidate received 4 essential votes, while conceptual recovery of a side from its square received 2 essential and 3 helpful. The concepts and misconceptions assessors treated side recovery differently between these overlapping candidates. The scope distinction between understanding the identity and using it to find a side remains unresolved. Original votes are preserved."
+    },
+    {
+      "id": "overlapping-candidates",
+      "candidateIds": [
+        "pyth-01",
+        "pyth-02",
+        "pyth-26",
+        "pyth-38",
+        "pyth-14",
+        "pyth-24",
+        "pyth-39"
+      ],
+      "status": "recorded",
+      "description": "The 10 essential classifications are overlapping candidate competencies, not 10 distinct lessons. The teacher-facing summary groups related ideas; it does not combine or manufacture their votes."
+    }
+  ]
+}

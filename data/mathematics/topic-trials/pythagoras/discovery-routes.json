@@ -1,0 +1,66 @@
+{
+  "assessor": "routes",
+  "question": "Compare a visual rearrangement/area explanation, a numerical investigation, and an algebraic explanation of Pythagoras' theorem. Which prerequisite concepts survive across reasonable teaching routes, and which are only helpful for one optional route? Do not treat executing the theorem formula as understanding, and do not require an advanced similarity proof when another valid route works.",
+  "candidates": [
+    {
+      "skillId": "mathematics-skill-b8e579ca9d227a35",
+      "label": "Identify right angles",
+      "reason": "Survives all three routes because the theorem's claim is specifically about the sides of a right-angled triangle. Recognising the defining angle is conceptual, unlike merely substituting into a formula."
+    },
+    {
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "reason": "Survives all routes at the level of identifying the relevant triangle and its perpendicular legs and hypotenuse. It does not demand a similarity proof."
+    },
+    {
+      "skillId": "mathematics-skill-14ca6dc56a8db954",
+      "label": "measuring area in square units, cm² and m², excluding conversion between cm² and m²",
+      "reason": "Supports the meaning of squared side lengths and the visual area invariant, and gives numerical investigations a measurable quantity. It remains a useful semantic prerequisite even when the final explanation is algebraic."
+    },
+    {
+      "skillId": null,
+      "label": "Understand a square of a length as the area of a square with that side length",
+      "reason": "This bridges geometric area and the algebraic terms a², b² and c² across routes. The catalogue has area skills and calculator square skills, but neither exactly captures this conceptual connection."
+    },
+    {
+      "skillId": null,
+      "label": "Recognise that rearrangement or calculation can preserve an equality of quantities",
+      "reason": "The shared conceptual core is conservation of the same quantity: area in a rearrangement and equality of computed expressions in numerical or algebraic work. No catalogue item exactly scopes this invariant idea."
+    },
+    {
+      "skillId": "mathematics-skill-719175609974e18e",
+      "label": "Perform the four operations with integers",
+      "reason": "Provides the basic arithmetic needed to compare areas and test integer triples in numerical work and to simplify algebraic examples. It is procedural support, not evidence that the learner understands the theorem."
+    },
+    {
+      "skillId": "mathematics-skill-002d3eb1b93b596f",
+      "label": "identifying the 2D shapes that make up a given figure",
+      "reason": "Helpful for the visual rearrangement route, where a composite figure must be decomposed into squares and triangles. Numerical and algebraic routes can avoid this, so it is route-specific rather than universal."
+    },
+    {
+      "skillId": "mathematics-skill-025f37bd8cbf6edf",
+      "label": "Find the area of composite plane figures",
+      "reason": "Helpful for proving the result by rearranging and comparing composite areas. It is optional because numerical pattern-finding and algebraic derivations need not calculate composite areas."
+    },
+    {
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "reason": "Useful in some area proofs and visual checks involving triangular pieces, but not required for a numerical investigation or an algebraic explanation."
+    },
+    {
+      "skillId": "mathematics-skill-1e2ddb09fbd8f406",
+      "label": "Interpret algebraic notation and equivalent forms",
+      "reason": "Helpful for the algebraic route when reading squared terms and seeing that transformed expressions remain equivalent. It is optional because valid visual and numerical routes do not require symbolic manipulation."
+    },
+    {
+      "skillId": "mathematics-skill-fc95079990371f20",
+      "label": "using a letter to represent an unknown number",
+      "reason": "Helpful only when the algebraic route generalises side lengths with variables. It is not a prerequisite for understanding the geometric relationship through areas or numerical examples."
+    },
+    {
+      "skillId": null,
+      "label": "Distinguish a pattern supported by examples from a general theorem",
+      "reason": "A numerical investigation can suggest a² + b² = c² but understanding requires recognising that repeated examples do not alone establish universality. This metacognitive distinction has no exact catalogue match and guards against mistaking calculation for theorem understanding."
+    }
+  ]
+}

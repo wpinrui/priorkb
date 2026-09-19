@@ -1,0 +1,14 @@
+[
+  {
+    "id": "square-root-scope",
+    "candidateIds": ["pyth-14", "pyth-28"],
+    "status": "needs-decision",
+    "description": "The combined squares-and-roots candidate received 4 essential votes, while conceptual recovery of a side from its square received 2 essential and 3 helpful. The concepts and misconceptions assessors treated side recovery differently between these overlapping candidates. The scope distinction between understanding the identity and using it to find a side remains unresolved. Original votes are preserved."
+  },
+  {
+    "id": "overlapping-candidates",
+    "candidateIds": ["pyth-01", "pyth-02", "pyth-26", "pyth-38", "pyth-14", "pyth-24", "pyth-39"],
+    "status": "recorded",
+    "description": "The 10 essential classifications are overlapping candidate competencies, not 10 distinct lessons. The teacher-facing summary groups related ideas; it does not combine or manufacture their votes."
+  }
+]

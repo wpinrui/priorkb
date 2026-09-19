@@ -1,0 +1,66 @@
+{
+  "assessor": "misconceptions",
+  "question": "Which wrong explanations about right triangles, squaring, lengths and equality would students give, and what earlier understanding prevents each error? Separate prerequisite understanding from theorem content taught now. Judge conceptual understanding and explanation, not rote procedure.",
+  "candidates": [
+    {
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "reason": "Students may treat any visibly slanted triangle as right-angled or choose the longest-looking side without identifying the right angle. This canonical skill directly names the properties of right-angled triangles and prevents confusing the shape and the theorem used to reason about it."
+    },
+    {
+      "skillId": "mathematics-skill-ad6b0bdfed823beb",
+      "label": "Identify, name, describe and classify basic 2D shapes",
+      "reason": "A learner may fail to recognise a triangle or classify a composite diagram because the figure is rotated or embedded in a larger shape. Identifying and describing basic 2D shapes is an exact earlier competence for interpreting the geometric object before applying a length relation."
+    },
+    {
+      "skillId": "mathematics-skill-65e91f5bf9463246",
+      "label": "angle sum of a triangle",
+      "reason": "A student may assume that three marked angles or three sides determine a right angle without checking the triangle structure. Knowing the triangle angle sum gives a conceptual route for checking angle claims, while remaining distinct from using Pythagoras to calculate a side."
+    },
+    {
+      "skillId": "mathematics-skill-55899274f9ae21c9",
+      "label": "determining whether a triangle is right-angled given the lengths of three sides",
+      "reason": "Students may reverse the implication and believe any three lengths can be inserted into the theorem to prove a triangle is right-angled. This canonical competence exactly covers the converse style of decision and helps diagnose confusion between testing a triangle and finding an unknown side."
+    },
+    {
+      "skillId": "mathematics-skill-6456067a4eda8336",
+      "label": "Calculate squares and cubes with a calculator",
+      "reason": "This is a tempting source of a procedural misconception: students may press a square key and treat the result as the meaning of squaring. It is retained only as a contrastive candidate because the scope is calculator execution, not the conceptual meaning needed for explaining Pythagoras."
+    },
+    {
+      "skillId": null,
+      "label": "Explain squaring as multiplying a length by itself and interpret the resulting square units",
+      "reason": "Students may add or double side lengths, or read a squared length as an ordinary length. The catalogue has calculator and prime-factorisation procedures but no standalone canonical competence that exactly represents the meaning of squaring with units, so no ID is invented."
+    },
+    {
+      "skillId": null,
+      "label": "Distinguish a length from its numerical square and preserve units when comparing them",
+      "reason": "A common explanation treats a² + b² and c as comparable quantities without noticing that the left side is in square units until a square root is taken. This precise dimensional interpretation is not represented as a standalone canonical skill."
+    },
+    {
+      "skillId": null,
+      "label": "Identify the hypotenuse as the side opposite the right angle and the longest side",
+      "reason": "Students often choose the first or visually horizontal side as c, producing a valid calculation with the wrong side. The target theorem skill contains use of the theorem, but the catalogue has no exact standalone competence for this identification."
+    },
+    {
+      "skillId": null,
+      "label": "Understand equality as a statement that two quantities have the same value under the stated conditions",
+      "reason": "Students may read a² + b² = c² as a sequence of operations or assume the equality holds for every triangle. The needed interpretation of a conditional equality is not an exact canonical skill."
+    },
+    {
+      "skillId": null,
+      "label": "Use inverse operations conceptually to recover a length from its square",
+      "reason": "Students may report c² as the requested side or take an arbitrary root without connecting the inverse operation to length. The available square-root entry is a prime-factorisation procedure, not this exact conceptual competence."
+    },
+    {
+      "skillId": "mathematics-skill-09d63c9b2a245efc",
+      "label": "using appropriate units of measurement and their abbreviations m, g, kg, ℓ",
+      "reason": "Learners may add lengths with unlike units or report square units as linear units. This canonical measurement skill is broader than the needed area-unit idea, so it is a possible partial prerequisite rather than a claim that it fully supplies the missing dimensional explanation."
+    },
+    {
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "reason": "Students may confuse the theorem's squared lengths with an area calculation because both use multiplication and square units. This canonical triangle-area skill is relevant for diagnosing that misconception, but area calculation alone does not explain the Pythagorean equality."
+    }
+  ]
+}
