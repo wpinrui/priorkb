@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://priorkb.local/syllabus-dataset.schema.json",
+  "title": "PriorKB syllabus objective candidates",
+  "description": "Subject-independent source occurrences. Records are not yet canonical skills or approved prerequisite links.",
+  "type": "object",
+  "required": ["sources", "objectives", "ambiguities", "coverage"],
+  "additionalProperties": false,
+  "properties": {
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/document"}},
+    "objectives": {"type": "array", "items": {"$ref": "#/$defs/objective"}},
+    "ambiguities": {"type": "array", "items": {"$ref": "#/$defs/ambiguity"}},
+    "coverage": {"type": "array", "items": {"$ref": "#/$defs/coverage"}}
+  },
+  "$defs": {
+    "strings": {"type": "array", "items": {"type": "string"}},
+    "pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+    "document": {
+      "type": "object",
+      "required": ["id", "file", "title", "edition", "implementationCohort", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "file": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "edition": {"type": "string"},
+        "implementationCohort": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "objective": {
+      "type": "object",
+      "required": ["id", "subject", "pathway", "year", "role", "strand", "topic", "sourceText", "label", "source", "constraints", "reviewFlags"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "subject": {"type": "string", "minLength": 1},
+        "pathway": {"type": "string", "minLength": 1},
+        "year": {"type": ["string", "null"]},
+        "role": {"enum": ["syllabus-content", "assumed-knowledge"]},
+        "strand": {"type": "string"},
+        "topic": {"type": "string", "minLength": 1},
+        "sourceText": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "source": {"$ref": "#/$defs/reference"},
+        "constraints": {"$ref": "#/$defs/strings"},
+        "reviewFlags": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "reference": {
+      "type": "object",
+      "required": ["documentId", "pdfPages", "printedPages", "item"],
+      "additionalProperties": false,
+      "properties": {
+        "documentId": {"type": "string", "minLength": 1},
+        "pdfPages": {"$ref": "#/$defs/pages"},
+        "printedPages": {"$ref": "#/$defs/strings"},
+        "item": {"type": "string", "minLength": 1}
+      }
+    },
+    "ambiguity": {
+      "type": "object",
+      "required": ["id", "objectiveIds", "kind", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "objectiveIds": {"$ref": "#/$defs/strings"},
+        "kind": {"enum": ["split", "overlap", "source"]},
+        "note": {"type": "string", "minLength": 1}
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": ["pathway", "year", "pdfPages", "objectiveCount"],
+      "additionalProperties": false,
+      "properties": {
+        "pathway": {"type": "string", "minLength": 1},
+        "year": {"type": ["string", "null"]},
+        "pdfPages": {"$ref": "#/$defs/pages"},
+        "objectiveCount": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}
