@@ -1,0 +1,2471 @@
+{
+  "records": [
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-1-032",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "area of triangle as 1 2 × base × height",
+        "label": "area of triangle as 1 2 × base × height",
+        "constraints": [],
+        "reviewFlags": [
+          "overlap: primary P5 and Foundation P6 area triangle objective"
+        ]
+      },
+      "after": {
+        "sourceText": "area of triangle as 1/2 × base × height",
+        "label": "Find the area of a triangle as 1/2 × base × height",
+        "constraints": [],
+        "reviewFlags": [
+          "overlap: primary P5 and Foundation P6 area triangle objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-5-14-078",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "factorisation of quadratic expressions of the form 𝑥2 + 𝑝𝑥+ 𝑞 Exclude: • use of  2 2 2 2 ) ( b ab a b a +  =   ) )( ( 2 2 b a b a b a − + = − • addition and subtraction of algebraic fractions such as 1 𝑥+ 1 𝑥−1",
+        "label": "N5. Algebraic expressions and formulae, item 5.14",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "factorisation of quadratic expressions of the form x² + px + q Exclude: • use of: • (a ± b)² = a² ± 2ab + b² • a² − b² = (a + b)(a − b) • addition and subtraction of algebraic fractions such as 1/x + 1/(x − 1)",
+        "label": "Factorisation of quadratic expressions x² + px + q",
+        "constraints": [
+          "Exclude use of (a ± b)² = a² ± 2ab + b².",
+          "Exclude use of a² − b² = (a + b)(a − b).",
+          "Exclude addition and subtraction of algebraic fractions such as 1/x + 1/(x − 1)."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-7-5-083",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "solving simultaneous linear equations in two variables by  substitution and elimination methods  graphical method",
+        "label": "N7. Equations, item 7.5",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving simultaneous linear equations in two variables by • substitution and elimination methods • graphical method",
+        "label": "Solve simultaneous linear equations by substitution, elimination, and graphical methods",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-7-3-127",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations such as 2 3 3 4 x x − + = ; 3 6 2 x = −",
+        "label": "N7. Equations and inequalities, item 7.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations such as x/3 + (x − 2)/4 = 3; 3/(x − 2) = 6",
+        "label": "Solve simple fractional equations reducible to linear equations",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-6-6-155",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "quadratic functions 2 y ax bx c = + +",
+        "label": "N6. Functions and graphs, item 6.6",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "quadratic functions y = ax² + bx + c",
+        "label": "Quadratic functions y = ax² + bx + c",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-7-6-158",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "solving simple inequalities in the form c b ax  + and c b ax  + and representing the solutions on the number line",
+        "label": "N7. Equations and inequalities, item 7.6",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving simple inequalities in the form ax + b ≤ c and ax + b < c and representing the solutions on the number line",
+        "label": "Solve simple linear inequalities and represent solutions on the number line",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-8-180",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "use of standard form 10n A , where n is an integer, and 1 10 A  ",
+        "label": "N1. Numbers and their operations, item 1.8",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10",
+        "label": "Use standard form A × 10ⁿ",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-8-183",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "sketching the graphs of quadratic functions given in the form: • 𝑦= (𝑥−𝑝)2 + 𝑞 • 𝑦= −(𝑥−𝑝)2 + 𝑞 • 𝑦= (𝑥−𝑎)(𝑥−𝑏) • 𝑦= −(𝑥−𝑎)(𝑥−𝑏)",
+        "label": "N6. Functions and graphs, item 6.8",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "sketching the graphs of quadratic functions given in the form: • y = (x − p)² + q • y = −(x − p)² + q • y = (x − a)(x − b) • y = −(x − a)(x − b)",
+        "label": "Sketch graphs of quadratic functions in four given forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-9-184",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "graphs of power functions 𝑦= 𝑎𝑥𝑛, where n = −2, −1, 0, 1, 2, 3, and simple sums of not more than three of these",
+        "label": "N6. Functions and graphs, item 6.9",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of power functions y = axⁿ, where n = −2, −1, 0, 1, 2, 3, and simple sums of not more than three of these",
+        "label": "Graphs of power functions y = axⁿ",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-11-187",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "solving quadratic equations in one variable by: • use of formula • completing the square for 2 y x px q = + + • graphical method",
+        "label": "N7. Equations and inequalities, item 7.11",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving quadratic equations in one variable by: • use of formula • completing the square for y = x² + px + q • graphical method",
+        "label": "Solve quadratic equations by formula, completing the square, and graphically",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-12-188",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "solving fractional equations that can be reduced to quadratic equations such as 6 3 4 x x = + + ; 1 2 5 2 3 x x + = − −",
+        "label": "N7. Equations and inequalities, item 7.12",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving fractional equations that can be reduced to quadratic equations such as 6/(x + 4) = x + 3; 1/(x − 2) + 2/(x − 3) = 5",
+        "label": "Solve fractional equations reducible to quadratic equations",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-8-1-191",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "use of set language and the following notation: Union of A and B 𝐴∪𝐵 Intersection of A and B 𝐴∩𝐵 Number of elements in set A 𝑛(𝐴) “… is an element of …” ∈ “… is not an element of …” ∉ Complement of set A 𝐴′ The empty set ∅ Universal set  A is a subset of B 𝐴⊆𝐵 A is a not a subset of B 𝐴⊈𝐵 A is a (proper) subset of B 𝐴⊂𝐵 A is a not a (proper) subset of B 𝐴⊄𝐵",
+        "label": "N8. Set language and notation, item 8.1",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of set language and the following notation: Union of A and B: A ∪ B; Intersection of A and B: A ∩ B; Number of elements in set A: n(A); “... is an element of ...”: ∈; “... is not an element of ...”: ∉; Complement of set A: A′; The empty set: ∅; Universal set: ξ; A is a subset of B: A ⊆ B; A is a not a subset of B: A ⊈ B; A is a (proper) subset of B: A ⊂ B; A is a not a (proper) subset of B: A ⊄ B",
+        "label": "Use set language and notation",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-3-213",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "interpreting and finding the equation of a straight line graph in the form y mx c = +",
+        "label": "G6. Coordinate geometry, item 6.3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "interpreting and finding the equation of a straight line graph in the form y = mx + c",
+        "label": "Find the equation of a straight line y = mx + c",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-1-215",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "use of notations: x y    , 𝐴𝐵⃗⃗⃗⃗⃗ , 𝒂, |𝐴𝐵⃗⃗⃗⃗⃗ |, and |𝒂|",
+        "label": "G7. Vectors in two dimensions, item 7.1",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of notations: (x, y)ᵀ, vector AB, vector a, |AB|, and |a|",
+        "label": "Use coordinate and vector notation",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-5-219",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "magnitude of a vector x y    as 2 2 x y +",
+        "label": "G7. Vectors in two dimensions, item 7.5",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "magnitude of a vector (x, y)ᵀ as √(x² + y²)",
+        "label": "Find the magnitude of a vector as √(x² + y²)",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-7-265",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        28
+      ],
+      "before": {
+        "sourceText": "simplification of linear expressions with integral coefficients such as 2( 3 ) x y − 4 2(3 5) x x − − 3( ) (2 ) x y y x y − − + −",
+        "label": "N5. Algebraic expressions and formulae, item 5.7",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "simplification of linear expressions with integral coefficients such as 2(x − 3y), 4x − 2(3x − 5), and 3(x − y) − (2y + x) − y",
+        "label": "Simplify linear expressions with integral coefficients",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-8-284",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "simplification of linear expressions with fractional coefficients such as 2 3( 5) 3 2 x x − −",
+        "label": "simplification of linear expressions with fractional coefficients such as 2 3( 5) 3 2 x x − −",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "simplification of linear expressions with fractional coefficients such as 2x/3 − 3(x − 5)/2",
+        "label": "Simplify linear expressions with fractional coefficients",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-11-287",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "use of: • 2 2 2 ( ) 2 a b a ab b + = + + • 2 2 2 ( ) 2 a b a ab b − = − + • 2 2 ( )( ) a b a b a b − = + −",
+        "label": "N5. Algebraic expressions and formulae, item 5.11",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of: • (a + b)² = a² + 2ab + b² • (a − b)² = a² − 2ab + b² • a² − b² = (a + b)(a − b)",
+        "label": "Use standard algebraic identities",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-12-288",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "factorisation of quadratic expressions 2 ax bx c + +",
+        "label": "N5. Algebraic expressions and formulae, item 5.12",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "factorisation of quadratic expressions ax² + bx + c",
+        "label": "Factorisation of quadratic expressions ax² + bx + c",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-13-289",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "multiplication and division of simple algebraic fractions such as 2 3 5 3 4 a ab b          2 3 9 4 10 a a ",
+        "label": "N5. Algebraic expressions and formulae, item 5.13",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "multiplication and division of simple algebraic fractions such as (3a/(4b²))(5ab/3); 3a/4 ÷ 9a²/10",
+        "label": "Multiply and divide simple algebraic fractions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-6-3-292",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "linear functions y ax b = +",
+        "label": "N6. Functions and graphs, item 6.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "linear functions y = ax + b",
+        "label": "Linear functions y = ax + b",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-7-7-298",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        29
+      ],
+      "before": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations such as 2 3 3 4 x x − + = ; 3 6 2 x = −",
+        "label": "N7. Equations and inequalities, item 7.7",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations such as x/3 + (x − 2)/4 = 3; 3/(x − 2) = 6",
+        "label": "Solve simple fractional equations reducible to linear equations",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-8-320",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "use of standard form 10n A , where n is an integer, and 1 10 A  ",
+        "label": "N1. Numbers and their operations, item 1.8",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10",
+        "label": "Use standard form A × 10ⁿ",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-5-18-327",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1 2 2 3 x x + − − 2 1 2 3 9 x x + − − 2 1 2 3 ( 3) x x + − −",
+        "label": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1 2 2 3 x x + − − 2 1 2 3 9 x x + − − 2 1 2...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²",
+        "label": "Add and subtract algebraic fractions with linear or quadratic denominators",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-6-328",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "quadratic functions 2 y ax bx c = + +",
+        "label": "N6. Functions and graphs, item 6.6",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "quadratic functions y = ax² + bx + c",
+        "label": "Quadratic functions y = ax² + bx + c",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-8-330",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "graphs of power functions n y ax = , where n = −2, −1, 0, 1, 2, 3, and simple sums of not more than three of these",
+        "label": "N6. Functions and graphs, item 6.8",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of power functions y = axⁿ, where n = −2, −1, 0, 1, 2, 3, and simple sums of not more than three of these",
+        "label": "Graphs of power functions y = axⁿ",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-9-331",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "graphs of exponential functions x y ka = , where a is a positive integer, 𝑎> 1",
+        "label": "N6. Functions and graphs, item 6.9",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of exponential functions y = kaˣ, where a is a positive integer, a > 1",
+        "label": "Graphs of exponential functions y = kaˣ",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-7-11-333",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "solving quadratic equations in one variable by: • factorisation • use of formula • completing the square for q px x y + + = 2 • graphical method",
+        "label": "N7. Equations and inequalities, item 7.11",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving quadratic equations in one variable by: • factorisation • use of formula • completing the square for y = x² + px + q • graphical method",
+        "label": "Solve quadratic equations by factorisation, formula, completing the square, and graphically",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-7-12-334",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "solving fractional equations that can be reduced to quadratic equations such as 6 3 4 x x = + + 1 2 5 2 3 x x + = − −",
+        "label": "N7. Equations and inequalities, item 7.12",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "solving fractional equations that can be reduced to quadratic equations such as 6/(x + 4) = x + 3; 1/(x − 2) + 2/(x − 3) = 5",
+        "label": "Solve fractional equations reducible to quadratic equations",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-4-5-344",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        32
+      ],
+      "before": {
+        "sourceText": "use of the formula 1 sin 2 ab C for the area of a triangle",
+        "label": "use of the formula 1 sin 2 ab C for the area of a triangle",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "use of the formula 1/2 ab sin C for the area of a triangle",
+        "label": "Use the formula 1/2 ab sin C for triangle area",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-3-353",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        32
+      ],
+      "before": {
+        "sourceText": "interpreting and finding the equation of a straight line in the form y mx c = +",
+        "label": "G6. Coordinate geometry, item 6.3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "interpreting and finding the equation of a straight line in the form y = mx + c",
+        "label": "Find the equation of a straight line y = mx + c",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-6-11-363",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        34
+      ],
+      "before": {
+        "sourceText": "sketching the graphs of quadratic functions given in the form: • 2 ( ) y x p q = − + • 2 ( ) y x p q = − − + • ( )( ) y x a x b = − − • ( )( ) y x a x b = − − −",
+        "label": "N6. Functions and graphs, item 6.11",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "sketching the graphs of quadratic functions given in the form: • y = (x − p)² + q • y = −(x − p)² + q • y = (x − a)(x − b) • y = −(x − a)(x − b)",
+        "label": "Sketch graphs of quadratic functions in four given forms",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-8-1-365",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        34
+      ],
+      "before": {
+        "sourceText": "use of set language and the following notation: Union of A and B 𝐴∪𝐵 Intersection of A and B 𝐴∩𝐵 Number of elements in set A 𝑛(𝐴) “… is an element of …” ∈ “… is not an element of …” ∉ Complement of set A 𝐴′ The empty set ∅ Universal set  A is a subset of B 𝐴⊆𝐵 A is a not a subset of B 𝐴⊈𝐵 A is a (proper) subset of B 𝐴⊂𝐵 A is a not a (proper) subset of B 𝐴⊄𝐵",
+        "label": "N8. Set language and notation, item 8.1",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of set language and the following notation: Union of A and B: A ∪ B; Intersection of A and B: A ∩ B; Number of elements in set A: n(A); “... is an element of ...”: ∈; “... is not an element of ...”: ∉; Complement of set A: A′; The empty set: ∅; Universal set: ξ; A is a subset of B: A ⊆ B; A is a not a subset of B: A ⊈ B; A is a (proper) subset of B: A ⊂ B; A is a not a (proper) subset of B: A ⊄ B",
+        "label": "Use set language and notation",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-7-1-375",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        35
+      ],
+      "before": {
+        "sourceText": "use of notations: x y    , 𝐴𝐵⃗⃗⃗⃗⃗ , 𝒂, |𝐴𝐵⃗⃗⃗⃗⃗ | and |𝒂|",
+        "label": "G7. Vectors in two dimensions, item 7.1",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "use of notations: (x, y)ᵀ, vector AB, vector a, |AB|, and |a|",
+        "label": "Use coordinate and vector notation",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-7-5-379",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        35
+      ],
+      "before": {
+        "sourceText": "magnitude of a vector x y    as 2 2 x y +",
+        "label": "G7. Vectors in two dimensions, item 7.5",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "magnitude of a vector (x, y)ᵀ as √(x² + y²)",
+        "label": "Find the magnitude of a vector as √(x² + y²)",
+        "constraints": [
+          "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-2-384",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "Conditions for = + + 2 y ax bx c to be always positive (or always negative)",
+        "label": "A1. Quadratic functions, item 1.2",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Conditions for y = ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for y = ax² + bx + c to be always positive or negative",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-4-3-393",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "+ = + − + − = − + + 3 3 2 2 3 3 2 2 ( )( ) ( )( ) a b a b a ab b a b a b a ab b",
+        "label": "A4. Polynomials and Partial Fractions, item 4.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of: a³ + b³ = (a + b)(a² − ab + b²); a³ − b³ = (a − b)(a² + ab + b²)",
+        "label": "Use the sum and difference of cubes identities",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-4-4-394",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "Partial fractions with cases where the denominator is no more complicated than: • + + ( )( ) ax b cx d • + + 2 ( )( ) ax b cx d • + + 2 2 ( )( ) ax b x c",
+        "label": "Partial fractions with cases where the denominator is no more complicated than: • + + ( )( ) ax b cx d • + + 2 ( )( ) ax b cx d • + + 2 2...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Partial fractions with cases where the denominator is no more complicated than: • (ax + b)(cx + d) • (ax + b)(cx + d)² • (ax + b)(x² + c²)",
+        "label": "Use partial fractions with the listed denominator forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-5-2-396",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "Use of the notations ! n and    n r",
+        "label": "A5. Binomial expansions, item 5.2",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of the notations n! and (n choose r)",
+        "label": "Use n! and binomial coefficient notation",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-5-3-397",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "Use of the general term −     , 0 n r r n a b r n r (knowledge of the greatest term and properties of the coefficients is not required)",
+        "label": "A5. Binomial expansions, item 5.3",
+        "constraints": [
+          "knowledge of the greatest term and properties of the coefficients is not required"
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of the general term (n choose r) aⁿ⁻ʳ bʳ, 0 ≤ r ≤ n (knowledge of the greatest term and properties of the coefficients is not required)",
+        "label": "Use the general term in a binomial expansion",
+        "constraints": [
+          "knowledge of the greatest term and properties of the coefficients is not required"
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-6-1-398",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        18,
+        19
+      ],
+      "before": {
+        "sourceText": "Exponential and logarithmic functions , ,log ,ln x x a a e x x and their graphs, including • laws of logarithms • equivalence of = x y a and =loga x y • change of base of logarithms",
+        "label": "A6. Exponential and Logarithmic Functions, item 6.1",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Exponential and logarithmic functions aˣ, eˣ, logₐ x, ln x and their graphs, including • laws of logarithms • equivalence of y = aˣ and x = logₐ y • change of base of logarithms",
+        "label": "Use exponential and logarithmic functions and their graphs",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-3-403",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "Exact values of the trigonometric functions for special angles o o o (30 , 45 ,60 ) or        , , 6 4 3",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Exact values of the trigonometric functions for special angles (30°, 45°, 60°) or (π/6, π/4, π/3)",
+        "label": "Use exact trigonometric values for special angles",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-5-405",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "Graphs of     = + = + = + = +         sin( ) , sin , cos( ) , cos x x y a bx c y a c y a bx c y a c b b and = tan( ) y a bx where a is real, b is a positive integer and c is an integer",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.5",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Graphs of y = a sin(bx) + c, y = a sin(x/b) + c, y = a cos(bx) + c, y = a cos(x/b) + c and y = a tan(bx), where a is real, b is a positive integer and c is an integer",
+        "label": "Graph transformed sine, cosine, and tangent functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-6-406",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "2 2 sin cos tan , cot , cos sin sin cos 1, A A A A A A A A = = + = = + 2 2 sec 1 tan , A A = + 2 2 cosec 1 cot A A • the expansions of   sin( ),cos( ) A B A B and  tan( ) A B • the formulae for sin2 ,cos2 A A and tan2A • the expression of cos sin a b   + in the form    cos( ) R or    sin( ) R",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.6",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of: sin A/cos A = tan A, cos A/sin A = cot A, sin² A + cos² A = 1, sec² A = 1 + tan² A, cosec² A = 1 + cot² A • the expansions of sin(A ± B), cos(A ± B), and tan(A ± B) • the formulae for sin 2A, cos 2A, and tan 2A • the expression a cos θ + b sin θ in the form R cos(θ ± α) or R sin(θ ± α)",
+        "label": "Use trigonometric identities, expansions, and compound angle forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-4-414",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "Coordinate geometry of circles in the form: • 2 2 2 ( ) ( ) x a y b r − + − = • + + + + = 2 2 2 2 0 x y gx fy c (excluding problems involving two circles)",
+        "label": "G2. Coordinate geometry in two dimensions, item 2.4",
+        "constraints": [
+          "(excluding problems involving two circles)",
+          "excluding problems involving two circles)"
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Coordinate geometry of circles in the form: • (x − a)² + (y − b)² = r² • x² + y² + 2gx + 2fy + c = 0 (excluding problems involving two circles)",
+        "label": "Use coordinate equations of circles",
+        "constraints": [
+          "Exclude problems involving two circles."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-5-415",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "Transformation of given relationships, including = n y ax and = x y kb to linear form to determine the unknown constants from a straight line graph",
+        "label": "G2. Coordinate geometry in two dimensions, item 2.5",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Transformation of given relationships, including y = axⁿ and y = kbˣ to linear form to determine the unknown constants from a straight line graph",
+        "label": "Transform power and exponential relationships to linear form",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-3-1-416",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "properties of parallel lines cut by a transversal, perpendicular and angle bisectors, triangles, special quadrilaterals and circles (footnote: properties learnt in G3 Mathematics)",
+        "label": "G3. Proofs in plane geometry, item 3.1",
+        "constraints": [
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "properties of parallel lines cut by a transversal, perpendicular and angle bisectors, triangles, special quadrilaterals and circles (footnote: properties learnt in G3 Mathematics)",
+        "label": "Use properties of lines, triangles, quadrilaterals, and circles in proofs",
+        "constraints": [
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-3-2-417",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "congruent and similar triangles (footnote: properties learnt in G3 Mathematics)",
+        "label": "G3. Proofs in plane geometry, item 3.2",
+        "constraints": [
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "congruent and similar triangles (footnote: properties learnt in G3 Mathematics)",
+        "label": "Use congruent and similar triangles in proofs",
+        "constraints": [
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-3-422",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "Use of standard notations       =         2 2 d d d d ( ), ( ), , d d d d y y y f x f x x x x x",
+        "label": "C1. Differentiation and integration, item 1.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of standard notations f′(x), f″(x), dy/dx, d²y/dx² = d/dx(dy/dx)",
+        "label": "Use standard differentiation notation",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-4-423",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "Derivatives of n x for any rational ,sin ,cos , tan , x n x x x e andln ,x together with constant multiples, sums and differences",
+        "label": "Derivatives of n x for any rational ,sin ,cos , tan , x n x x x e andln ,x together with constant multiples, sums and differences",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Derivatives of xⁿ for any rational n, sin x, cos x, tan x, eˣ and ln x, together with constant multiples, sums and differences",
+        "label": "Differentiate the listed standard functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-12-431",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "Integration of n x for any rational 2 ,sin ,cos ,sec n x x x and , xe together with constant multiples, sums and differences",
+        "label": "Integration of n x for any rational 2 ,sin ,cos ,sec n x x x and , xe together with constant multiples, sums and differences",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of xⁿ for any rational n, sin x, cos x, sec² x and eˣ, together with constant multiples, sums and differences",
+        "label": "Integrate the listed standard functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-13-432",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "Integration of + ( )n ax b for any rational ,sin( ),cos( ) n ax b ax b + + and + ax b e",
+        "label": "Integration of + ( )n ax b for any rational ,sin( ),cos( ) n ax b ax b + + and + ax b e",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of (ax + b)ⁿ for any rational n, sin(ax + b), cos(ax + b) and eᵃˣ⁺ᵇ",
+        "label": "Integrate shifted powers and standard functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-2-439",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "Conditions for = + + 2 y ax bx c to be always positive (or always negative)",
+        "label": "A1. Quadratic functions, item 1.2",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Conditions for y = ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for y = ax² + bx + c to be always positive or negative",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-4-3-448",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "+ = + − + − = − + + 3 3 2 2 3 3 2 2 ( )( ) ( )( ) a b a b a ab b a b a b a ab b",
+        "label": "A4. Polynomials and Partial Fractions, item 4.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of: a³ + b³ = (a + b)(a² − ab + b²); a³ − b³ = (a − b)(a² + ab + b²)",
+        "label": "Use the sum and difference of cubes identities",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-4-4-449",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "Partial fractions with cases where the denominator is no more complicated than: • + + ( )( ) ax b cx d • + + 2 ( )( ) ax b cx d • + + 2 2 ( )( ) ax b x c",
+        "label": "Partial fractions with cases where the denominator is no more complicated than: • + + ( )( ) ax b cx d • + + 2 ( )( ) ax b cx d • + + 2 2...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Partial fractions with cases where the denominator is no more complicated than: • (ax + b)(cx + d) • (ax + b)(cx + d)² • (ax + b)(x² + c²)",
+        "label": "Use partial fractions with the listed denominator forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-3-452",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "Exact values of the trigonometric functions for special angles o o o (30 , 45 ,60 ) or        , , 6 4 3",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Exact values of the trigonometric functions for special angles (30°, 45°, 60°) or (π/6, π/4, π/3)",
+        "label": "Use exact trigonometric values for special angles",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-5-454",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "Graphs of     = + = + = + = +         sin( ) , sin , cos( ) , cos x x y a bx c y a c y a bx c y a c b b and = tan( ) y a bx where a is real, b is a positive integer and c is an integer",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.5",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Graphs of y = a sin(bx) + c, y = a sin(x/b) + c, y = a cos(bx) + c, y = a cos(x/b) + c and y = a tan(bx), where a is real, b is a positive integer and c is an integer",
+        "label": "Graph transformed sine, cosine, and tangent functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-6-455",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "2 2 sin cos tan , cot , cos sin sin cos 1, A A A A A A A A = = + = = + 2 2 sec 1 tan , A A = + 2 2 cosec 1 cot A A • the expansions of   sin( ),cos( ) A B A B and  tan( ) A B • the formulae for sin2 ,cos2 A A and tan2A • the expression of cos sin a b   + in the form    cos( ) R or    sin( ) R",
+        "label": "G1. Trigonometric functions, identities and equations, item 1.6",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of: sin A/cos A = tan A, cos A/sin A = cot A, sin² A + cos² A = 1, sec² A = 1 + tan² A, cosec² A = 1 + cot² A • the expansions of sin(A ± B), cos(A ± B), and tan(A ± B) • the formulae for sin 2A, cos 2A, and tan 2A • the expression a cos θ + b sin θ in the form R cos(θ ± α) or R sin(θ ± α)",
+        "label": "Use trigonometric identities, expansions, and compound angle forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-2-4-463",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Coordinate geometry of circles in the form: • − + − = 2 2 2 ( ) ( ) x a y b r • + + + + = 2 2 2 2 0 x y gx fy c (excluding problems involving two circles)",
+        "label": "G2. Coordinate geometry in two dimensions, item 2.4",
+        "constraints": [
+          "(excluding problems involving two circles)",
+          "excluding problems involving two circles)"
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Coordinate geometry of circles in the form: • (x − a)² + (y − b)² = r² • x² + y² + 2gx + 2fy + c = 0 (excluding problems involving two circles)",
+        "label": "Use coordinate equations of circles",
+        "constraints": [
+          "Exclude problems involving two circles."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-3-466",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Use of standard notations       =         2 2 d d d d ( ), ( ), , d d d d y y y f x f x x x x x",
+        "label": "C1. Differentiation and integration, item 1.3",
+        "constraints": [],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of standard notations f′(x), f″(x), dy/dx, d²y/dx² = d/dx(dy/dx)",
+        "label": "Use standard differentiation notation",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-4-467",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Derivatives of n x , for any rational ,n together with constant multiples, sums and differences",
+        "label": "Derivatives of n x , for any rational ,n together with constant multiples, sums and differences",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "Derivatives of xⁿ, for any rational n, together with constant multiples, sums and differences",
+        "label": "Differentiate xⁿ for rational n",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-12-475",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Integration of n x for any rational ,n (excluding = −1 n ), together with constant multiples, sums and differences",
+        "label": "C1. Differentiation and integration, item 1.12",
+        "constraints": [
+          "(excluding = −1 n )",
+          "excluding = −1 n ), together with constant multiples, sums and differences"
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of xⁿ for any rational n (excluding n = −1), together with constant multiples, sums and differences",
+        "label": "Integrate xⁿ for rational n",
+        "constraints": [
+          "Exclude n = −1."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-13-476",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Integration of + ( )n ax b for any rational ,n (excluding = −1 n )",
+        "label": "C1. Differentiation and integration, item 1.13",
+        "constraints": [
+          "(excluding = −1 n )",
+          "excluding = −1 n )"
+        ],
+        "reviewFlags": [
+          "formula-layout: extracted equation layout requires PDF visual verification"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of (ax + b)ⁿ for any rational n (excluding n = −1)",
+        "label": "Integrate (ax + b)ⁿ for rational n",
+        "constraints": [
+          "Exclude n = −1."
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-5-2-481",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "Use of the notations ! n and    n r",
+        "label": "A5. Binomial expansions, item 5.2",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of the notations n! and (n choose r)",
+        "label": "Use n! and binomial coefficient notation",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-5-3-482",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "Use of the general term −     , 0 n r r n a b r n r (knowledge of the greatest term and properties of the coefficients is not required)",
+        "label": "A5. Binomial expansions, item 5.3",
+        "constraints": [
+          "knowledge of the greatest term and properties of the coefficients is not required",
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Use of the general term (n choose r) aⁿ⁻ʳ bʳ, 0 ≤ r ≤ n (knowledge of the greatest term and properties of the coefficients is not required)",
+        "label": "Use the general term in a binomial expansion",
+        "constraints": [
+          "knowledge of the greatest term and properties of the coefficients is not required",
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-6-1-483",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "Exponential and logarithmic functions , ,log ,ln x x a a e x x and their graphs, including • laws of logarithms • equivalence of = x y a and =loga x y • change of base of logarithms",
+        "label": "A6. Exponential and Logarithmic Functions, item 6.1",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Exponential and logarithmic functions aˣ, eˣ, logₐ x, ln x and their graphs, including • laws of logarithms • equivalence of y = aˣ and x = logₐ y • change of base of logarithms",
+        "label": "Use exponential and logarithmic functions and their graphs",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-2-5-486",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "Transformation of given relationships, including = n y ax and = x y kb to linear form to determine the unknown constants from a straight line graph",
+        "label": "G2. Coordinate geometry in two dimensions, item 2.5",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Transformation of given relationships, including y = axⁿ and y = kbˣ to linear form to determine the unknown constants from a straight line graph",
+        "label": "Transform power and exponential relationships to linear form",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-3-1-487",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "properties of parallel lines cut by a transversal, perpendicular and angle bisectors, triangles, special quadrilaterals and circles (footnote: properties learnt in G3 Mathematics)",
+        "label": "G3. Proofs in plane geometry, item 3.1",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "properties of parallel lines cut by a transversal, perpendicular and angle bisectors, triangles, special quadrilaterals and circles (footnote: properties learnt in G3 Mathematics)",
+        "label": "Use properties of lines, triangles, quadrilaterals, and circles in proofs",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-3-2-488",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "congruent and similar triangles (footnote: properties learnt in G3 Mathematics)",
+        "label": "G3. Proofs in plane geometry, item 3.2",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "congruent and similar triangles (footnote: properties learnt in G3 Mathematics)",
+        "label": "Use congruent and similar triangles in proofs",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+          "These properties are learnt in G3 Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-4-491",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        27
+      ],
+      "before": {
+        "sourceText": "Derivatives of sin ,cos , tan , x x x x e andln ,x together with constant multiples, sums and differences",
+        "label": "Derivatives of sin ,cos , tan , x x x x e andln ,x together with constant multiples, sums and differences",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Derivatives of sin x, cos x, tan x, eˣ and ln x, together with constant multiples, sums and differences",
+        "label": "Differentiate the listed standard functions",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-12-492",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        27
+      ],
+      "before": {
+        "sourceText": "Integration of n x (including = −1 n ), 2 sin ,cos ,sec x x x and , xe together with constant multiples, sums and differences",
+        "label": "C1. Differentiation and integration, item 1.12",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of xⁿ (including n = −1), sin x, cos x, sec² x and eˣ, together with constant multiples, sums and differences",
+        "label": "Integrate the listed standard functions",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-13-493",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        27
+      ],
+      "before": {
+        "sourceText": "Integration of + ( )n ax b (including = −1 n ), + + sin( ), cos( ) ax b ax b and + ( ) ax b e",
+        "label": "C1. Differentiation and integration, item 1.13",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "formula-layout: extracted equation layout requires PDF visual verification",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of (ax + b)ⁿ (including n = −1), sin(ax + b), cos(ax + b), and eᵃˣ⁺ᵇ",
+        "label": "Integrate shifted powers and standard functions",
+        "constraints": [
+          "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+        ],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record",
+          "source-conflict: PDF body says G3 Additional while TOC says G2 Additional"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page. Removed the formula-layout review flag and its source ambiguity after visual verification."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-5-10-074",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "multiplication and division of simple algebraic fractions, e.g. ( 3𝑎 4𝑏2) ( 5𝑎𝑏 3 ) ; 3𝑎 4 ÷ 9𝑎2 10",
+        "label": "multiplication and division of simple algebraic fractions, e.g. ( 3𝑎 4𝑏2) ( 5𝑎𝑏 3 ) ; 3𝑎 4 ÷ 9𝑎2 10",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "multiplication and division of simple algebraic fractions, e.g. (3a/(4b²))(5ab/3); 3a/4 ÷ 9a²/10",
+        "label": "Multiply and divide simple algebraic fractions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-7-4-082",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations, e.g. 𝑥 3 + 𝑥−2 4 = 3 3 𝑥−2 = 6",
+        "label": "solving simple fractional equations that can be reduced to linear equations, e.g. 𝑥 3 + 𝑥−2 4 = 3 3 𝑥−2 = 6",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "solving simple fractional equations that can be reduced to linear equations, e.g. x/3 + (x − 2)/4 = 3; 3/(x − 2) = 6",
+        "label": "Solve simple fractional equations reducible to linear equations",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-4-5-206",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "use of the formula 1 sin 2 ab C for the area of a triangle",
+        "label": "use of the formula 1 sin 2 ab C for the area of a triangle",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "use of the formula 1/2 ab sin C for the area of a triangle",
+        "label": "Use the formula 1/2 ab sin C for triangle area",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-2-402",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "Principal values of − − − 1 1 1 sin ,cos , tan x x x",
+        "label": "Principal values of − − − 1 1 1 sin ,cos , tan x x x",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "Principal values of sin⁻¹ x, cos⁻¹ x, tan⁻¹ x",
+        "label": "Use principal values of inverse sine, cosine, and tangent",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-2-451",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        24
+      ],
+      "before": {
+        "sourceText": "Principal values of − − − 1 1 1 sin ,cos , tan x x x",
+        "label": "Principal values of − − − 1 1 1 sin ,cos , tan x x x",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "Principal values of sin⁻¹ x, cos⁻¹ x, tan⁻¹ x",
+        "label": "Use principal values of inverse sine, cosine, and tangent",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-5-2-022",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎 , 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦 • 3(𝑥+ 𝑦) as 3 × (𝑥+ 𝑦) • 3+𝑦 5 as (3 + 𝑦) ÷ 5 or 1 5 × (3 + 𝑦)",
+        "label": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎 , 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "interpreting notations: • ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b, ... • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)",
+        "label": "Interpret algebraic notation and equivalent forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-6-037",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "conversion between cm2 and m2, and between cm3 and m3",
+        "label": "conversion between cm2 and m2, and between cm3 and m3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "conversion between cm² and m², and between cm³ and m³",
+        "label": "Convert between cm² and m², and between cm³ and m³",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-5-7-046",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "simplification of linear expressions, e.g. • −2(3𝑥−5) + 4𝑥 • 2𝑥 3 − 3(𝑥−5) 2",
+        "label": "simplification of linear expressions, e.g. • −2(3𝑥−5) + 4𝑥 • 2𝑥 3 − 3(𝑥−5) 2",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "simplification of linear expressions, e.g. • −2(3x − 5) + 4x • (2x)/3 − 3(x − 5)/2",
+        "label": "Simplify linear expressions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-4-9-062",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "conversion between cm2 and m2, and between cm3 and m3",
+        "label": "conversion between cm2 and m2, and between cm3 and m3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "conversion between cm² and m², and between cm³ and m³",
+        "label": "Convert between cm² and m², and between cm³ and m³",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-4-6-6-079",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "quadratic functions (𝑦= 𝑎𝑥2 + 𝑏𝑥+ 𝑐) <Sec 4>",
+        "label": "quadratic functions (𝑦= 𝑎𝑥2 + 𝑏𝑥+ 𝑐) <Sec 4>",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "quadratic functions (y = ax² + bx + c) <Sec 4>",
+        "label": "Quadratic functions y = ax² + bx + c",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-4-6-7-080",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "graphs of quadratic functions and their properties <Sec 4> • positive or negative coefficient of 𝑥2 • maximum and minimum points • symmetry",
+        "label": "graphs of quadratic functions and their properties <Sec 4> • positive or negative coefficient of 𝑥2 • maximum and minimum points • symmetry",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of quadratic functions and their properties <Sec 4> • positive or negative coefficient of x² • maximum and minimum points • symmetry",
+        "label": "Graphs and properties of quadratic functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-4-11-089",
+      "documentId": "math-g1-secondary",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "conversion between cm2 and m2, and between cm3 and m3",
+        "label": "conversion between cm2 and m2, and between cm3 and m3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "conversion between cm² and m², and between cm³ and m³",
+        "label": "Convert between cm² and m², and between cm³ and m³",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-2-113",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        17
+      ],
+      "before": {
+        "sourceText": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎, 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦 • 3(𝑥+ 𝑦) as 3 × (𝑥+ 𝑦) • 3+𝑦 5 as (3 + 𝑦) ÷ 5 or 1 5 × (3 + 𝑦)",
+        "label": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎, 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "interpreting notations: • ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b, ... • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)",
+        "label": "Interpret algebraic notation and equivalent forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-7-118",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        17
+      ],
+      "before": {
+        "sourceText": "simplification of linear expressions such as −2(3𝑥−5) + 4𝑥; 2𝑥 3 − 3(𝑥−5) 2",
+        "label": "simplification of linear expressions such as −2(3𝑥−5) + 4𝑥; 2𝑥 3 − 3(𝑥−5) 2",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "simplification of linear expressions such as −2(3x − 5) + 4x; (2x)/3 − 3(x − 5)/2",
+        "label": "Simplify linear expressions",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-14-152",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "factorisation of quadratic expressions 𝑎𝑥2 + 𝑏𝑥+ 𝑐",
+        "label": "factorisation of quadratic expressions 𝑎𝑥2 + 𝑏𝑥+ 𝑐",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "factorisation of quadratic expressions ax² + bx + c",
+        "label": "Factorisation of quadratic expressions ax² + bx + c",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-15-153",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "multiplication and division of simple algebraic fractions such as ( 3𝑎 4𝑏2) (5𝑎𝑏 3 ) 3𝑎 4 ÷ 9𝑎2 10",
+        "label": "multiplication and division of simple algebraic fractions such as ( 3𝑎 4𝑏2) (5𝑎𝑏 3 ) 3𝑎 4 ÷ 9𝑎2 10",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "multiplication and division of simple algebraic fractions such as (3a/(4b²))(5ab/3); (3a/4) ÷ (9a²/10)",
+        "label": "Multiply and divide simple algebraic fractions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-16-154",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1 𝑥−2 + 2 𝑥−3 1 𝑥2 −9 + 2 𝑥−3 1 𝑥−3 + 2 (𝑥−3)2",
+        "label": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1 𝑥−2 + 2 𝑥−3 1 𝑥2 −9 + 2 𝑥−3 1 𝑥−3 + 2 (𝑥−3)2",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "addition and subtraction of algebraic fractions with linear or quadratic denominator such as 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²",
+        "label": "Add and subtract algebraic fractions with linear or quadratic denominators",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-6-7-156",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "graphs of quadratic functions and their properties: • positive or negative coefficient of 𝑥2 • maximum and minimum points • symmetry",
+        "label": "graphs of quadratic functions and their properties: • positive or negative coefficient of 𝑥2 • maximum and minimum points • symmetry",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of quadratic functions and their properties: • positive or negative coefficient of x² • maximum and minimum points • symmetry",
+        "label": "Graphs and properties of quadratic functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-2-260",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        27
+      ],
+      "before": {
+        "sourceText": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎, 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦 • 3(𝑥+ 𝑦) as 3 × (𝑥+ 𝑦) • 3 5 y + as(3 + 𝑦) ÷ 5 or 1 5 × (3 + 𝑦)",
+        "label": "interpreting notations: • 𝑎𝑏 as 𝑎× 𝑏 • 𝑎 𝑏 as 𝑎÷ 𝑏 or 𝑎× 1 𝑏 • 𝑎2 as 𝑎× 𝑎, 𝑎3 as 𝑎× 𝑎× 𝑎, 𝑎2𝑏 as 𝑎× 𝑎× 𝑏, . . . • 3𝑦 as 𝑦+ 𝑦+ 𝑦 or 3 × 𝑦...",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "interpreting notations: • ab as a × b • a/b as a ÷ b or a × 1/b • a² as a × a, a³ as a × a × a, a²b as a × a × b, ... • 3y as y + y + y or 3 × y • 3(x + y) as 3 × (x + y) • (3 + y)/5 as (3 + y) ÷ 5 or 1/5 × (3 + y)",
+        "label": "Interpret algebraic notation and equivalent forms",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-7-329",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        31
+      ],
+      "before": {
+        "sourceText": "graphs of quadratic functions and their properties: • positive or negative coefficient of 2 x • maximum and minimum points • symmetry",
+        "label": "graphs of quadratic functions and their properties: • positive or negative coefficient of 2 x • maximum and minimum points • symmetry",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "graphs of quadratic functions and their properties: • positive or negative coefficient of x² • maximum and minimum points • symmetry",
+        "label": "Graphs and properties of quadratic functions",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-1-420",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "Derivative of ( ) f x as the gradient of the tangent to the graph of = ( ) y f x at a point",
+        "label": "Derivative of ( ) f x as the gradient of the tangent to the graph of = ( ) y f x at a point",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "Derivative of f(x) as the gradient of the tangent to the graph of y = f(x) at a point",
+        "label": "Interpret f′(x) as the gradient of a tangent",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-1-464",
+      "documentId": "math-g2-g3-additional-secondary",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Derivative of ( ) f x as the gradient of the tangent to the graph of = ( ) y f x at a point",
+        "label": "Derivative of ( ) f x as the gradient of the tangent to the graph of = ( ) y f x at a point",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "after": {
+        "sourceText": "Derivative of f(x) as the gradient of the tangent to the graph of y = f(x) at a point",
+        "label": "Interpret f′(x) as the gradient of a tangent",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-4-139",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "conversion between cm2 and m2 , and between cm3 and m3",
+        "label": "conversion between cm2 and m2 , and between cm3 and m3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "conversion between cm² and m², and between cm³ and m³",
+        "label": "Convert between cm² and m², and between cm³ and m³",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-4-276",
+      "documentId": "math-g2-g3-secondary",
+      "pdfPages": [
+        28
+      ],
+      "before": {
+        "sourceText": "conversion between cm2 and m2 , and between cm3 and m3",
+        "label": "conversion between cm2 and m2 , and between cm3 and m3",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "after": {
+        "sourceText": "conversion between cm² and m², and between cm³ and m³",
+        "label": "Convert between cm² and m², and between cm³ and m³",
+        "constraints": [],
+        "reviewFlags": [
+          "possible-split: compound source bullet retained as one record"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Formula and adjacent notation verified against the rendered original PDF page."
+    }
+  ]
+}

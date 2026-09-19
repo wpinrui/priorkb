@@ -1,27 +1,9 @@
 [
   {
-    "id": "math-overlap-001",
-    "objectiveIds": [
-      "math-secondary-g3-additional-sec-3-4-4-3-393",
-      "math-secondary-g2-additional-sec-3-4-4-3-448"
-    ],
-    "kind": "overlap",
-    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
-  },
-  {
     "id": "math-overlap-002",
     "objectiveIds": [
       "math-alevel-h1-mathematics-058",
       "math-alevel-h2-mathematics-104"
-    ],
-    "kind": "overlap",
-    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
-  },
-  {
-    "id": "math-overlap-003",
-    "objectiveIds": [
-      "math-secondary-g3-additional-sec-3-4-1-6-406",
-      "math-secondary-g2-additional-sec-3-4-1-6-455"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -67,6 +49,15 @@
     "objectiveIds": [
       "math-alevel-h1-mathematics-032",
       "math-alevel-h2-mathematics-078"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-259",
+    "objectiveIds": [
+      "math-secondary-g3-sec-2-5-16-154",
+      "math-secondary-g2-sec-3-4-5-18-327"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -429,15 +420,6 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
-    "id": "math-overlap-048",
-    "objectiveIds": [
-      "math-secondary-g3-additional-sec-3-4-1-2-384",
-      "math-secondary-g2-additional-sec-3-4-1-2-439"
-    ],
-    "kind": "overlap",
-    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
-  },
-  {
     "id": "math-overlap-049",
     "objectiveIds": [
       "math-secondary-g3-additional-sec-3-4-2-1-386",
@@ -451,6 +433,15 @@
     "objectiveIds": [
       "math-alevel-h1-mathematics-010",
       "math-alevel-h2-mathematics-115"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-048",
+    "objectiveIds": [
+      "math-secondary-g3-additional-sec-3-4-1-2-384",
+      "math-secondary-g2-additional-sec-3-4-1-2-439"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -474,8 +465,11 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
-    "id": "math-overlap-053",
+    "id": "math-overlap-260",
     "objectiveIds": [
+      "math-secondary-g1-sec-1-4-6-037",
+      "math-secondary-g1-sec-2-4-9-062",
+      "math-secondary-g1-sec-3-4-4-11-089",
       "math-secondary-g3-sec-1-5-4-139",
       "math-secondary-g2-sec-1-5-4-276"
     ],
@@ -506,6 +500,15 @@
     "objectiveIds": [
       "math-primary-common-p2-measurement-and-geometry-measurement-time-2-3",
       "math-primary-foundation-p5-measurement-and-geometry-measurement-time-1-2"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-253",
+    "objectiveIds": [
+      "math-secondary-g3-additional-sec-3-4-2-4-414",
+      "math-secondary-g2-additional-sec-3-4-2-4-463"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -548,17 +551,10 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
-    "id": "math-overlap-061",
+    "id": "math-overlap-261",
     "objectiveIds": [
       "math-secondary-g3-additional-sec-3-4-1-1-420",
-      "math-secondary-g2-additional-sec-3-4-1-1-464"
-    ],
-    "kind": "overlap",
-    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
-  },
-  {
-    "id": "math-overlap-062",
-    "objectiveIds": [
+      "math-secondary-g2-additional-sec-3-4-1-1-464",
       "math-alevel-h1-mathematics-016",
       "math-alevel-h2-mathematics-128"
     ],
@@ -571,6 +567,15 @@
       "math-secondary-g3-additional-sec-3-4-1-5-424",
       "math-secondary-g2-additional-sec-3-4-1-5-468",
       "math-alevel-h2-mathematics-132"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-254",
+    "objectiveIds": [
+      "math-secondary-g3-additional-sec-3-4-1-4-423",
+      "math-alevel-h2-mathematics-130"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -841,6 +846,15 @@
     "objectiveIds": [
       "math-secondary-g3-sec-3-4-4-4-205",
       "math-secondary-g2-sec-3-4-4-4-343"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-262",
+    "objectiveIds": [
+      "math-secondary-g3-sec-2-5-14-152",
+      "math-secondary-g2-sec-2-5-12-288"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -1142,6 +1156,24 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
+    "id": "math-overlap-255",
+    "objectiveIds": [
+      "math-secondary-g3-sec-3-4-6-9-184",
+      "math-secondary-g2-sec-3-4-6-8-330"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-263",
+    "objectiveIds": [
+      "math-secondary-g3-sec-2-6-7-156",
+      "math-secondary-g2-sec-3-4-6-7-329"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
     "id": "math-overlap-125",
     "objectiveIds": [
       "math-secondary-g3-additional-sec-3-4-1-5-405",
@@ -1185,6 +1217,16 @@
     "objectiveIds": [
       "math-alevel-h1-mathematics-059",
       "math-alevel-h2-mathematics-105"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-264",
+    "objectiveIds": [
+      "math-secondary-g1-sec-1-5-2-022",
+      "math-secondary-g3-sec-1-5-2-113",
+      "math-secondary-g2-sec-1-5-2-260"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -1826,6 +1868,15 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
+    "id": "math-overlap-256",
+    "objectiveIds": [
+      "math-secondary-g3-sec-3-4-6-8-183",
+      "math-secondary-g2-sec-5-6-11-363"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
     "id": "math-overlap-198",
     "objectiveIds": [
       "math-secondary-g3-additional-sec-3-4-1-8-408",
@@ -1840,6 +1891,15 @@
       "math-secondary-g3-additional-sec-3-4-3-2-390",
       "math-secondary-g2-additional-sec-3-4-3-2-445",
       "math-alevel-h2-mathematics-118"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-257",
+    "objectiveIds": [
+      "math-secondary-g3-sec-3-4-7-12-188",
+      "math-secondary-g2-sec-3-4-7-12-334"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
@@ -2047,6 +2107,15 @@
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
   },
   {
+    "id": "math-overlap-258",
+    "objectiveIds": [
+      "math-secondary-g3-sec-3-4-7-1-215",
+      "math-secondary-g2-sec-5-7-1-375"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
     "id": "math-overlap-222",
     "objectiveIds": [
       "math-secondary-g1-sec-2-3-1-059",
@@ -2215,6 +2284,24 @@
     "objectiveIds": [
       "math-alevel-h1-mathematics-039",
       "math-alevel-h2-mathematics-085"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-001",
+    "objectiveIds": [
+      "math-secondary-g3-additional-sec-3-4-4-3-393",
+      "math-secondary-g2-additional-sec-3-4-4-3-448"
+    ],
+    "kind": "overlap",
+    "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."
+  },
+  {
+    "id": "math-overlap-003",
+    "objectiveIds": [
+      "math-secondary-g3-additional-sec-3-4-1-6-406",
+      "math-secondary-g2-additional-sec-3-4-1-6-455"
     ],
     "kind": "overlap",
     "note": "Identical wording after whitespace, case and Unicode normalization. Compare topic, constraints, role and expected depth before treating these occurrences as one skill. No equivalence has been approved."

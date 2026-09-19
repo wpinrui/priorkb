@@ -6,6 +6,9 @@
   "schema": "../syllabus-dataset.schema.json",
   "datasets": ["primary.json", "secondary.json", "alevel.json"],
   "crossDatasetAmbiguities": "overlaps.json",
+  "transcriptionLogs": ["secondary-transcription-log.json", "alevel-transcription-log.json"],
+  "transcriptionLogSchema": "../transcription-log.schema.json",
+  "transcriptionReport": "transcription-report.md",
   "sourceRoot": "../..",
   "schoolYearPolicy": "Use official primary and secondary years or bands. A-level years are intentionally null.",
   "relationshipStatus": "Not generated"
