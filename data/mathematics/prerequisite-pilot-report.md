@@ -1,5 +1,9 @@
 # Prerequisite pilot report
 
+Historical first assessment. The user subsequently chose conceptual understanding
+as the meaning of essential. See the [conceptual reassessment](prerequisite-conceptual-report.md)
+for current results; this report retains the original classifications and reasoning.
+
 This report records the five independent voter outputs for the pilot packet. It does not add prerequisite links, change votes, or decide the six disputed pairs.
 
 The pilot selection contains 40 appearance-level selections that deduplicate to 36 canonical directed candidate pairs. The packet contains 36 candidate pairs, 63 skill records, 94 appearances, and 12 pathways. The packet scope is pilot only. The full prerequisite graph remains unassessed. The five voter event logs each completed one voting turn and one result item.

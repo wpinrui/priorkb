@@ -3,45 +3,45 @@
   "subject": "mathematics",
   "scope": "pilot",
   "purpose": "Pilot set of 40 plausible direct prerequisite pairs for independent essential/helpful/none voting; appearance IDs preserve source scope and pathway evidence.",
-  "packetSha256": "c7ad1685bdca9f6d0418f164b59ddcf3731d0e26304ba39a3cf5e7b5560438cb",
+  "packetSha256": "974d3f8c935c1c5408c8b2fe9aed3a88a86da0fe833d860549cc734ea59ad477",
   "knowledgeSha256": "b388810a6dd525c226a84c242621518a357ca44f19b9e8a54f1919915f7ee9ab",
   "voteFiles": [
-    "prerequisite-conceptual-votes/luna-01.json",
-    "prerequisite-conceptual-votes/luna-02.json",
-    "prerequisite-conceptual-votes/luna-03.json",
-    "prerequisite-conceptual-votes/luna-04.json",
-    "prerequisite-conceptual-votes/luna-05.json"
+    "prerequisite-votes/luna-01.json",
+    "prerequisite-votes/luna-02.json",
+    "prerequisite-votes/luna-03.json",
+    "prerequisite-votes/luna-04.json",
+    "prerequisite-votes/luna-05.json"
   ],
   "voters": [
     {
       "voterId": "luna-01",
       "model": "gpt-5.6-luna",
-      "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-      "promptSha256": "054b99dddfe95e469252f60313ef9af73010d5e200c035430ce989a271d8dad9"
+      "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+      "promptSha256": "6536ab7c9a03c10a7652f9d2ea3200693f5d6aab8e343561c21f9c6027936f56"
     },
     {
       "voterId": "luna-02",
       "model": "gpt-5.6-luna",
-      "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-      "promptSha256": "054b99dddfe95e469252f60313ef9af73010d5e200c035430ce989a271d8dad9"
+      "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+      "promptSha256": "6536ab7c9a03c10a7652f9d2ea3200693f5d6aab8e343561c21f9c6027936f56"
     },
     {
       "voterId": "luna-03",
       "model": "gpt-5.6-luna",
-      "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-      "promptSha256": "054b99dddfe95e469252f60313ef9af73010d5e200c035430ce989a271d8dad9"
+      "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+      "promptSha256": "6536ab7c9a03c10a7652f9d2ea3200693f5d6aab8e343561c21f9c6027936f56"
     },
     {
       "voterId": "luna-04",
       "model": "gpt-5.6-luna",
-      "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-      "promptSha256": "054b99dddfe95e469252f60313ef9af73010d5e200c035430ce989a271d8dad9"
+      "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+      "promptSha256": "6536ab7c9a03c10a7652f9d2ea3200693f5d6aab8e343561c21f9c6027936f56"
     },
     {
       "voterId": "luna-05",
       "model": "gpt-5.6-luna",
-      "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-      "promptSha256": "054b99dddfe95e469252f60313ef9af73010d5e200c035430ce989a271d8dad9"
+      "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+      "promptSha256": "6536ab7c9a03c10a7652f9d2ea3200693f5d6aab8e343561c21f9c6027936f56"
     }
   ],
   "summary": {
@@ -49,14 +49,14 @@
     "voterCount": 5,
     "voteCount": 180,
     "consensusClassificationCounts": {
-      "essential": 26,
-      "helpful": 7,
+      "essential": 18,
+      "helpful": 12,
       "none": 0
     },
     "statusCounts": {
-      "accepted": 33,
+      "accepted": 30,
       "rejected": 0,
-      "needs-decision": 3
+      "needs-decision": 6
     },
     "cycleEdgeCount": 0,
     "coverageNote": "Pilot-only coverage. Skills without pilot candidates remain unassessed; this output makes no complete prerequisite-graph claim."
@@ -77,50 +77,50 @@
         "Place-value notation gives the number representation needed to compare and order numbers."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": null,
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 3,
+          "helpful": 2,
           "none": 0
         },
         "voteCount": 5
       },
-      "status": "accepted",
+      "status": "needs-decision",
       "votes": [
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Place value explains how multi-digit magnitudes are represented, making comparison and ordering understandable."
+          "rationale": "Comparing standard whole-number representations depends directly on interpreting tens and ones place values."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Place value of tens and ones is required to explain how numbers up to 100 are compared and ordered."
+          "rationale": "Place value identifies the magnitudes of two-digit numbers, which is needed to compare and order them reliably."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Place value of tens and ones is required to compare and order whole numbers conceptually."
+          "rationale": "Comparing numerals up to 100 depends on interpreting their tens-and-ones representation and place-value magnitude."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "Place value provides the necessary conceptual basis for comparing two-digit numbers by tens and ones."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "Place value gives a direct tens-first comparison method, but numbers can also be compared by counting or number-line position."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "Place value provides the conceptual basis for comparing the tens and ones positions when ordering numbers."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "Place value gives a useful representation for comparison, but counting, number lines, or magnitude reasoning can compare numbers without prior place-value mastery."
         }
       ]
     },
@@ -152,37 +152,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Understanding a fraction as a part of a whole is needed to explain what its numerator and denominator contribute when like fractions are combined."
+          "rationale": "Like-fraction addition requires understanding fractions as quantities composed of equal parts of a whole."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Understanding fractions as parts of a whole is foundational for explaining addition and subtraction of like fractions."
+          "rationale": "Adding like fractions requires understanding that numerators count equal-sized parts of a whole."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Understanding fractions as parts of a whole is required to explain addition and subtraction of like fractions."
+          "rationale": "Adding like fractions requires understanding numerators as counts of equal whole-parts."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Understanding fractions as parts of a whole is required to explain addition and subtraction of fractional quantities."
+          "rationale": "Adding like fractions meaningfully requires understanding what the fractional parts represent and that they refer to a common whole."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Understanding fractions as parts of a whole is required to explain how fractional parts are combined or removed."
+          "rationale": "Adding like fractions meaningfully requires understanding fractions as quantities or parts of a whole."
         }
       ]
     },
@@ -214,37 +214,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The concept of area is required to understand and explain what rectangle or square area measures."
+          "rationale": "Finding a rectangle or square's area is a direct specialization of the area concept."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The concept of area is required to explain what rectangle and square area measures represent."
+          "rationale": "The area concept supplies the quantity that the rectangle and square area relationship calculates."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "The concept of area is required to understand and explain the area of rectangles and squares."
+          "rationale": "Finding a rectangle or square's area presupposes the meaning of area as the measure of a plane region."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "The concept of area is required to understand what rectangle and square area measures."
+          "rationale": "Applying a rectangle or square area relationship presupposes understanding area as the measured extent of a plane figure."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "The concept of area is required to understand what the rectangle or square area formula measures."
+          "rationale": "The rectangle and square formula calculates the area whose meaning is supplied by the general area concept."
         }
       ]
     },
@@ -276,37 +276,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Equivalent fractions depend on recognizing that different partitions can represent the same part of a whole."
+          "rationale": "Recognising equivalent fractions requires understanding fractions as representations of portions of a whole."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Equivalent fractions depend conceptually on recognizing different fractional representations of the same whole."
+          "rationale": "Equivalent fractions represent the same part of a whole, which is fundamental to recognizing fraction equivalence."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Fraction-as-part-of-a-whole meaning is required to explain why different representations can have equal value."
+          "rationale": "Recognising equivalent fractions requires understanding fractions as representations of portions of a whole."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Equivalent fractions depend on understanding that different partitions can represent the same part of a whole."
+          "rationale": "Recognising equivalent fractions depends on understanding that differently partitioned parts can represent the same portion of a whole."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Equivalent fractions depend on recognizing different fractional representations of the same whole."
+          "rationale": "Equivalent fractions must represent the same fractional quantity, for which the part-whole interpretation is foundational."
         }
       ]
     },
@@ -325,50 +325,50 @@
         "Equivalent fractions support finding common denominators for fraction addition and subtraction."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": null,
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 3,
+          "helpful": 2,
           "none": 0
         },
         "voteCount": 5
       },
-      "status": "accepted",
+      "status": "needs-decision",
       "votes": [
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Equivalent fractions provide the conceptual basis for rewriting fractions with a common denominator before addition or subtraction."
+          "rationale": "Adding unlike fractions requires replacing them with equal-valued fractions sharing a denominator."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Equivalent fractions provide the conceptual basis for expressing fractions with a common denominator before adding or subtracting them."
+          "rationale": "Adding or subtracting unlike fractions requires replacing them with equivalent fractions having a common denominator."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Equivalent fractions are required to explain putting fractions over a common denominator before addition or subtraction."
+          "rationale": "Addition and subtraction with unlike denominators requires replacing fractions by equivalent fractions with a common unit."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "Equivalent fractions explain why denominators can be converted to a common denominator before adding or subtracting."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "Equivalent fractions provide the conceptual bridge for common denominators, especially in addition and subtraction, but are not required for every one of the four operations."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "Equivalent fractions explain why denominators can be changed to a common denominator before adding or subtracting."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "Equivalent fractions provide a direct common-denominator method, but fraction addition can be learned or performed by other methods."
         }
       ]
     },
@@ -405,37 +405,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Identifying base and perpendicular height is required to understand the triangle-area formula."
+          "rationale": "The triangle-area formula specifically requires identifying the base and its perpendicular height."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Identifying a triangle's base and perpendicular height is required to explain the triangle-area formula."
+          "rationale": "The triangle area formula requires identifying the relevant base and its perpendicular height."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Identifying a triangle's base and perpendicular height is required to explain its area formula."
+          "rationale": "The triangle-area formula requires identifying which side is the base and which perpendicular length is the height."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Identifying a triangle's base and perpendicular height is required to explain its area formula."
+          "rationale": "The triangle-area formula requires identifying the relevant base and its perpendicular height."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "The base and perpendicular height are the geometric quantities whose product, halved, defines triangle area."
+          "rationale": "The stated triangle-area formula requires identifying the base and its perpendicular height."
         }
       ]
     },
@@ -467,37 +467,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Ratio notation and interpretation are required to understand when two ratios express the same relationship."
+          "rationale": "Equivalent ratios require interpreting ratios and recognising when their component representations preserve the same relationship."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Equivalent ratios require understanding ratio notation, representation, and interpretation."
+          "rationale": "Recognizing equivalent ratios requires interpreting ratio notation and the quantities it represents."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Ratio notation and interpretation are required to understand when two ratios represent the same relationship."
+          "rationale": "Equivalent ratios require interpreting ratio notation and understanding what it represents."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Equivalent ratios require understanding ratio notation, representation, and interpretation."
+          "rationale": "Equivalent ratios require understanding ratio notation and interpreting the quantities being compared."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Equivalent ratios require understanding ratio notation and how its representations preserve the same relationship."
+          "rationale": "Recognising equivalent ratios requires understanding ratio notation and what the compared quantities represent."
         }
       ]
     },
@@ -529,37 +529,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Equivalent ratios explain scaling a ratio while preserving its relationship, but dividing a quantity in a ratio can be understood directly from unit parts and totals."
+          "rationale": "Equivalent ratios provide a useful scaling method, but ratio division can use unit-part calculations directly."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "Equivalent ratios explain scaling a ratio to match a total, but division in a ratio can also be explained through unit parts."
+          "rationale": "Equivalent ratios provide a useful scaling method, but a quantity can be divided in a ratio directly using unit parts."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Equivalent ratios explain alternative partitions of the same relationship, but quantity division in a ratio can be understood directly from parts and totals."
+          "rationale": "Equivalent ratios provide a useful scaling perspective, but a quantity can be divided in a ratio directly by finding unit parts."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Equivalent ratios provide a useful scaling and partitioning interpretation, but quantity division can be understood directly from ratio parts."
+          "rationale": "Equivalent ratios support scaling a ratio to determine parts, but a quantity can be divided by using total parts and a unit value directly."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Equivalent ratios explain scaling a partition while preserving proportions, but ratio division can also be explained using unit parts and the total number of parts."
+          "rationale": "Equivalent ratios help rescale ratios, but a quantity can be divided directly using unit parts and multiplication."
         }
       ]
     },
@@ -591,37 +591,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Using a letter for an unknown is required to interpret and explain algebraic expressions containing that letter."
+          "rationale": "Simple algebraic expressions require interpreting letters as numerical quantities or unknowns."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "A letter representing an unknown number is required to interpret and explain simple algebraic expressions."
+          "rationale": "Simple algebraic expressions require interpreting letters as variable or unknown quantities."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Understanding a letter as representing a number is required to interpret simple algebraic expressions."
+          "rationale": "Interpreting expressions such as a+3 or 3a requires treating a letter as a number or variable."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Representing an unknown with a letter is required to interpret letters in simple algebraic expressions."
+          "rationale": "Simple algebraic expressions require interpreting a letter as a quantity and combining it with operations."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Representing an unknown with a letter is required to understand algebraic expressions involving that symbol."
+          "rationale": "Interpreting expressions such as a+3 requires understanding that a letter denotes a number."
         }
       ]
     },
@@ -653,37 +653,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Integer operations provide the conceptual foundation for signs and arithmetic operations when working with negative and non-integer fractions."
+          "rationale": "Fraction operations, especially with negative fractions, extend the corresponding signed integer operations."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Integer operations are required to explain operations with the explicitly included negative fractions."
+          "rationale": "Fraction operations, especially with negative fractions, extend the corresponding integer operation rules."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Integer operations underpin the signs and operations needed to understand operations with negative and positive fractions."
+          "rationale": "Operations with negative fractions require the corresponding signed-operation rules for integers."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Integer operation concepts provide the foundation for explaining the corresponding operations with positive and negative fractions."
+          "rationale": "Fraction operations, particularly with negative fractions, require the corresponding integer operations for signs and intermediate arithmetic."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Integer operation and sign concepts are needed to explain fraction operations involving negative fractions."
+          "rationale": "Fraction operations, especially with negative fractions, rely on the corresponding integer operations for signs and arithmetic."
         }
       ]
     },
@@ -702,10 +702,10 @@
         "The linear-function form supports graphing linear functions."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 1,
+          "helpful": 4,
           "none": 0
         },
         "voteCount": 5
@@ -715,37 +715,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "Understanding a linear function as y = ax + b is required to explain its graph as a representation of that relationship."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "The y=ax+b form makes line plotting direct, but linear graphs can also be constructed from tables or points."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Understanding a linear function provides the relationship that its graph represents."
+          "rationale": "The form y = ax + b identifies the structure and parameters needed to graph a linear function."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "Understanding a linear function in the form y=ax+b is required to explain its graph and parameter effects."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "The form y=ax+b helps determine points, intercepts and slope, but linear graphs can be constructed from other representations."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "Understanding a linear function is required to explain its graph as the representation of that function."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "The form y=ax+b gives slope and intercept information useful for graphing, but linear graphs can also be constructed from tables or points."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "A graph of a linear function is an interpretation of the function's input-output relationship."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "The y=ax+b form supplies useful parameters for graphing, but linear graphs can also be constructed from tables or points."
         }
       ]
     },
@@ -777,37 +777,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Linear factorisation illustrates reversing the distributive law, which provides a useful bridge to quadratic factorisation but is not necessary."
+          "rationale": "Common-factor factorisation reinforces algebraic factor ideas, but quadratic factorisation does not require this exact skill."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "Factoring linear expressions gives a useful common-factor and reverse-distributive bridge to quadratic factorisation, but is not sufficient or necessary for it."
+          "rationale": "Linear factorisation develops common-factor manipulation, but quadratic factorisation can be learned through reverse expansion or other methods."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Common-factor factorisation provides a concrete bridge to reverse distribution, but quadratic factorisation can be understood independently."
+          "rationale": "Common-factor extraction gives useful factoring experience, but factoring x²+px+q uses a distinct factor-pair method."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Common-factor factorisation provides a distributive-law bridge to quadratic factorisation, but quadratic factorisation can be understood independently."
+          "rationale": "Linear factorisation develops reverse-distributive reasoning useful for quadratic factorisation, but the quadratic task can be learned independently."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Factoring common linear factors provides a useful distributive-law bridge to factoring quadratics, but is not required for the quadratic method."
+          "rationale": "Common-factor extraction gives useful experience with factoring and distributivity, but it is not required for factoring x²+px+q."
         }
       ]
     },
@@ -844,37 +844,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Prime identification is required to understand why factorisation stops at prime factors."
+          "rationale": "Prime factorisation requires identifying which factors are prime."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Prime factorisation cannot be conceptually explained without understanding what prime numbers are."
+          "rationale": "Prime factorisation requires decomposing a number into factors that are identified as prime."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Recognising primes is required to understand what prime factorisation decomposes a number into."
+          "rationale": "Prime factorisation requires recognising which factors are prime."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
           "rationale": "Prime factorisation requires identifying which factors are prime."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Identifying primes is required to explain which factors constitute a prime factorisation."
+          "rationale": "Prime factorisation requires identifying which factors are prime."
         }
       ]
     },
@@ -906,37 +906,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The specified HCF method explicitly depends on decomposing numbers into prime factors and comparing those factors."
+          "rationale": "The dependent competence explicitly requires finding the HCF by prime factorisation."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Finding the HCF by prime factorisation directly requires the competence of performing prime factorisation."
+          "rationale": "The scoped dependent competence explicitly requires finding the HCF by prime factorisation."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Prime factorisation is the stated basis for identifying the highest common factor by prime factors."
+          "rationale": "The stated HCF method explicitly requires decomposing numbers into prime factors."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Finding an HCF by prime factorisation requires understanding and performing prime factorisation."
+          "rationale": "The stated HCF method explicitly operates on the prime-factor decomposition of the numbers."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Finding an HCF by prime factorisation requires interpreting and combining prime factors."
+          "rationale": "The dependent competence explicitly requires finding the HCF by prime factorisation."
         }
       ]
     },
@@ -955,10 +955,10 @@
         "The linear-function form supports graphing linear functions."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 1,
+          "helpful": 4,
           "none": 0
         },
         "voteCount": 5
@@ -968,37 +968,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "The concept of a linear function is required to understand what a graph of a linear function represents."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "The linear-function form supports direct graph construction, but graphing can proceed from other representations."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The linear-function form supplies the mathematical relationship needed to understand its graph."
+          "rationale": "The form y = ax + b identifies the structure and parameters needed to graph a linear function."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "The linear-function rule y=ax+b is required to interpret and explain its graphical representation."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "Writing a linear function as y=ax+b supports plotting and interpreting its graph, but is not the only route to a graph."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "The graph is a representation of the linear function, so understanding the function is required for conceptual explanation."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "Knowing y=ax+b helps determine a linear graph's slope and intercept, but graphing can proceed from other representations."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "The graph is the geometric representation of the linear function y = ax + b."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "The y=ax+b form supplies useful parameters for graphing, but linear graphs can also be constructed from tables or points."
         }
       ]
     },
@@ -1030,37 +1030,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Parallelogram area can serve as one possible component formula in composite figures, but composite figures need not contain parallelograms."
+          "rationale": "Known component-area formulas help decompose composite figures, but parallelogram area is not universally required."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "Area of a parallelogram illustrates finding component areas, which is useful for composite figures, but composite figures need not contain parallelograms."
+          "rationale": "Parallelogram area can be useful when decomposing a composite figure, but composite figures need not contain parallelograms."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Parallelogram area supplies a useful component-area method, but composite figures need not contain parallelograms."
+          "rationale": "Parallelogram-area practice can help when a composite figure contains such a component, but composite figures need not contain one."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Parallelogram area can serve as a component-area example, but composite figures need not contain parallelograms."
+          "rationale": "Parallelogram-area work can help when such shapes occur in a composite figure, but composite figures need not contain parallelograms."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Parallelogram area provides one possible component formula for composite figures, but composite-area reasoning is broader."
+          "rationale": "Parallelogram area is a useful component formula for some composite figures, but composite figures need not contain parallelograms."
         }
       ]
     },
@@ -1079,10 +1079,10 @@
         "The linear-function form supports graphing linear functions."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 1,
+          "helpful": 4,
           "none": 0
         },
         "voteCount": 5
@@ -1092,37 +1092,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "Understanding linear functions is required to explain the graph of a linear function as its visual representation."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "The linear-function form is a useful graphing representation, but it is not the only route to a linear graph."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "A linear function's rule is required to explain the corresponding linear graph."
+          "rationale": "The form y = ax + b identifies the structure and parameters needed to graph a linear function."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "Understanding the linear-function rule is required to explain how linear functions are represented graphically."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "The linear-function form supports graph construction through slope and intercept, but graphing can use tables or points instead."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "Understanding linear functions provides the conceptual basis for interpreting their graphs."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "The linear-function form is useful for extracting graph features, but it is not necessary when the line is represented by points or a table."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "Understanding a linear function is required to explain why its graph has the corresponding linear form."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "The y=ax+b form supplies useful parameters for graphing, but linear graphs can also be constructed from tables or points."
         }
       ]
     },
@@ -1138,53 +1138,53 @@
         }
       ],
       "candidateReasons": [
-        "Assess whether understanding quadratic factorisation provides an explanatory bridge to solving quadratic equations by formula and completing the square."
+        "Quadratic factorisation is one of the stated methods for solving quadratic equations."
       ],
       "consensus": {
-        "classification": "helpful",
+        "classification": null,
         "counts": {
           "essential": 0,
-          "helpful": 5,
-          "none": 0
+          "helpful": 2,
+          "none": 3
         },
         "voteCount": 5
       },
-      "status": "accepted",
+      "status": "needs-decision",
       "votes": [
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Quadratic factorisation connects roots and equivalent forms to solving quadratics, but the formula and completing-square methods do not require it."
+          "rationale": "Quadratic factorisation can illuminate roots and checking, but the stated methods do not require it."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "helpful",
-          "rationale": "Quadratic factorisation connects expressions with their roots and structure, offering context for quadratic solution methods without being required for formula or completing-square reasoning."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "none",
+          "rationale": "The dependent skill specifies formula, completing-square, and graphical methods, so quadratic factorisation is an optional alternative rather than a prerequisite."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "helpful",
-          "rationale": "Quadratic factorisation connects roots with quadratic equations, but formula and completing-square methods do not require prior factorisation."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "none",
+          "rationale": "The dependent competence specifies formula, completing-square and graphical methods, so quadratic factorisation is not a required prerequisite."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Quadratic factorisation connects expressions to roots and solution structure, but formula and completing-square methods do not require it."
+          "rationale": "Quadratic factorisation connects equations with roots, but the scoped methods are formula, completing the square, and graphing."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "helpful",
-          "rationale": "Quadratic factorisation connects equations with roots and alternative solution forms, but formula and completing-square methods do not require it."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "none",
+          "rationale": "Quadratic factorisation is not required for the stated formula, completing-square, or graphical methods of solving the equations."
         }
       ]
     },
@@ -1216,37 +1216,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Forward trigonometric ratios provide an explanatory bridge to their inverse use, but inverse ratios can be understood without first solving for sides."
+          "rationale": "Using trigonometric ratios for sides reinforces ratio interpretation, but angle calculation can be learned directly from inverse ratios."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "Solving for sides with trigonometric ratios provides a concrete bridge to using their inverse relationships for angles, but is not necessary."
+          "rationale": "Calculating sides reinforces trigonometric ratios, but inverse ratios for angles can be learned and used directly."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "helpful",
-          "rationale": "Using trigonometric ratios for sides gives a concrete forward-operation bridge to using inverse ratios for angles, but is not required."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "essential",
+          "rationale": "Inverse trigonometric ratios presuppose knowing the direct sine, cosine and tangent ratios relating sides and angles."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Inverse trigonometric ratios operate on the sine, cosine, and tangent relationships established for right triangles."
+          "rationale": "Inverse trigonometric ratios presuppose knowing the sine, cosine, and tangent ratios being inverted in a right triangle."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "Inverse trigonometric ratios depend conceptually on the forward ratios relating sides and acute angles."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "Side calculations reinforce interpreting trigonometric ratios, but inverse ratios for angles can be learned directly."
         }
       ]
     },
@@ -1270,10 +1270,10 @@
         "The six trigonometric functions support evaluating exact values at special angles."
       ],
       "consensus": {
-        "classification": "helpful",
+        "classification": "essential",
         "counts": {
-          "essential": 0,
-          "helpful": 5,
+          "essential": 4,
+          "helpful": 1,
           "none": 0
         },
         "voteCount": 5
@@ -1283,37 +1283,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "helpful",
-          "rationale": "General trigonometric functions help interpret exact special-angle values, but mastery of all six functions for arbitrary angles is broader than necessary."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "essential",
+          "rationale": "Exact special-angle values require knowing the trigonometric functions being evaluated and their angle interpretation."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "The general trigonometric functions provide useful interpretation for special-angle values, though exact values can be understood from special triangles directly."
+          "rationale": "Knowing the six functions is a useful foundation, but special-angle values can be derived using only selected functions and reciprocal identities."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "helpful",
-          "rationale": "The general trigonometric functions provide context for special-angle values, but exact values can be developed directly from special triangles."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "essential",
+          "rationale": "Exact special-angle values are values of the trigonometric functions, so their definitions and interpretation are foundational."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "helpful",
-          "rationale": "The general trigonometric functions provide an interpretive bridge, but exact special-angle values need not require all six functions for arbitrary angles."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "essential",
+          "rationale": "Exact special-angle values are values of the trigonometric functions, so the functions and their meanings must be understood."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "helpful",
-          "rationale": "The general trigonometric-function framework interprets exact special-angle values, but mastering all six functions for arbitrary angles is broader than necessary."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "essential",
+          "rationale": "Exact special-angle values are values of the trigonometric functions, so the functions and their meanings are required."
         }
       ]
     },
@@ -1337,50 +1337,50 @@
         "Understanding the derivative as a rate of change supports using standard differentiation notation."
       ],
       "consensus": {
-        "classification": null,
+        "classification": "helpful",
         "counts": {
-          "essential": 2,
-          "helpful": 3,
-          "none": 0
+          "essential": 0,
+          "helpful": 4,
+          "none": 1
         },
         "voteCount": 5
       },
-      "status": "needs-decision",
+      "status": "accepted",
       "votes": [
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Standard derivative notation helps explain and communicate derivatives, but notation alone is not required to understand the power-rule competence."
+          "rationale": "The rate-of-change meaning gives semantic support for derivative notation, but notation can be taught directly."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "essential",
-          "rationale": "The derivative-as-rate-of-change concept is needed to explain what the standard derivative notations denote."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "helpful",
+          "rationale": "The rate-of-change meaning gives context for derivative notation, but notation can be introduced independently."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Rate of change gives meaning to derivative notation, but notation can be learned without prior mastery of that interpretation."
+          "rationale": "The rate-of-change interpretation gives meaning to derivative notation, but the notation can be learned and used procedurally without it."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "The derivative-as-rate concept is needed to understand what the prime and dy/dx notations denote, including repeated derivatives."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "none",
+          "rationale": "Understanding the derivative concept does not require mastery of a particular notation convention, which can be introduced independently."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Derivative-as-rate meaning gives notation such as dy/dx and f′(x) an explanatory interpretation, but notation is also a convention."
+          "rationale": "Rate-of-change meaning helps interpret derivative notation, but the notation can be learned without prior conceptual mastery."
         }
       ]
     },
@@ -1402,8 +1402,8 @@
         "classification": "helpful",
         "counts": {
           "essential": 0,
-          "helpful": 5,
-          "none": 0
+          "helpful": 4,
+          "none": 1
         },
         "voteCount": 5
       },
@@ -1412,37 +1412,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Derivative notation provides a useful representational bridge to differentiating rational powers, while the differentiation rule can be understood without prior notation mastery."
+          "rationale": "Derivative notation facilitates expressing the result, but differentiating xⁿ does not mathematically depend on that notation."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "helpful",
-          "rationale": "Differentiation notation provides the language for stating derivative rules, but the rules can be conceptually introduced independently of notation mastery."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "none",
+          "rationale": "Differentiation of xⁿ can be performed with alternative derivative notation, so mastery of this notation is not a mathematical prerequisite."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Differentiation notation helps express and explain derivatives of powers, but the power rule is conceptually learnable without that notation skill."
+          "rationale": "Differentiation notation is a useful way to express the result, but the power rule can be learned without prior mastery of all listed notation."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Differentiation notation is useful for stating and manipulating derivatives, but rational-power differentiation can be conceptually understood without prior mastery of that notation."
+          "rationale": "Differentiation notation is useful for stating and manipulating derivatives, but computing derivatives of xⁿ does not depend on prior mastery of that notation."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Standard notation provides a useful language for stating differentiation rules, but the rules can be understood without prior mastery of that notation."
+          "rationale": "Standard notation is useful for stating differentiation results, but differentiating xⁿ does not depend on prior mastery of every notation convention."
         }
       ]
     },
@@ -1463,8 +1463,8 @@
       "consensus": {
         "classification": "essential",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 4,
+          "helpful": 1,
           "none": 0
         },
         "voteCount": 5
@@ -1474,37 +1474,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Basic identities are the direct conceptual basis for transforming and preserving the value of trigonometric expressions during simplification."
+          "rationale": "Trigonometric simplification fundamentally relies on identities relating the functions and their expressions."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "essential",
-          "rationale": "Simplifying trigonometric expressions requires identities as the central explanatory transformations."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "helpful",
+          "rationale": "Trigonometric identities provide useful transformations for simplification, but the dependent skill can use particular identities without mastering the entire listed set."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "The listed trigonometric identities are required to explain algebraic simplification of trigonometric expressions."
+          "rationale": "Simplifying trigonometric expressions generally requires applying identities to replace or combine equivalent forms."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Simplifying trigonometric expressions requires the stated identities as the conceptual transformation rules."
+          "rationale": "General trigonometric simplification relies on identities to replace, combine, or eliminate trigonometric terms."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Simplifying trigonometric expressions requires using identities to justify the transformations."
+          "rationale": "Simplifying trigonometric expressions depends directly on applying identities relating the trigonometric functions."
         }
       ]
     },
@@ -1536,37 +1536,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The function concept is required to understand exponential and logarithmic expressions as input-output relationships and to interpret their graphs."
+          "rationale": "Exponential and logarithmic functions are particular functions, so the function concept is a direct foundation."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The concept of a function is required to understand exponential and logarithmic functions and their graphs as functions."
+          "rationale": "Exponential and logarithmic graphs are graphs of functions, so the function concept is a direct foundation for the competence."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "The function concept is required to understand exponential and logarithmic functions and their graphs as functions."
+          "rationale": "Working with exponential and logarithmic functions as graphs requires understanding what a function is and how inputs determine outputs."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "The concept of a function is required to understand exponential and logarithmic functions and their graphs."
+          "rationale": "Working with exponential and logarithmic graphs requires treating them as functions and understanding the input-output relationship."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "The function concept is required to understand exponential and logarithmic expressions as functions and to interpret their graphs."
+          "rationale": "Working with exponential and logarithmic functions and their graphs requires understanding what a function is."
         }
       ]
     },
@@ -1585,10 +1585,10 @@
         "The derivative as the gradient of a tangent supports applying standard derivative formulae."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 0,
+          "helpful": 5,
           "none": 0
         },
         "voteCount": 5
@@ -1598,37 +1598,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "Interpreting a derivative as a tangent gradient is required to understand what the listed derivative rules describe."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "The tangent-gradient interpretation explains derivative formulae, but formula application can be performed procedurally."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "essential",
-          "rationale": "Understanding derivatives as tangent gradients supplies the concept being operationalised by the listed differentiation rules."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "helpful",
+          "rationale": "The tangent-gradient interpretation motivates derivative rules, but standard formulae can be applied procedurally without it."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "The derivative-as-gradient concept is required to understand what the listed derivative rules represent, beyond rote execution."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "The tangent-gradient interpretation explains what derivative formulae calculate, but formula application does not require that geometric interpretation."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "The derivative as a tangent gradient gives the conceptual meaning that derivative rules for standard functions calculate."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "The tangent-gradient interpretation gives meaning to differentiation formulas, but the formulas can be applied without prior geometric interpretation."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "The tangent-gradient meaning supplies the conceptual basis for what the listed derivatives represent beyond rote rule application."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "The tangent-gradient interpretation motivates derivative formulae, but the formulae can be applied without that geometric interpretation."
         }
       ]
     },
@@ -1660,37 +1660,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The standard normal distribution is the reference distribution used to interpret probabilities after standardising a normal variable."
+          "rationale": "Computing these probabilities requires standardising to, and using, the standard normal distribution."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The standard normal distribution is required to explain how probabilities are obtained from x₁, μ, and σ."
+          "rationale": "Finding these probabilities conventionally requires standardizing the variable and using the standard normal distribution."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "The standard normal distribution is required to explain probability calculations obtained by standardising a normal variable."
+          "rationale": "Computing normal probabilities from x₁, μ and σ requires the standard-normal model and its standardisation relationship."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Standard normal distribution knowledge is required to explain how the stated probability is obtained from x₁, μ, and σ."
+          "rationale": "Finding a normal probability from x₁, μ, and σ requires the standard-normal representation used to standardise the variable."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Finding probabilities from x₁, μ, and σ requires understanding standardisation through the standard normal distribution."
+          "rationale": "Computing a normal probability from x₁, μ, and σ requires the standard-normal model and its standardisation role."
         }
       ]
     },
@@ -1722,37 +1722,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The binomial distribution concept and its modelling conditions are required to explain what its mean and variance describe."
+          "rationale": "Mean and variance of a binomial distribution presuppose identifying and interpreting the binomial model."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The binomial distribution concept and its probability-model conditions are required to explain its mean and variance."
+          "rationale": "The mean and variance formulas apply specifically to a binomial model, including its parameters and conditions."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Understanding the binomial distribution as a probability model is required to interpret its mean and variance."
+          "rationale": "Mean and variance are properties of the binomial probability model, whose parameters and conditions must be understood."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "The binomial distribution concept is required to understand what its mean and variance describe."
+          "rationale": "Mean and variance formulas apply specifically to a binomial model, so recognising and understanding that model is required."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Mean and variance must be understood as properties of the binomial probability model, not merely as isolated formulas."
+          "rationale": "Using the mean and variance of a binomial distribution requires recognising the binomial model and its parameters."
         }
       ]
     },
@@ -1784,37 +1784,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Functions, domains, and ranges are required to understand inverse functions and the reversal of input-output relationships."
+          "rationale": "Inverse functions require understanding functions together with their domains and ranges."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Inverse functions require understanding functions together with their domains and ranges."
+          "rationale": "Using an inverse requires understanding the original function and the relevant domain and range."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Function, domain, and range concepts are required to explain inverse functions and their domains and ranges."
+          "rationale": "An inverse function requires understanding functions and the relevant domain and range, including when inversion is well-defined."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Inverse functions require understanding functions together with their domains and ranges."
+          "rationale": "An inverse function requires a function together with the relevant domain and range relationship."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Inverse functions require understanding how functions map inputs to outputs and how domains and ranges constrain reversal."
+          "rationale": "Inverse functions depend on functions and on the associated domain and range of the mapping."
         }
       ]
     },
@@ -1833,10 +1833,10 @@
         "The derivative as rate of change supports differentiating standard functions."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 0,
+          "helpful": 5,
           "none": 0
         },
         "voteCount": 5
@@ -1846,37 +1846,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "Derivative as rate of change is required to understand and explain the meaning of differentiating the listed functions."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "Rate of change motivates differentiation, but standard-function derivatives can be learned and applied as rules."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "essential",
-          "rationale": "The derivative-as-rate-of-change concept is required to understand and explain derivatives of standard functions."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "helpful",
+          "rationale": "Rate of change explains what differentiation means, but standard derivative rules can be learned as computational rules."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "Derivative as rate of change is required to understand and explain derivatives of the listed standard functions."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "Rate of change gives conceptual meaning to differentiation, but standard derivative rules can be applied without that interpretation."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
-          "classification": "essential",
-          "rationale": "Understanding derivatives as rates of change is required to explain differentiation of the listed functions beyond rote rule use."
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
+          "classification": "helpful",
+          "rationale": "Viewing derivatives as rates of change supports understanding differentiation rules, but standard-function derivatives can be learned procedurally."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "The rate-of-change meaning is required to understand what differentiating the listed standard functions produces."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "Rate-of-change meaning supports understanding differentiation, but standard-function derivative rules can be learned procedurally."
         }
       ]
     },
@@ -1908,37 +1908,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The standard normal distribution provides the conceptual reference for calculating probabilities from x₁, μ, and σ."
+          "rationale": "The stated normal-probability calculation directly uses the standard normal distribution."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "The standard normal distribution is the conceptual basis for calculating the stated H2 probabilities."
+          "rationale": "Finding these probabilities conventionally requires standardizing the variable and using the standard normal distribution."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "The standard normal distribution is required to explain the stated normal-probability calculation."
+          "rationale": "Finding the specified normal probability requires the standard-normal distribution and its standardisation procedure."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "The standard normal distribution is the conceptual basis for calculating probabilities from a normal variable's parameters."
+          "rationale": "Computing the stated normal probability requires the standard-normal distribution and its corresponding standardisation procedure."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "The target probability calculations rely on interpreting the normal variable through the standard normal distribution."
+          "rationale": "Computing a normal probability from x₁, μ, and σ requires the standard-normal model and its standardisation role."
         }
       ]
     },
@@ -1957,50 +1957,50 @@
         "If-then conditionals support structuring a direct mathematical proof."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": null,
         "counts": {
-          "essential": 4,
-          "helpful": 1,
+          "essential": 3,
+          "helpful": 2,
           "none": 0
         },
         "voteCount": 5
       },
-      "status": "accepted",
+      "status": "needs-decision",
       "votes": [
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Direct proof relies on the conditional structure of deriving a conclusion from stated assumptions."
+          "rationale": "Direct proof commonly establishes an implication by assuming its condition and deriving its consequence."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "If-then conditionals clarify the implication structure common in direct proofs, but direct proof also applies to broader statements."
+          "rationale": "Conditional statements help structure direct proofs, but direct proofs can be conducted without mastering the full listed conditional vocabulary."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "Direct proof generally establishes an if-then implication, so conditional structure is required for conceptual explanation."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "Conditional statements help structure a direct proof, but direct proofs can be learned through assumption-to-conclusion reasoning without mastering the full conditional skill."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Direct proof commonly establishes an if-then claim by assuming its condition and deriving its consequence."
+          "rationale": "A direct proof of an implication proceeds by assuming the conditional hypothesis and deriving its conclusion."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "A direct proof establishes an implication by assuming its condition and deriving its conclusion."
+          "rationale": "A direct proof proceeds from a hypothesis to a conclusion, so conditional reasoning is its basic logical structure."
         }
       ]
     },
@@ -2019,10 +2019,10 @@
         "Existential quantifiers support proving existence."
       ],
       "consensus": {
-        "classification": "essential",
+        "classification": "helpful",
         "counts": {
-          "essential": 5,
-          "helpful": 0,
+          "essential": 1,
+          "helpful": 4,
           "none": 0
         },
         "voteCount": 5
@@ -2032,37 +2032,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "essential",
-          "rationale": "Existential quantifiers express the claim that an object exists, which is the central meaning of a proof of existence."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "helpful",
+          "rationale": "Existential quantifiers clarify existence claims, but constructive existence proofs need not use formal quantifier notation."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
-          "classification": "essential",
-          "rationale": "Existential quantifiers express the claim that an existence proof establishes and are required for explaining that proof target."
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
+          "classification": "helpful",
+          "rationale": "Existential quantifiers clarify the target of an existence proof, but existence can be proved constructively without formal quantifier mastery."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
-          "classification": "essential",
-          "rationale": "Existential quantifiers directly express the claim that an object exists, which proof of existence must establish."
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
+          "classification": "helpful",
+          "rationale": "Existential quantifiers clarify the statement being proved, but existence proofs can proceed by constructing and verifying an example without formal quantifier mastery."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Proof of existence directly depends on understanding existential claims and their quantifier."
+          "rationale": "A proof of existence must establish the meaning and truth of an existential claim, usually by producing a witness."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
-          "classification": "essential",
-          "rationale": "Proof of existence directly depends on understanding existential claims, including existence of a unique object."
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
+          "classification": "helpful",
+          "rationale": "Existential quantifiers clarify existence claims, but an existence proof can be given by exhibiting a witness without formal quantifier notation."
         }
       ]
     },
@@ -2094,37 +2094,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "The polar or exponential representation is required to understand and apply de Moivre’s theorem to powers and roots."
+          "rationale": "De Moivre’s theorem for powers and roots is formulated and applied through polar or exponential complex form."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "De Moivre's theorem for powers and roots is formulated through the polar or exponential representation of complex numbers."
+          "rationale": "De Moivre’s theorem for powers and roots is applied to complex numbers represented in polar or exponential form."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Polar or exponential representation of complex numbers is required to explain de Moivre's theorem for powers and roots."
+          "rationale": "De Moivre's theorem for powers and roots is applied through the polar or exponential representation of a complex number."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "De Moivre's theorem for powers and roots relies on representing complex numbers in polar or exponential form."
+          "rationale": "De Moivre's theorem for powers and roots is formulated in polar or exponential complex-number form."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "De Moivre’s theorem for powers and roots is expressed through the polar or exponential representation of complex numbers."
+          "rationale": "De Moivre’s theorem for powers and roots is applied to complex numbers in polar or exponential form."
         }
       ]
     },
@@ -2156,37 +2156,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "essential",
-          "rationale": "Functions of two variables and their surfaces provide the conceptual setting for changing one variable while holding the other fixed."
+          "rationale": "Partial derivatives are derivatives of functions with multiple variables, holding the other variables fixed."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "essential",
-          "rationale": "Functions of two variables and their surfaces are required to explain taking first-order partial derivatives."
+          "rationale": "Partial derivatives are defined for functions of multiple variables, holding the other variables fixed."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "essential",
-          "rationale": "Functions of two variables and their surfaces are required to understand what first-order partial derivatives measure."
+          "rationale": "Partial derivatives are defined for functions of multiple variables, so that function setting is required."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "essential",
-          "rationale": "Partial derivatives require understanding functions whose outputs depend on two variables and the associated surface."
+          "rationale": "Partial derivatives apply to functions with multiple independent variables, including surfaces z=f(x,y)."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "essential",
-          "rationale": "Partial derivatives require understanding a function with multiple variables and its associated surface."
+          "rationale": "Partial derivatives require a function depending on multiple variables and the corresponding surface interpretation."
         }
       ]
     },
@@ -2208,8 +2208,8 @@
         "classification": null,
         "counts": {
           "essential": 0,
-          "helpful": 3,
-          "none": 2
+          "helpful": 2,
+          "none": 3
         },
         "voteCount": 5
       },
@@ -2218,37 +2218,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
-          "classification": "helpful",
-          "rationale": "Sequence behaviour helps interpret what recurrence solutions generate and how they evolve, but it is not required to solve the stated recurrence form."
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
+          "classification": "none",
+          "rationale": "Sequence behaviour, especially limits, is not required to solve first-order linear recurrence relations."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "none",
-          "rationale": "Sequence behaviour is an interpretation or consequence of recurrence solutions, not a conceptual building block for solving the stated recurrence relations."
+          "rationale": "Solving first-order recurrences requires recurrence algebra; sequence limits or general behavior are useful for interpretation but not prerequisite."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Sequence behaviour helps interpret recurrence solutions, but solving a first-order linear recurrence does not require prior limiting-behaviour mastery."
+          "rationale": "Understanding sequence behaviour helps interpret and check recurrence solutions, but it is not needed for the algebraic solution method."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Sequence behaviour helps interpret recurrence solutions and their limiting patterns, but solving the stated recurrence does not require prior mastery of limiting behaviour."
+          "rationale": "Sequence behaviour helps interpret recurrence solutions, but first-order recurrences can be solved algebraically without prior mastery of limiting behaviour."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "none",
-          "rationale": "Sequence behaviour, especially limiting behaviour, analyzes recurrence outcomes but does not provide the construction needed to solve the recurrence; the direct explanatory link runs in the opposite direction."
+          "rationale": "Solving first-order linear recurrences requires recurrence algebra, not prior analysis of sequence limits or general behaviour."
         }
       ]
     },
@@ -2280,37 +2280,37 @@
         {
           "voterId": "luna-01",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5618-7db1-83f5-66be956b6615",
+          "sessionId": "01a0b81e-c239-7d71-968c-3804610fdeef",
           "classification": "helpful",
-          "rationale": "Solving first-order linear differential equations gives a concrete example of obtaining solution families, but it is not required for the broader skill of using such families."
+          "rationale": "Solved differential equations help generate solution curves, but phase lines and slope fields need not use this solver."
         },
         {
           "voterId": "luna-02",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-55f9-7580-b2e0-831415d32de0",
+          "sessionId": "01a0b81e-c24a-7aa3-8fb1-16c94597d4ed",
           "classification": "helpful",
-          "rationale": "Solving linear differential equations helps interpret solution families, but the family concept does not require the specific integrating-factor competence."
+          "rationale": "General solutions of first-order linear differential equations can generate solution curves, but families, phase lines, and slope fields also use other approaches."
         },
         {
           "voterId": "luna-03",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b867-5643-7d01-be80-b9fa0c175047",
+          "sessionId": "01a0b81e-c256-7fd0-8c68-34507d8d3761",
           "classification": "helpful",
-          "rationale": "Solving a first-order linear differential equation helps generate and interpret solution families, but the family concept is broader than this method."
+          "rationale": "Solving a first-order linear differential equation supplies analytic solution curves, but families of curves can be used without mastering this particular solver."
         },
         {
           "voterId": "luna-04",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-bb95-7c53-ab24-01c9352b07f0",
+          "sessionId": "01a0b820-c77b-7ca2-98f8-3b10397edb3a",
           "classification": "helpful",
-          "rationale": "Solving a linear differential equation explains where a family of solution curves comes from, but families can be used from a given equation or solution form without prior mastery of this solving method."
+          "rationale": "A solved differential equation supplies examples of solution curves, but families of curves can be studied through other differential-equation methods."
         },
         {
           "voterId": "luna-05",
           "model": "gpt-5.6-luna",
-          "sessionId": "01a0b868-d3ee-7dd1-9c22-cd4c4cf6c530",
+          "sessionId": "01a0b820-de65-7212-bfa8-24672b215719",
           "classification": "helpful",
-          "rationale": "Solving a linear differential equation explains how a general solution yields a family of curves, but families can be interpreted without mastering the integrating-factor procedure."
+          "rationale": "Analytic solutions provide examples for families of solution curves, but such families can be studied through slope fields or given solution forms."
         }
       ]
     }

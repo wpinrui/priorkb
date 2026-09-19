@@ -1,5 +1,10 @@
 # priorkb
 
+## Product decisions
+- An essential prerequisite is needed to understand and explain the target
+  concept, not merely to execute its procedure. Assess prerequisite links using
+  this conceptual-understanding policy and preserve the five-voter threshold.
+
 ## MVP mode: ACTIVE until I say "MVP shipped"
 Pre-MVP, shipping speed beats everything. Where this section disagrees with any rule below it, **this section wins**. Do not ask me to confirm any of it.
 

@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "subject": "mathematics",
   "title": "Singapore MOE Mathematics",
-  "status": "editorial-skills-with-prerequisite-pilot",
+  "status": "editorial-skills-awaiting-prerequisite-assessment",
   "schema": "../syllabus-dataset.schema.json",
   "datasets": [
     "primary.json",
@@ -26,26 +26,25 @@
   "editorialDecisionSchema": "../editorial-decisions.schema.json",
   "sourceRoot": "../..",
   "schoolYearPolicy": "Use official primary and secondary years or bands. A-level years are intentionally null.",
-  "relationshipStatus": "Conceptual pilot complete: 26 essential, 7 helpful, 3 pending decisions; full graph unassessed",
+  "relationshipStatus": "Superseded: candidate rationale and parent source text broadened one child scope",
   "skillEquivalences": "skill-equivalences.json",
   "skillEquivalenceSchema": "../skill-equivalences.schema.json",
   "editorialReport": "editorial-report.md",
-  "relationshipsPacket": "prerequisite-conceptual-pilot.json",
-  "relationshipSelections": "prerequisite-conceptual-selection.json",
+  "relationshipsPacket": "prerequisite-conceptual-draft.json",
+  "relationshipSelections": "prerequisite-pilot-selection.json",
   "relationshipVotes": [
-    "prerequisite-conceptual-votes/luna-01.json",
-    "prerequisite-conceptual-votes/luna-02.json",
-    "prerequisite-conceptual-votes/luna-03.json",
-    "prerequisite-conceptual-votes/luna-04.json",
-    "prerequisite-conceptual-votes/luna-05.json"
+    "prerequisite-conceptual-draft-votes/luna-01.json",
+    "prerequisite-conceptual-draft-votes/luna-02.json",
+    "prerequisite-conceptual-draft-votes/luna-03.json",
+    "prerequisite-conceptual-draft-votes/luna-04.json",
+    "prerequisite-conceptual-draft-votes/luna-05.json"
   ],
-  "relationships": "relationships.json",
+  "relationships": "relationships-conceptual-draft.json",
   "relationshipSchema": "../relationships.schema.json",
   "relationshipPolicy": "prerequisite-policy.md",
   "relationshipReport": "prerequisite-conceptual-report.md",
   "previousAssessments": [
-    "manifest-initial-pilot.json",
-    "manifest-conceptual-draft.json"
+    "manifest-initial-pilot.json"
   ],
   "relationshipDefinitions": {
     "policyVersion": "conceptual-understanding-v2",

@@ -12,7 +12,8 @@ for formula corrections, and the [dataset format](data/README.md) for rebuilding
 the catalogue or using another subject.
 
 Original syllabus PDFs are local inputs in `syllabus/` and are gitignored.
-A [five-voter prerequisite pilot](data/mathematics/prerequisite-pilot-report.md)
+A [five-voter prerequisite pilot](data/mathematics/prerequisite-conceptual-report.md)
 records accepted links and disputed decisions with their evidence. It covers a
-small selection, not the full prerequisite graph. Search and the teacher-facing
+small selection using conceptual understanding as the definition of an essential
+prerequisite. It does not cover the full prerequisite graph. Search and the teacher-facing
 application are not yet implemented.
