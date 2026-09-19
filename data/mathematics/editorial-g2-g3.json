@@ -1,0 +1,3123 @@
+{
+  "decisions": [
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-1-231",
+      "decision": "split",
+      "reason": "Prime identification and factorisation are separate assessable skills.",
+      "parts": [
+        {
+          "label": "Identify prime numbers",
+          "description": "Identify prime numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Perform prime factorisation",
+          "description": "Perform prime factorisation.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-1-269",
+      "decision": "split",
+      "reason": "The four angle classifications are independently teachable and assessable.",
+      "parts": [
+        {
+          "label": "Identify right angles",
+          "description": "Identify right angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify acute angles",
+          "description": "Identify acute angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify obtuse angles",
+          "description": "Identify obtuse angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify reflex angles",
+          "description": "Identify reflex angles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-1-278",
+      "decision": "split",
+      "reason": "Collecting, classifying, and tabulating data are distinct stages of data handling.",
+      "parts": [
+        {
+          "label": "Collect data using simple concepts",
+          "description": "Collect data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        },
+        {
+          "label": "Classify data using simple concepts",
+          "description": "Classify data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        },
+        {
+          "label": "Tabulate data using simple concepts",
+          "description": "Tabulate data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-2-232",
+      "decision": "split",
+      "reason": "The source lists five distinct numerical procedures, each retaining the prime-factorisation method.",
+      "parts": [
+        {
+          "label": "Find the highest common factor by prime factorisation",
+          "description": "Find the highest common factor by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find the lowest common multiple by prime factorisation",
+          "description": "Find the lowest common multiple by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find squares and cubes by prime factorisation",
+          "description": "Find squares and cubes by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find square roots by prime factorisation",
+          "description": "Find square roots by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find cube roots by prime factorisation",
+          "description": "Find cube roots by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-2-279",
+      "decision": "split",
+      "reason": "Each named statistical representation is a distinct interpretation skill.",
+      "parts": [
+        {
+          "label": "Analyse and interpret tables",
+          "description": "Analyse and interpret tables.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret bar graphs",
+          "description": "Analyse and interpret bar graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret pictograms",
+          "description": "Analyse and interpret pictograms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret line graphs",
+          "description": "Analyse and interpret line graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret pie charts",
+          "description": "Analyse and interpret pie charts.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-3-233",
+      "decision": "split",
+      "reason": "The number domains and the shared operations are distinct competences.",
+      "parts": [
+        {
+          "label": "Work with negative numbers",
+          "description": "Work with negative numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with integers",
+          "description": "Work with integers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with rational numbers",
+          "description": "Work with rational numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with real numbers",
+          "description": "Work with real numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Perform the four operations on numbers",
+          "description": "Perform the four operations on numbers.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-3-271",
+      "decision": "split",
+      "reason": "The source names three distinct angle relationships.",
+      "parts": [
+        {
+          "label": "Use corresponding angles formed by parallel lines and a transversal",
+          "description": "Use corresponding angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use alternate angles formed by parallel lines and a transversal",
+          "description": "Use alternate angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use interior angles formed by parallel lines and a transversal",
+          "description": "Use interior angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-3-280",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-5-235",
+      "decision": "split",
+      "reason": "Representation and ordering are separate number-line skills.",
+      "parts": [
+        {
+          "label": "Represent numbers on the number line",
+          "description": "Represent numbers on the number line.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Order numbers on the number line",
+          "description": "Order numbers on the number line.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-1-7-237",
+      "decision": "split",
+      "reason": "Rounding to decimal places, rounding to significant figures, and computational estimation are distinct procedures.",
+      "parts": [
+        {
+          "label": "Round numbers to a required number of decimal places",
+          "description": "Round numbers to a required number of decimal places.",
+          "scopeNotes": [
+            "Round to a required number of decimal places."
+          ]
+        },
+        {
+          "label": "Round numbers to a required number of significant figures",
+          "description": "Round numbers to a required number of significant figures.",
+          "scopeNotes": [
+            "Round to a required number of significant figures."
+          ]
+        },
+        {
+          "label": "Estimate results of computation",
+          "description": "Estimate results of computation.",
+          "scopeNotes": [
+            "Estimate the results of computation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-2-2-239",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate relationship between ratio and fraction",
+          "description": "Explain the relationship between ratio and fraction.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-4-1-253",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate relationships between distance, time and speed",
+          "description": "Use the relationships between distance, time and speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-4-2-254",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate writing speed in different units (e.g. km/h, m/min, m/s and cm/s)",
+          "description": "Write speed in different units (e.g. km/h, m/min, m/s and cm/s).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-4-3-255",
+      "decision": "split",
+      "reason": "The source distinguishes four rate and speed concepts.",
+      "parts": [
+        {
+          "label": "Understand average rate",
+          "description": "Understand average rate.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand speed",
+          "description": "Understand speed.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand constant speed",
+          "description": "Understand constant speed.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand average speed",
+          "description": "Understand average speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-4-6-258",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate problems involving rate and speed",
+          "description": "Solve problems involving rate and speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-1-273",
+      "decision": "split",
+      "reason": "The two named shapes require distinct area procedures.",
+      "parts": [
+        {
+          "label": "Find the area of a parallelogram",
+          "description": "Find the area of a parallelogram.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of a trapezium",
+          "description": "Find the area of a trapezium.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-2-260",
+      "decision": "split",
+      "reason": "The notation clauses represent six independently teachable algebraic interpretation skills.",
+      "parts": [
+        {
+          "label": "Interpret ab as a product",
+          "description": "Interpret ab as a product.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a/b as division or multiplication by a reciprocal",
+          "description": "Interpret a/b as division or multiplication by a reciprocal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret powers such as a², a³, and a²b",
+          "description": "Interpret powers such as a², a³, and a²b.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a coefficient such as 3y",
+          "description": "Interpret a coefficient such as 3y.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a bracketed product such as 3(x + y)",
+          "description": "Interpret a bracketed product such as 3(x + y).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a quotient of an expression such as (3 + y)/5",
+          "description": "Interpret a quotient of an expression such as (3 + y)/5.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-2-274",
+      "decision": "split",
+      "reason": "Perimeter and area are distinct measures and procedures.",
+      "parts": [
+        {
+          "label": "Find the perimeter of composite plane figures",
+          "description": "Find the perimeter of composite plane figures.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of composite plane figures",
+          "description": "Find the area of composite plane figures.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-3-261",
+      "decision": "split",
+      "reason": "Expression evaluation and formula evaluation are separate applications.",
+      "parts": [
+        {
+          "label": "Evaluate algebraic expressions",
+          "description": "Evaluate algebraic expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Evaluate formulae",
+          "description": "Evaluate formulae.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-3-275",
+      "decision": "split",
+      "reason": "Volume and surface area for the two named solids are distinct procedures.",
+      "parts": [
+        {
+          "label": "Find the volume of a prism",
+          "description": "Find the volume of a prism.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a prism",
+          "description": "Find the surface area of a prism.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a cylinder",
+          "description": "Find the volume of a cylinder.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a cylinder",
+          "description": "Find the surface area of a cylinder.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-4-276",
+      "decision": "split",
+      "reason": "Area-unit conversion is distinct from volume-unit conversion.",
+      "parts": [
+        {
+          "label": "Convert between square centimetres and square metres",
+          "description": "Convert between square centimetres and square metres.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between cubic centimetres and cubic metres",
+          "description": "Convert between cubic centimetres and cubic metres.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-5-263",
+      "decision": "split",
+      "reason": "Recognising a pattern and expressing its nth term are separate reasoning steps.",
+      "parts": [
+        {
+          "label": "Recognise patterns and relationships",
+          "description": "Recognise patterns and relationships.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find an algebraic expression for the nth term",
+          "description": "Find an algebraic expression for the nth term.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-5-277",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures for composite solids.",
+      "parts": [
+        {
+          "label": "Find the volume of composite solids",
+          "description": "Find the volume of composite solids.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of composite solids",
+          "description": "Find the surface area of composite solids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-1-5-6-264",
+      "decision": "split",
+      "reason": "Addition and subtraction are distinct algebraic operations.",
+      "parts": [
+        {
+          "label": "Add linear expressions",
+          "description": "Add linear expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Subtract linear expressions",
+          "description": "Subtract linear expressions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-5-302",
+      "decision": "split",
+      "reason": "The source combines shape properties, regular-polygon properties, and symmetry.",
+      "parts": [
+        {
+          "label": "Use properties of special quadrilaterals",
+          "description": "Use properties of special quadrilaterals.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use properties of regular polygons, including pentagons, hexagons, octagons, and decagons",
+          "description": "Use properties of regular polygons, including pentagons, hexagons, octagons, and decagons.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use symmetry properties of the named polygons",
+          "description": "Use symmetry properties of the named polygons.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-5-312",
+      "decision": "split",
+      "reason": "Each named statistical representation is a distinct interpretation skill.",
+      "parts": [
+        {
+          "label": "Analyse and interpret dot diagrams",
+          "description": "Analyse and interpret dot diagrams.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret histograms",
+          "description": "Analyse and interpret histograms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret stem-and-leaf diagrams",
+          "description": "Analyse and interpret stem-and-leaf diagrams.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-6-313",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-7-304",
+      "decision": "split",
+      "reason": "Interior-angle and exterior-angle sums are separate results.",
+      "parts": [
+        {
+          "label": "Find the sum of interior angles of a convex polygon",
+          "description": "Find the sum of interior angles of a convex polygon.",
+          "scopeNotes": [
+            "The polygon is convex."
+          ]
+        },
+        {
+          "label": "Find the sum of exterior angles of a convex polygon",
+          "description": "Find the sum of exterior angles of a convex polygon.",
+          "scopeNotes": [
+            "The polygon is convex."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-8-305",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate construction of simple geometrical figures from given data using compasses, ruler, set squares and protractors, where appropriate",
+          "description": "Construct simple geometrical figures from given data using compasses, ruler, set squares and protractors, where appropriate.",
+          "scopeNotes": [
+            "Use compasses, ruler, set squares, and protractors where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-8-315",
+      "decision": "split",
+      "reason": "Mean, mode, and median are distinct measures.",
+      "parts": [
+        {
+          "label": "Use the mean as a measure of central tendency",
+          "description": "Use the mean as a measure of central tendency.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the mode as a measure of central tendency",
+          "description": "Use the mode as a measure of central tendency.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the median as a measure of central tendency",
+          "description": "Use the median as a measure of central tendency.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-1-9-316",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses of mean, mode and median",
+          "description": "Explain purposes and uses of mean, mode and median.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-2-3-308",
+      "decision": "split",
+      "reason": "The source gives two distinct defining properties of similarity.",
+      "parts": [
+        {
+          "label": "Use equality of corresponding angles in similar triangles and polygons",
+          "description": "Use equality of corresponding angles in similar triangles and polygons.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use proportionality of corresponding sides in similar triangles and polygons",
+          "description": "Use proportionality of corresponding sides in similar triangles and polygons.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-2-8-282",
+      "decision": "split",
+      "reason": "Distance scale and area scale require distinct reasoning.",
+      "parts": [
+        {
+          "label": "Use map scales for distance",
+          "description": "Use map scales for distance.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use map scales for area",
+          "description": "Use map scales for area.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-2-9-283",
+      "decision": "split",
+      "reason": "Direct and inverse proportion are distinct relationship types.",
+      "parts": [
+        {
+          "label": "Solve direct-proportion relationships",
+          "description": "Solve direct-proportion relationships.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve inverse-proportion relationships",
+          "description": "Solve inverse-proportion relationships.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-10-286",
+      "decision": "split",
+      "reason": "Using brackets and extracting common factors are distinct algebraic procedures.",
+      "parts": [
+        {
+          "label": "Use brackets in algebraic expressions",
+          "description": "Use brackets in algebraic expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Extract common factors",
+          "description": "Extract common factors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-11-287",
+      "decision": "split",
+      "reason": "The source lists three independently teachable algebraic identities.",
+      "parts": [
+        {
+          "label": "Use the (a + b)² identity",
+          "description": "Use the (a + b)² identity.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the (a − b)² identity",
+          "description": "Use the (a − b)² identity.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the a² − b² identity",
+          "description": "Use the a² − b² identity.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-13-289",
+      "decision": "split",
+      "reason": "Multiplication and division of algebraic fractions are distinct operations.",
+      "parts": [
+        {
+          "label": "Multiply simple algebraic fractions",
+          "description": "Multiply simple algebraic fractions.",
+          "scopeNotes": [
+            "Examples include (3a/(4b²))(5ab/3); 3a/4 ÷ 9a²/10"
+          ]
+        },
+        {
+          "label": "Divide simple algebraic fractions",
+          "description": "Divide simple algebraic fractions.",
+          "scopeNotes": [
+            "Examples include (3a/(4b²))(5ab/3); 3a/4 ÷ 9a²/10"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-5-6-311",
+      "decision": "split",
+      "reason": "The source names three solids and two distinct measures for each.",
+      "parts": [
+        {
+          "label": "Find the volume of a pyramid",
+          "description": "Find the volume of a pyramid.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a pyramid",
+          "description": "Find the surface area of a pyramid.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a cone",
+          "description": "Find the volume of a cone.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a cone",
+          "description": "Find the surface area of a cone.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a sphere",
+          "description": "Find the volume of a sphere.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a sphere",
+          "description": "Find the surface area of a sphere.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-6-5-294",
+      "decision": "split",
+      "reason": "Calculating the gradient ratio and interpreting its sign are distinct skills.",
+      "parts": [
+        {
+          "label": "Find the gradient as vertical change divided by horizontal change",
+          "description": "Find the gradient as vertical change divided by horizontal change.",
+          "scopeNotes": [
+            "Gradients may be positive or negative."
+          ]
+        },
+        {
+          "label": "Interpret positive and negative gradients",
+          "description": "Interpret positive and negative gradients.",
+          "scopeNotes": [
+            "Gradients may be positive or negative."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-7-5-296",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate concept and properties of inequality",
+          "description": "Understand concept and properties of inequality.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-7-6-297",
+      "decision": "split",
+      "reason": "The source groups distinct non-strict and strict inequality forms.",
+      "parts": [
+        {
+          "label": "Solve simple non-strict inequalities of the forms 𝑎𝑥≤𝑏 and 𝑎𝑥≥𝑏",
+          "description": "Solve simple non-strict inequalities of the forms 𝑎𝑥≤𝑏 and 𝑎𝑥≥𝑏.",
+          "scopeNotes": [
+            "a and b are integers."
+          ]
+        },
+        {
+          "label": "Solve simple strict inequalities of the forms 𝑎𝑥<𝑏 and 𝑎𝑥>𝑏",
+          "description": "Solve simple strict inequalities of the forms 𝑎𝑥<𝑏 and 𝑎𝑥>𝑏.",
+          "scopeNotes": [
+            "a and b are integers."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-7-9-300",
+      "decision": "keep",
+      "reason": "Substitution, elimination, and graphical approaches are alternate methods for one simultaneous-equations competence.",
+      "parts": [
+        {
+          "label": "Demonstrate solving simultaneous linear equations in two variables by: • substitution and elimination methods • graphical method",
+          "description": "Solve simultaneous linear equations in two variables using substitution, elimination, or graphical methods.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-11-355",
+      "decision": "split",
+      "reason": "Quartiles and percentiles are distinct statistical measures.",
+      "parts": [
+        {
+          "label": "Find quartiles",
+          "description": "Find quartiles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find percentiles",
+          "description": "Find percentiles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-12-356",
+      "decision": "split",
+      "reason": "The source names three distinct measures of spread.",
+      "parts": [
+        {
+          "label": "Find the range",
+          "description": "Find the range.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the interquartile range",
+          "description": "Find the interquartile range.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use standard deviation as a measure of spread",
+          "description": "Use standard deviation as a measure of spread.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-13-357",
+      "decision": "split",
+      "reason": "The two named statistical representations are distinct interpretation skills.",
+      "parts": [
+        {
+          "label": "Analyse and interpret cumulative frequency diagrams",
+          "description": "Analyse and interpret cumulative frequency diagrams.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret box-and-whisker plots",
+          "description": "Analyse and interpret box-and-whisker plots.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-14-358",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-15-359",
+      "decision": "split",
+      "reason": "Grouped and ungrouped data require distinct calculation contexts.",
+      "parts": [
+        {
+          "label": "Calculate standard deviation for grouped data",
+          "description": "Calculate standard deviation for grouped data.",
+          "scopeNotes": [
+            "Data are grouped."
+          ]
+        },
+        {
+          "label": "Calculate standard deviation for ungrouped data",
+          "description": "Calculate standard deviation for ungrouped data.",
+          "scopeNotes": [
+            "Data are grouped."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-16-360",
+      "decision": "split",
+      "reason": "The source names two distinct comparison measures.",
+      "parts": [
+        {
+          "label": "Use the mean to compare two sets of data",
+          "description": "Use the mean to compare two sets of data.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use standard deviation to compare two sets of data",
+          "description": "Use standard deviation to compare two sets of data.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-8-320",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate use of standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10",
+          "description": "Use standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10.",
+          "scopeNotes": [
+            "n is an integer and 1 <= A < 10."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-1-9-321",
+      "decision": "split",
+      "reason": "The four index types are separately teachable.",
+      "parts": [
+        {
+          "label": "Use positive indices",
+          "description": "Use positive indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use negative indices",
+          "description": "Use negative indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use zero indices",
+          "description": "Use zero indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use fractional indices",
+          "description": "Use fractional indices.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-2-3-361",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate probability of simple combined events (including using possibility diagrams and tree diagrams, where appropriate)",
+          "description": "Calculate probability of simple combined events (including using possibility diagrams and tree diagrams, where appropriate).",
+          "scopeNotes": [
+            "Use possibility diagrams and tree diagrams where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-2-4-336",
+      "decision": "split",
+      "reason": "Enlargement and reduction are distinct transformations.",
+      "parts": [
+        {
+          "label": "Enlarge a plane figure",
+          "description": "Enlarge a plane figure.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Reduce a plane figure",
+          "description": "Reduce a plane figure.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-2-4-362",
+      "decision": "split",
+      "reason": "The source pairs two operations with distinct event conditions.",
+      "parts": [
+        {
+          "label": "Add probabilities for mutually exclusive events",
+          "description": "Add probabilities for mutually exclusive events.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Multiply probabilities for independent events",
+          "description": "Multiply probabilities for independent events.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-2-6-338",
+      "decision": "split",
+      "reason": "Line-segment and angle bisectors are distinct constructions.",
+      "parts": [
+        {
+          "label": "Use and construct perpendicular bisectors of line segments",
+          "description": "Use and construct perpendicular bisectors of line segments.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use and construct angle bisectors",
+          "description": "Use and construct angle bisectors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-2-7-339",
+      "decision": "split",
+      "reason": "Congruence and similarity problems are distinct applications.",
+      "parts": [
+        {
+          "label": "Solve simple problems involving congruence",
+          "description": "Solve simple problems involving congruence.",
+          "scopeNotes": [
+            "Problems are simple."
+          ]
+        },
+        {
+          "label": "Solve simple problems involving similarity",
+          "description": "Solve simple problems involving similarity.",
+          "scopeNotes": [
+            "Problems are simple."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-3-1-340",
+      "decision": "split",
+      "reason": "The source lists four distinct circle-symmetry properties.",
+      "parts": [
+        {
+          "label": "Use the equal-chord equidistance property",
+          "description": "Use the equal-chord equidistance property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the perpendicular-bisector-of-a-chord property",
+          "description": "Use the perpendicular-bisector-of-a-chord property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equality of tangents from an external point",
+          "description": "Use equality of tangents from an external point.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the angle-bisector property of the line from an external point to the centre",
+          "description": "Use the angle-bisector property of the line from an external point to the centre.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-3-2-341",
+      "decision": "split",
+      "reason": "The source lists five distinct circle-angle properties.",
+      "parts": [
+        {
+          "label": "Use the semicircle angle property",
+          "description": "Use the semicircle angle property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the tangent-radius right-angle property",
+          "description": "Use the tangent-radius right-angle property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the centre-angle and circumference-angle relationship",
+          "description": "Use the centre-angle and circumference-angle relationship.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equal angles in the same segment",
+          "description": "Use equal angles in the same segment.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use supplementary angles in opposite segments",
+          "description": "Use supplementary angles in opposite segments.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-4-3-342",
+      "decision": "split",
+      "reason": "Calculating unknown sides and calculating unknown angles are distinct applications.",
+      "parts": [
+        {
+          "label": "Use sine, cosine, and tangent to calculate unknown sides in right-angled triangles",
+          "description": "Use sine, cosine, and tangent to calculate unknown sides in right-angled triangles.",
+          "scopeNotes": [
+            "Angles are acute.",
+            "Triangles are right-angled."
+          ]
+        },
+        {
+          "label": "Use inverse trigonometric ratios to calculate unknown acute angles in right-angled triangles",
+          "description": "Use inverse trigonometric ratios to calculate unknown acute angles in right-angled triangles.",
+          "scopeNotes": [
+            "Angles are acute.",
+            "Triangles are right-angled."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-4-4-343",
+      "decision": "split",
+      "reason": "Sine and cosine for obtuse angles are distinct extensions.",
+      "parts": [
+        {
+          "label": "Use sine for obtuse angles",
+          "description": "Use sine for obtuse angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use cosine for obtuse angles",
+          "description": "Use cosine for obtuse angles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-4-6-345",
+      "decision": "split",
+      "reason": "The sine rule and cosine rule are distinct procedures.",
+      "parts": [
+        {
+          "label": "Use the sine rule for any triangle",
+          "description": "Use the sine rule for any triangle.",
+          "scopeNotes": [
+            "Applies to any triangle."
+          ]
+        },
+        {
+          "label": "Use the cosine rule for any triangle",
+          "description": "Use the cosine rule for any triangle.",
+          "scopeNotes": [
+            "Applies to any triangle."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-4-7-346",
+      "decision": "split",
+      "reason": "Two-dimensional and three-dimensional problem settings are independently teachable.",
+      "parts": [
+        {
+          "label": "Solve trigonometry problems in two dimensions, including elevation, depression, and bearings",
+          "description": "Solve trigonometry problems in two dimensions, including elevation, depression, and bearings.",
+          "scopeNotes": [
+            "Problems are two-dimensional, including elevation, depression, and bearings."
+          ]
+        },
+        {
+          "label": "Solve trigonometry problems in three dimensions, including elevation, depression, and bearings",
+          "description": "Solve trigonometry problems in three dimensions, including elevation, depression, and bearings.",
+          "scopeNotes": [
+            "Problems are three-dimensional, including elevation, depression, and bearings."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-5-10-350",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate problems involving the arc length, sector area of a circle and area of a segment",
+          "description": "Solve problems involving the arc length, sector area of a circle and area of a segment.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-5-18-327",
+      "decision": "split",
+      "reason": "Addition and subtraction are distinct operations, with the listed denominator forms retained.",
+      "parts": [
+        {
+          "label": "Add algebraic fractions with linear or quadratic denominators",
+          "description": "Add algebraic fractions with linear or quadratic denominators.",
+          "scopeNotes": [
+            "Denominators are linear or quadratic.",
+            "Examples include 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²"
+          ]
+        },
+        {
+          "label": "Subtract algebraic fractions with linear or quadratic denominators",
+          "description": "Subtract algebraic fractions with linear or quadratic denominators.",
+          "scopeNotes": [
+            "Denominators are linear or quadratic.",
+            "Examples include 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-5-7-347",
+      "decision": "split",
+      "reason": "Arc-length fraction and sector-area fraction are distinct relationships.",
+      "parts": [
+        {
+          "label": "Find arc length as a fraction of circumference",
+          "description": "Find arc length as a fraction of circumference.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find sector area as a fraction of circle area",
+          "description": "Find sector area as a fraction of circle area.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-5-9-349",
+      "decision": "split",
+      "reason": "Using radians and converting units are distinct skills.",
+      "parts": [
+        {
+          "label": "Use radian measure of angle",
+          "description": "Use radian measure of angle.",
+          "scopeNotes": [
+            "Includes conversion between radians and degrees."
+          ]
+        },
+        {
+          "label": "Convert between radians and degrees",
+          "description": "Convert between radians and degrees.",
+          "scopeNotes": [
+            "Includes conversion between radians and degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-3-353",
+      "decision": "split",
+      "reason": "Interpreting and finding a line equation are distinct tasks.",
+      "parts": [
+        {
+          "label": "Interpret a straight-line equation in the form y = mx + c",
+          "description": "Interpret a straight-line equation in the form y = mx + c.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find a straight-line equation in the form y = mx + c",
+          "description": "Find a straight-line equation in the form y = mx + c.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-7-329",
+      "decision": "split",
+      "reason": "Graph construction and the three named graph properties are distinct skills.",
+      "parts": [
+        {
+          "label": "Sketch graphs of quadratic functions",
+          "description": "Sketch graphs of quadratic functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Relate the sign of the x² coefficient to a quadratic graph",
+          "description": "Relate the sign of the x² coefficient to a quadratic graph.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find maximum and minimum points of a quadratic graph",
+          "description": "Find maximum and minimum points of a quadratic graph.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use symmetry of a quadratic graph",
+          "description": "Use symmetry of a quadratic graph.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-6-8-330",
+      "decision": "split",
+      "reason": "Individual power-function graphs and their limited sums are distinct tasks.",
+      "parts": [
+        {
+          "label": "Graph power functions y = axⁿ for n = −2, −1, 0, 1, 2, or 3",
+          "description": "Graph power functions y = axⁿ for n = −2, −1, 0, 1, 2, or 3.",
+          "scopeNotes": [
+            "Exponents n are limited to -2, -1, 0, 1, 2, and 3."
+          ]
+        },
+        {
+          "label": "Graph simple sums of not more than three of the stated power functions",
+          "description": "Graph simple sums of not more than three of the stated power functions.",
+          "scopeNotes": [
+            "Sums contain not more than three of the stated power functions."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-3-4-7-11-333",
+      "decision": "split",
+      "reason": "Algebraic solution methods and the graphical method are distinct solution approaches.",
+      "parts": [
+        {
+          "label": "Solve quadratic equations by factorisation, formula, and completing the square for y = x² + px + q",
+          "description": "Solve quadratic equations by factorisation, formula, and completing the square for y = x² + px + q.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve quadratic equations by the graphical method",
+          "description": "Solve quadratic equations by the graphical method.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-2-8-372",
+      "decision": "split",
+      "reason": "Congruence and similarity are distinct classifications.",
+      "parts": [
+        {
+          "label": "Determine whether two triangles are congruent",
+          "description": "Determine whether two triangles are congruent.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Determine whether two triangles are similar",
+          "description": "Determine whether two triangles are similar.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-6-11-363",
+      "decision": "split",
+      "reason": "The source groups two distinct quadratic graph forms, each retaining both signs.",
+      "parts": [
+        {
+          "label": "Sketch quadratic graphs in vertex forms y = (x − p)² + q and y = −(x − p)² + q",
+          "description": "Sketch quadratic graphs in vertex forms y = (x − p)² + q and y = −(x − p)² + q.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Sketch quadratic graphs in factored forms y = (x − a)(x − b) and y = −(x − a)(x − b)",
+          "description": "Sketch quadratic graphs in factored forms y = (x − a)(x − b) and y = −(x − a)(x − b).",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-7-1-375",
+      "decision": "split",
+      "reason": "Coordinate, directed-vector, and magnitude notation are distinct notation skills.",
+      "parts": [
+        {
+          "label": "Use coordinate-vector notation (x, y)ᵀ",
+          "description": "Use coordinate-vector notation (x, y)ᵀ.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Use directed-vector notation such as vector AB and vector a",
+          "description": "Use directed-vector notation such as vector AB and vector a.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Use vector-magnitude notation |AB| and |a|",
+          "description": "Use vector-magnitude notation |AB| and |a|.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-7-14-364",
+      "decision": "split",
+      "reason": "Single and simultaneous linear inequalities are distinct cases.",
+      "parts": [
+        {
+          "label": "Solve linear inequalities in one variable",
+          "description": "Solve linear inequalities in one variable.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics.",
+            "Represent the solution on the number line."
+          ]
+        },
+        {
+          "label": "Solve simultaneous linear inequalities in one variable",
+          "description": "Solve simultaneous linear inequalities in one variable.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics.",
+            "Includes number-line representation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-7-6-380",
+      "decision": "split",
+      "reason": "Vector sum and vector difference are distinct operations.",
+      "parts": [
+        {
+          "label": "Use the sum of two vectors to express a given vector in terms of two coplanar vectors",
+          "description": "Use the sum of two vectors to express a given vector in terms of two coplanar vectors.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Use the difference of two vectors to express a given vector in terms of two coplanar vectors",
+          "description": "Use the difference of two vectors to express a given vector in terms of two coplanar vectors.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-8-1-365",
+      "decision": "split",
+      "reason": "The notation list contains three independently teachable groups of set concepts.",
+      "parts": [
+        {
+          "label": "Use union (A ∪ B), intersection (A ∩ B), and membership (∈, ∉) set notation",
+          "description": "Use union (A ∪ B), intersection (A ∩ B), and membership (∈, ∉) set notation.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Use complement (A′), empty-set (∅), universal-set (ξ), and element-count n(A)",
+          "description": "Use complement (A′), empty-set (∅), universal-set (ξ), and element-count n(A).",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Use subset (⊆, ⊈) and proper-subset (⊂, ⊄) notation",
+          "description": "Use subset (⊆, ⊈) and proper-subset (⊂, ⊄) notation.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-8-2-366",
+      "decision": "split",
+      "reason": "Union and intersection are distinct set operations.",
+      "parts": [
+        {
+          "label": "Find the union of two sets",
+          "description": "Find the union of two sets.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Find the intersection of two sets",
+          "description": "Find the intersection of two sets.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-9-3-370",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate product of a scalar quantity and a matrix",
+          "description": "Multiply a matrix by a scalar quantity.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-5-9-4-371",
+      "decision": "split",
+      "reason": "The source names three distinct matrix operations.",
+      "parts": [
+        {
+          "label": "Add matrices",
+          "description": "Add matrices.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Subtract matrices",
+          "description": "Subtract matrices.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        },
+        {
+          "label": "Multiply matrices",
+          "description": "Multiply matrices.",
+          "scopeNotes": [
+            "This Sec 5 supplement is read in conjunction with the G2 Mathematics syllabus. Its heading says G3 Content for Sec 5 student taking G2 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-1-093",
+      "decision": "split",
+      "reason": "Prime identification and factorisation are separate assessable skills.",
+      "parts": [
+        {
+          "label": "Identify prime numbers",
+          "description": "Identify prime numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Perform prime factorisation",
+          "description": "Perform prime factorisation.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-1-129",
+      "decision": "split",
+      "reason": "The four angle classifications are independently teachable and assessable.",
+      "parts": [
+        {
+          "label": "Identify right angles",
+          "description": "Identify right angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify acute angles",
+          "description": "Identify acute angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify obtuse angles",
+          "description": "Identify obtuse angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify reflex angles",
+          "description": "Identify reflex angles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-1-141",
+      "decision": "split",
+      "reason": "Collecting, classifying, and tabulating data are distinct stages of data handling.",
+      "parts": [
+        {
+          "label": "Collect data using simple concepts",
+          "description": "Collect data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        },
+        {
+          "label": "Classify data using simple concepts",
+          "description": "Classify data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        },
+        {
+          "label": "Tabulate data using simple concepts",
+          "description": "Tabulate data using simple concepts.",
+          "scopeNotes": [
+            "Scope is limited to simple concepts."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-2-094",
+      "decision": "split",
+      "reason": "The source lists five distinct numerical procedures, each retaining the prime-factorisation method.",
+      "parts": [
+        {
+          "label": "Find the highest common factor by prime factorisation",
+          "description": "Find the highest common factor by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find the lowest common multiple by prime factorisation",
+          "description": "Find the lowest common multiple by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find squares and cubes by prime factorisation",
+          "description": "Find squares and cubes by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find square roots by prime factorisation",
+          "description": "Find square roots by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        },
+        {
+          "label": "Find cube roots by prime factorisation",
+          "description": "Find cube roots by prime factorisation.",
+          "scopeNotes": [
+            "Use prime factorisation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-2-142",
+      "decision": "split",
+      "reason": "Each named statistical representation is a distinct interpretation skill.",
+      "parts": [
+        {
+          "label": "Analyse and interpret tables",
+          "description": "Analyse and interpret tables.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret bar graphs",
+          "description": "Analyse and interpret bar graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret pictograms",
+          "description": "Analyse and interpret pictograms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret line graphs",
+          "description": "Analyse and interpret line graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret pie charts",
+          "description": "Analyse and interpret pie charts.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-3-095",
+      "decision": "split",
+      "reason": "The number domains and the shared operations are distinct competences.",
+      "parts": [
+        {
+          "label": "Work with negative numbers",
+          "description": "Work with negative numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with integers",
+          "description": "Work with integers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with rational numbers",
+          "description": "Work with rational numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with real numbers",
+          "description": "Work with real numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Perform the four operations on numbers",
+          "description": "Perform the four operations on numbers.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-3-131",
+      "decision": "split",
+      "reason": "The source names three distinct angle relationships.",
+      "parts": [
+        {
+          "label": "Use corresponding angles formed by parallel lines and a transversal",
+          "description": "Use corresponding angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use alternate angles formed by parallel lines and a transversal",
+          "description": "Use alternate angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use interior angles formed by parallel lines and a transversal",
+          "description": "Use interior angles formed by parallel lines and a transversal.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-3-143",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-4-132",
+      "decision": "split",
+      "reason": "The source combines shape properties, regular-polygon properties, and symmetry.",
+      "parts": [
+        {
+          "label": "Use properties of special quadrilaterals",
+          "description": "Use properties of special quadrilaterals.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use properties of regular polygons, including pentagons, hexagons, octagons, and decagons",
+          "description": "Use properties of regular polygons, including pentagons, hexagons, octagons, and decagons.",
+          "scopeNotes": []
+        },
+      {
+        "label": "Use symmetry properties of the named polygons",
+        "description": "Use symmetry properties of the named polygons.",
+        "scopeNotes": []
+      },
+      {
+        "label": "Use properties of triangles",
+        "description": "Use properties of triangles.",
+        "scopeNotes": [
+          "Triangles are included in the source scope."
+        ]
+      }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-5-097",
+      "decision": "split",
+      "reason": "Representation and ordering are separate number-line skills.",
+      "parts": [
+        {
+          "label": "Represent numbers on the number line",
+          "description": "Represent numbers on the number line.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Order numbers on the number line",
+          "description": "Order numbers on the number line.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-6-134",
+      "decision": "split",
+      "reason": "Interior-angle and exterior-angle sums are separate results.",
+      "parts": [
+        {
+          "label": "Find the sum of interior angles of a convex polygon",
+          "description": "Find the sum of interior angles of a convex polygon.",
+          "scopeNotes": [
+            "The polygon is convex."
+          ]
+        },
+        {
+          "label": "Find the sum of exterior angles of a convex polygon",
+          "description": "Find the sum of exterior angles of a convex polygon.",
+          "scopeNotes": [
+            "The polygon is convex."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-7-099",
+      "decision": "split",
+      "reason": "Rounding to decimal places, rounding to significant figures, and computational estimation are distinct procedures.",
+      "parts": [
+        {
+          "label": "Round numbers to a required number of decimal places",
+          "description": "Round numbers to a required number of decimal places.",
+          "scopeNotes": [
+            "Round to a required number of decimal places."
+          ]
+        },
+        {
+          "label": "Round numbers to a required number of significant figures",
+          "description": "Round numbers to a required number of significant figures.",
+          "scopeNotes": [
+            "Round to a required number of significant figures."
+          ]
+        },
+        {
+          "label": "Estimate results of computation",
+          "description": "Estimate results of computation.",
+          "scopeNotes": [
+            "Estimate the results of computation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-1-7-135",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate construction of simple geometrical figures from given data using compasses, ruler, set squares and protractors, where appropriate",
+          "description": "Construct simple geometrical figures from given data using compasses, ruler, set squares and protractors, where appropriate.",
+          "scopeNotes": [
+            "Use compasses, ruler, set squares, and protractors where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-4-1-109",
+      "decision": "split",
+      "reason": "The source distinguishes four rate and speed concepts.",
+      "parts": [
+        {
+          "label": "Understand average rate",
+          "description": "Understand average rate.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand speed",
+          "description": "Understand speed.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand constant speed",
+          "description": "Understand constant speed.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand average speed",
+          "description": "Understand average speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-4-3-111",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate problems involving rate and speed",
+          "description": "Solve problems involving rate and speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-1-136",
+      "decision": "split",
+      "reason": "The two named shapes require distinct area procedures.",
+      "parts": [
+        {
+          "label": "Find the area of a parallelogram",
+          "description": "Find the area of a parallelogram.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of a trapezium",
+          "description": "Find the area of a trapezium.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-2-113",
+      "decision": "split",
+      "reason": "The notation clauses represent six independently teachable algebraic interpretation skills.",
+      "parts": [
+        {
+          "label": "Interpret ab as a product",
+          "description": "Interpret ab as a product.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a/b as division or multiplication by a reciprocal",
+          "description": "Interpret a/b as division or multiplication by a reciprocal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret powers such as a², a³, and a²b",
+          "description": "Interpret powers such as a², a³, and a²b.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a coefficient such as 3y",
+          "description": "Interpret a coefficient such as 3y.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a bracketed product such as 3(x + y)",
+          "description": "Interpret a bracketed product such as 3(x + y).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret a quotient of an expression such as (3 + y)/5",
+          "description": "Interpret a quotient of an expression such as (3 + y)/5.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-2-137",
+      "decision": "split",
+      "reason": "Perimeter and area are distinct measures and procedures.",
+      "parts": [
+        {
+          "label": "Find the perimeter of composite plane figures",
+          "description": "Find the perimeter of composite plane figures.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of composite plane figures",
+          "description": "Find the area of composite plane figures.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-3-114",
+      "decision": "split",
+      "reason": "Expression evaluation and formula evaluation are separate applications.",
+      "parts": [
+        {
+          "label": "Evaluate algebraic expressions",
+          "description": "Evaluate algebraic expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Evaluate formulae",
+          "description": "Evaluate formulae.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-3-138",
+      "decision": "split",
+      "reason": "Volume and surface area for the two named solids are distinct procedures.",
+      "parts": [
+        {
+          "label": "Find the volume of a prism",
+          "description": "Find the volume of a prism.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a prism",
+          "description": "Find the surface area of a prism.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a cylinder",
+          "description": "Find the volume of a cylinder.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a cylinder",
+          "description": "Find the surface area of a cylinder.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-4-139",
+      "decision": "split",
+      "reason": "Area-unit conversion is distinct from volume-unit conversion.",
+      "parts": [
+        {
+          "label": "Convert between square centimetres and square metres",
+          "description": "Convert between square centimetres and square metres.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between cubic centimetres and cubic metres",
+          "description": "Convert between cubic centimetres and cubic metres.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-5-116",
+      "decision": "split",
+      "reason": "Recognising a pattern and expressing its nth term are separate reasoning steps.",
+      "parts": [
+        {
+          "label": "Recognise patterns and relationships",
+          "description": "Recognise patterns and relationships.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find an algebraic expression for the nth term",
+          "description": "Find an algebraic expression for the nth term.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-5-140",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures for composite solids.",
+      "parts": [
+        {
+          "label": "Find the volume of composite solids",
+          "description": "Find the volume of composite solids.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of composite solids",
+          "description": "Find the surface area of composite solids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-6-117",
+      "decision": "split",
+      "reason": "Addition and subtraction are distinct algebraic operations.",
+      "parts": [
+        {
+          "label": "Add linear expressions",
+          "description": "Add linear expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Subtract linear expressions",
+          "description": "Subtract linear expressions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-5-8-119",
+      "decision": "split",
+      "reason": "Using brackets and extracting common factors are distinct algebraic procedures.",
+      "parts": [
+        {
+          "label": "Use brackets in algebraic expressions",
+          "description": "Use brackets in algebraic expressions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Extract common factors",
+          "description": "Extract common factors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-1-6-5-124",
+      "decision": "split",
+      "reason": "Calculating the gradient ratio and interpreting its sign are distinct skills.",
+      "parts": [
+        {
+          "label": "Find the gradient as vertical change divided by horizontal change",
+          "description": "Find the gradient as vertical change divided by horizontal change.",
+          "scopeNotes": [
+            "Gradients may be positive or negative."
+          ]
+        },
+        {
+          "label": "Interpret positive and negative gradients",
+          "description": "Interpret positive and negative gradients.",
+          "scopeNotes": [
+            "Gradients may be positive or negative."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-1-5-172",
+      "decision": "split",
+      "reason": "Each named statistical representation is a distinct interpretation skill.",
+      "parts": [
+        {
+          "label": "Analyse and interpret dot diagrams",
+          "description": "Analyse and interpret dot diagrams.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret histograms",
+          "description": "Analyse and interpret histograms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret stem-and-leaf diagrams",
+          "description": "Analyse and interpret stem-and-leaf diagrams.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-1-6-173",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-1-8-175",
+      "decision": "split",
+      "reason": "Mean, mode, and median are distinct measures.",
+      "parts": [
+        {
+          "label": "Use the mean as a measure of central tendency",
+          "description": "Use the mean as a measure of central tendency.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the mode as a measure of central tendency",
+          "description": "Use the mode as a measure of central tendency.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the median as a measure of central tendency",
+          "description": "Use the median as a measure of central tendency.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-1-9-176",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and use of mean, mode and median",
+          "description": "Explain purposes and use of mean, mode and median.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-2-3-165",
+      "decision": "split",
+      "reason": "The source gives two distinct defining properties of similarity.",
+      "parts": [
+        {
+          "label": "Use equality of corresponding angles in similar triangles and polygons",
+          "description": "Use equality of corresponding angles in similar triangles and polygons.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use proportionality of corresponding sides in similar triangles and polygons",
+          "description": "Use proportionality of corresponding sides in similar triangles and polygons.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-2-4-145",
+      "decision": "split",
+      "reason": "Distance scale and area scale require distinct reasoning.",
+      "parts": [
+        {
+          "label": "Use map scales for distance",
+          "description": "Use map scales for distance.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use map scales for area",
+          "description": "Use map scales for area.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-2-4-166",
+      "decision": "split",
+      "reason": "Enlargement and reduction are distinct transformations.",
+      "parts": [
+        {
+          "label": "Enlarge a plane figure",
+          "description": "Enlarge a plane figure.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Reduce a plane figure",
+          "description": "Reduce a plane figure.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-2-5-146",
+      "decision": "split",
+      "reason": "Direct and inverse proportion are distinct relationship types.",
+      "parts": [
+        {
+          "label": "Solve direct-proportion relationships",
+          "description": "Solve direct-proportion relationships.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve inverse-proportion relationships",
+          "description": "Solve inverse-proportion relationships.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-2-5-167",
+      "decision": "split",
+      "reason": "Congruence and similarity problems are distinct applications.",
+      "parts": [
+        {
+          "label": "Solve simple problems involving congruence",
+          "description": "Solve simple problems involving congruence.",
+          "scopeNotes": [
+            "Problems are simple."
+          ]
+        },
+        {
+          "label": "Solve simple problems involving similarity",
+          "description": "Solve simple problems involving similarity.",
+          "scopeNotes": [
+            "Problems are simple."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-4-3-170",
+      "decision": "split",
+      "reason": "Calculating unknown sides and calculating unknown angles are distinct applications.",
+      "parts": [
+        {
+          "label": "Use sine, cosine, and tangent to calculate unknown sides in right-angled triangles",
+          "description": "Use sine, cosine, and tangent to calculate unknown sides in right-angled triangles.",
+          "scopeNotes": [
+            "Angles are acute.",
+            "Triangles are right-angled."
+          ]
+        },
+        {
+          "label": "Use inverse trigonometric ratios to calculate unknown acute angles in right-angled triangles",
+          "description": "Use inverse trigonometric ratios to calculate unknown acute angles in right-angled triangles.",
+          "scopeNotes": [
+            "Angles are acute.",
+            "Triangles are right-angled."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-12-150",
+      "decision": "split",
+      "reason": "The source lists three independently teachable algebraic identities.",
+      "parts": [
+        {
+          "label": "Use the (a + b)² identity",
+          "description": "Use the (a + b)² identity.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the (a − b)² identity",
+          "description": "Use the (a − b)² identity.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the a² − b² identity",
+          "description": "Use the a² − b² identity.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-15-153",
+      "decision": "split",
+      "reason": "Multiplication and division of algebraic fractions are distinct operations.",
+      "parts": [
+        {
+          "label": "Multiply simple algebraic fractions",
+          "description": "Multiply simple algebraic fractions.",
+          "scopeNotes": [
+            "Examples include (3a/(4b²))(5ab/3); (3a/4) ÷ (9a²/10)"
+          ]
+        },
+        {
+          "label": "Divide simple algebraic fractions",
+          "description": "Divide simple algebraic fractions.",
+          "scopeNotes": [
+            "Examples include (3a/(4b²))(5ab/3); (3a/4) ÷ (9a²/10)"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-16-154",
+      "decision": "split",
+      "reason": "Addition and subtraction are distinct operations, with the listed denominator forms retained.",
+      "parts": [
+        {
+          "label": "Add algebraic fractions with linear or quadratic denominators",
+          "description": "Add algebraic fractions with linear or quadratic denominators.",
+          "scopeNotes": [
+            "Denominators are linear or quadratic.",
+            "Examples include 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²"
+          ]
+        },
+        {
+          "label": "Subtract algebraic fractions with linear or quadratic denominators",
+          "description": "Subtract algebraic fractions with linear or quadratic denominators.",
+          "scopeNotes": [
+            "Denominators are linear or quadratic.",
+            "Examples include 1/(x − 2) + 2/(x − 3); 1/(x² − 9) + 2/(x − 3); 1/(x − 3) + 2/(x − 3)²"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-5-6-171",
+      "decision": "split",
+      "reason": "The source names three solids and two distinct measures for each.",
+      "parts": [
+        {
+          "label": "Find the volume of a pyramid",
+          "description": "Find the volume of a pyramid.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a pyramid",
+          "description": "Find the surface area of a pyramid.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a cone",
+          "description": "Find the volume of a cone.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a cone",
+          "description": "Find the surface area of a cone.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the volume of a sphere",
+          "description": "Find the volume of a sphere.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of a sphere",
+          "description": "Find the surface area of a sphere.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-6-7-156",
+      "decision": "split",
+      "reason": "Graph construction and the three named graph properties are distinct skills.",
+      "parts": [
+        {
+          "label": "Sketch graphs of quadratic functions",
+          "description": "Sketch graphs of quadratic functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Relate the sign of the x² coefficient to a quadratic graph",
+          "description": "Relate the sign of the x² coefficient to a quadratic graph.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find maximum and minimum points of a quadratic graph",
+          "description": "Find maximum and minimum points of a quadratic graph.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use symmetry of a quadratic graph",
+          "description": "Use symmetry of a quadratic graph.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-7-5-157",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate concept of equation and inequality",
+          "description": "Understand concept of equation and inequality.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-7-6-158",
+      "decision": "split",
+      "reason": "Solving and representing the solution are distinct explicit clauses.",
+      "parts": [
+        {
+          "label": "Solve simple linear inequalities of the stated forms",
+          "description": "Solve simple linear inequalities of the stated forms.",
+          "scopeNotes": [
+            "Forms are ax + b <= c and ax + b < c."
+          ]
+        },
+        {
+          "label": "Represent simple linear-inequality solutions on the number line",
+          "description": "Represent simple linear-inequality solutions on the number line.",
+          "scopeNotes": [
+            "Forms are ax + b <= c and ax + b < c."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-2-7-8-160",
+      "decision": "keep",
+      "reason": "Substitution, elimination, and graphical approaches are alternate methods for one simultaneous-equations competence.",
+      "parts": [
+        {
+          "label": "Demonstrate solving simultaneous linear equations in two variables by: • substitution and elimination methods • graphical method",
+          "description": "Solve simultaneous linear equations in two variables using substitution, elimination, or graphical methods.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-11-223",
+      "decision": "split",
+      "reason": "Quartiles and percentiles are distinct statistical measures.",
+      "parts": [
+        {
+          "label": "Find quartiles",
+          "description": "Find quartiles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find percentiles",
+          "description": "Find percentiles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-12-224",
+      "decision": "split",
+      "reason": "The source names three distinct measures of spread.",
+      "parts": [
+        {
+          "label": "Find the range",
+          "description": "Find the range.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the interquartile range",
+          "description": "Find the interquartile range.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use standard deviation as a measure of spread",
+          "description": "Use standard deviation as a measure of spread.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-13-225",
+      "decision": "split",
+      "reason": "The two named statistical representations are distinct interpretation skills.",
+      "parts": [
+        {
+          "label": "Analyse and interpret cumulative frequency diagrams",
+          "description": "Analyse and interpret cumulative frequency diagrams.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Analyse and interpret box-and-whisker plots",
+          "description": "Analyse and interpret box-and-whisker plots.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-14-226",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate purposes and uses, advantages and disadvantages of the different forms of statistical representations",
+          "description": "Explain purposes and uses, advantages and disadvantages of the different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-15-227",
+      "decision": "split",
+      "reason": "Grouped and ungrouped data require distinct calculation contexts.",
+      "parts": [
+        {
+          "label": "Calculate standard deviation for grouped data",
+          "description": "Calculate standard deviation for grouped data.",
+          "scopeNotes": [
+            "Data are grouped."
+          ]
+        },
+        {
+          "label": "Calculate standard deviation for ungrouped data",
+          "description": "Calculate standard deviation for ungrouped data.",
+          "scopeNotes": [
+            "Data are grouped."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-16-228",
+      "decision": "split",
+      "reason": "The source names two distinct comparison measures.",
+      "parts": [
+        {
+          "label": "Use the mean to compare two sets of data",
+          "description": "Use the mean to compare two sets of data.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use standard deviation to compare two sets of data",
+          "description": "Use standard deviation to compare two sets of data.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-8-180",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate use of standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10",
+          "description": "Use standard form A × 10ⁿ, where n is an integer, and 1 ≤ A < 10.",
+          "scopeNotes": [
+            "n is an integer and 1 <= A < 10."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-1-9-181",
+      "decision": "split",
+      "reason": "The four index types are separately teachable.",
+      "parts": [
+        {
+          "label": "Use positive indices",
+          "description": "Use positive indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use negative indices",
+          "description": "Use negative indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use zero indices",
+          "description": "Use zero indices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use fractional indices",
+          "description": "Use fractional indices.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-2-3-229",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate probability of simple combined events (including using possibility diagrams and tree diagrams, where appropriate)",
+          "description": "Calculate probability of simple combined events (including using possibility diagrams and tree diagrams, where appropriate).",
+          "scopeNotes": [
+            "Use possibility diagrams and tree diagrams where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-2-4-230",
+      "decision": "split",
+      "reason": "The source pairs two operations with distinct event conditions.",
+      "parts": [
+        {
+          "label": "Add probabilities for mutually exclusive events",
+          "description": "Add probabilities for mutually exclusive events.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Multiply probabilities for independent events",
+          "description": "Multiply probabilities for independent events.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-2-7-199",
+      "decision": "split",
+      "reason": "Line-segment and angle bisectors are distinct constructions.",
+      "parts": [
+        {
+          "label": "Use and construct perpendicular bisectors of line segments",
+          "description": "Use and construct perpendicular bisectors of line segments.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use and construct angle bisectors",
+          "description": "Use and construct angle bisectors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-2-8-200",
+      "decision": "split",
+      "reason": "Congruence and similarity are distinct classifications.",
+      "parts": [
+        {
+          "label": "Determine whether two triangles are congruent",
+          "description": "Determine whether two triangles are congruent.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine whether two triangles are similar",
+          "description": "Determine whether two triangles are similar.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-3-1-203",
+      "decision": "split",
+      "reason": "The source lists four distinct circle-symmetry properties.",
+      "parts": [
+        {
+          "label": "Use the equal-chord equidistance property",
+          "description": "Use the equal-chord equidistance property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the perpendicular-bisector-of-a-chord property",
+          "description": "Use the perpendicular-bisector-of-a-chord property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equality of tangents from an external point",
+          "description": "Use equality of tangents from an external point.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the angle-bisector property of the line from an external point to the centre",
+          "description": "Use the angle-bisector property of the line from an external point to the centre.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-3-2-204",
+      "decision": "split",
+      "reason": "The source lists five distinct circle-angle properties.",
+      "parts": [
+        {
+          "label": "Use the semicircle angle property",
+          "description": "Use the semicircle angle property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the tangent-radius right-angle property",
+          "description": "Use the tangent-radius right-angle property.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the centre-angle and circumference-angle relationship",
+          "description": "Use the centre-angle and circumference-angle relationship.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equal angles in the same segment",
+          "description": "Use equal angles in the same segment.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use supplementary angles in opposite segments",
+          "description": "Use supplementary angles in opposite segments.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-4-4-205",
+      "decision": "split",
+      "reason": "Sine and cosine for obtuse angles are distinct extensions.",
+      "parts": [
+        {
+          "label": "Use sine for obtuse angles",
+          "description": "Use sine for obtuse angles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use cosine for obtuse angles",
+          "description": "Use cosine for obtuse angles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-4-6-207",
+      "decision": "split",
+      "reason": "The sine rule and cosine rule are distinct procedures.",
+      "parts": [
+        {
+          "label": "Use the sine rule for any triangle",
+          "description": "Use the sine rule for any triangle.",
+          "scopeNotes": [
+            "Applies to any triangle."
+          ]
+        },
+        {
+          "label": "Use the cosine rule for any triangle",
+          "description": "Use the cosine rule for any triangle.",
+          "scopeNotes": [
+            "Applies to any triangle."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-4-7-208",
+      "decision": "split",
+      "reason": "Two-dimensional and three-dimensional problem settings are independently teachable.",
+      "parts": [
+        {
+          "label": "Solve trigonometry problems in two dimensions, including elevation, depression, and bearings",
+          "description": "Solve trigonometry problems in two dimensions, including elevation, depression, and bearings.",
+          "scopeNotes": [
+            "Problems are two-dimensional, including elevation, depression, and bearings."
+          ]
+        },
+        {
+          "label": "Solve trigonometry problems in three dimensions, including elevation, depression, and bearings",
+          "description": "Solve trigonometry problems in three dimensions, including elevation, depression, and bearings.",
+          "scopeNotes": [
+            "Problems are three-dimensional, including elevation, depression, and bearings."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-5-7-209",
+      "decision": "split",
+      "reason": "Arc length, sector area, and segment area are distinct measures.",
+      "parts": [
+        {
+          "label": "Find the arc length of a circle",
+          "description": "Find the arc length of a circle.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of a sector",
+          "description": "Find the area of a sector.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of a segment of a circle",
+          "description": "Find the area of a segment of a circle.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-5-8-210",
+      "decision": "split",
+      "reason": "Using radians and converting units are distinct skills.",
+      "parts": [
+        {
+          "label": "Use radian measure of angle",
+          "description": "Use radian measure of angle.",
+          "scopeNotes": [
+            "Includes conversion between radians and degrees."
+          ]
+        },
+        {
+          "label": "Convert between radians and degrees",
+          "description": "Convert between radians and degrees.",
+          "scopeNotes": [
+            "Includes conversion between radians and degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-3-213",
+      "decision": "split",
+      "reason": "Interpreting and finding a line equation are distinct tasks.",
+      "parts": [
+        {
+          "label": "Interpret a straight-line equation in the form y = mx + c",
+          "description": "Interpret a straight-line equation in the form y = mx + c.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find a straight-line equation in the form y = mx + c",
+          "description": "Find a straight-line equation in the form y = mx + c.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-8-183",
+      "decision": "split",
+      "reason": "The source groups two distinct quadratic graph forms, each retaining both signs.",
+      "parts": [
+        {
+          "label": "Sketch quadratic graphs in vertex forms y = (x − p)² + q and y = −(x − p)² + q",
+          "description": "Sketch quadratic graphs in vertex forms y = (x − p)² + q and y = −(x − p)² + q.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Sketch quadratic graphs in factored forms y = (x − a)(x − b) and y = −(x − a)(x − b)",
+          "description": "Sketch quadratic graphs in factored forms y = (x − a)(x − b) and y = −(x − a)(x − b).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-6-9-184",
+      "decision": "split",
+      "reason": "Individual power-function graphs and their limited sums are distinct tasks.",
+      "parts": [
+        {
+          "label": "Graph power functions y = axⁿ for n = −2, −1, 0, 1, 2, or 3",
+          "description": "Graph power functions y = axⁿ for n = −2, −1, 0, 1, 2, or 3.",
+          "scopeNotes": [
+            "Exponents n are limited to -2, -1, 0, 1, 2, and 3."
+          ]
+        },
+        {
+          "label": "Graph simple sums of not more than three of the stated power functions",
+          "description": "Graph simple sums of not more than three of the stated power functions.",
+          "scopeNotes": [
+            "Sums contain not more than three of the stated power functions."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-1-215",
+      "decision": "split",
+      "reason": "Coordinate, directed-vector, and magnitude notation are distinct notation skills.",
+      "parts": [
+        {
+          "label": "Use coordinate-vector notation (x, y)ᵀ",
+          "description": "Use coordinate-vector notation (x, y)ᵀ.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use directed-vector notation such as vector AB and vector a",
+          "description": "Use directed-vector notation such as vector AB and vector a.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use vector-magnitude notation |AB| and |a|",
+          "description": "Use vector-magnitude notation |AB| and |a|.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-11-187",
+      "decision": "split",
+      "reason": "Algebraic solution methods and the graphical method are distinct solution approaches.",
+      "parts": [
+        {
+          "label": "Solve quadratic equations by formula and completing the square for y = x² + px + q",
+          "description": "Solve quadratic equations by formula and completing the square for y = x² + px + q.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve quadratic equations by the graphical method",
+          "description": "Solve quadratic equations by the graphical method.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-13-189",
+      "decision": "split",
+      "reason": "Single and simultaneous linear inequalities are distinct cases.",
+      "parts": [
+        {
+          "label": "Solve linear inequalities in one variable",
+          "description": "Solve linear inequalities in one variable.",
+          "scopeNotes": [
+            "Represent the solution on the number line."
+          ]
+        },
+        {
+          "label": "Solve simultaneous linear inequalities in one variable",
+          "description": "Solve simultaneous linear inequalities in one variable.",
+          "scopeNotes": [
+            "Includes number-line representation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-7-6-220",
+      "decision": "split",
+      "reason": "Vector sum and vector difference are distinct operations.",
+      "parts": [
+        {
+          "label": "Use the sum of two vectors to express a given vector in terms of two coplanar vectors",
+          "description": "Use the sum of two vectors to express a given vector in terms of two coplanar vectors.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the difference of two vectors to express a given vector in terms of two coplanar vectors",
+          "description": "Use the difference of two vectors to express a given vector in terms of two coplanar vectors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-8-1-191",
+      "decision": "split",
+      "reason": "The notation list contains three independently teachable groups of set concepts.",
+      "parts": [
+        {
+          "label": "Use union (A ∪ B), intersection (A ∩ B), and membership (∈, ∉) set notation",
+          "description": "Use union (A ∪ B), intersection (A ∩ B), and membership (∈, ∉) set notation.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use complement (A′), empty-set (∅), universal-set (ξ), and element-count n(A)",
+          "description": "Use complement (A′), empty-set (∅), universal-set (ξ), and element-count n(A).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use subset (⊆, ⊈) and proper-subset (⊂, ⊄) notation",
+          "description": "Use subset (⊆, ⊈) and proper-subset (⊂, ⊄) notation.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-8-2-192",
+      "decision": "split",
+      "reason": "Union and intersection are distinct set operations.",
+      "parts": [
+        {
+          "label": "Find the union of two sets",
+          "description": "Find the union of two sets.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the intersection of two sets",
+          "description": "Find the intersection of two sets.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-9-3-196",
+      "decision": "keep",
+      "reason": "The source describes one coherent competence, with examples or alternate representations that remain within that skill.",
+      "parts": [
+        {
+          "label": "Demonstrate product of a scalar quantity and a matrix",
+          "description": "Multiply a matrix by a scalar quantity.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-sec-2-7-10-301",
+      "decision": "split",
+      "reason": "Formulating a one-variable equation and formulating a pair of two-variable equations are distinct modelling skills.",
+      "parts": [
+        {
+          "label": "Formulate a linear equation in one variable to solve problems",
+          "description": "Formulate a linear equation in one variable to solve problems.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Formulate a pair of linear equations in two variables to solve problems",
+          "description": "Formulate a pair of linear equations in two variables to solve problems.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-sec-3-4-9-4-197",
+      "decision": "split",
+      "reason": "The source names three distinct matrix operations.",
+      "parts": [
+        {
+          "label": "Add matrices",
+          "description": "Add matrices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Subtract matrices",
+          "description": "Subtract matrices.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Multiply matrices",
+          "description": "Multiply matrices.",
+          "scopeNotes": []
+        }
+      ]
+    }
+  ]
+}

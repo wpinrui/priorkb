@@ -1,0 +1,1671 @@
+{
+  "decisions": [
+    {
+      "objectiveId": "math-primary-common-p1-number-and-algebra-whole-numbers-addition-and-subtraction-2-7",
+      "decision": "split",
+      "reason": "The three numerical ranges require different mental calculation strategies and are independently teachable.",
+      "parts": [
+        {
+          "label": "Mentally add and subtract within 20",
+          "description": "Perform mental addition and subtraction calculations within 20.",
+          "scopeNotes": [
+            "Scope is limited to mental calculation within 20."
+          ]
+        },
+        {
+          "label": "Mentally add or subtract a 2-digit number and ones without renaming",
+          "description": "Perform mental addition or subtraction involving a 2-digit number and ones without renaming.",
+          "scopeNotes": [
+            "No renaming is included."
+          ]
+        },
+        {
+          "label": "Mentally add or subtract a 2-digit number and tens",
+          "description": "Perform mental addition or subtraction involving a 2-digit number and tens.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p1-number-and-algebra-money-money-1-1",
+      "decision": "split",
+      "reason": "Cents to $1 and dollars to $100 use different units and magnitudes, so each is a distinct teachable counting skill.",
+      "parts": [
+        {
+          "label": "Count amounts of money in cents",
+          "description": "Count an amount of money expressed in cents up to $1.",
+          "scopeNotes": [
+            "The upper limit is $1."
+          ]
+        },
+        {
+          "label": "Count amounts of money in dollars",
+          "description": "Count an amount of money expressed in dollars up to $100.",
+          "scopeNotes": [
+            "The upper limit is $100."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-1",
+      "decision": "keep",
+      "reason": "The listed shapes are examples within one classification and description competence.",
+      "parts": [
+        {
+          "label": "Identify, name, describe and classify basic 2D shapes",
+          "description": "Identify, name, describe and classify rectangles, squares, triangles, circles, half circles and quarter circles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-2",
+      "decision": "keep",
+      "reason": "The shape list supplies examples for one figure-forming competence rather than separate skills.",
+      "parts": [
+        {
+          "label": "Form different 2D figures",
+          "description": "Form different 2D figures using rectangles, squares, triangles, half circles and quarter circles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p2-number-and-algebra-fractions-fraction-of-a-whole-1-3",
+      "decision": "split",
+      "reason": "Comparing and ordering unit fractions differs from comparing and ordering like fractions and is independently teachable.",
+      "parts": [
+        {
+          "label": "Compare and order unit fractions",
+          "description": "Compare and order unit fractions whose denominators do not exceed 12.",
+          "scopeNotes": [
+            "Denominators of the given fractions do not exceed 12."
+          ]
+        },
+        {
+          "label": "Compare and order like fractions",
+          "description": "Compare and order like fractions whose denominators do not exceed 12.",
+          "scopeNotes": [
+            "Denominators of the given fractions do not exceed 12."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-1",
+      "decision": "split",
+      "reason": "Length, mass and liquid volume use different attributes and units, making three independently teachable measurement skills.",
+      "parts": [
+        {
+          "label": "Measure length in metres",
+          "description": "Measure length in metres.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Measure mass in kilograms and grams",
+          "description": "Measure mass in kilograms and grams.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Measure liquid volume in litres",
+          "description": "Measure the volume of a liquid in litres.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-3",
+      "decision": "split",
+      "reason": "Comparing lengths, masses and volumes involves different attributes and units, so the competencies are independently teachable.",
+      "parts": [
+        {
+          "label": "Compare and order lengths",
+          "description": "Compare and order lengths.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Compare and order masses",
+          "description": "Compare and order masses.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Compare and order volumes",
+          "description": "Compare and order volumes.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p2-measurement-and-geometry-geometry-2d-shapes-1-1",
+      "decision": "keep",
+      "reason": "Size, shape, colour and orientation are alternative attributes used within one pattern-making competence.",
+      "parts": [
+        {
+          "label": "Make and complete 2D shape patterns",
+          "description": "Make and complete patterns with 2D shapes according to one or two attributes: size, shape, colour or orientation.",
+          "scopeNotes": [
+            "Use one or two of the listed attributes."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p2-measurement-and-geometry-geometry-3d-shapes-2-1",
+      "decision": "keep",
+      "reason": "The solids are examples in one identification, naming, description and classification competence.",
+      "parts": [
+        {
+          "label": "Identify, name, describe and classify basic 3D shapes",
+          "description": "Identify, name, describe and classify cubes, cuboids, cones, cylinders and spheres.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p3-measurement-and-geometry-measurement-length-mass-and-volume-1-1",
+      "decision": "split",
+      "reason": "Kilometre length and millilitre liquid volume are different measurable attributes and units.",
+      "parts": [
+        {
+          "label": "Measure length in kilometres",
+          "description": "Measure length in kilometres (km).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Measure liquid volume in millilitres",
+          "description": "Measure the volume of a liquid in millilitres (ml).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p3-measurement-and-geometry-measurement-length-mass-and-volume-1-3",
+      "decision": "split",
+      "reason": "Each unit pair requires a distinct conversion relationship, while the source gives one shared qualifier for the litre and millilitre case.",
+      "parts": [
+        {
+          "label": "Convert between kilometres and metres",
+          "description": "Convert a measurement in compound units between kilometres and metres, to the smaller unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between metres and centimetres",
+          "description": "Convert a measurement in compound units between metres and centimetres, to the smaller unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between kilograms and grams",
+          "description": "Convert a measurement in compound units between kilograms and grams, to the smaller unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between litres and millilitres",
+          "description": "Convert a measurement in compound units between litres and millilitres, to the smaller unit and vice versa.",
+          "scopeNotes": [
+            "Numbers involved should be within easy manipulation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3",
+      "decision": "keep",
+      "reason": "The named figures are forms of the same perimeter competence, with rectilinear figure as the broader case.",
+      "parts": [
+        {
+          "label": "Find the perimeter of rectilinear figures",
+          "description": "Find the perimeter of rectilinear figures, including rectangles and squares.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-number-and-algebra-whole-numbers-four-operations-3-1",
+      "decision": "split",
+      "reason": "The two digit-size cases require different multiplication algorithms and are independently teachable.",
+      "parts": [
+        {
+          "label": "Multiply up to 4 digits by 1 digit",
+          "description": "Use the multiplication algorithm for numbers up to 4 digits multiplied by 1 digit.",
+          "scopeNotes": [
+            "The multiplicand is limited to 4 digits and the multiplier to 1 digit."
+          ]
+        },
+        {
+          "label": "Multiply up to 3 digits by 2 digits",
+          "description": "Use the multiplication algorithm for numbers up to 3 digits multiplied by 2 digits.",
+          "scopeNotes": [
+            "The multiplicand is limited to 3 digits and the multiplier to 2 digits."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-number-and-algebra-decimals-decimals-up-to-3-decimal-places-1-5",
+      "decision": "split",
+      "reason": "Rounding to each requested place value is a distinct, independently teachable application of the rounding rule.",
+      "parts": [
+        {
+          "label": "Round decimals to the nearest whole number",
+          "description": "Round decimals to the nearest whole number.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Round decimals to 1 decimal place",
+          "description": "Round decimals to 1 decimal place.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Round decimals to 2 decimal places",
+          "description": "Round decimals to 2 decimal places.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-measurement-and-geometry-geometry-nets-4-1",
+      "decision": "keep",
+      "reason": "The solids are examples within one recognition competence for 2D representations.",
+      "parts": [
+        {
+          "label": "Identify 2D representations of 3D solids",
+          "description": "Identify 2D representations of cubes, cuboids, cones, cylinders, prisms and pyramids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-measurement-and-geometry-geometry-nets-4-2",
+      "decision": "keep",
+      "reason": "The solids are examples within one drawing competence for 2D representations.",
+      "parts": [
+        {
+          "label": "Draw 2D representations of 3D solids",
+          "description": "Draw 2D representations of cubes, cuboids, prisms and pyramids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-measurement-and-geometry-geometry-nets-4-3",
+      "decision": "keep",
+      "reason": "The solids are examples within one net-identification competence.",
+      "parts": [
+        {
+          "label": "Identify nets of 3D solids",
+          "description": "Identify the nets of cubes, cuboids, prisms and pyramids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p5-number-and-algebra-decimals-four-operations-1-2",
+      "decision": "split",
+      "reason": "Each unit pair has a distinct decimal conversion relationship, although the conversion direction is shared.",
+      "parts": [
+        {
+          "label": "Convert kilometres and metres in decimal form",
+          "description": "Convert a measurement between kilometres and metres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert metres and centimetres in decimal form",
+          "description": "Convert a measurement between metres and centimetres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert kilograms and grams in decimal form",
+          "description": "Convert a measurement between kilograms and grams in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert litres and millilitres in decimal form",
+          "description": "Convert a measurement between litres and millilitres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-1",
+      "decision": "split",
+      "reason": "The three triangle classifications have different defining properties and are independently teachable.",
+      "parts": [
+        {
+          "label": "Describe properties of isosceles triangles",
+          "description": "Describe the properties of isosceles triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of equilateral triangles",
+          "description": "Describe the properties of equilateral triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of right-angled triangles",
+          "description": "Describe the properties of right-angled triangles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-parallelogram-rhombus-and-trapezium-3-1",
+      "decision": "split",
+      "reason": "The three quadrilateral classifications have different defining properties and are independently teachable.",
+      "parts": [
+        {
+          "label": "Describe properties of parallelograms",
+          "description": "Describe the properties of parallelograms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of rhombuses",
+          "description": "Describe the properties of rhombuses.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of trapeziums",
+          "description": "Describe the properties of trapeziums.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-2",
+      "decision": "keep",
+      "reason": "The expressions are examples of one notation, representation and interpretation competence.",
+      "parts": [
+        {
+          "label": "Use notation, representations and interpretation for simple algebraic expressions",
+          "description": "Use notation, representations and interpretation for simple algebraic expressions such as a + 3, a - 3, a x 3 or 3a, and a / 3 or a/3.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p6-measurement-and-geometry-area-and-volume-area-and-circumference-of-circle-1-2",
+      "decision": "split",
+      "reason": "Area and perimeter are different measures, even when applied to the same two circular figures.",
+      "parts": [
+        {
+          "label": "Find the area of semicircles and quarter circles",
+          "description": "Find the area of semicircles and quarter circles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of semicircles and quarter circles",
+          "description": "Find the perimeter of semicircles and quarter circles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p6-measurement-and-geometry-geometry-special-quadrilaterals-1-1",
+      "decision": "keep",
+      "reason": "The listed shapes are contexts for one unknown-angle problem-solving competence in composite figures.",
+      "parts": [
+        {
+          "label": "Find unknown angles in composite geometric figures",
+          "description": "Find unknown angles, without additional construction of lines, in composite geometric figures involving squares, rectangles, triangles, parallelograms, rhombuses and trapeziums.",
+          "scopeNotes": [
+            "No additional construction of lines is included."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-number-and-algebra-whole-numbers-four-operations-2-6",
+      "decision": "split",
+      "reason": "Addition and subtraction of a 3-digit number and the multiplication and division facts are different mental calculation competencies.",
+      "parts": [
+        {
+          "label": "Mentally add and subtract a 3-digit number and ones, tens or hundreds",
+          "description": "Perform mental addition and subtraction involving a 3-digit number and ones, tens or hundreds.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Mentally multiply and divide within the multiplication tables",
+          "description": "Perform mental multiplication and division within the multiplication tables.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-number-and-algebra-decimals-decimals-up-to-3-decimal-places-1-5",
+      "decision": "split",
+      "reason": "Rounding to each requested place value is a distinct, independently teachable application of the rounding rule.",
+      "parts": [
+        {
+          "label": "Round decimals to the nearest whole number",
+          "description": "Round decimals to the nearest whole number.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Round decimals to 1 decimal place",
+          "description": "Round decimals to 1 decimal place.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Round decimals to 2 decimal places",
+          "description": "Round decimals to 2 decimal places.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-number-and-algebra-decimals-four-operations-2-3",
+      "decision": "split",
+      "reason": "Each unit pair has a distinct decimal conversion relationship, although the conversion direction is shared.",
+      "parts": [
+        {
+          "label": "Convert kilometres and metres in decimal form",
+          "description": "Convert a measurement between kilometres and metres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert metres and centimetres in decimal form",
+          "description": "Convert a measurement between metres and centimetres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert kilograms and grams in decimal form",
+          "description": "Convert a measurement between kilograms and grams in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert litres and millilitres in decimal form",
+          "description": "Convert a measurement between litres and millilitres in decimal form, from the smaller unit to the larger unit and vice versa.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-1",
+      "decision": "split",
+      "reason": "The three triangle classifications have different defining properties and are independently teachable.",
+      "parts": [
+        {
+          "label": "Describe properties of isosceles triangles",
+          "description": "Describe the properties of isosceles triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of equilateral triangles",
+          "description": "Describe the properties of equilateral triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of right-angled triangles",
+          "description": "Describe the properties of right-angled triangles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-3",
+      "decision": "keep",
+      "reason": "The listed shapes are contexts for one unknown-angle problem-solving competence in composite figures.",
+      "parts": [
+        {
+          "label": "Find unknown angles in composite geometric figures",
+          "description": "Find unknown angles, without additional construction of lines, in composite geometric figures involving squares, rectangles and triangles.",
+          "scopeNotes": [
+            "No additional construction of lines is included."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-1-001",
+      "decision": "split",
+      "reason": "Negative numbers and primes are separate number concepts, and the prime factorisation exclusion belongs only to primes.",
+      "parts": [
+        {
+          "label": "Work with negative numbers",
+          "description": "Work with negative numbers.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with prime numbers",
+          "description": "Work with prime numbers.",
+          "scopeNotes": [
+            "Exclude prime factorisation."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-2-002",
+      "decision": "keep",
+      "reason": "The phrase defines one domain-specific competence: carrying out the four operations with integers.",
+      "parts": [
+        {
+          "label": "Perform the four operations with integers",
+          "description": "Perform addition, subtraction, multiplication and division with integers.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-3-003",
+      "decision": "split",
+      "reason": "Fractions and decimals are separate number domains even though each requires the same four operations, including negative values.",
+      "parts": [
+        {
+          "label": "Perform the four operations with fractions",
+          "description": "Perform addition, subtraction, multiplication and division with fractions, including negative fractions.",
+          "scopeNotes": [
+            "Negative fractions are included."
+          ]
+        },
+        {
+          "label": "Perform the four operations with decimals",
+          "description": "Perform addition, subtraction, multiplication and division with decimals, including negative decimals.",
+          "scopeNotes": [
+            "Negative decimals are included."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-4-004",
+      "decision": "split",
+      "reason": "Calculator work with powers and calculator work with roots are distinct inverse competencies.",
+      "parts": [
+        {
+          "label": "Calculate squares and cubes with a calculator",
+          "description": "Use a calculator to calculate squares and cubes.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Calculate square roots and cube roots with a calculator",
+          "description": "Use a calculator to calculate square roots and cube roots.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-5-005",
+      "decision": "keep",
+      "reason": "Representing and ordering numbers are closely linked applications of the number line.",
+      "parts": [
+        {
+          "label": "Represent and order numbers on the number line",
+          "description": "Represent and order numbers on the number line.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-7-007",
+      "decision": "split",
+      "reason": "Rounding to a requested place and estimating computation results are distinct applications of approximation.",
+      "parts": [
+        {
+          "label": "Round numbers to required decimal places or significant figures",
+          "description": "Round numbers to a required number of decimal places or significant figures.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Estimate results of computation",
+          "description": "Estimate the results of computation.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-2-3-010",
+      "decision": "keep",
+      "reason": "Fractions and decimals are alternative forms within one ratio competence.",
+      "parts": [
+        {
+          "label": "Work with ratios involving fractions and decimals",
+          "description": "Work with ratios involving fractions and decimals.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-3-6-018",
+      "decision": "keep",
+      "reason": "Finding one unknown quantity from a percentage and the other quantity is one inverse-percentage competence.",
+      "parts": [
+        {
+          "label": "Find one quantity from a percentage and the other quantity",
+          "description": "Find one quantity given the percentage and the other quantity.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-5-2-022",
+      "decision": "keep",
+      "reason": "The listed forms are examples of one algebraic-notation interpretation competence.",
+      "parts": [
+        {
+          "label": "Interpret algebraic notation and equivalent forms",
+          "description": "Interpret ab as a x b, a/b as a divided by b or a x 1/b, powers such as a^2, a^3 and a^2b, repeated addition such as 3y, multiplication such as 3(x + y), and division such as (3 + y)/5.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-5-3-023",
+      "decision": "keep",
+      "reason": "Evaluating expressions and formulae is one substitution and calculation competence.",
+      "parts": [
+        {
+          "label": "Evaluate algebraic expressions and formulae",
+          "description": "Evaluate algebraic expressions and formulae.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-5-4-024",
+      "decision": "split",
+      "reason": "Recognising a sequence and evaluating its nth term are separate teachable outcomes.",
+      "parts": [
+        {
+          "label": "Recognise number sequences",
+          "description": "Recognise number sequences.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Evaluate simple nth terms of number sequences",
+          "description": "Evaluate simple nth terms of number sequences, such as n + 3 and 2n + 1.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-1-026",
+      "decision": "keep",
+      "reason": "The four angle names are classification examples within one angle-classification competence.",
+      "parts": [
+        {
+          "label": "Identify right, acute, obtuse and reflex angles",
+          "description": "Identify right, acute, obtuse and reflex angles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-2-027",
+      "decision": "split",
+      "reason": "The three angle relationships use different facts and are independently teachable.",
+      "parts": [
+        {
+          "label": "Use vertically opposite angles",
+          "description": "Use the fact that vertically opposite angles are equal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use angles on a straight line",
+          "description": "Use the angle relationship for angles on a straight line.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use angles at a point",
+          "description": "Use the angle relationship for angles at a point.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-3-028",
+      "decision": "split",
+      "reason": "Corresponding, alternate and interior angles are distinct relationships formed by parallel lines and a transversal.",
+      "parts": [
+        {
+          "label": "Use corresponding angles",
+          "description": "Use corresponding angles formed by two parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use alternate angles",
+          "description": "Use alternate angles formed by two parallel lines and a transversal.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use interior angles",
+          "description": "Use interior angles formed by two parallel lines and a transversal.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-2-1-029",
+      "decision": "split",
+      "reason": "Line symmetry and rotational symmetry are distinct transformation properties.",
+      "parts": [
+        {
+          "label": "Identify line symmetry of plane figures",
+          "description": "Identify line symmetry of plane figures.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify rotational symmetry of plane figures",
+          "description": "Identify rotational symmetry of plane figures.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-2-033",
+      "decision": "split",
+      "reason": "Area and circumference are different circle measures and are independently teachable.",
+      "parts": [
+        {
+          "label": "Find the area of a circle",
+          "description": "Find the area of a circle.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the circumference of a circle",
+          "description": "Find the circumference of a circle.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-3-034",
+      "decision": "split",
+      "reason": "Parallelogram and trapezium area use different figure properties and formulae.",
+      "parts": [
+        {
+          "label": "Find the area of a parallelogram",
+          "description": "Find the area of a parallelogram.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the area of a trapezium",
+          "description": "Find the area of a trapezium.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-4-035",
+      "decision": "split",
+      "reason": "Perimeter and area are distinct measures in composite plane-figure problems.",
+      "parts": [
+        {
+          "label": "Solve composite plane-figure perimeter problems",
+          "description": "Solve problems involving the perimeter of composite plane figures.",
+          "scopeNotes": [
+            "Figures are composite plane figures."
+          ]
+        },
+        {
+          "label": "Solve composite plane-figure area problems",
+          "description": "Solve problems involving the area of composite plane figures.",
+          "scopeNotes": [
+            "Figures are composite plane figures."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-5-036",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures, while cube and cuboid are the shared shape domain.",
+      "parts": [
+        {
+          "label": "Find the volume of cubes and cuboids",
+          "description": "Find the volume of cubes and cuboids.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of cubes and cuboids",
+          "description": "Find the surface area of cubes and cuboids.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-6-037",
+      "decision": "split",
+      "reason": "Area-unit conversion and volume-unit conversion use different dimensional relationships.",
+      "parts": [
+        {
+          "label": "Convert between cm^2 and m^2",
+          "description": "Convert between cm^2 and m^2.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between cm^3 and m^3",
+          "description": "Convert between cm^3 and m^3.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-4-7-038",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures in composite-solid problems.",
+      "parts": [
+        {
+          "label": "Solve composite-solid volume problems",
+          "description": "Solve problems involving the volume of composite solids.",
+          "scopeNotes": [
+            "Solids are composite."
+          ]
+        },
+        {
+          "label": "Solve composite-solid surface-area problems",
+          "description": "Solve problems involving the surface area of composite solids.",
+          "scopeNotes": [
+            "Solids are composite."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-1-039",
+      "decision": "split",
+      "reason": "Collecting, classifying and tabulating data are sequential but independently teachable data-handling skills.",
+      "parts": [
+        {
+          "label": "Collect data",
+          "description": "Apply simple concepts in collecting data.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Classify data",
+          "description": "Apply simple concepts in classifying data.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Tabulate data",
+          "description": "Apply simple concepts in tabulating data.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-2-040",
+      "decision": "keep",
+      "reason": "The listed displays are alternative representations analysed through one data-analysis competence.",
+      "parts": [
+        {
+          "label": "Analyse and interpret common statistical representations",
+          "description": "Analyse and interpret tables, bar graphs, pictograms, line graphs and pie charts.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-1-1-3-041",
+      "decision": "split",
+      "reason": "Purposes and advantages or disadvantages are distinct ways of evaluating statistical representations.",
+      "parts": [
+        {
+          "label": "Explain purposes and uses of statistical representations",
+          "description": "Explain the purposes and uses of different forms of statistical representations.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Evaluate advantages and disadvantages of statistical representations",
+          "description": "Explain the advantages and disadvantages of different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-2-6-042",
+      "decision": "split",
+      "reason": "Direct and inverse proportion describe different relationships and require different reasoning.",
+      "parts": [
+        {
+          "label": "Work with direct proportion",
+          "description": "Work with direct proportion.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with inverse proportion",
+          "description": "Work with inverse proportion.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-4-1-043",
+      "decision": "split",
+      "reason": "Rates and average rates are different measures, with speed and average speed as their named applications.",
+      "parts": [
+        {
+          "label": "Work with rates and speed",
+          "description": "Work with rates, including the concept of speed.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with average rates and average speed",
+          "description": "Work with average rates, including the concept of average speed.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-5-6-045",
+      "decision": "keep",
+      "reason": "Addition and subtraction are paired operations within one linear-expression manipulation competence.",
+      "parts": [
+        {
+          "label": "Add and subtract linear expressions",
+          "description": "Add and subtract linear expressions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-5-7-046",
+      "decision": "keep",
+      "reason": "The displayed expressions are examples of one simplification competence.",
+      "parts": [
+        {
+          "label": "Simplify linear expressions",
+          "description": "Simplify linear expressions, including expressions such as -2(3x - 5) + 4x and (2x)/3 - 3(x - 5)/2.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-6-5-051",
+      "decision": "keep",
+      "reason": "Positive and negative gradients are cases of the same gradient-as-rise-over-run competence.",
+      "parts": [
+        {
+          "label": "Find the gradient of a linear graph",
+          "description": "Find the gradient of a linear graph as the ratio of vertical change to horizontal change, including positive and negative gradients.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-4-054",
+      "decision": "split",
+      "reason": "Triangles and special quadrilaterals are separate shape families with distinct properties.",
+      "parts": [
+        {
+          "label": "Describe properties of triangles",
+          "description": "Describe properties of triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of special quadrilaterals",
+          "description": "Describe properties of special quadrilaterals.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-5-055",
+      "decision": "split",
+      "reason": "Perpendicular bisectors and angle bisectors are different geometric constructions with different properties.",
+      "parts": [
+        {
+          "label": "Describe properties of perpendicular bisectors of line segments",
+          "description": "Describe properties of perpendicular bisectors of line segments.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Describe properties of angle bisectors",
+          "description": "Describe properties of angle bisectors.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-6-056",
+      "decision": "keep",
+      "reason": "Bisectors are included as examples within one instrument-based construction competence.",
+      "parts": [
+        {
+          "label": "Construct simple geometrical figures from given data",
+          "description": "Construct simple geometrical figures from given data, including perpendicular bisectors and angle bisectors, using compasses, ruler, set squares and a protractor where appropriate.",
+          "scopeNotes": [
+            "Use compasses, ruler, set squares and protractor where appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-2-4-057",
+      "decision": "split",
+      "reason": "Congruence and similarity are distinct geometric relationships.",
+      "parts": [
+        {
+          "label": "Identify and use congruent figures",
+          "description": "Identify and use congruent figures.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Identify and use similar figures",
+          "description": "Identify and use similar figures.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-2-5-058",
+      "decision": "keep",
+      "reason": "The two listed properties jointly describe similarity for triangles and quadrilaterals.",
+      "parts": [
+        {
+          "label": "Use properties of similar triangles and quadrilaterals",
+          "description": "Use the properties of similar triangles and quadrilaterals: corresponding angles are equal and corresponding sides are proportional.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-4-8-061",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures for the shared prism and cylinder domain.",
+      "parts": [
+        {
+          "label": "Find the volume of prisms and cylinders",
+          "description": "Find the volume of prisms and cylinders.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the surface area of prisms and cylinders",
+          "description": "Find the surface area of prisms and cylinders.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-4-9-062",
+      "decision": "split",
+      "reason": "Area-unit conversion and volume-unit conversion use different dimensional relationships.",
+      "parts": [
+        {
+          "label": "Convert between cm^2 and m^2",
+          "description": "Convert between cm^2 and m^2.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between cm^3 and m^3",
+          "description": "Convert between cm^3 and m^3.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-4-063",
+      "decision": "keep",
+      "reason": "Dot diagrams and equal-class-interval histograms are alternative representations analysed with one competence.",
+      "parts": [
+        {
+          "label": "Analyse and interpret dot diagrams and equal-class-interval histograms",
+          "description": "Analyse and interpret dot diagrams and histograms with equal class intervals.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-5-064",
+      "decision": "split",
+      "reason": "Purposes and advantages or disadvantages are distinct ways of evaluating statistical representations.",
+      "parts": [
+        {
+          "label": "Explain purposes and uses of statistical representations",
+          "description": "Explain the purposes and uses of different forms of statistical representations.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Evaluate advantages and disadvantages of statistical representations",
+          "description": "Explain the advantages and disadvantages of different forms of statistical representations.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-6-065",
+      "decision": "keep",
+      "reason": "Mean, mode and median are alternative measures considered under one purposes-and-uses competence.",
+      "parts": [
+        {
+          "label": "Explain purposes and uses of mean, mode and median",
+          "description": "Explain the purposes and uses of mean, mode and median.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-2-1-7-066",
+      "decision": "split",
+      "reason": "Calculating mean, mode and median uses distinct procedures, even though the data set is shared.",
+      "parts": [
+        {
+          "label": "Calculate the mean for ungrouped data",
+          "description": "Calculate the mean for a set of ungrouped data.",
+          "scopeNotes": [
+            "Data are ungrouped."
+          ]
+        },
+        {
+          "label": "Calculate the mode for ungrouped data",
+          "description": "Calculate the mode for a set of ungrouped data.",
+          "scopeNotes": [
+            "Data are ungrouped."
+          ]
+        },
+        {
+          "label": "Calculate the median for ungrouped data",
+          "description": "Calculate the median for a set of ungrouped data.",
+          "scopeNotes": [
+            "Data are ungrouped."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-1-9-070",
+      "decision": "keep",
+      "reason": "The coefficient, power and bounds are one standard-form representation competence.",
+      "parts": [
+        {
+          "label": "Use standard form",
+          "description": "Use standard form a x 10^n, where n is an integer and 1 <= a < 10.",
+          "scopeNotes": [
+            "The exponent n is an integer and 1 <= a < 10."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-2-7-071",
+      "decision": "split",
+      "reason": "Distance scale and area scale are different applications of map scales.",
+      "parts": [
+        {
+          "label": "Use map scales for distance",
+          "description": "Use map scales for distance.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use map scales for area",
+          "description": "Use map scales for area.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-5-8-072",
+      "decision": "split",
+      "reason": "Recognising and representing sequences differs from finding an algebraic expression for the nth term.",
+      "parts": [
+        {
+          "label": "Recognise and represent number sequences",
+          "description": "Recognise and represent number sequences.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find an algebraic expression for a simple nth term",
+          "description": "Find an algebraic expression for the nth term in simple cases such as n + 3 and 2n + 1.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-5-10-074",
+      "decision": "split",
+      "reason": "Multiplication and division of algebraic fractions are separate operations with different procedures.",
+      "parts": [
+        {
+          "label": "Multiply simple algebraic fractions",
+          "description": "Multiply simple algebraic fractions, including an example such as (3a/(4b^2))(5ab/3).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Divide simple algebraic fractions",
+          "description": "Divide simple algebraic fractions, including an example such as 3a/4 divided by 9a^2/10.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-5-14-078",
+      "decision": "keep",
+      "reason": "The exclusions qualify one factorisation competence and do not define separate teachable objectives.",
+      "parts": [
+        {
+          "label": "Factorise quadratic expressions of the form x^2 + px + q",
+          "description": "Factorise quadratic expressions of the form x^2 + px + q.",
+          "scopeNotes": [
+            "Exclude use of (a + b)^2 = a^2 + 2ab + b^2, a^2 - b^2 = (a + b)(a - b), and addition and subtraction of algebraic fractions such as 1/x + 1/(x - 1)."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-4-6-7-080",
+      "decision": "split",
+      "reason": "Graphing quadratic functions and interpreting their listed properties are distinct teachable outcomes.",
+      "parts": [
+        {
+          "label": "Graph quadratic functions",
+          "description": "Graph quadratic functions.",
+          "scopeNotes": [
+            "This objective applies in Sec 4."
+          ]
+        },
+        {
+          "label": "Use properties of quadratic functions",
+          "description": "Use properties of quadratic functions, including a positive or negative coefficient of x^2, maximum and minimum points, and symmetry.",
+          "scopeNotes": [
+            "This objective applies in Sec 4."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-7-5-083",
+      "decision": "split",
+      "reason": "Substitution, elimination and graphical methods are distinct methods for solving simultaneous equations.",
+      "parts": [
+        {
+          "label": "Solve simultaneous linear equations by substitution",
+          "description": "Solve simultaneous linear equations in two variables by the substitution method.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve simultaneous linear equations by elimination",
+          "description": "Solve simultaneous linear equations in two variables by the elimination method.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve simultaneous linear equations graphically",
+          "description": "Solve simultaneous linear equations in two variables by the graphical method.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-3-3-087",
+      "decision": "keep",
+      "reason": "Sine, cosine and tangent are alternative ratios within one right-triangle trigonometry competence, with elevation and depression as contexts.",
+      "parts": [
+        {
+          "label": "Use trigonometric ratios in right-angled triangles",
+          "description": "Use sine, cosine and tangent of acute angles to calculate unknown sides and angles in right-angled triangles, including problems involving angles of elevation and depression.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-4-10-088",
+      "decision": "split",
+      "reason": "Volume and surface area are distinct measures, while the formula provision applies to the named solids and is preserved in both parts.",
+      "parts": [
+        {
+          "label": "Find the volume of pyramids, cones and spheres",
+          "description": "Find the volume of pyramids, cones and spheres.",
+          "scopeNotes": [
+            "For the GCE Exam, formulae for the volume of a pyramid, cone and sphere will be provided."
+          ]
+        },
+        {
+          "label": "Find the surface area of pyramids, cones and spheres",
+          "description": "Find the surface area of pyramids, cones and spheres.",
+          "scopeNotes": [
+            "For the GCE Exam, formulae for the curved surface area of a cone and the surface area of a sphere will be provided."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-4-11-089",
+      "decision": "split",
+      "reason": "Area-unit conversion and volume-unit conversion use different dimensional relationships.",
+      "parts": [
+        {
+          "label": "Convert between cm^2 and m^2",
+          "description": "Convert between cm^2 and m^2.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Convert between cm^3 and m^3",
+          "description": "Convert between cm^3 and m^3.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-4-12-090",
+      "decision": "split",
+      "reason": "Arc length and sector area are different measures, although both are expressed as circle fractions.",
+      "parts": [
+        {
+          "label": "Find arc length as a fraction of circumference",
+          "description": "Find arc length as a fraction of the circumference of a circle.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find sector area as a fraction of circle area",
+          "description": "Find sector area as a fraction of the area of a circle.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-1-8-091",
+      "decision": "split",
+      "reason": "Percentiles, quartiles, range and interquartile range are distinct statistical measures.",
+      "parts": [
+        {
+          "label": "Work with percentiles",
+          "description": "Work with percentiles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Work with quartiles",
+          "description": "Work with quartiles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the range",
+          "description": "Find the range.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the interquartile range",
+          "description": "Find the interquartile range.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g1-sec-3-4-1-9-092",
+      "decision": "keep",
+      "reason": "Analysis and interpretation of cumulative frequency diagrams is one connected data-analysis competence.",
+      "parts": [
+        {
+          "label": "Analyse and interpret cumulative frequency diagrams",
+          "description": "Analyse and interpret cumulative frequency diagrams.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p1-measurement-and-geometry-measurement-length-1-4",
+      "decision": "split",
+      "reason": "Measuring a segment and drawing a segment to a specified precision are different actions and teachable outcomes.",
+      "parts": [
+        {
+          "label": "Measure a line segment to the nearest centimetre",
+          "description": "Measure a line segment to the nearest centimetre.",
+          "scopeNotes": [
+            "The precision is the nearest cm."
+          ]
+        },
+        {
+          "label": "Draw a line segment to the nearest centimetre",
+          "description": "Draw a line segment to the nearest centimetre.",
+          "scopeNotes": [
+            "The precision is the nearest cm."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+      "decision": "split",
+      "reason": "Area and perimeter are different geometric measures and are independently teachable concepts.",
+      "parts": [
+        {
+          "label": "Understand the concept of area of a plane figure",
+          "description": "Understand the concept of area of a plane figure.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand the concept of perimeter of a plane figure",
+          "description": "Understand the concept of perimeter of a plane figure.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p3-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-2-2",
+      "decision": "split",
+      "reason": "Drawing perpendicular and drawing parallel lines use different construction procedures.",
+      "parts": [
+        {
+          "label": "Draw perpendicular lines",
+          "description": "Draw perpendicular lines.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Draw parallel lines",
+          "description": "Draw parallel lines.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3",
+      "decision": "split",
+      "reason": "Finding area and finding perimeter are different measures in composite figures.",
+      "parts": [
+        {
+          "label": "Find the area of composite figures made up of rectangles and squares",
+          "description": "Find the area of composite figures made up of rectangles and squares.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of composite figures made up of rectangles and squares",
+          "description": "Find the perimeter of composite figures made up of rectangles and squares.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-common-p4-measurement-and-geometry-geometry-rectangle-and-square-2-1",
+      "decision": "split",
+      "reason": "Rectangles and squares have distinct shape-property profiles, although diagonal properties are excluded for both.",
+      "parts": [
+        {
+          "label": "Describe properties of rectangles",
+          "description": "Describe the properties of rectangles.",
+          "scopeNotes": [
+            "Exclude diagonal properties."
+          ]
+        },
+        {
+          "label": "Describe properties of squares",
+          "description": "Describe the properties of squares.",
+          "scopeNotes": [
+            "Exclude diagonal properties."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p5-number-and-algebra-percentage-percentage-1-4",
+      "decision": "split",
+      "reason": "Discount, GST and annual interest are distinct percentage applications with different quantities and operations.",
+      "parts": [
+        {
+          "label": "Find discounts",
+          "description": "Find discount amounts using percentage.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find GST",
+          "description": "Find GST using percentage.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find annual interest",
+          "description": "Find annual interest using percentage.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p6-measurement-and-geometry-area-and-volume-area-and-circumference-of-circle-1-1",
+      "decision": "split",
+      "reason": "Area and circumference are different circle measures and are independently teachable.",
+      "parts": [
+        {
+          "label": "Find the area of a circle",
+          "description": "Find the area of a circle.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the circumference of a circle",
+          "description": "Find the circumference of a circle.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-standard-p6-measurement-and-geometry-area-and-volume-area-and-circumference-of-circle-1-3",
+      "decision": "split",
+      "reason": "Finding area and finding perimeter are different measures in composite figures.",
+      "parts": [
+        {
+          "label": "Find the area of composite figures made up of squares, rectangles, triangles, semicircles and quarter circles",
+          "description": "Find the area of composite figures made up of squares, rectangles, triangles, semicircles and quarter circles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of composite figures made up of squares, rectangles, triangles, semicircles and quarter circles",
+          "description": "Find the perimeter of composite figures made up of squares, rectangles, triangles, semicircles and quarter circles.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+      "decision": "split",
+      "reason": "Area and perimeter are different geometric measures and are independently teachable concepts.",
+      "parts": [
+        {
+          "label": "Understand the concept of area of a plane figure",
+          "description": "Understand the concept of area of a plane figure.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Understand the concept of perimeter of a plane figure",
+          "description": "Understand the concept of perimeter of a plane figure.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3",
+      "decision": "split",
+      "reason": "Area and perimeter are different measures for rectangles and squares.",
+      "parts": [
+        {
+          "label": "Find the area of rectangles and squares",
+          "description": "Find the area of rectangles and squares.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of rectangles and squares",
+          "description": "Find the perimeter of rectangles and squares.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-6",
+      "decision": "split",
+      "reason": "Finding area and finding perimeter are different measures in composite figures.",
+      "parts": [
+        {
+          "label": "Find the area of composite figures made up of rectangles and squares",
+          "description": "Find the area of composite figures made up of rectangles and squares.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of composite figures made up of rectangles and squares",
+          "description": "Find the perimeter of composite figures made up of rectangles and squares.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-1-2",
+      "decision": "split",
+      "reason": "Drawing perpendicular and drawing parallel lines use different construction procedures.",
+      "parts": [
+        {
+          "label": "Draw perpendicular lines",
+          "description": "Draw perpendicular lines.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Draw parallel lines",
+          "description": "Draw parallel lines.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-geometry-rectangle-and-square-3-1",
+      "decision": "split",
+      "reason": "Rectangles and squares have distinct shape-property profiles, although diagonal properties are excluded for both.",
+      "parts": [
+        {
+          "label": "Describe properties of rectangles",
+          "description": "Describe the properties of rectangles.",
+          "scopeNotes": [
+            "Exclude diagonal properties."
+          ]
+        },
+        {
+          "label": "Describe properties of squares",
+          "description": "Describe the properties of squares.",
+          "scopeNotes": [
+            "Exclude diagonal properties."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p6-number-and-algebra-percentage-percentage-1-4",
+      "decision": "split",
+      "reason": "Discount, GST and annual interest are distinct percentage applications with different quantities and operations.",
+      "parts": [
+        {
+          "label": "Find discounts",
+          "description": "Find discount amounts using percentage.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find GST",
+          "description": "Find GST using percentage.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find annual interest",
+          "description": "Find annual interest using percentage.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-3",
+      "decision": "split",
+      "reason": "Finding area and finding perimeter are different measures in composite figures.",
+      "parts": [
+        {
+          "label": "Find the area of composite figures made up of squares, rectangles and triangles",
+          "description": "Find the area of composite figures made up of squares, rectangles and triangles.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find the perimeter of composite figures made up of squares, rectangles and triangles",
+          "description": "Find the perimeter of composite figures made up of squares, rectangles and triangles.",
+          "scopeNotes": []
+        }
+      ]
+    }
+  ]
+}
