@@ -104,10 +104,8 @@ export function App() {
 
   return <div className="app-shell">
     <a className="skip-link" href="#search">Skip to search</a>
-    <header className="topbar"><Logo/><span className="topbar-note">A workspace for teachers</span><button className="link-button" onClick={() => { reset(); searchBox.current?.focus(); }}>Reset search</button></header>
+    <header className="topbar"><Logo/><button className="link-button" onClick={() => { reset(); searchBox.current?.focus(); }}>Reset search</button></header>
     <main className="workspace">
-      <section className="hero"><div><p className="eyebrow">{catalogue?.title ?? 'Curriculum knowledge map'}</p><h1>Find the knowledge<br/>to build on.</h1><p className="hero-copy">Find a syllabus topic, explore its prior knowledge, and see where the same skill appears across pathways.</p></div><div className="coverage"><strong>{catalogue?.skills.length.toLocaleString() ?? '...'}</strong><span>searchable skills</span><strong>{catalogue?.appearances.length.toLocaleString() ?? '...'}</strong><span>syllabus appearances</span></div></section>
-      <div className="notice coverage-banner"><strong>Prerequisite pilot</strong> {accepted.length} accepted links are available. The full catalogue is searchable; most prerequisite relationships are still unassessed.</div>
       <section className="search-panel" aria-label="Search syllabus">
         <label htmlFor="search">What are you teaching?</label>
         <div className="search-row"><div className="search-input"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input ref={searchBox} id="search" type="search" value={query} onChange={(event) => navigate({ query: event.target.value, skill: null })} placeholder={catalogue?.subject === 'mathematics' ? 'Try fractions, quadratic equations, or rate of change' : 'Search a topic or describe what you are teaching'}/></div></div>
@@ -115,9 +113,8 @@ export function App() {
           <label>Pathway<select value={pathway} onChange={(event) => navigate({ pathway: event.target.value, year: '', skill: null })}><option value="">All pathways</option>{pathway && !pathways.includes(pathway) && <option value={pathway}>Unknown pathway: {pathway}</option>}{pathways.map((id) => <option key={id} value={id}>{pathwayLabel(id)}</option>)}</select></label>
           <label>Year or band<select value={year} onChange={(event) => navigate({ year: event.target.value, skill: null })}><option value="">All years</option>{year && !years.includes(year) && <option value={year}>{year} (outside this pathway)</option>}{years.map((value) => <option key={value} value={value}>{yearLabel(value)}</option>)}</select></label>
           <label className="toggle"><input type="checkbox" checked={linkedOnly} onChange={(event) => navigate({ linkedOnly: event.target.checked, skill: null })}/><span className="switch"/>With assessed links</label>
-          <label className="toggle"><input type="checkbox" checked={semantic} onChange={(event) => { setSemanticResult(null); setSemantic(event.target.checked); }}/><span className="switch"/>Search by meaning</label>
+          <label className="toggle"><input title="Downloads a model on first use" type="checkbox" checked={semantic} onChange={(event) => { setSemanticResult(null); setSemantic(event.target.checked); }}/><span className="switch"/>Search by meaning</label>
         </div>
-        <p className="caption">Search by meaning downloads a model on first use. Queries are processed in your browser. Keyword search is always available.</p>
         {semantic && <p className="search-status" role="status">{semanticStatus}</p>}
       </section>
       {status === 'loading' && <div className="state-card" role="status">Loading the syllabus catalogue...</div>}
@@ -128,12 +125,10 @@ export function App() {
         </aside>
         <article className="detail-pane" aria-label="Selected skill">{selected ? <div className="detail">
           <div className="detail-heading"><div><span className="eyebrow">Learning objective</span><h2 ref={detailHeading} tabIndex={-1}>{selected.label}</h2>{selected.description !== selected.label && <p>{selected.description}</p>}</div><button className="share-button" onClick={copy}>{copied ? 'Link copied' : 'Copy link'}</button></div>
-          {outside && <p className="notice">This linked skill is outside your current search. Its evidence remains open so you can follow the connection.</p>}
-          <div className="stat-strip"><div><strong>{selected.appearanceIds.length}</strong><span>syllabus appearances</span></div><div><strong>{accepted.filter((r) => r.dependentSkillId === selected.id).length}</strong><span>prior knowledge links</span></div><div><strong>{accepted.filter((r) => r.prerequisiteSkillId === selected.id).length}</strong><span>onward links</span></div></div>
+          {outside && <p className="notice">Outside current filters.</p>}
           <SkillEvidence key={selected.id} skill={selected} catalogue={catalogue!} onSelect={select}/>
         </div> : <div className="detail-empty"><h2>{navigation.skill ? 'This skill link is unavailable' : 'Select a skill to explore'}</h2><p>{navigation.skill ? 'The skill may belong to another catalogue version. Search for its topic to find the current record.' : 'Choose a result to see its syllabus appearances and relationship evidence.'}</p></div>}</article>
       </div>}
-      <footer className="disclosure"><strong>About this map</strong><span>Essential prior knowledge is needed to understand and explain a concept. Helpful prior knowledge provides a useful connection but is not required.</span><span>Links are inferred assessments, not official MOE prerequisite statements. Four or five agreeing model assessments accept a link; disputed links require a recorded human decision.</span><span>Source pages and editions are recorded. Original syllabus documents are not hosted here. A missing link does not mean there are no prerequisites.</span></footer>
     </main>
   </div>;
 }
