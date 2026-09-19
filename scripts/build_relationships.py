@@ -154,6 +154,42 @@ def validate_votes(vote_paths: list[Path], candidates: dict[str, dict[str, Any]]
     return voters, by_candidate
 
 
+def validate_decisions(
+    path: Path | None,
+    candidates: dict[str, dict[str, Any]],
+    packet_hash: str,
+    knowledge_hash: str,
+) -> dict[str, dict[str, Any]]:
+    if path is None:
+        return {}
+    decisions_file, _ = load_json(path)
+    require_keys(decisions_file, ("formatVersion", "packetSha256", "knowledgeSha256", "decisions"), f"Decision file {path}")
+    if decisions_file["formatVersion"] != 1:
+        fail(f"Decision file {path} formatVersion must be 1")
+    if decisions_file["packetSha256"] != packet_hash:
+        fail(f"Packet SHA256 mismatch in decision file {path}")
+    if decisions_file["knowledgeSha256"] != knowledge_hash:
+        fail(f"Knowledge SHA256 mismatch in decision file {path}")
+    decisions = decisions_file["decisions"]
+    if not isinstance(decisions, list):
+        fail(f"Decision file {path} decisions must be an array")
+    by_candidate: dict[str, dict[str, Any]] = {}
+    for decision in decisions:
+        require_keys(decision, ("candidateId", "classification", "decidedBy", "reason", "evidence"), f"Decision in {path}")
+        candidate_id = decision["candidateId"]
+        if candidate_id not in candidates:
+            fail(f"Unknown decision candidate {candidate_id}")
+        if candidate_id in by_candidate:
+            fail(f"Duplicate decision candidate {candidate_id}")
+        if decision["classification"] not in CLASSES:
+            fail(f"Invalid decision classification for {candidate_id}")
+        for field in ("decidedBy", "reason", "evidence"):
+            if not isinstance(decision[field], str) or not decision[field].strip():
+                fail(f"Decision {candidate_id} has an empty {field}")
+        by_candidate[candidate_id] = decision
+    return by_candidate
+
+
 def has_path(adjacency: dict[str, set[str]], start: str, target: str, excluded: tuple[str, str]) -> bool:
     pending = [start]
     visited: set[str] = set()
@@ -173,8 +209,7 @@ def has_path(adjacency: dict[str, set[str]], start: str, target: str, excluded: 
 def cycle_edges(entries: list[dict[str, Any]]) -> set[tuple[str, str]]:
     adjacency: dict[str, set[str]] = defaultdict(set)
     for entry in entries:
-        consensus = entry["consensus"]
-        if entry["status"] == "accepted" and consensus["classification"] == "essential":
+        if entry["status"] == "accepted" and entry["effectiveClassification"] == "essential":
             adjacency[entry["prerequisiteSkillId"]].add(entry["dependentSkillId"])
     result: set[tuple[str, str]] = set()
     for prerequisite, dependents in adjacency.items():
@@ -207,6 +242,8 @@ def build(manifest_path: Path) -> dict[str, Any]:
         fail("Knowledge contains duplicate appearance IDs")
     candidates = validate_candidates(packet, skills, appearances)
     voters, vote_map = validate_votes(vote_paths, candidates, packet_hash)
+    decision_path = resolve(manifest_path, manifest["relationshipDecisions"]) if manifest.get("relationshipDecisions") else None
+    human_decisions = validate_decisions(decision_path, candidates, packet_hash, knowledge_hash)
 
     entries: list[dict[str, Any]] = []
     for candidate in packet["candidates"]:
@@ -234,13 +271,25 @@ def build(manifest_path: Path) -> dict[str, Any]:
             "votes": votes,
         })
 
+        decision = human_decisions.get(candidate_id)
+        if decision is not None:
+            entry = entries[-1]
+            entry["effectiveClassification"] = decision["classification"]
+            entry["decisionSource"] = "user"
+            entry["humanDecision"] = decision
+            entry["status"] = "rejected" if decision["classification"] == "none" else "accepted"
+        else:
+            entry = entries[-1]
+            entry["effectiveClassification"] = entry["consensus"]["classification"]
+            entry["decisionSource"] = "consensus" if entry["consensus"]["classification"] is not None else None
+
     structural_cycles = cycle_edges(entries)
     for entry in entries:
         edge = (entry["prerequisiteSkillId"], entry["dependentSkillId"])
         if edge in structural_cycles:
             entry["status"] = "needs-decision"
             entry["reviewFlags"] = ["cycle-in-accepted-essential-graph"]
-            entry["reviewReason"] = "Consensus was essential, but this directed edge participates in a cycle in the accepted essential prerequisite graph."
+            entry["reviewReason"] = "The effective classification was essential, but this directed edge participates in a cycle in the accepted essential prerequisite graph."
 
     incoming = Counter(entry["dependentSkillId"] for entry in entries)
     skill_coverage = [
@@ -253,6 +302,7 @@ def build(manifest_path: Path) -> dict[str, Any]:
     ]
     status_counts = Counter(entry["status"] for entry in entries)
     classification_counts = Counter(entry["consensus"]["classification"] for entry in entries if entry["consensus"]["classification"] is not None)
+    effective_counts = Counter(entry["effectiveClassification"] for entry in entries if entry["effectiveClassification"] is not None)
     output = {
         "formatVersion": 1,
         "subject": packet["subject"],
@@ -267,6 +317,8 @@ def build(manifest_path: Path) -> dict[str, Any]:
             "voterCount": len(voters),
             "voteCount": len(entries) * len(voters),
             "consensusClassificationCounts": {classification: classification_counts[classification] for classification in CLASSES},
+            "finalClassificationCounts": {classification: effective_counts[classification] for classification in CLASSES},
+            "humanDecisionCount": len(human_decisions),
             "statusCounts": {status: status_counts[status] for status in ("accepted", "rejected", "needs-decision")},
             "cycleEdgeCount": len(structural_cycles),
             "coverageNote": "Pilot-only coverage. Skills without pilot candidates remain unassessed; this output makes no complete prerequisite-graph claim.",

@@ -53,10 +53,16 @@
       "helpful": 7,
       "none": 0
     },
+    "finalClassificationCounts": {
+      "essential": 26,
+      "helpful": 10,
+      "none": 0
+    },
+    "humanDecisionCount": 3,
     "statusCounts": {
-      "accepted": 33,
+      "accepted": 36,
       "rejected": 0,
-      "needs-decision": 3
+      "needs-decision": 0
     },
     "cycleEdgeCount": 0,
     "coverageNote": "Pilot-only coverage. Skills without pilot candidates remain unassessed; this output makes no complete prerequisite-graph claim."
@@ -122,7 +128,9 @@
           "classification": "essential",
           "rationale": "Place value provides the conceptual basis for comparing the tens and ones positions when ordering numbers."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-002",
@@ -184,7 +192,9 @@
           "classification": "essential",
           "rationale": "Understanding fractions as parts of a whole is required to explain how fractional parts are combined or removed."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-003",
@@ -246,7 +256,9 @@
           "classification": "essential",
           "rationale": "The concept of area is required to understand what the rectangle or square area formula measures."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-004",
@@ -308,7 +320,9 @@
           "classification": "essential",
           "rationale": "Equivalent fractions depend on recognizing different fractional representations of the same whole."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-005",
@@ -370,7 +384,9 @@
           "classification": "essential",
           "rationale": "Equivalent fractions explain why denominators can be changed to a common denominator before adding or subtracting."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-006",
@@ -437,7 +453,9 @@
           "classification": "essential",
           "rationale": "The base and perpendicular height are the geometric quantities whose product, halved, defines triangle area."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-008",
@@ -499,7 +517,9 @@
           "classification": "essential",
           "rationale": "Equivalent ratios require understanding ratio notation and how its representations preserve the same relationship."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-009",
@@ -561,7 +581,9 @@
           "classification": "helpful",
           "rationale": "Equivalent ratios explain scaling a partition while preserving proportions, but ratio division can also be explained using unit parts and the total number of parts."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-010",
@@ -623,7 +645,9 @@
           "classification": "essential",
           "rationale": "Representing an unknown with a letter is required to understand algebraic expressions involving that symbol."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-011",
@@ -685,7 +709,9 @@
           "classification": "essential",
           "rationale": "Integer operation and sign concepts are needed to explain fraction operations involving negative fractions."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-012",
@@ -747,7 +773,9 @@
           "classification": "essential",
           "rationale": "A graph of a linear function is an interpretation of the function's input-output relationship."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-013",
@@ -809,7 +837,9 @@
           "classification": "helpful",
           "rationale": "Factoring common linear factors provides a useful distributive-law bridge to factoring quadratics, but is not required for the quadratic method."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-014",
@@ -876,7 +906,9 @@
           "classification": "essential",
           "rationale": "Identifying primes is required to explain which factors constitute a prime factorisation."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-015",
@@ -938,7 +970,9 @@
           "classification": "essential",
           "rationale": "Finding an HCF by prime factorisation requires interpreting and combining prime factors."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-016",
@@ -1000,7 +1034,9 @@
           "classification": "essential",
           "rationale": "The graph is the geometric representation of the linear function y = ax + b."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-017",
@@ -1062,7 +1098,9 @@
           "classification": "helpful",
           "rationale": "Parallelogram area provides one possible component formula for composite figures, but composite-area reasoning is broader."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-019",
@@ -1124,7 +1162,9 @@
           "classification": "essential",
           "rationale": "Understanding a linear function is required to explain why its graph has the corresponding linear form."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-020",
@@ -1186,7 +1226,9 @@
           "classification": "helpful",
           "rationale": "Quadratic factorisation connects equations with roots and alternative solution forms, but formula and completing-square methods do not require it."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-021",
@@ -1211,7 +1253,7 @@
         },
         "voteCount": 5
       },
-      "status": "needs-decision",
+      "status": "accepted",
       "votes": [
         {
           "voterId": "luna-01",
@@ -1248,7 +1290,16 @@
           "classification": "essential",
           "rationale": "Inverse trigonometric ratios depend conceptually on the forward ratios relating sides and acute angles."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "user",
+      "humanDecision": {
+        "candidateId": "pilot-021",
+        "classification": "helpful",
+        "decidedBy": "user",
+        "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+        "evidence": "Thanks. go ahead"
+      }
     },
     {
       "id": "pilot-022",
@@ -1315,7 +1366,9 @@
           "classification": "helpful",
           "rationale": "The general trigonometric-function framework interprets exact special-angle values, but mastering all six functions for arbitrary angles is broader than necessary."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-023",
@@ -1345,7 +1398,7 @@
         },
         "voteCount": 5
       },
-      "status": "needs-decision",
+      "status": "accepted",
       "votes": [
         {
           "voterId": "luna-01",
@@ -1382,7 +1435,16 @@
           "classification": "helpful",
           "rationale": "Derivative-as-rate meaning gives notation such as dy/dx and f′(x) an explanatory interpretation, but notation is also a convention."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "user",
+      "humanDecision": {
+        "candidateId": "pilot-023",
+        "classification": "helpful",
+        "decidedBy": "user",
+        "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+        "evidence": "Thanks. go ahead"
+      }
     },
     {
       "id": "pilot-024",
@@ -1444,7 +1506,9 @@
           "classification": "helpful",
           "rationale": "Standard notation provides a useful language for stating differentiation rules, but the rules can be understood without prior mastery of that notation."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-026",
@@ -1506,7 +1570,9 @@
           "classification": "essential",
           "rationale": "Simplifying trigonometric expressions requires using identities to justify the transformations."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-028",
@@ -1568,7 +1634,9 @@
           "classification": "essential",
           "rationale": "The function concept is required to understand exponential and logarithmic expressions as functions and to interpret their graphs."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-029",
@@ -1630,7 +1698,9 @@
           "classification": "essential",
           "rationale": "The tangent-gradient meaning supplies the conceptual basis for what the listed derivatives represent beyond rote rule application."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-030",
@@ -1692,7 +1762,9 @@
           "classification": "essential",
           "rationale": "Finding probabilities from x₁, μ, and σ requires understanding standardisation through the standard normal distribution."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-031",
@@ -1754,7 +1826,9 @@
           "classification": "essential",
           "rationale": "Mean and variance must be understood as properties of the binomial probability model, not merely as isolated formulas."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-032",
@@ -1816,7 +1890,9 @@
           "classification": "essential",
           "rationale": "Inverse functions require understanding how functions map inputs to outputs and how domains and ranges constrain reversal."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-033",
@@ -1878,7 +1954,9 @@
           "classification": "essential",
           "rationale": "The rate-of-change meaning is required to understand what differentiating the listed standard functions produces."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-034",
@@ -1940,7 +2018,9 @@
           "classification": "essential",
           "rationale": "The target probability calculations rely on interpreting the normal variable through the standard normal distribution."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-035",
@@ -2002,7 +2082,9 @@
           "classification": "essential",
           "rationale": "A direct proof establishes an implication by assuming its condition and deriving its conclusion."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-036",
@@ -2064,7 +2146,9 @@
           "classification": "essential",
           "rationale": "Proof of existence directly depends on understanding existential claims, including existence of a unique object."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-037",
@@ -2126,7 +2210,9 @@
           "classification": "essential",
           "rationale": "De Moivre’s theorem for powers and roots is expressed through the polar or exponential representation of complex numbers."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-038",
@@ -2188,7 +2274,9 @@
           "classification": "essential",
           "rationale": "Partial derivatives require understanding a function with multiple variables and its associated surface."
         }
-      ]
+      ],
+      "effectiveClassification": "essential",
+      "decisionSource": "consensus"
     },
     {
       "id": "pilot-039",
@@ -2213,7 +2301,7 @@
         },
         "voteCount": 5
       },
-      "status": "needs-decision",
+      "status": "accepted",
       "votes": [
         {
           "voterId": "luna-01",
@@ -2250,7 +2338,16 @@
           "classification": "none",
           "rationale": "Sequence behaviour, especially limiting behaviour, analyzes recurrence outcomes but does not provide the construction needed to solve the recurrence; the direct explanatory link runs in the opposite direction."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "user",
+      "humanDecision": {
+        "candidateId": "pilot-039",
+        "classification": "helpful",
+        "decidedBy": "user",
+        "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+        "evidence": "Thanks. go ahead"
+      }
     },
     {
       "id": "pilot-040",
@@ -2312,7 +2409,9 @@
           "classification": "helpful",
           "rationale": "Solving a linear differential equation explains how a general solution yields a family of curves, but families can be interpreted without mastering the integrating-factor procedure."
         }
-      ]
+      ],
+      "effectiveClassification": "helpful",
+      "decisionSource": "consensus"
     }
   ],
   "skillCoverage": [

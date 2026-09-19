@@ -95,6 +95,13 @@ Only entries whose `status` is `accepted` belong in the active graph. A disputed
 entry has no consensus classification. Keep its full vote record visible for a
 human decision. These links are inferred assessments, not official MOE claims.
 
+The optional `relationshipDecisions` file records explicit human classifications
+separately from model votes. Decisions are bound to the evidence packet and
+catalogue hashes. They do not change the five votes or manufacture a consensus.
+Use `effectiveClassification` and `decisionSource` when consuming a resolved
+relationship; `consensus` remains the model-only result. Essential-cycle checks
+still apply after human decisions.
+
 The evidence and catalogue SHA-256 values use UTF-8 text with line endings
 normalized to LF. Changed catalogue or evidence text invalidates prior votes.
 Coverage is explicit for every skill: having no candidate is `unassessed`, not

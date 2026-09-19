@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "packetSha256": "c7ad1685bdca9f6d0418f164b59ddcf3731d0e26304ba39a3cf5e7b5560438cb",
+  "knowledgeSha256": "b388810a6dd525c226a84c242621518a357ca44f19b9e8a54f1919915f7ee9ab",
+  "decisions": [
+    {
+      "candidateId": "pilot-021",
+      "classification": "helpful",
+      "decidedBy": "user",
+      "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+      "evidence": "Thanks. go ahead"
+    },
+    {
+      "candidateId": "pilot-023",
+      "classification": "helpful",
+      "decidedBy": "user",
+      "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+      "evidence": "Thanks. go ahead"
+    },
+    {
+      "candidateId": "pilot-039",
+      "classification": "helpful",
+      "decidedBy": "user",
+      "reason": "User approved the recommended helpful classification for all three disputed pilot links.",
+      "evidence": "Thanks. go ahead"
+    }
+  ]
+}
