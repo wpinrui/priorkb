@@ -50,6 +50,8 @@
         "voterCount": {"type": "integer", "const": 5},
         "voteCount": {"type": "integer", "minimum": 0},
         "consensusClassificationCounts": {"$ref": "#/$defs/classCounts"},
+        "finalClassificationCounts": {"$ref": "#/$defs/classCounts"},
+        "humanDecisionCount": {"type": "integer", "minimum": 0},
         "statusCounts": {
           "type": "object",
           "additionalProperties": false,
@@ -96,6 +98,18 @@
         "rationale": {"type": "string", "minLength": 1}
       }
     },
+    "humanDecision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidateId", "classification", "decidedBy", "reason", "evidence"],
+      "properties": {
+        "candidateId": {"type": "string", "minLength": 1},
+        "classification": {"enum": ["essential", "helpful", "none"]},
+        "decidedBy": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1},
+        "evidence": {"type": "string", "minLength": 1}
+      }
+    },
     "context": {
       "type": "object",
       "additionalProperties": false,
@@ -117,6 +131,9 @@
         "contexts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/context"}},
         "candidateReasons": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
         "consensus": {"$ref": "#/$defs/consensus"},
+        "effectiveClassification": {"enum": ["essential", "helpful", "none", null]},
+        "decisionSource": {"enum": ["consensus", "user", null]},
+        "humanDecision": {"$ref": "#/$defs/humanDecision"},
         "status": {"enum": ["accepted", "rejected", "needs-decision"]},
         "votes": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"$ref": "#/$defs/vote"}},
         "reviewFlags": {"type": "array", "items": {"type": "string", "minLength": 1}},

@@ -38,6 +38,11 @@ The five votes are genuine independent assessments. Vote files must identify the
 
 The assembler accepts a class only when at least four of five voters choose the same class. Four or five `essential` votes produce an accepted essential relationship. Four or five `helpful` votes produce an accepted helpful relationship. Four or five `none` votes produce a rejected relationship. Any 3-to-2 or more divided result remains `needs-decision`; it is never inferred as `none`.
 
+An explicit user decision can resolve a disputed candidate. It is recorded
+separately with its classification, reason and evidence identity. The original
+votes and consensus stay unchanged, and the effective decision is marked as
+coming from the user. Human decisions remain subject to essential-cycle checks.
+
 Accepted essential relationships form a directed graph. Any accepted essential edge that participates in a directed cycle is retained with its vote consensus and flagged `needs-decision` for structural review. The cycle is not silently removed and is not treated as evidence that the vote was invalid.
 
 The pilot is representative. Its skill coverage is reported as `pilot-only` for skills that receive candidate edges and `unassessed` for skills without incoming pilot candidates. The output must not claim complete prerequisite coverage or absence of relationships outside the pilot.
