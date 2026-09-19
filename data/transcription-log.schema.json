@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PriorKB source transcription evidence",
+  "type": "object",
+  "required": ["records"],
+  "additionalProperties": false,
+  "properties": {
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["objectiveId", "documentId", "pdfPages", "before", "after", "method", "notes"],
+        "additionalProperties": false,
+        "properties": {
+          "objectiveId": {"type": "string", "minLength": 1},
+          "documentId": {"type": "string", "minLength": 1},
+          "pdfPages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+          "before": {"$ref": "#/$defs/transcription"},
+          "after": {"$ref": "#/$defs/transcription"},
+          "method": {"const": "visual-pdf-check"},
+          "notes": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "transcription": {
+      "type": "object",
+      "required": ["sourceText", "label", "constraints", "reviewFlags"],
+      "additionalProperties": false,
+      "properties": {
+        "sourceText": {"type": "string", "minLength": 1},
+        "label": {"type": "string", "minLength": 1},
+        "constraints": {"type": "array", "items": {"type": "string"}},
+        "reviewFlags": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

@@ -15,6 +15,8 @@ prior-knowledge relationships have been generated.
 
 - `sourceText` retains extracted syllabus wording and nested content. PDF text
   extraction can lose formula layout; flagged records require checking the PDF.
+  Verified mathematical expressions may use explicit text notation such as `x^2`
+  and parenthesized fractions to preserve the original formula's meaning.
 - `label` is a navigation aid. Source wording and constraints determine scope.
 - `pathway` and `year` describe the occurrence. A year can be an official band;
   A-level records deliberately use `null` rather than an inferred J1/J2 split.
@@ -31,6 +33,15 @@ prior-knowledge relationships have been generated.
 
 The original PDFs in `syllabus/` are local inputs and are gitignored. Keep the
 supplied filenames when sharing the PDFs separately so source references resolve.
+
+## Transcription evidence
+
+The manifest lists separate transcription logs, using
+[transcription-log.schema.json](transcription-log.schema.json). Each entry records
+the objective, original PDF pages, before/after text, labels, constraints and flags,
+plus a note from visual inspection. A log can document verification without a text
+change. Removing a formula uncertainty flag does not resolve a split decision or
+establish equivalence with another occurrence.
 
 The manifest's dataset paths and schema path resolve relative to its directory.
 Its `sourceRoot` points to the base for source document filenames.

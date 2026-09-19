@@ -1,0 +1,1072 @@
+{
+  "records": [
+    {
+      "objectiveId": "math-alevel-h1-mathematics-010",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        17
+      ],
+      "before": {
+        "sourceText": "conditions for ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "conditions for ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-019",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "graphical interpretation of f′(x) > 0, f′(x) = 0 and f′(x) < 0",
+        "label": "Graphical interpretation of f′(x) > 0, f′(x) = 0 and f′(x) < 0",
+        "constraints": [
+          "Exclude: finding derivatives from first principles",
+          "Exclude: derivatives of products and quotients of functions",
+          "Exclude: use of dy/dx = 1/(dx/dy)",
+          "Exclude: differentiation of functions defined implicitly or parametrically",
+          "Exclude: non-stationary points of inflexion",
+          "Exclude: problems connecting the graph of y = f(x) to the graph of y = f′(x)"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "graphical interpretation of f′(x) > 0, f′(x) = 0 and f′(x) < 0",
+        "label": "Graphical interpretation of f′(x) > 0, f′(x) = 0 and f′(x) < 0",
+        "constraints": [
+          "Exclude: finding derivatives from first principles",
+          "Exclude: derivatives of products and quotients of functions",
+          "Exclude: use of dy/dx = 1/(dx/dy)",
+          "Exclude: differentiation of functions defined implicitly or parametrically",
+          "Exclude: non-stationary points of inflexion",
+          "Exclude: problems connecting the graph of y = f(x) to the graph of y = f′(x)"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-039",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "use of:\n- P(A′) = 1 − P(A)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n- P(A | B) = P(A ∩ B) / P(B)",
+        "label": "Probability formulae for complements, unions, and conditional probabilities",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of:\n- P(A′) = 1 − P(A)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n- P(A | B) = P(A ∩ B) / P(B)",
+        "label": "Probability formulae for complements, unions, and conditional probabilities",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-044",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "concept of a normal distribution as an example of a continuous probability model and its mean and variance; use of N(μ, σ²) as a probability model",
+        "label": "Concept of a normal distribution as an example of a continuous probability model and its mean and…",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "concept of a normal distribution as an example of a continuous probability model and its mean and variance; use of N(μ, σ²) as a probability model",
+        "label": "Concept of a normal distribution as an example of a continuous probability model and its mean and…",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-046",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "finding the value of P(X < x₁) or a related probability given the values of x₁, μ, σ",
+        "label": "Finding the value of P(X < x₁) or a related probability given the values of x₁, μ, σ",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "finding the value of P(X < x₁) or a related probability given the values of x₁, μ, σ",
+        "label": "Finding the value of P(X < x₁) or a related probability given the values of x₁, μ, σ",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-048",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "label": "Finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "label": "Finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-049",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "label": "Solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "label": "Solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-050",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "label": "Solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "label": "Solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-052",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "label": "Concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "label": "Concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-055",
+      "documentId": "math-alevel-source-h1-mathematics",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "use of unbiased estimates of the population mean and variance from a sample, including cases where the data are given in summarised form Σx and Σx², or Σ(x − a) and Σ(x − a)²",
+        "label": "Use of unbiased estimates of the population mean and variance from a sample, including cases where the…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of unbiased estimates of the population mean and variance from a sample, including cases where the data are given in summarised form Σx and Σx², or Σ(x − a) and Σ(x − a)²",
+        "label": "Use of unbiased estimates of the population mean and variance from a sample, including cases where the…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-007",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "important characteristics of graphs such as symmetry, intersections with the axes, turning points and asymptotes of the following:\ny² = ax; x² = by\nx²/a² + y²/b² = 1\nx²/a² − y²/b² = 1; y²/b² − x²/a² = 1\ny = (ax + b)/(cx + d)\ny = (ax² + bx + c)/(dx + e)",
+        "label": "Important characteristics of graphs such as symmetry, intersections with the axes, turning points and…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "important characteristics of graphs such as symmetry, intersections with the axes, turning points and asymptotes of the following:\ny² = ax; x² = by\nx²/a² + y²/b² = 1\nx²/a² − y²/b² = 1; y²/b² − x²/a² = 1\ny = (ax + b)/(cx + d)\ny = (ax² + bx + c)/(dx + e)",
+        "label": "Important characteristics of graphs such as symmetry, intersections with the axes, turning points and…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-016",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "concept of |x|, and use of relations |x − a| < b ⇔ a − b < x < a + b and |x − a| > b ⇔ x < a − b or x > a + b",
+        "label": "Concept of |x|, and use of relations |x − a| < b ⇔ a − b < x < a + b and |x − a| > b ⇔ x < a − b or x >…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "concept of |x|, and use of relations |x − a| < b ⇔ a − b < x < a + b and |x − a| > b ⇔ x < a − b or x > a + b",
+        "label": "Concept of |x|, and use of relations |x − a| < b ⇔ a − b < x < a + b and |x − a| > b ⇔ x < a − b or x >…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-020",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "relationship between uₙ (the nth term) and Sₙ (the sum to n terms)",
+        "label": "Relationship between uₙ (the nth term) and Sₙ (the sum to n terms)",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "relationship between uₙ (the nth term) and Sₙ (the sum to n terms)",
+        "label": "Relationship between uₙ (the nth term) and Sₙ (the sum to n terms)",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-022",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "sequence generated by the relation uₙ₊₁ = f(uₙ), including the use of a graphing calculator or a computer to generate the sequence",
+        "label": "Sequence generated by the relation uₙ₊₁ = f(uₙ), including the use of a graphing calculator or a…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "sequence generated by the relation uₙ₊₁ = f(uₙ), including the use of a graphing calculator or a computer to generate the sequence",
+        "label": "Sequence generated by the relation uₙ₊₁ = f(uₙ), including the use of a graphing calculator or a…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-051",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "graphical interpretation of:\n- f′(x) > 0, f′(x) = 0 and f′(x) < 0\n- f″(x) > 0 and f″(x) < 0",
+        "label": "Graphical interpretation of:",
+        "constraints": [
+          "Exclude: non-stationary points of inflexion and finding second derivative of functions defined parametrically"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "graphical interpretation of:\n- f′(x) > 0, f′(x) = 0 and f′(x) < 0\n- f″(x) > 0 and f″(x) < 0",
+        "label": "Graphical interpretation of:",
+        "constraints": [
+          "Exclude: non-stationary points of inflexion and finding second derivative of functions defined parametrically"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-052",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "relating the graph of y = f′(x) to the graph of y = f(x)",
+        "label": "Relating the graph of y = f′(x) to the graph of y = f(x)",
+        "constraints": [
+          "Exclude: non-stationary points of inflexion and finding second derivative of functions defined parametrically"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "relating the graph of y = f′(x) to the graph of y = f(x)",
+        "label": "Relating the graph of y = f′(x) to the graph of y = f(x)",
+        "constraints": [
+          "Exclude: non-stationary points of inflexion and finding second derivative of functions defined parametrically"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-061",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "derivation of the first few terms of the Maclaurin series by:\n- repeated differentiation, e.g. sec x\n- repeated implicit differentiation, e.g. y³ + y² + y = x² − 2x\n- using standard series, e.g. eˣ cos 2x, ln((1 + x)/(1 − x))",
+        "label": "Derivation of the first few terms of the Maclaurin series by:",
+        "constraints": [
+          "Exclude: problems involving derivation of the general term of a series"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "derivation of the first few terms of the Maclaurin series by:\n- repeated differentiation, e.g. sec x\n- repeated implicit differentiation, e.g. y³ + y² + y = x² − 2x\n- using standard series, e.g. eˣ cos 2x, ln((1 + x)/(1 − x))",
+        "label": "Derivation of the first few terms of the Maclaurin series by:",
+        "constraints": [
+          "Exclude: problems involving derivation of the general term of a series"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-064",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "small angle approximations: sin x ≈ x, cos x ≈ 1 − ½x², tan x ≈ x",
+        "label": "Small angle approximations: sin x ≈ x, cos x ≈ 1 − ½x², tan x ≈ x",
+        "constraints": [
+          "Exclude: problems involving derivation of the general term of a series"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "small angle approximations: sin x ≈ x, cos x ≈ 1 − ½x², tan x ≈ x",
+        "label": "Small angle approximations: sin x ≈ x, cos x ≈ 1 − ½x², tan x ≈ x",
+        "constraints": [
+          "Exclude: problems involving derivation of the general term of a series"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-065",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "integration of f′(x)[f(x)]ⁿ (including n = −1), f′(x)e^(f(x)), sin²x, cos²x, tan²x, 1/(a² + x²), 1/√(a² − x²), 1/(a² − x²) and 1/(x² − a²)",
+        "label": "Integration of f′(x)[f(x)]ⁿ (including n = −1), f′(x)e^(f(x)), sin²x, cos²x, tan²x, 1/(a² + x²), 1/√(a²…",
+        "constraints": [
+          "Exclude: reduction formulae"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "integration of f′(x)[f(x)]ⁿ (including n = −1), f′(x)e^(f(x)), sin²x, cos²x, tan²x, 1/(a² + x²), 1/√(a² − x²), 1/(a² − x²) and 1/(x² − a²)",
+        "label": "Integration of f′(x)[f(x)]ⁿ (including n = −1), f′(x)e^(f(x)), sin²x, cos²x, tan²x, 1/(a² + x²), 1/√(a²…",
+        "constraints": [
+          "Exclude: reduction formulae"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-075",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "solving for the general solutions and particular solutions of differential equations of the form dy/dx = f(x)g(y), including reducing a given differential equation to this form by means of a given substitution",
+        "label": "Solving for the general solutions and particular solutions of differential equations of the form dy/dx =…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solving for the general solutions and particular solutions of differential equations of the form dy/dx = f(x)g(y), including reducing a given differential equation to this form by means of a given substitution",
+        "label": "Solving for the general solutions and particular solutions of differential equations of the form dy/dx =…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-085",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        22
+      ],
+      "before": {
+        "sourceText": "use of:\n- P(A′) = 1 − P(A)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n- P(A | B) = P(A ∩ B) / P(B)",
+        "label": "Probability formulae for complements, unions, and conditional probabilities",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of:\n- P(A′) = 1 − P(A)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n- P(A | B) = P(A ∩ B) / P(B)",
+        "label": "Probability formulae for complements, unions, and conditional probabilities",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-090",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "concept of a normal distribution as an example of a continuous probability model and its mean and variance; use of N(μ, σ²) as a probability model",
+        "label": "Concept of a normal distribution as an example of a continuous probability model and its mean and…",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "concept of a normal distribution as an example of a continuous probability model and its mean and variance; use of N(μ, σ²) as a probability model",
+        "label": "Concept of a normal distribution as an example of a continuous probability model and its mean and…",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-092",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "finding the value of P(X < x₁) or a related probability, given the values of x₁, μ, σ",
+        "label": "Finding the value of P(X < x₁) or a related probability, given the values of x₁, μ, σ",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "finding the value of P(X < x₁) or a related probability, given the values of x₁, μ, σ",
+        "label": "Finding the value of P(X < x₁) or a related probability, given the values of x₁, μ, σ",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-094",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "label": "Finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "label": "Finding a relationship between x₁, μ, σ given the value of P(X < x₁) or a related probability",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-095",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "label": "Solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "label": "Solving problems involving the use of E(aX + b) and Var(aX + b)",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-096",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "label": "Solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "label": "Solving problems involving the use of E(aX + bY) and Var(aX + bY), where X and Y are independent",
+        "constraints": [
+          "Exclude: normal approximation to binomial distribution"
+        ],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-098",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "label": "Concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "label": "Concept of the sample mean X̄ as a random variable with E(X̄) = μ and Var(X̄) = σ²/n",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-101",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        23
+      ],
+      "before": {
+        "sourceText": "use of unbiased estimates of the population mean and variance from a sample, including cases where the data are given in summarised form Σx and Σx², or Σ(x − a) and Σ(x − a)²",
+        "label": "Use of unbiased estimates of the population mean and variance from a sample, including cases where the…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of unbiased estimates of the population mean and variance from a sample, including cases where the data are given in summarised form Σx and Σx², or Σ(x − a) and Σ(x − a)²",
+        "label": "Use of unbiased estimates of the population mean and variance from a sample, including cases where the…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-115",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "label": "Conditions for ax² + bx + c to be always positive (or always negative)",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-121",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Partial fractions with cases where the denominator is not more complicated than:\n- (ax + b)(cx + d)\n- (ax + b)(cx + d)²\n- (ax + b)(x² + c²)",
+        "label": "Partial fractions with cases where the denominator is not more complicated than:",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "Partial fractions with cases where the denominator is not more complicated than:\n- (ax + b)(cx + d)\n- (ax + b)(cx + d)²\n- (ax + b)(x² + c²)",
+        "label": "Partial fractions with cases where the denominator is not more complicated than:",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-126",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Expression of a cos θ + b sin θ in the forms R sin(θ ± α) and R cos(θ ± α)",
+        "label": "Expression of a cos θ + b sin θ in the forms R sin(θ ± α) and R cos(θ ± α)",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "Expression of a cos θ + b sin θ in the forms R sin(θ ± α) and R cos(θ ± α)",
+        "label": "Expression of a cos θ + b sin θ in the forms R sin(θ ± α) and R cos(θ ± α)",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-127",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        25
+      ],
+      "before": {
+        "sourceText": "Coordinate geometry of the circle with the equation in the form (x − a)² + (y − b)² = r² or x² + y² + 2gx + 2fy + c = 0",
+        "label": "Coordinate geometry of the circle with the equation in the form (x − a)² + (y − b)² = r² or x² + y² +…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "Coordinate geometry of the circle with the equation in the form (x − a)² + (y − b)² = r² or x² + y² + 2gx + 2fy + c = 0",
+        "label": "Coordinate geometry of the circle with the equation in the form (x − a)² + (y − b)² = r² or x² + y² +…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-139",
+      "documentId": "math-alevel-source-h2-mathematics",
+      "pdfPages": [
+        26
+      ],
+      "before": {
+        "sourceText": "Integration of xⁿ for any rational n, eˣ, sin x, cos x, sec²x and their constant multiples, sums and differences",
+        "label": "Integration of xⁿ for any rational n, eˣ, sin x, cos x, sec²x and their constant multiples, sums and…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "Integration of xⁿ for any rational n, eˣ, sin x, cos x, sec²x and their constant multiples, sums and differences",
+        "label": "Integration of xⁿ for any rational n, eˣ, sin x, cos x, sec²x and their constant multiples, sums and…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-001",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "complex numbers expressed in the form r(cos θ + i sin θ), reⁱᶿ, where r > 0 and −π < θ ≤ π",
+        "label": "Complex numbers expressed in the form r(cos θ + i sin θ), reⁱᶿ, where r > 0 and −π < θ ≤ π",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "complex numbers expressed in the form r(cos θ + i sin θ), reⁱᶿ, where r > 0 and −π < θ ≤ π",
+        "label": "Complex numbers expressed in the form r(cos θ + i sin θ), reⁱᶿ, where r > 0 and −π < θ ≤ π",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-005",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "simple polar curves (for 0 ≤ θ < 2π or −π < θ ≤ π or a subset of either of these intervals; and where r is non-negative throughout the domain)",
+        "label": "Simple polar curves (for 0 ≤ θ < 2π or −π < θ ≤ π or a subset of either of these intervals; and where r…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "simple polar curves (for 0 ≤ θ < 2π or −π < θ ≤ π or a subset of either of these intervals; and where r is non-negative throughout the domain)",
+        "label": "Simple polar curves (for 0 ≤ θ < 2π or −π < θ ≤ π or a subset of either of these intervals; and where r…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-006",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        18
+      ],
+      "before": {
+        "sourceText": "use of formula A = ½∫ᵅᵝ r² dθ for the area of a sector",
+        "label": "Use of formula A = ½∫ᵅᵝ r² dθ for the area of a sector",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of formula A = (1/2) ∫ from α to β r² dθ for the area of a sector",
+        "label": "Use of formula A = (1/2) ∫ from α to β r² dθ for the area of a sector",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page 18 confirms the polar-area formula and α to β limits; limits were written explicitly for unambiguous plain text."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-018",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "analytical solution of first order and second order linear differential equations of the form:\n- (i) dy/dx + p(x)y = q(x), using an integrating factor\n- (ii) d²y/dx² + a dy/dx + by = 0, where a, b ∈ ℝ\n- (iii) d²y/dx² + a dy/dx + by = f(x), where a, b ∈ ℝ and f(x) is a polynomial or peᵏˣ or p cos(kx) + q sin(kx), including those that can be reduced to the above by means of a given substitution",
+        "label": "Analytical solution of first order and second order linear differential equations of the form:",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "analytical solution of first order and second order linear differential equations of the form:\n- (i) dy/dx + p(x)y = q(x), using an integrating factor\n- (ii) d²y/dx² + a dy/dx + by = 0, where a, b ∈ ℝ\n- (iii) d²y/dx² + a dy/dx + by = f(x), where a, b ∈ ℝ and f(x) is a polynomial or peᵏˣ or p cos(kx) + q sin(kx), including those that can be reduced to the above by means of a given substitution",
+        "label": "Analytical solution of first order and second order linear differential equations of the form:",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-024",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        19
+      ],
+      "before": {
+        "sourceText": "solution of:\n- (i) First order linear (homogeneous and non-homogeneous) recurrence relations with constant coefficients of the form uₙ = auₙ₋₁ + b, a, b ∈ ℝ, a ≠ 0\n- (ii) Second order linear homogeneous recurrence relations with constant coefficients, including those that can be transformed to the above by means of a given substitution",
+        "label": "First and second order linear recurrence relations with constant coefficients",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "solution of:\n- (i) First order linear (homogeneous and non-homogeneous) recurrence relations with constant coefficients of the form uₙ = auₙ₋₁ + b, a, b ∈ ℝ, a ≠ 0\n- (ii) Second order linear homogeneous recurrence relations with constant coefficients, including those that can be transformed to the above by means of a given substitution",
+        "label": "First and second order linear recurrence relations with constant coefficients",
+        "constraints": [],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-039",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        20
+      ],
+      "before": {
+        "sourceText": "iterations involving recurrence relations of the form xₙ₊₁ = F(xₙ), including cases where the method fails to converge",
+        "label": "Iterations involving recurrence relations of the form xₙ₊₁ = F(xₙ), including cases where the method…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "iterations involving recurrence relations of the form xₙ₊₁ = F(xₙ), including cases where the method fails to converge",
+        "label": "Iterations involving recurrence relations of the form xₙ₊₁ = F(xₙ), including cases where the method…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-042",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "use of Poisson distribution Po(μ) and geometric distribution Geo(p) as probability models, including conditions under which each distribution is a suitable model",
+        "label": "Use of Poisson distribution Po(μ) and geometric distribution Geo(p) as probability models, including…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of Poisson distribution Po(μ) and geometric distribution Geo(p) as probability models, including conditions under which each distribution is a suitable model",
+        "label": "Use of Poisson distribution Po(μ) and geometric distribution Geo(p) as probability models, including…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-048",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "use of the result E(g(x)) = ∫₋∞^∞ g(x)f(x) dx in simple cases, where f(x) is the probability density function of X and g(x) is a function of X",
+        "label": "Use of the result E(g(x)) = ∫₋∞^∞ g(x)f(x) dx in simple cases, where f(x) is the probability density…",
+        "constraints": [],
+        "reviewFlags": [
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "use of the result E(g(x)) = ∫₋∞^∞ g(x)f(x) dx in simple cases, where f(x) is the probability density function of X and g(x) is a function of X",
+        "label": "Use of the result E(g(x)) = ∫₋∞^∞ g(x)f(x) dx in simple cases, where f(x) is the probability density…",
+        "constraints": [],
+        "reviewFlags": []
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-053",
+      "documentId": "math-alevel-source-h2-further-mathematics",
+      "pdfPages": [
+        21
+      ],
+      "before": {
+        "sourceText": "contingency tables and χ²-tests of:\n- goodness of fit\n- independence (excluding Yates’ correction for continuity)",
+        "label": "Contingency tables and χ²-tests of:",
+        "constraints": [
+          "Exclude: the use of the term ‘Type I error’, concept of Type II error and power of a test"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective",
+          "formula typography normalized from rendered table; verify before canonicalization"
+        ]
+      },
+      "after": {
+        "sourceText": "contingency tables and χ²-tests of:\n- goodness of fit\n- independence (excluding Yates’ correction for continuity)",
+        "label": "Contingency tables and χ²-tests of:",
+        "constraints": [
+          "Exclude: the use of the term ‘Type I error’, concept of Type II error and power of a test"
+        ],
+        "reviewFlags": [
+          "compound bullet with nested subitems retained as one source objective"
+        ]
+      },
+      "method": "visual-pdf-check",
+      "notes": "Rendered PDF page confirms the formula typography and neighboring formula constraints; source notation retained."
+    }
+  ]
+}
