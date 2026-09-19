@@ -82,7 +82,7 @@ claim that every differently worded equivalent skill has already been found.
 The manifest identifies a frozen evidence packet, five independent vote files,
 and a generated relationship file. The packet contains explicit candidate pairs,
 their appearance contexts and source evidence. See the
-[pilot report](mathematics/prerequisite-pilot-report.md) and
+[pilot report](mathematics/prerequisite-conceptual-report.md) and
 [classification policy](mathematics/prerequisite-policy.md).
 
 Run `python scripts/build_relationships.py data/mathematics/manifest.json` to
@@ -116,3 +116,20 @@ from that batch's script. Later runs record the packet and prompt hashes before
 execution. The reusable prompt now makes clear that parent syllabus bullets are
 context and must not broaden a split skill's scope. This clarification was not
 part of the original pilot prompt.
+
+The current policy defines an essential prerequisite as necessary to understand
+and explain the target concept. The manifest's `relationshipDefinitions` are
+included in the evidence packet and read by the voter prompt, so changing policy
+changes the packet hash. A complete five-voter reassessment is required instead
+of mixing earlier votes with new-policy votes.
+
+The original assessment remains reproducible through
+`data/mathematics/manifest-initial-pilot.json`. Its packet, votes, results and
+policy are retained separately from the conceptual-understanding reassessment.
+
+Voters receive canonical descriptions, scope limits, pathway appearances and
+source references. Candidate proposal reasons and full parent syllabus bullets
+remain in the offline packet but are omitted from the model's evidence view.
+This keeps a proposal's justification from steering its assessment and avoids
+reattaching sibling competencies to a split skill. The recorded prompt preserves
+the exact evidence view each voter received.

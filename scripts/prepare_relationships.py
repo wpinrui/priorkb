@@ -49,6 +49,30 @@ def load_dataset_objectives(manifest_path: Path, manifest: dict[str, Any]) -> di
     return objectives
 
 
+def build_policy(manifest: dict[str, Any]) -> dict[str, Any]:
+    policy = {
+        "voterCount": 5,
+        "acceptanceThreshold": 4,
+        "classes": ["essential", "helpful", "none"],
+        "disagreementAction": "flag-for-user",
+    }
+    if "relationshipDefinitions" not in manifest:
+        return policy
+    definitions = manifest["relationshipDefinitions"]
+    if not isinstance(definitions, dict):
+        fail("relationshipDefinitions must be an object")
+    required = ("policyVersion", "essentialDefinition", "helpfulDefinition", "noneDefinition")
+    missing = [key for key in required if key not in definitions]
+    if missing:
+        fail(f"relationshipDefinitions is missing {', '.join(missing)}")
+    for key in required:
+        value = definitions[key]
+        if not isinstance(value, str) or not value.strip():
+            fail(f"relationshipDefinitions.{key} must be a non-blank string")
+    policy.update({key: definitions[key] for key in required})
+    return policy
+
+
 def build(manifest_path: Path, selection_path: Path | None = None) -> dict[str, Any]:
     manifest, _ = read_json(manifest_path)
     knowledge_path = resolve(manifest_path, manifest["knowledge"])
@@ -111,12 +135,7 @@ def build(manifest_path: Path, selection_path: Path | None = None) -> dict[str, 
         "purpose": selections["purpose"],
         "knowledgeSha256": hashlib.sha256(knowledge_text.encode("utf-8")).hexdigest(),
         "coverageNote": "Representative candidates only. Unlisted pairs and skills remain unassessed.",
-        "policy": {
-            "voterCount": 5,
-            "acceptanceThreshold": 4,
-            "classes": ["essential", "helpful", "none"],
-            "disagreementAction": "flag-for-user",
-        },
+        "policy": build_policy(manifest),
         "candidates": list(pairs.values()),
         "evidence": evidence,
     }

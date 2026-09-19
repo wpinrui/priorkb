@@ -16,7 +16,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PROMPT_VERSION = "relationship-voter-v1"
+PROMPT_VERSION = "relationship-voter-conceptual-v3-canonical-scope"
 
 
 def fail(message: str) -> None:
@@ -75,25 +75,65 @@ def build_schema(packet: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def voter_evidence(packet: dict[str, Any]) -> dict[str, Any]:
+    """Return prompt evidence without proposal rationales or raw source text."""
+    projection = dict(packet)
+    projection["candidates"] = []
+    for candidate in packet.get("candidates", []):
+        projected_candidate = dict(candidate)
+        projected_candidate.pop("candidateReasons", None)
+        projection["candidates"].append(projected_candidate)
+    projection["evidence"] = []
+    for skill in packet.get("evidence", []):
+        projected_skill = dict(skill)
+        projected_appearances = []
+        for appearance in skill.get("appearances", []):
+            projected_appearance = dict(appearance)
+            projected_appearance.pop("sourceText", None)
+            projected_appearances.append(projected_appearance)
+        projected_skill["appearances"] = projected_appearances
+        projection["evidence"].append(projected_skill)
+    return projection
+
+
 def make_prompt(packet: dict[str, Any]) -> str:
     subject = packet.get("subject", "the stated subject")
+    policy = packet.get("policy", {})
+    essential_definition = policy.get(
+        "essentialDefinition",
+        "prior mastery is required to understand and explain the dependent concept as scoped, rather than merely to execute a procedure",
+    )
+    helpful_definition = policy.get(
+        "helpfulDefinition",
+        "the prerequisite is a concrete explanatory bridge for understanding or explaining the dependent concept, but is not necessary",
+    )
+    none_definition = policy.get(
+        "noneDefinition",
+        "there is no defensible conceptual or explanatory bridge in the stated direction",
+    )
     return f"""You are one independent curriculum assessor for the {subject} curriculum in PriorKB.
 This is a bounded read-only assessment, not an implementation task. Do not edit
 files, run commands, delegate, browse, or read other workers' votes. All evidence
 you need is included below. Return exactly one vote per candidate with a concise
 subject-specific justification. Judge the direction prerequisite -> dependent.
 
-essential: prior mastery of this specific skill is required to perform or learn
-the dependent competence as scoped. Do not treat a merely common teaching order
-or one optional solution method as necessary.
-helpful: the skill offers a concrete useful bridge but is not required.
-none: there is no defensible prior-knowledge link in this direction, or the
-candidate confuses overlap/equivalence with a prerequisite.
+Use these policy definitions exactly:
+essential: {essential_definition}
+helpful: {helpful_definition}
+none: {none_definition}
+Rote execution without conceptual understanding is not evidence that a concept
+is unnecessary. A finding that the prerequisite is not required is not by itself
+enough for none when it provides a defensible explanatory bridge. Do not treat a
+merely common teaching order or one optional solution method as necessary.
 
-Use the canonical skill description and each appearance's scopeNotes and
-constraints to define the competence. The parent topic and sourceText are
-provenance and context. Do not reattach sibling competencies from a compound
-source bullet when the canonical skill or appearance scope excludes them.
+Use the canonical skill description, labels, topics, scopeNotes, constraints,
+and source references to define the competence. Parent source bullets are
+retained offline as provenance but are omitted from this evidence projection.
+They cannot expand a child skill or appearance beyond its stated scope.
+Judge the full exact prerequisite competence and full exact dependent competence
+as scoped. Do not substitute a narrower hidden subskill for a broader procedural
+or conceptual competence. If the stated scope creates a real ambiguity, explain
+it in the rationale and still return exactly one class.
 Prefer immediate instructional building blocks; if a relation is only a remote
 ancestral dependency, explain that limitation rather than assuming a direct link.
 Pathways are parallel curricula, not a chronological hierarchy. Earlier source
@@ -145,7 +185,7 @@ def main() -> None:
 
     schema_path = output_dir / "response.schema.json"
     schema_path.write_text(json.dumps(build_schema(packet), ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    prompt = make_prompt(packet)
+    prompt = make_prompt(voter_evidence(packet))
     metadata = {
         "packetPath": str(packet_path),
         "packetSha256": packet_hash,
