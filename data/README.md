@@ -7,9 +7,10 @@ its own documents, pathway names and objective records without changing the form
 Document interpretation still needs subject-aware extraction and inspection.
 
 The first dataset is [mathematics](mathematics/manifest.json). Its records are
-syllabus occurrences and objective candidates, not approved canonical skills.
-Repeated content across pathways remains separate. No prerequisite or helpful
-prior-knowledge relationships have been generated.
+syllabus occurrences and objective candidates. `knowledge.json` is the derived
+skill catalogue. Shared skills retain a separate appearance for each pathway and
+source item. No prerequisite or helpful prior-knowledge relationships have been
+generated yet.
 
 ## Record meaning
 
@@ -48,9 +49,30 @@ Its `sourceRoot` points to the base for source document filenames.
 IDs identify these extracted occurrences; preserve them when labels are edited.
 If a candidate is later split, keep its original ID as provenance for the children.
 
-## Current editorial boundary
+## Derived skills
 
-Compound source bullets stay intact when their decomposition requires a decision.
-Candidate overlaps must be compared for scope before merging into canonical skills.
-The next stage is editorial resolution, followed by the separately requested
-five-agent prerequisite assessment. Neither is part of this extraction slice.
+Run `python scripts/build_knowledge.py data/mathematics/manifest.json` to rebuild
+the catalogue using the Python standard library. The original datasets remain
+unchanged. Subject-specific decisions live in files named by the manifest, so
+another subject can use the same assembler with its own data and decisions.
+
+- `editorialDecisions` records whether an original objective stays intact or
+  splits into separately teachable competencies, with reasons and scope notes.
+- `skillEquivalences` records inspected same-scope matches across appearances.
+  Identical descriptions, topics and limits also group automatically. Candidate
+  overlap wording alone does not authorize a merge.
+- `knowledge.skills` supplies searchable labels and descriptions.
+- `knowledge.appearances` preserves each skill's pathway, year, source page,
+  original objective ID, role and limits. Assumed knowledge is not evidence of
+  introduction in that year. No universal introduction year is assigned.
+- `source-uncertain` marks the Additional Mathematics Sec 5 cohort-label
+  contradiction. Its mathematical content can still be split and grouped.
+
+Appearance IDs combine the original objective ID and editorial part number.
+Skill IDs are content-derived; changing a decomposition or equivalence can change
+them. Freeze the catalogue before collecting prerequisite votes, and invalidate
+votes when their catalogue changes. Editorial equivalence decisions are separate
+from the five-agent prerequisite assessment.
+
+The catalogue groups inspected candidate overlaps conservatively. It does not
+claim that every differently worded equivalent skill has already been found.

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PriorKB subject knowledge",
+  "type": "object",
+  "required": ["formatVersion", "subject", "title", "sources", "skills", "appearances", "editorialSummary"],
+  "properties": {
+    "formatVersion": {"const": 1},
+    "subject": {"type": "string"},
+    "title": {"type": "string"},
+    "sources": {"type": "array", "items": {"$ref": "syllabus-dataset.schema.json#/$defs/document"}},
+    "skills": {"type": "array", "items": {"$ref": "#/$defs/skill"}},
+    "appearances": {"type": "array", "items": {"$ref": "#/$defs/appearance"}},
+    "editorialSummary": {"type": "object"}
+  },
+  "$defs": {
+    "strings": {"type": "array", "items": {"type": "string"}},
+    "skill": {
+      "type": "object",
+      "required": ["id", "subject", "label", "description", "appearanceIds", "topics"],
+      "properties": {
+        "id": {"type": "string"},
+        "subject": {"type": "string"},
+        "label": {"type": "string"},
+        "description": {"type": "string"},
+        "appearanceIds": {"$ref": "#/$defs/strings"},
+        "topics": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "appearance": {
+      "type": "object",
+      "required": ["id", "skillId", "objectiveId", "pathway", "year", "role", "strand", "topic", "constraints", "scopeNotes", "source", "status"],
+      "properties": {
+        "id": {"type": "string"},
+        "skillId": {"type": "string"},
+        "objectiveId": {"type": "string"},
+        "pathway": {"type": "string"},
+        "year": {"type": ["string", "null"]},
+        "role": {"enum": ["syllabus-content", "assumed-knowledge"]},
+        "strand": {"type": "string"},
+        "topic": {"type": "string"},
+        "constraints": {"$ref": "#/$defs/strings"},
+        "scopeNotes": {"$ref": "#/$defs/strings"},
+        "source": {"$ref": "syllabus-dataset.schema.json#/$defs/reference"},
+        "status": {"enum": ["ready", "deferred", "source-uncertain"]}
+      }
+    }
+  }
+}

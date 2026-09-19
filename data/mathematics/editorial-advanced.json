@@ -1,0 +1,1957 @@
+{
+  "decisions": [
+    {
+      "objectiveId": "math-alevel-h1-mathematics-039",
+      "decision": "split",
+      "reason": "The three probability formulae are independently teachable calculation skills.",
+      "parts": [
+        {
+          "label": "Use the complement probability formula",
+          "description": "Use P(A′) = 1 − P(A) to find the probability of the complement of an event.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the union probability formula",
+          "description": "Use P(A ∪ B) = P(A) + P(B) − P(A ∩ B) to find the probability of a union.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the conditional probability formula",
+          "description": "Use P(A | B) = P(A ∩ B) / P(B) to calculate conditional probability.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-057",
+      "decision": "split",
+      "reason": "The two population-mean testing settings require distinct statistical procedures.",
+      "parts": [
+        {
+          "label": "Test a population mean from a normal population with known variance",
+          "description": "Formulate hypotheses and test a population mean using a sample from a normal population of known variance.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and testing the difference between two population means."
+          ]
+        },
+        {
+          "label": "Test a population mean from a large sample",
+          "description": "Formulate hypotheses and test a population mean using a large sample from any population.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and testing the difference between two population means."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-042",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Determine relationships between two lines",
+          "description": "Determine relationships between two lines, including coplanar or skew lines.",
+          "scopeNotes": [
+            "Exclude shortest distance between two skew lines and common perpendicular to two skew lines."
+          ]
+        },
+        {
+          "label": "Determine the relationship between a line and a plane",
+          "description": "Determine the relationship between a line and a plane.",
+          "scopeNotes": [
+            "Exclude shortest distance between two skew lines and common perpendicular to two skew lines."
+          ]
+        },
+        {
+          "label": "Determine relationships between two planes",
+          "description": "Determine relationships between two planes.",
+          "scopeNotes": [
+            "Exclude shortest distance between two skew lines and common perpendicular to two skew lines."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-051",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Interpret first-derivative signs graphically",
+          "description": "Interpret f′(x) > 0, f′(x) = 0 and f′(x) < 0 graphically.",
+          "scopeNotes": [
+            "Exclude non-stationary points of inflexion and finding the second derivative of parametrically defined functions."
+          ]
+        },
+        {
+          "label": "Interpret second-derivative signs graphically",
+          "description": "Interpret f″(x) > 0 and f″(x) < 0 graphically.",
+          "scopeNotes": [
+            "Exclude non-stationary points of inflexion and finding the second derivative of parametrically defined functions."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-061",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Derive Maclaurin terms by repeated differentiation",
+          "description": "Derive the first few terms of a Maclaurin series by repeated differentiation, for example sec x.",
+          "scopeNotes": [
+            "Exclude problems involving derivation of the general term of a series."
+          ]
+        },
+        {
+          "label": "Derive Maclaurin terms by repeated implicit differentiation",
+          "description": "Derive the first few terms of a Maclaurin series by repeated implicit differentiation, for example y³ + y² + y = x² − 2x.",
+          "scopeNotes": [
+            "Exclude problems involving derivation of the general term of a series."
+          ]
+        },
+        {
+          "label": "Derive Maclaurin terms using standard series",
+          "description": "Derive the first few terms of a Maclaurin series using standard series, for example eˣ cos 2x and ln((1 + x)/(1 − x)).",
+          "scopeNotes": [
+            "Exclude problems involving derivation of the general term of a series."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-085",
+      "decision": "split",
+      "reason": "The three probability formulae are independently teachable calculation skills.",
+      "parts": [
+        {
+          "label": "Use the complement probability formula",
+          "description": "Use P(A′) = 1 − P(A) to find the probability of the complement of an event.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the union probability formula",
+          "description": "Use P(A ∪ B) = P(A) + P(B) − P(A ∩ B) to find the probability of a union.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the conditional probability formula",
+          "description": "Use P(A | B) = P(A ∩ B) / P(B) to calculate conditional probability.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-103",
+      "decision": "split",
+      "reason": "The two population-mean testing settings require distinct statistical procedures.",
+      "parts": [
+        {
+          "label": "Test a population mean from a normal population with known variance",
+          "description": "Formulate hypotheses and test a population mean using a sample from a normal population of known variance.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and testing the difference between two population means."
+          ]
+        },
+        {
+          "label": "Test a population mean from a large sample",
+          "description": "Formulate hypotheses and test a population mean using a large sample from any population.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and testing the difference between two population means."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-002",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use if-then conditionals",
+          "description": "Use if-then conditionals in mathematical statements.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Use if and only if conditionals",
+          "description": "Use if and only if conditionals in mathematical statements.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Identify necessary and sufficient conditions",
+          "description": "Use and distinguish necessary and sufficient conditions in mathematical statements.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-003",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use existential quantifiers",
+          "description": "Use statements of the form There exists, including There exists a unique.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Use universal quantifiers",
+          "description": "Use statements of the form For all.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-004",
+      "decision": "keep",
+      "reason": "The source is one coherent skill covering standard logical connectives as a group.",
+      "parts": [
+        {
+          "label": "Logical connectives",
+          "description": "Logical connectives\n- “and”, “or”, “not”, “implies”",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-026",
+      "decision": "keep",
+      "reason": "The H2 sequences and series content is assumed; the listed method of differences is one additional skill.",
+      "parts": [
+        {
+          "label": "Sequences and Series concepts from H2 Mathematics, with the following addition",
+          "description": "Sequences and Series concepts from H2 Mathematics, with the following addition:\n- Summation of series by the method of differences",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-028",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use reduction formulae",
+          "description": "Use reduction formulae in calculus.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Evaluate improper integrals",
+          "description": "Work with improper integrals.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-029",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the bijection principle",
+          "description": "Apply the bijection principle, including distributing indistinguishable objects into distinguishable boxes.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Use the inclusion-exclusion principle",
+          "description": "Apply the inclusion-exclusion principle.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-030",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the AM-GM inequality",
+          "description": "Apply the AM-GM inequality.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Use the Cauchy-Schwarz inequality",
+          "description": "Apply the Cauchy-Schwarz inequality.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Use the triangle inequality",
+          "description": "Apply the triangle inequality.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h3-mathematics-031",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Compare growth rates using limits",
+          "description": "Compare polynomial, exponential, and logarithmic growth rates using limits.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        },
+        {
+          "label": "Apply operations involving limits",
+          "description": "Apply operations involving limits, such as treating the limit of a sum as the sum of the limits when the limits exist.",
+          "scopeNotes": [
+            "Knowledge of the content of H2 Mathematics is assumed."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-114",
+      "decision": "keep",
+      "reason": "The three root cases are mutually exclusive outcomes of one quadratic root-classification skill.",
+      "parts": [
+        {
+          "label": "Conditions for a quadratic equation to have",
+          "description": "Conditions for a quadratic equation to have:\n- (i) two real roots\n- (ii) two equal roots\n- (iii) no real roots",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-121",
+      "decision": "keep",
+      "reason": "The denominator forms are cases within one partial-fractions procedure.",
+      "parts": [
+        {
+          "label": "Partial fractions with cases where the denominator is not more complicated than",
+          "description": "Partial fractions with cases where the denominator is not more complicated than:\n- (ax + b)(cx + d)\n- (ax + b)(cx + d)²\n- (ax + b)(x² + c²)",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-122",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use exponential and logarithmic functions and their graphs",
+          "description": "Use exponential and logarithmic functions aˣ, eˣ, logₐx, and ln x, and interpret their graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply laws of logarithms",
+          "description": "Apply the laws of logarithms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equivalent exponential and logarithmic forms",
+          "description": "Use the equivalence of y = aˣ and x = logₐy.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Change the base of logarithms",
+          "description": "Change the base of logarithms.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-018",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Solve first-order linear differential equations",
+          "description": "Solve dy/dx + p(x)y = q(x) using an integrating factor.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve second-order homogeneous linear differential equations",
+          "description": "Solve d²y/dx² + a dy/dx + by = 0, where a, b ∈ ℝ.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve second-order non-homogeneous linear differential equations",
+          "description": "Solve d²y/dx² + a dy/dx + by = f(x), where a, b ∈ ℝ and f(x) is a polynomial or peᵏˣ or p cos(kx) + q sin(kx), including equations reducible to the above by a given substitution.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-024",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Solve first-order linear recurrence relations",
+          "description": "Solve first-order linear homogeneous and non-homogeneous recurrence relations with constant coefficients of the form uₙ = auₙ₋₁ + b, where a, b ∈ ℝ and a ≠ 0.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve second-order linear homogeneous recurrence relations",
+          "description": "Solve second-order linear homogeneous recurrence relations with constant coefficients, including those transformable to the above by a given substitution.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-052",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply a paired-sample t-test",
+          "description": "Formulate hypotheses for the difference of population means and apply a paired-sample t-test as appropriate.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        },
+        {
+          "label": "Apply a normal-distribution test",
+          "description": "Formulate hypotheses for the difference of population means and apply a test using a normal distribution as appropriate.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-053",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply a chi-square goodness-of-fit test",
+          "description": "Apply a chi-square test of goodness of fit.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        },
+        {
+          "label": "Apply a chi-square test of independence",
+          "description": "Apply a chi-square test of independence, excluding Yates’ correction for continuity.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-055",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find a confidence interval from a normal population with known variance",
+          "description": "Find a confidence interval for the population mean based on a random sample from a normal population of known variance.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        },
+        {
+          "label": "Find a confidence interval from a small sample with unknown variance",
+          "description": "Find a confidence interval for the population mean based on a small random sample drawn from a normal population of unknown variance.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        },
+        {
+          "label": "Find a confidence interval from a large sample",
+          "description": "Find a confidence interval for the population mean based on a large random sample from any population.",
+          "scopeNotes": [
+            "Exclude the term Type I error, the concept of Type II error, and power of a test."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-058",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Test a population median using the Sign test",
+          "description": "Formulate hypotheses and test a population median using the Sign test.",
+          "scopeNotes": [
+            "Exclude treatment of tied ranks."
+          ]
+        },
+        {
+          "label": "Test paired populations using the Wilcoxon matched-pair signed-rank test",
+          "description": "Formulate hypotheses and test identical probability distributions for two sampled populations in a paired difference design using the Wilcoxon matched-pair signed-rank test.",
+          "scopeNotes": [
+            "Exclude treatment of tied ranks."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-1-386",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Classify quadratic equation roots",
+          "description": "Determine whether a quadratic equation has two real roots, two equal roots, or no real roots.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine line and curve intersection conditions",
+          "description": "Determine whether a given line intersects a given curve, is tangent to a given curve, or does not intersect a given curve.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-3-388",
+      "decision": "keep",
+      "reason": "Solving and representing the solution are one linked procedure.",
+      "parts": [
+        {
+          "label": "Solving quadratic inequalities, and representing the solution on the number line",
+          "description": "Solving quadratic inequalities, and representing the solution on the number line",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-4-1-391",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Multiplication and division of polynomials",
+          "description": "Multiplication and division of polynomials",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-4-2-392",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use of remainder and factor theorems, including factorising polynomials and solving cubic equations",
+          "description": "Use of remainder and factor theorems, including factorising polynomials and solving cubic equations",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-4-4-394",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use partial fractions with the listed denominator forms",
+          "description": "Partial fractions with cases where the denominator is no more complicated than: • (ax + b)(cx + d) • (ax + b)(cx + d)² • (ax + b)(x² + c²)",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-5-2-396",
+      "decision": "split",
+      "reason": "Factorial and binomial-coefficient notation are independently teachable.",
+      "parts": [
+        {
+          "label": "Use factorial notation",
+          "description": "Use the notation n!.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use binomial coefficient notation",
+          "description": "Use the notation (n choose r).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-5-3-397",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use the general term in a binomial expansion",
+          "description": "Use of the general term (n choose r) aⁿ⁻ʳ bʳ, 0 ≤ r ≤ n (knowledge of the greatest term and properties of the coefficients is not required)",
+          "scopeNotes": [
+            "knowledge of the greatest term and properties of the coefficients is not required"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-6-1-398",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use exponential and logarithmic functions and their graphs",
+          "description": "Use exponential and logarithmic functions aˣ, eˣ, logₐ x, and ln x, and interpret their graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply laws of logarithms",
+          "description": "Apply the laws of logarithms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equivalent exponential and logarithmic forms",
+          "description": "Use the equivalence of y = aˣ and x = logₐ y.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Change the base of logarithms",
+          "description": "Change the base of logarithms.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-6-2-399",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Simplifying expressions and solving simple equations involving exponential and logarithmic functions",
+          "description": "Simplifying expressions and solving simple equations involving exponential and logarithmic functions",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-6-3-400",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Using exponential and logarithmic functions as models",
+          "description": "Using exponential and logarithmic functions as models",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-4-404",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Determine amplitude of sine and cosine functions",
+          "description": "Determine the amplitude of sine and cosine functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine periodicity of sine and cosine functions",
+          "description": "Determine the periodicity of sine and cosine functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use symmetries of sine and cosine functions",
+          "description": "Use symmetries related to sine and cosine functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-5-405",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Graph transformed sine, cosine, and tangent functions",
+          "description": "Graphs of y = a sin(bx) + c, y = a sin(x/b) + c, y = a cos(bx) + c, y = a cos(x/b) + c and y = a tan(bx), where a is real, b is a positive integer and c is an integer",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-6-406",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use basic trigonometric identities",
+          "description": "Use sin A/cos A = tan A, cos A/sin A = cot A, sin² A + cos² A = 1, sec² A = 1 + tan² A, and cosec² A = 1 + cot² A.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use compound-angle expansions",
+          "description": "Use the expansions of sin(A ± B), cos(A ± B), and tan(A ± B).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use double-angle formulae",
+          "description": "Use the formulae for sin 2A, cos 2A, and tan 2A.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Express a cos θ + b sin θ in R form",
+          "description": "Express a cos θ + b sin θ in the form R cos(θ ± α) or R sin(θ ± α).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-4-414",
+      "decision": "keep",
+      "reason": "The two circle equations are alternative forms within one coordinate-geometry skill.",
+      "parts": [
+        {
+          "label": "Use coordinate equations of circles",
+          "description": "Coordinate geometry of circles in the form: • (x − a)² + (y − b)² = r² • x² + y² + 2gx + 2fy + c = 0 (excluding problems involving two circles)",
+          "scopeNotes": [
+            "Exclude problems involving two circles."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-2-5-415",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Transform power and exponential relationships to linear form",
+          "description": "Transformation of given relationships, including y = axⁿ and y = kbˣ to linear form to determine the unknown constants from a straight line graph",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-3-1-416",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use line properties in proofs",
+          "description": "Use properties of parallel lines cut by a transversal, perpendicular lines, and angle bisectors in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use triangle properties in proofs",
+          "description": "Use properties of triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use special quadrilateral properties in proofs",
+          "description": "Use properties of special quadrilaterals in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use circle properties in proofs",
+          "description": "Use properties of circles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-3-2-417",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use congruent triangles in proofs",
+          "description": "Use congruent triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use similar triangles in proofs",
+          "description": "Use similar triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-4-423",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Differentiate the listed standard functions",
+          "description": "Derivatives of xⁿ for any rational n, sin x, cos x, tan x, eˣ and ln x, together with constant multiples, sums and differences",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-5-424",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Derivatives of products and quotients of functions",
+          "description": "Derivatives of products and quotients of functions",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-7-426",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Increasing and decreasing functions",
+          "description": "Increasing and decreasing functions",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-8-427",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find maximum and minimum turning points",
+          "description": "Find maximum and minimum turning points.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find stationary points of inflexion",
+          "description": "Find stationary points of inflexion.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-9-428",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use of second derivative test to discriminate between maxima and minima",
+          "description": "Use of second derivative test to discriminate between maxima and minima",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-10-429",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply differentiation to gradients, tangents, and normals",
+          "description": "Apply differentiation to gradients, tangents, and normals.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply differentiation to connected rates of change",
+          "description": "Apply differentiation to connected rates of change.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply differentiation to maxima and minima problems",
+          "description": "Apply differentiation to maxima and minima problems.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-12-431",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Integrate the listed standard functions",
+          "description": "Integration of xⁿ for any rational n, sin x, cos x, sec² x and eˣ, together with constant multiples, sums and differences",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-13-432",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Integrate shifted powers",
+          "description": "Integrate (ax + b)ⁿ for any rational n.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Integrate shifted sine and cosine functions",
+          "description": "Integrate sin(ax + b) and cos(ax + b).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Integrate shifted exponential functions",
+          "description": "Integrate eᵃˣ⁺ᵇ.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-16-435",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Finding the area of a region bounded by a curve and line(s) (excluding area of region between 2 curves)",
+          "description": "Finding the area of a region bounded by a curve and line(s) (excluding area of region between 2 curves)",
+          "scopeNotes": [
+            "(excluding area of region between 2 curves)",
+            "excluding area of region between 2 curves)"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-3-4-1-18-437",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Apply differentiation and integration to straight-line particle motion",
+          "description": "Application of differentiation and integration to problems involving displacement, velocity and acceleration of a particle moving in a straight line",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-2-1-441",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Classify quadratic equation roots",
+          "description": "Determine whether a quadratic equation has two real roots, two equal roots, or no real roots.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine line and curve intersection conditions",
+          "description": "Determine whether a given line intersects a given curve, is tangent to a given curve, or does not intersect a given curve.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-2-3-443",
+      "decision": "keep",
+      "reason": "Solving and representing the solution are one linked procedure.",
+      "parts": [
+        {
+          "label": "Solving quadratic inequalities, and representing the solution on the number line",
+          "description": "Solving quadratic inequalities, and representing the solution on the number line",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-4-1-446",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Multiplication and division of polynomials",
+          "description": "Multiplication and division of polynomials",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-4-2-447",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use of remainder and factor theorems, including factorising polynomials and solving cubic equations",
+          "description": "Use of remainder and factor theorems, including factorising polynomials and solving cubic equations",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-4-4-449",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use partial fractions with the listed denominator forms",
+          "description": "Partial fractions with cases where the denominator is no more complicated than: • (ax + b)(cx + d) • (ax + b)(cx + d)² • (ax + b)(x² + c²)",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-4-453",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Determine amplitude of sine and cosine functions",
+          "description": "Determine the amplitude of sine and cosine functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine periodicity of sine and cosine functions",
+          "description": "Determine the periodicity of sine and cosine functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use symmetries of sine and cosine functions",
+          "description": "Use symmetries related to sine and cosine functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-5-454",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Graph transformed sine, cosine, and tangent functions",
+          "description": "Graphs of y = a sin(bx) + c, y = a sin(x/b) + c, y = a cos(bx) + c, y = a cos(x/b) + c and y = a tan(bx), where a is real, b is a positive integer and c is an integer",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-6-455",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use basic trigonometric identities",
+          "description": "Use sin A/cos A = tan A, cos A/sin A = cot A, sin² A + cos² A = 1, sec² A = 1 + tan² A, and cosec² A = 1 + cot² A.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use compound-angle expansions",
+          "description": "Use the expansions of sin(A ± B), cos(A ± B), and tan(A ± B).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use double-angle formulae",
+          "description": "Use the formulae for sin 2A, cos 2A, and tan 2A.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Express a cos θ + b sin θ in R form",
+          "description": "Express a cos θ + b sin θ in the form R cos(θ ± α) or R sin(θ ± α).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-2-4-463",
+      "decision": "keep",
+      "reason": "The two circle equations are alternative forms within one coordinate-geometry skill.",
+      "parts": [
+        {
+          "label": "Use coordinate equations of circles",
+          "description": "Coordinate geometry of circles in the form: • (x − a)² + (y − b)² = r² • x² + y² + 2gx + 2fy + c = 0 (excluding problems involving two circles)",
+          "scopeNotes": [
+            "Exclude problems involving two circles."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-4-467",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Differentiate xⁿ for rational n",
+          "description": "Derivatives of xⁿ, for any rational n, together with constant multiples, sums and differences",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-5-468",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Derivatives of products and quotients of functions",
+          "description": "Derivatives of products and quotients of functions",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-7-470",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Increasing and decreasing functions",
+          "description": "Increasing and decreasing functions",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-8-471",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find maximum and minimum turning points",
+          "description": "Find maximum and minimum turning points.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find stationary points of inflexion",
+          "description": "Find stationary points of inflexion.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-9-472",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use of second derivative test to discriminate between maxima and minima",
+          "description": "Use of second derivative test to discriminate between maxima and minima",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-10-473",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply differentiation to gradients, tangents, and normals",
+          "description": "Apply differentiation to gradients, tangents, and normals.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply differentiation to connected rates of change",
+          "description": "Apply differentiation to connected rates of change.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply differentiation to maxima and minima problems",
+          "description": "Apply differentiation to maxima and minima problems.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-12-475",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Integrate xⁿ for rational n",
+          "description": "Integration of xⁿ for any rational n (excluding n = −1), together with constant multiples, sums and differences",
+          "scopeNotes": [
+            "Exclude n = −1."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g2-additional-sec-3-4-1-16-479",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Finding the area of a region bounded by a curve and line(s) (excluding area of region between 2 curves)",
+          "description": "Finding the area of a region bounded by a curve and line(s) (excluding area of region between 2 curves)",
+          "scopeNotes": [
+            "(excluding area of region between 2 curves)",
+            "excluding area of region between 2 curves)"
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-5-2-481",
+      "decision": "split",
+      "reason": "Factorial and binomial-coefficient notation are independently teachable; retain the source cohort-label conflict in source metadata.",
+      "parts": [
+        {
+          "label": "Use factorial notation",
+          "description": "Use the notation n!.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use binomial coefficient notation",
+          "description": "Use the notation (n choose r).",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-5-3-482",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Use the general term in a binomial expansion",
+          "description": "Use of the general term (n choose r) aⁿ⁻ʳ bʳ, 0 ≤ r ≤ n (knowledge of the greatest term and properties of the coefficients is not required)",
+          "scopeNotes": [
+            "knowledge of the greatest term and properties of the coefficients is not required",
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-6-1-483",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use exponential and logarithmic functions and their graphs",
+          "description": "Use exponential and logarithmic functions aˣ, eˣ, logₐ x, and ln x, and interpret their graphs.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply laws of logarithms",
+          "description": "Apply the laws of logarithms.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use equivalent exponential and logarithmic forms",
+          "description": "Use the equivalence of y = aˣ and x = logₐ y.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Change the base of logarithms",
+          "description": "Change the base of logarithms.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-6-2-484",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Simplify exponential and logarithmic expressions",
+          "description": "Simplify expressions involving exponential and logarithmic functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve exponential and logarithmic equations",
+          "description": "Solve simple equations involving exponential and logarithmic functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-6-3-485",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Using exponential and logarithmic functions as models",
+          "description": "Using exponential and logarithmic functions as models",
+          "scopeNotes": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-2-5-486",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Transform power and exponential relationships to linear form",
+          "description": "Transformation of given relationships, including y = axⁿ and y = kbˣ to linear form to determine the unknown constants from a straight line graph",
+          "scopeNotes": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-3-1-487",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use line properties in proofs",
+          "description": "Use properties of parallel lines cut by a transversal, perpendicular lines, and angle bisectors in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use triangle properties in proofs",
+          "description": "Use properties of triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use special quadrilateral properties in proofs",
+          "description": "Use properties of special quadrilaterals in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use circle properties in proofs",
+          "description": "Use properties of circles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-3-2-488",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use congruent triangles in proofs",
+          "description": "Use congruent triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        },
+        {
+          "label": "Use similar triangles in proofs",
+          "description": "Use similar triangles in proofs.",
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-4-491",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Differentiate the listed standard functions",
+          "description": "Derivatives of sin x, cos x, tan x, eˣ and ln x, together with constant multiples, sums and differences",
+          "scopeNotes": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-12-492",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Integrate the listed standard functions",
+          "description": "Integration of xⁿ (including n = −1), sin x, cos x, sec² x and eˣ, together with constant multiples, sums and differences",
+          "scopeNotes": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-13-493",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Integrate shifted powers",
+          "description": "Integrate (ax + b)ⁿ, including n = −1.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Integrate shifted sine and cosine functions",
+          "description": "Integrate sin(ax + b) and cos(ax + b).",
+          "scopeNotes": []
+        },
+        {
+          "label": "Integrate shifted exponential functions",
+          "description": "Integrate eᵃˣ⁺ᵇ.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-secondary-g3-additional-sec-5-1-18-495",
+      "decision": "keep",
+      "reason": "One coherent teachable competence; listed cases and qualifiers remain in the single skill.",
+      "parts": [
+        {
+          "label": "Apply differentiation and integration to straight-line particle motion",
+          "description": "Application of differentiation and integration to problems involving displacement, velocity and acceleration of a particle moving in a straight line",
+          "scopeNotes": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-012",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Solve quadratic equations",
+          "description": "Solve quadratic equations in one unknown analytically.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve quadratic inequalities",
+          "description": "Solve quadratic inequalities in one unknown analytically.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-020",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the first derivative test",
+          "description": "Use the first derivative test to determine the nature of stationary points, including local maximum and minimum points and points of inflexion, in simple cases.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the second derivative test",
+          "description": "Use the second derivative test to determine the nature of stationary points, including local maximum and minimum points and points of inflexion, in simple cases.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-032",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply the addition principle for counting",
+          "description": "Apply the addition principle for counting.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply the multiplication principle for counting",
+          "description": "Apply the multiplication principle for counting.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-033",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use permutation notation",
+          "description": "Use permutation notation ⁿPᵣ.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use combination notation",
+          "description": "Use combination notation ⁿCᵣ.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-035",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Add probabilities",
+          "description": "Apply addition of probabilities.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Multiply probabilities",
+          "description": "Apply multiplication of probabilities.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-036",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use mutually exclusive events",
+          "description": "Use the concept of mutually exclusive events.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use independent events",
+          "description": "Use the concept of independent events.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h1-mathematics-058",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply one-tail tests",
+          "description": "Apply 1-tail tests.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply two-tail tests",
+          "description": "Apply 2-tail tests.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-002",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use inverse functions",
+          "description": "Use inverse functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use composite functions",
+          "description": "Use composite functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-003",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Determine conditions for inverse functions",
+          "description": "Determine conditions for the existence of inverse functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Determine conditions for composite functions",
+          "description": "Determine conditions for the existence of composite functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-036",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use scalar products",
+          "description": "Use scalar products of vectors and their properties.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use vector products",
+          "description": "Use vector products of vectors and their properties.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-038",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Interpret the scalar-product geometry",
+          "description": "Interpret the geometrical meaning of |a · n̂|, where n̂ is a unit vector.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Interpret the vector-product geometry",
+          "description": "Interpret the geometrical meaning of |a × n̂|, where n̂ is a unit vector.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-078",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply the addition principle for counting",
+          "description": "Apply the addition principle for counting.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply the multiplication principle for counting",
+          "description": "Apply the multiplication principle for counting.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-079",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use permutation notation",
+          "description": "Use permutation notation ⁿPᵣ.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use combination notation",
+          "description": "Use combination notation ⁿCᵣ.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-081",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Add probabilities",
+          "description": "Apply addition of probabilities.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Multiply probabilities",
+          "description": "Apply multiplication of probabilities.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-082",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use mutually exclusive events",
+          "description": "Use the concept of mutually exclusive events.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use independent events",
+          "description": "Use the concept of independent events.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-104",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Apply one-tail tests",
+          "description": "Apply 1-tail tests.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Apply two-tail tests",
+          "description": "Apply 2-tail tests.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-123",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Simplify exponential and logarithmic expressions",
+          "description": "Simplify expressions involving exponential and logarithmic functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Solve exponential and logarithmic equations",
+          "description": "Solve simple equations involving exponential and logarithmic functions.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-124",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the six trigonometric functions",
+          "description": "Use the six trigonometric functions.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use principal values of inverse trigonometric functions",
+          "description": "Use the principal values of the inverses of sine, cosine, and tangent.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-125",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Solve trigonometric equations",
+          "description": "Solve trigonometric equations.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use trigonometric identities",
+          "description": "Use trigonometric identities.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-mathematics-134",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find maximum and minimum turning points",
+          "description": "Find maximum and minimum turning points.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find stationary points of inflexion",
+          "description": "Find stationary points of inflexion.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-004",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use de Moivre’s theorem for powers and roots",
+          "description": "Use de Moivre’s theorem to find the powers and nth roots of a complex number.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use de Moivre’s theorem to derive trigonometric identities",
+          "description": "Use de Moivre’s theorem to derive trigonometric identities.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-012",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find first-order partial derivatives",
+          "description": "Find first-order partial derivatives.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find second-order partial derivatives",
+          "description": "Find second-order partial derivatives.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-013",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find minimum and maximum points",
+          "description": "Find minimum and maximum points.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Find saddle points",
+          "description": "Find saddle points.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-014",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find normal and tangent planes",
+          "description": "Find normal and tangent planes.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use local linearisation",
+          "description": "Use local linearisation.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-020",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use families of solution curves",
+          "description": "Use families of solution curves.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use phase lines",
+          "description": "Use phase lines.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use slope fields",
+          "description": "Use slope fields.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-028",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Find determinants of square matrices",
+          "description": "Find the determinant of a square matrix.",
+          "scopeNotes": [
+            "Restricted to 2 × 2 and 3 × 3 matrices only."
+          ]
+        },
+        {
+          "label": "Find inverses of non-singular matrices",
+          "description": "Find the inverse of a non-singular matrix.",
+          "scopeNotes": [
+            "Restricted to 2 × 2 and 3 × 3 matrices only."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-038",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Approximate roots by linear interpolation",
+          "description": "Approximate roots of equations using linear interpolation with the aid of a computer.",
+          "scopeNotes": [
+            "Include cases where the method fails to converge to the required root."
+          ]
+        },
+        {
+          "label": "Approximate roots by Newton-Raphson method",
+          "description": "Approximate roots of equations using the Newton-Raphson method with the aid of a computer.",
+          "scopeNotes": [
+            "Include cases where the method fails to converge to the required root."
+          ]
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-040",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Approximate integrals using the trapezium rule",
+          "description": "Approximate the integral of a function using the trapezium rule with the aid of a computer.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Approximate integrals using Simpson’s rule",
+          "description": "Approximate the integral of a function using Simpson’s rule with the aid of a computer.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-042",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the Poisson distribution as a probability model",
+          "description": "Use Poisson distribution Po(μ) as a probability model, including conditions under which it is a suitable model.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the geometric distribution as a probability model",
+          "description": "Use geometric distribution Geo(p) as a probability model, including conditions under which it is a suitable model.",
+          "scopeNotes": []
+        }
+      ]
+    },
+    {
+      "objectiveId": "math-alevel-h2-further-mathematics-049",
+      "decision": "split",
+      "reason": "The clauses are independently teachable skills and can be represented without inventing broader competence.",
+      "parts": [
+        {
+          "label": "Use the uniform distribution as a probability model",
+          "description": "Use the uniform distribution as a probability model.",
+          "scopeNotes": []
+        },
+        {
+          "label": "Use the exponential distribution as a probability model",
+          "description": "Use the exponential distribution as a probability model.",
+          "scopeNotes": []
+        }
+      ]
+    }
+  ]
+}
