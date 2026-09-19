@@ -34,3 +34,6 @@ coverage
 
 # Scratch work (never committed)
 temp/
+
+# Locally supplied source documents
+/syllabus/

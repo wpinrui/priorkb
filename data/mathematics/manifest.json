@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "subject": "mathematics",
+  "title": "Singapore MOE Mathematics",
+  "status": "extracted-candidates-awaiting-editorial-decisions",
+  "schema": "../syllabus-dataset.schema.json",
+  "datasets": ["primary.json", "secondary.json", "alevel.json"],
+  "crossDatasetAmbiguities": "overlaps.json",
+  "sourceRoot": "../..",
+  "schoolYearPolicy": "Use official primary and secondary years or bands. A-level years are intentionally null.",
+  "relationshipStatus": "Not generated"
+}
