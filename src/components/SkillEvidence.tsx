@@ -144,17 +144,14 @@ function ContextDetails({ relationship, catalogue }: { relationship: Relationshi
 
 function RelationCard({ relationship, linkedSkill, catalogue, direction, onSelect }: { relationship: Relationship; linkedSkill: Skill; catalogue: Catalogue; direction: "incoming" | "outgoing"; onSelect: (id: string) => void }) {
   const unresolved = relationship.status === "needs-decision" || relationship.effectiveClassification === null;
-  const warning = relationship.status !== "accepted" ? `Relationship status: ${relationship.status || "not accepted"}.` : null;
   return (
     <article className="relation-card">
       <div className="relation-card-main">
         <button className="link-button" type="button" onClick={() => onSelect(linkedSkill.id)}>{linkedSkill.label}</button>
         <span className={`role relation-badge relation-${relationship.effectiveClassification ?? "unresolved"}`}>{classificationLabel(relationship.effectiveClassification)}</span>
-        <p>{direction === "incoming" ? "Assessed as prior knowledge in the contexts below." : "This concept supports understanding the linked concept."}</p>
       </div>
       <ContextDetails relationship={relationship} catalogue={catalogue} />
-      {warning && <p className="notice source-warning">{warning}</p>}
-      {unresolved && <p className="notice">Unresolved relationship. It is not part of the active prerequisite graph.</p>}
+      {unresolved && <p className="notice">Needs decision</p>}
     </article>
   );
 }
@@ -167,33 +164,23 @@ function RelationGroup({ title, classification, items, skill, catalogue, directi
 
 export function SkillEvidence({ skill, catalogue, onSelect }: SkillEvidenceProps) {
   const appearances = catalogue.appearances.filter((appearance) => appearance.skillId === skill.id).sort(appearanceOrder);
-  const syllabusAppearances = appearances.filter((appearance) => appearance.role === "syllabus-content");
   const firstByPathway = new Set<string>();
   const incoming = catalogue.relationships.filter((relationship) => relationship.status === "accepted" && relationship.dependentSkillId === skill.id && ["essential", "helpful"].includes(relationship.effectiveClassification ?? ""));
   const outgoing = catalogue.relationships.filter((relationship) => relationship.status === "accepted" && relationship.prerequisiteSkillId === skill.id && ["essential", "helpful"].includes(relationship.effectiveClassification ?? ""));
   const unresolved = catalogue.relationships.filter((relationship) => (relationship.dependentSkillId === skill.id || relationship.prerequisiteSkillId === skill.id) && relationship.status === "needs-decision");
-  const coverage = catalogue.skillCoverage.find((item) => item.skillId === skill.id);
   const sourceFor = (appearance: Appearance) => catalogue.sources.find((source) => source.id === appearance.source.documentId);
-  const hasPilot = incoming.length > 0 || outgoing.length > 0 || unresolved.length > 0 || coverage?.status === "pilot-only";
 
   return (
     <div className="skill-evidence">
-      <section className="detail-section" aria-labelledby="where-listed-heading">
-        <div className="section-heading"><div><span className="eyebrow">Where it is listed</span><h3 id="where-listed-heading">Syllabus appearances</h3></div><span className="section-note">First listed is calculated within each pathway from syllabus content.</span></div>
-        {appearances.length === 0 ? <p className="muted">No canonical syllabus appearance is recorded for this concept.</p> : <div className="appearance-list">{appearances.map((appearance) => { const first = appearance.role === "syllabus-content" && !firstByPathway.has(appearance.pathway); if (first) firstByPathway.add(appearance.pathway); return <AppearanceRow key={appearance.id} appearance={appearance} first={first} source={sourceFor(appearance)} />; })}</div>}
-        {appearances.length > 0 && syllabusAppearances.length === 0 && <p className="notice">This concept has only assumed knowledge appearances. They do not count as a syllabus-content first listing.</p>}
-        {appearances.length > 0 && <p className="muted">Canonical appearances show where the concept is recorded. They are not necessarily individually assessed for prerequisite status.</p>}
+      <section className="detail-section" aria-label="Syllabus">
+        {appearances.length === 0 ? <p className="muted">No syllabus appearance recorded.</p> : <details className="syllabus-details"><summary>Syllabus ({appearances.length})</summary><div className="appearance-list">{appearances.map((appearance) => { const first = appearance.role === "syllabus-content" && !firstByPathway.has(appearance.pathway); if (first) firstByPathway.add(appearance.pathway); return <AppearanceRow key={appearance.id} appearance={appearance} first={first} source={sourceFor(appearance)} />; })}</div></details>}
       </section>
 
       <section className="detail-section relation-section" aria-labelledby="relationships-heading">
-        <div className="section-heading"><div><span className="eyebrow">Relationships</span><h3 id="relationships-heading">Prior knowledge and what it builds towards</h3></div></div>
-        <div className="relation-group"><h4>Prior knowledge</h4><RelationGroup title="Essential" classification="essential" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} /></div>
-        <div className="relation-group"><h4>Builds towards</h4><RelationGroup title="Essential" classification="essential" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /></div>
-        {unresolved.length > 0 && <div className="relation-group unresolved-relations"><h4>Needs decision <span>{unresolved.length}</span></h4><p className="notice">These relationships remain unresolved and are excluded from the active graph.</p>{unresolved.map((relationship) => { const id = relationship.dependentSkillId === skill.id ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = catalogue.skills.find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={relationship.dependentSkillId === skill.id ? "incoming" : "outgoing"} onSelect={onSelect} /> : null; })}</div>}
-        {!hasPilot && <p className="muted">No prerequisite relationships are currently covered for this concept. No matches do not establish that there are no prerequisites.</p>}
-        {hasPilot && incoming.length === 0 && <p className="muted">No accepted essential or helpful prior knowledge is recorded in the current pilot coverage.</p>}
-        {coverage?.status === "unassessed" && <p className="notice">Incoming prerequisite coverage is unassessed for this concept. Any outgoing pilot links do not establish its own prerequisites.</p>}
-        {coverage?.status === "pilot-only" && <p className="notice">Relationship coverage is from the current pilot and may be incomplete.</p>}
+        <div className="section-heading"><div><h3 id="relationships-heading">Prior knowledge</h3></div></div>
+        <div className="relation-group"><RelationGroup title="Essential" classification="essential" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} />{incoming.length === 0 && <p className="muted">Not yet mapped</p>}</div>
+        {outgoing.length > 0 && <div className="relation-group"><h4>Builds towards</h4><RelationGroup title="Essential" classification="essential" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /></div>}
+        {unresolved.length > 0 && <div className="relation-group unresolved-relations"><h4>Needs decision <span>{unresolved.length}</span></h4>{unresolved.map((relationship) => { const id = relationship.dependentSkillId === skill.id ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = catalogue.skills.find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={relationship.dependentSkillId === skill.id ? "incoming" : "outgoing"} onSelect={onSelect} /> : null; })}</div>}
       </section>
     </div>
   );
