@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "vite build",
+    "build:search": "node scripts/build_search.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "lint": "biome check",
@@ -14,6 +16,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

@@ -1,18 +1,1 @@
-:root {
-  color-scheme: dark;
-
-  /* Semantic color tokens (dark theme). The ONLY file allowed to hold raw hex;
-     everywhere else references these via var(). See style.md. */
-  --color-bg: #0d1117;
-  --color-surface: #161b22;
-  --color-surface-raised: #21262d;
-  --color-border: #30363d;
-  --color-text: #e6edf3;
-  --color-text-muted: #9ba7b4;
-  --color-accent: #4493f8;
-
-  /* Typography: 16px base, rem-based scale, 14px (0.875rem) floor for fine print. */
-  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-size-base: 1rem;
-  --font-size-caption: 0.875rem;
-}
+:root { color-scheme: dark; --color-bg:#08111f; --color-surface:#0e1b2d; --color-surface-raised:#14263e; --color-border:#243b58; --color-text:#edf5ff; --color-text-muted:#93a8bf; --color-accent:#66b5ff; --color-accent-strong:#2688df; --color-green:#74d7ae; --color-amber:#f4c476; --color-on-accent:#fff; --color-text-soft:#b9d9f5; --color-card:#102139; --color-focus-surface:#152e48; --color-success-surface:#164736; --color-badge:#25415a; --color-warning-surface:#5b4521; --color-focus-border:#2d5a83; --color-divider:#1e334c; --color-shadow:#02081155; --font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; --font-size-base:1rem; --font-size-caption:.875rem; }
