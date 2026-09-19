@@ -1,0 +1,455 @@
+[
+  {
+    "candidateId": "pyth-01",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 0
+      },
+      {
+        "assessor": "routes",
+        "proposalIndex": 0
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-02",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 1
+      },
+      {
+        "assessor": "teaching",
+        "proposalIndex": 0
+      },
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 0
+      },
+      {
+        "assessor": "routes",
+        "proposalIndex": 1
+      },
+      {
+        "assessor": "challenge",
+        "proposalIndex": 3
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-03",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 2
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-04",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 3
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-05",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 4
+      },
+      {
+        "assessor": "routes",
+        "proposalIndex": 9
+      },
+      {
+        "assessor": "challenge",
+        "proposalIndex": 5
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-06",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 5
+      },
+      {
+        "assessor": "challenge",
+        "proposalIndex": 2
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-07",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 6
+      },
+      {
+        "assessor": "challenge",
+        "proposalIndex": 6
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-08",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 7
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-09",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 8
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-10",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 9
+      },
+      {
+        "assessor": "teaching",
+        "proposalIndex": 2
+      },
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 11
+      },
+      {
+        "assessor": "routes",
+        "proposalIndex": 8
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-11",
+    "proposals": [
+      {
+        "assessor": "concepts",
+        "proposalIndex": 10
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-12",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 1
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-13",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 3
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-14",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 4
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-15",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 5
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-16",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 6
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-17",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 7
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-18",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 8
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-19",
+    "proposals": [
+      {
+        "assessor": "teaching",
+        "proposalIndex": 9
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-20",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 1
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-21",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 2
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-22",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 3
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-23",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 4
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-24",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 5
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-25",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 6
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-26",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 7
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-27",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 8
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-28",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 9
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-29",
+    "proposals": [
+      {
+        "assessor": "misconceptions",
+        "proposalIndex": 10
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-30",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 2
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-31",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 3
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-32",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 4
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-33",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 5
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-34",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 6
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-35",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 7
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-36",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 10
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-37",
+    "proposals": [
+      {
+        "assessor": "routes",
+        "proposalIndex": 11
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-38",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 0
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-39",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 1
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-40",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 4
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-41",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 7
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-42",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 8
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-43",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 9
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-44",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 10
+      }
+    ]
+  },
+  {
+    "candidateId": "pyth-45",
+    "proposals": [
+      {
+        "assessor": "challenge",
+        "proposalIndex": 11
+      }
+    ]
+  }
+]

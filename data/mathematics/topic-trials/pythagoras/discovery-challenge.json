@@ -1,0 +1,66 @@
+{
+  "assessor": "challenge",
+  "question": "Can a student genuinely understand and explain Pythagoras' theorem without each alleged prior concept, using another reasonable route? Which prerequisites are unavoidable, which are merely helpful, and which are later-learning or overbroad algorithmic requirements?",
+  "candidates": [
+    {
+      "skillId": null,
+      "label": "recognise a right-angled triangle and identify the hypotenuse",
+      "reason": "Unavoidable conceptual foundation: the theorem applies to a specific triangle type, and an explanation must distinguish the side opposite the right angle. This is narrower than requiring a broad catalogue of triangle properties and is missing as an exact canonical skill."
+    },
+    {
+      "skillId": null,
+      "label": "understand a square as multiplying a number by itself",
+      "reason": "Unavoidable for explaining what a^2, b^2 and c^2 mean in the theorem. It can be taught immediately with the theorem, so a long prerequisite sequence about powers is unnecessary; this precise conceptual foundation is missing as an exact canonical skill."
+    },
+    {
+      "skillId": "mathematics-skill-fe3edd15df2533f0",
+      "label": "Perform the four operations on numbers",
+      "reason": "Helpful and often practically necessary for routine numerical examples, but not a conceptual prerequisite: a student can explain the relationship symbolically or use a calculator while learning the theorem. The broad all-numbers algorithm should not block conceptual understanding."
+    },
+    {
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "reason": "Helpful support for recognising the configuration, but broader than the unavoidable need to identify a right angle and hypotenuse. A student can understand the theorem from a labelled diagram without mastering every listed property."
+    },
+    {
+      "skillId": "mathematics-skill-ce21c87d0d544933",
+      "label": "Identify right, acute, obtuse and reflex angles",
+      "reason": "Only the right-angle part is relevant. Requiring classification of all four angle types is inflated; the essential subskill is right-angle recognition, which can be introduced with the target."
+    },
+    {
+      "skillId": "mathematics-skill-1e2ddb09fbd8f406",
+      "label": "Interpret algebraic notation and equivalent forms",
+      "reason": "Helpful when explaining or rearranging a^2 + b^2 = c^2, especially for finding an unknown side, but not unavoidable for understanding the geometric claim. A diagram and concrete numbers provide an alternative route."
+    },
+    {
+      "skillId": "mathematics-skill-f207aae3904c6d8c",
+      "label": "Calculate square roots and cube roots with a calculator",
+      "reason": "Helpful for obtaining a decimal side length after applying the theorem, but later computational learning rather than a prerequisite for explaining why the squared lengths relate. Exact or symbolic answers avoid it."
+    },
+    {
+      "skillId": "mathematics-skill-e488912f1bb94adb",
+      "label": "Cartesian coordinates in two dimensions",
+      "reason": "An alternative route for demonstrating the theorem, not an unavoidable prerequisite. Coordinate proofs and distance formulas are a possible later representation and must not be imposed before geometric understanding."
+    },
+    {
+      "skillId": "mathematics-skill-f18c5a005cb855d2",
+      "label": "geometric problems involving the use of coordinates",
+      "reason": "Accidentally later-learning and overbroad for the target: coordinate problem solving is one application route, while the theorem can be understood from a labelled right triangle without coordinates."
+    },
+    {
+      "skillId": "mathematics-skill-bf6173e91a146d89",
+      "label": "Use similar triangles in proofs",
+      "reason": "A valid proof route but not unavoidable for understanding or explaining the theorem. Requiring proof technique here confuses justification of one derivation with the conceptual prerequisite for using the relationship."
+    },
+    {
+      "skillId": "mathematics-skill-051b9d0e45383abf",
+      "label": "Use triangle properties in proofs",
+      "reason": "Later-learning and overbroad: a student can explain the theorem operationally and geometrically without a general triangle-proof repertoire. It may support a formal proof extension, not initial conceptual understanding."
+    },
+    {
+      "skillId": "mathematics-skill-ff206476f8a1e86d",
+      "label": "Understand the concept of area of a plane figure",
+      "reason": "Not unavoidable. Area-based dissections can motivate or prove Pythagoras, but a numerical pattern, square-on-each-side diagram, or coordinate argument gives a reasonable alternative. Requiring general area understanding overstates the dependency."
+    }
+  ]
+}

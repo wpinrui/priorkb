@@ -1,0 +1,47 @@
+{
+  "formatVersion": 1,
+  "subject": "mathematics",
+  "knowledge": "../../knowledge.json",
+  "targetSkillId": "mathematics-skill-421dd2683faa2ab3",
+  "protocol": "independent-discovery-then-distinct-question-voting",
+  "voterCount": 5,
+  "acceptanceThreshold": 4,
+  "execution": "native-collaboration-agents",
+  "assessors": [
+    {
+      "id": "concepts",
+      "agentTask": "/root/pythagoras_concepts",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-concepts.json",
+      "votes": "votes-concepts.json"
+    },
+    {
+      "id": "teaching",
+      "agentTask": "/root/mvp_ui",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-teaching.json",
+      "votes": "votes-teaching.json"
+    },
+    {
+      "id": "misconceptions",
+      "agentTask": "/root/mvp_data",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-misconceptions.json",
+      "votes": "votes-misconceptions.json"
+    },
+    {
+      "id": "routes",
+      "agentTask": "/root/pythagoras_routes",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-routes.json",
+      "votes": "votes-routes.json"
+    },
+    {
+      "id": "challenge",
+      "agentTask": "/root/pythagoras_challenge",
+      "model": "gpt-5.6-luna",
+      "discovery": "discovery-challenge.json",
+      "votes": "votes-challenge.json"
+    }
+  ]
+}

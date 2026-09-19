@@ -1,0 +1,56 @@
+{
+  "assessor": "teaching",
+  "question": "Teaching Pythagoras' theorem tomorrow, which missing knowledge would prevent a learner from understanding or explaining the theorem and using it in a right-angled triangle, rather than knowledge introduced by the new lesson?",
+  "candidates": [
+    {
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "reason": "A learner must identify a right angle and distinguish the hypotenuse from the two shorter sides before the theorem can be stated or explained correctly."
+    },
+    {
+      "skillId": "mathematics-skill-0d02b5f4eda3ccc3",
+      "label": "Use properties of triangles",
+      "reason": "The learner needs to read a triangle as a geometric object, including its sides and angles, so the relationship is attached to the correct figure rather than treated as an unconnected formula."
+    },
+    {
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "reason": "The area relationship provides the geometric basis for a common explanation or rearrangement of the theorem through squares and triangles, rather than mere substitution."
+    },
+    {
+      "skillId": "mathematics-skill-b61572aa2e145ff7",
+      "label": "Find the area of rectangles and squares",
+      "reason": "Understanding a square on a side as an area requires interpreting and calculating square areas before a learner can explain what the squared terms represent."
+    },
+    {
+      "skillId": null,
+      "label": "Square a number and interpret a square root",
+      "reason": "The calculation depends on both operations and on seeing a square root as the inverse of squaring; the catalogue's prime-factorisation and calculator nodes are narrower than this diagnostic competency."
+    },
+    {
+      "skillId": null,
+      "label": "Substitute measured side lengths into a formula",
+      "reason": "Learners must map each given length to the corresponding side in the diagram and substitute it without losing the geometric meaning of the variables."
+    },
+    {
+      "skillId": null,
+      "label": "Rearrange an equation to make a missing side the subject",
+      "reason": "Finding a missing leg requires isolating a squared term and then taking a square root; equation rearrangement is a prerequisite for explaining the steps rather than copying a memorised case."
+    },
+    {
+      "skillId": null,
+      "label": "Multiply, add, subtract, and divide positive numbers accurately",
+      "reason": "The theorem's squared-side relationship and rearrangements require reliable arithmetic so errors can be diagnosed as arithmetic rather than mistaken for a conceptual failure."
+    },
+    {
+      "skillId": null,
+      "label": "Use consistent length units and compare measured lengths",
+      "reason": "The three lengths must be comparable before squaring, and a learner needs to recognise when mixed units make the calculation meaningless."
+    },
+    {
+      "skillId": null,
+      "label": "Read a scale drawing and identify the relevant lengths",
+      "reason": "Applied problems often hide the three side lengths in a diagram; extracting the relevant measurements is needed before the theorem can be selected and used."
+    }
+  ]
+}

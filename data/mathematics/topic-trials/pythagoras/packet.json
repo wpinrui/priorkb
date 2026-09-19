@@ -1,0 +1,1658 @@
+{
+  "formatVersion": 1,
+  "subject": "mathematics",
+  "knowledgeSha256": "b388810a6dd525c226a84c242621518a357ca44f19b9e8a54f1919915f7ee9ab",
+  "target": {
+    "id": "mathematics-skill-421dd2683faa2ab3",
+    "subject": "mathematics",
+    "label": "use of Pythagoras’ theorem",
+    "description": "use of Pythagoras’ theorem",
+    "appearanceIds": [
+      "math-secondary-g1-sec-2-3-1-059:part-01",
+      "math-secondary-g3-sec-2-4-1-168:part-01",
+      "math-secondary-g2-sec-2-4-1-309:part-01"
+    ],
+    "topics": [
+      "G3. Pythagoras’ theorem",
+      "G4. Pythagoras’ theorem and trigonometry"
+    ],
+    "appearances": [
+      {
+        "id": "math-secondary-g1-sec-2-3-1-059:part-01",
+        "objectiveId": "math-secondary-g1-sec-2-3-1-059",
+        "pathway": "secondary-g1",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G3. Pythagoras’ theorem",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g1-secondary",
+          "pdfPages": [
+            20
+          ],
+          "printedPages": [
+            "18"
+          ],
+          "item": "3.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      },
+      {
+        "id": "math-secondary-g3-sec-2-4-1-168:part-01",
+        "objectiveId": "math-secondary-g3-sec-2-4-1-168",
+        "pathway": "secondary-g3",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G4. Pythagoras’ theorem and trigonometry",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g2-g3-secondary",
+          "pdfPages": [
+            20
+          ],
+          "printedPages": [
+            "18"
+          ],
+          "item": "4.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      },
+      {
+        "id": "math-secondary-g2-sec-2-4-1-309:part-01",
+        "objectiveId": "math-secondary-g2-sec-2-4-1-309",
+        "pathway": "secondary-g2",
+        "year": "Sec 2",
+        "role": "syllabus-content",
+        "strand": "Geometry and Measurement",
+        "topic": "G4. Pythagoras’ theorem and trigonometry",
+        "constraints": [],
+        "scopeNotes": [],
+        "source": {
+          "documentId": "math-g2-g3-secondary",
+          "pdfPages": [
+            30
+          ],
+          "printedPages": [
+            "28"
+          ],
+          "item": "4.1"
+        },
+        "status": "ready",
+        "skillId": "mathematics-skill-421dd2683faa2ab3"
+      }
+    ]
+  },
+  "policy": {
+    "policyVersion": "conceptual-understanding-v2",
+    "essentialDefinition": "Prior mastery of the specific prerequisite competence is required to understand and explain the dependent concept as scoped, rather than merely to execute a procedure.",
+    "helpfulDefinition": "The prerequisite provides a concrete explanatory bridge or useful interpretation for understanding or explaining the dependent concept, but is not necessary.",
+    "noneDefinition": "There is no defensible conceptual or explanatory bridge in the stated direction; not being required alone is insufficient for this classification."
+  },
+  "candidates": [
+    {
+      "id": "pyth-01",
+      "skillId": "mathematics-skill-b8e579ca9d227a35",
+      "label": "Identify right angles",
+      "description": "Identify right angles.",
+      "topics": [
+        "G1. Angles, triangles and polygons"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-1-129:part-01",
+          "objectiveId": "math-secondary-g3-sec-1-1-1-129",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b8e579ca9d227a35"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-1-1-269:part-01",
+          "objectiveId": "math-secondary-g2-sec-1-1-1-269",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              28
+            ],
+            "printedPages": [
+              "26"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b8e579ca9d227a35"
+        }
+      ]
+    },
+    {
+      "id": "pyth-02",
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "description": "Describe the properties of right-angled triangles.",
+      "topics": [
+        "Geometry: Triangle",
+        "Geometry: Rectangle, square and triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-1:part-03",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-1",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "2.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-06ee3a60b051acf1"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-1:part-03",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-1",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Rectangle, square and triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-06ee3a60b051acf1"
+        }
+      ]
+    },
+    {
+      "id": "pyth-03",
+      "skillId": "mathematics-skill-0d3bd526e6bd05bf",
+      "label": "perpendicular and parallel lines",
+      "description": "perpendicular and parallel lines",
+      "topics": [
+        "Geometry: Perpendicular and Parallel Lines"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-2-1:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-2-1",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Perpendicular and Parallel Lines",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "2.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d3bd526e6bd05bf"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-1-1:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-geometry-perpendicular-and-parallel-lines-1-1",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Perpendicular and Parallel Lines",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d3bd526e6bd05bf"
+        }
+      ]
+    },
+    {
+      "id": "pyth-04",
+      "skillId": "mathematics-skill-abbe29f3b6286878",
+      "label": "area of rectangle/square",
+      "description": "area of rectangle/square",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-4:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-4",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-abbe29f3b6286878"
+        }
+      ]
+    },
+    {
+      "id": "pyth-05",
+      "skillId": "mathematics-skill-1e2ddb09fbd8f406",
+      "label": "Interpret algebraic notation and equivalent forms",
+      "description": "Interpret ab as a x b, a/b as a divided by b or a x 1/b, powers such as a^2, a^3 and a^2b, repeated addition such as 3y, multiplication such as 3(x + y), and division such as (3 + y)/5.",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-5-2-022:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-5-2-022",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-1e2ddb09fbd8f406"
+        }
+      ]
+    },
+    {
+      "id": "pyth-06",
+      "skillId": "mathematics-skill-fe3edd15df2533f0",
+      "label": "Perform the four operations on numbers",
+      "description": "Perform the four operations on numbers.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-3-095:part-05",
+          "objectiveId": "math-secondary-g3-sec-1-1-3-095",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              17
+            ],
+            "printedPages": [
+              "15"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fe3edd15df2533f0"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-1-3-233:part-05",
+          "objectiveId": "math-secondary-g2-sec-1-1-3-233",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              27
+            ],
+            "printedPages": [
+              "25"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fe3edd15df2533f0"
+        }
+      ]
+    },
+    {
+      "id": "pyth-07",
+      "skillId": "mathematics-skill-f207aae3904c6d8c",
+      "label": "Calculate square roots and cube roots with a calculator",
+      "description": "Use a calculator to calculate square roots and cube roots.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-4-004:part-02",
+          "objectiveId": "math-secondary-g1-sec-1-1-4-004",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f207aae3904c6d8c"
+        }
+      ]
+    },
+    {
+      "id": "pyth-08",
+      "skillId": "mathematics-skill-13280dc03d854ab6",
+      "label": "finding the value of an unknown quantity in a given formula",
+      "description": "finding the value of an unknown quantity in a given formula",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-3-4-5-12-076:part-01",
+          "objectiveId": "math-secondary-g1-sec-3-4-5-12-076",
+          "pathway": "secondary-g1",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "5.12"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        },
+        {
+          "id": "math-secondary-g3-sec-2-5-11-149:part-01",
+          "objectiveId": "math-secondary-g3-sec-2-5-11-149",
+          "pathway": "secondary-g3",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "5.11"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        },
+        {
+          "id": "math-secondary-g2-sec-3-4-5-17-326:part-01",
+          "objectiveId": "math-secondary-g2-sec-3-4-5-17-326",
+          "pathway": "secondary-g2",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ],
+            "item": "5.17"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-13280dc03d854ab6"
+        }
+      ]
+    },
+    {
+      "id": "pyth-09",
+      "skillId": "mathematics-skill-0e0a095410df4fc3",
+      "label": "changing the subject of a simple formula",
+      "description": "changing the subject of a simple formula",
+      "topics": [
+        "N5. Algebraic expressions and formulae"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-3-4-5-11-075:part-01",
+          "objectiveId": "math-secondary-g1-sec-3-4-5-11-075",
+          "pathway": "secondary-g1",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N5. Algebraic expressions and formulae",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "5.11"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0e0a095410df4fc3"
+        }
+      ]
+    },
+    {
+      "id": "pyth-10",
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "description": "Find the area of a triangle using one half times base times perpendicular height.",
+      "topics": [
+        "Area And Volume: Area of Triangle",
+        "G4. Mensuration"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-2",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-2",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        },
+        {
+          "id": "math-secondary-g1-sec-1-4-1-032:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-4-1-032",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "4.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0429f7a004522fb0"
+        }
+      ]
+    },
+    {
+      "id": "pyth-11",
+      "skillId": "mathematics-skill-d742f69680f9e577",
+      "label": "finding the area of composite figures made up of rectangles, squares and triangles",
+      "description": "finding the area of composite figures made up of rectangles, squares and triangles",
+      "topics": [
+        "Area And Volume: Area of Triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-3:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-3",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area of Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-d742f69680f9e577"
+        }
+      ]
+    },
+    {
+      "id": "pyth-12",
+      "skillId": "mathematics-skill-0d02b5f4eda3ccc3",
+      "label": "Use properties of triangles",
+      "description": "Use properties of triangles.",
+      "topics": [
+        "G1. Angles, triangles and polygons"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-1-1-4-132:part-04",
+          "objectiveId": "math-secondary-g3-sec-1-1-4-132",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and polygons",
+          "constraints": [],
+          "scopeNotes": [
+            "Triangles are included in the source scope."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-0d02b5f4eda3ccc3"
+        }
+      ]
+    },
+    {
+      "id": "pyth-13",
+      "skillId": "mathematics-skill-b61572aa2e145ff7",
+      "label": "Find the area of rectangles and squares",
+      "description": "Find the area of rectangles and squares.",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-3",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-b61572aa2e145ff7"
+        }
+      ]
+    },
+    {
+      "id": "pyth-14",
+      "skillId": null,
+      "label": "Square a number and interpret a square root",
+      "description": "Square a number and interpret a square root",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-15",
+      "skillId": null,
+      "label": "Substitute measured side lengths into a formula",
+      "description": "Substitute measured side lengths into a formula",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-16",
+      "skillId": null,
+      "label": "Rearrange an equation to make a missing side the subject",
+      "description": "Rearrange an equation to make a missing side the subject",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-17",
+      "skillId": null,
+      "label": "Multiply, add, subtract, and divide positive numbers accurately",
+      "description": "Multiply, add, subtract, and divide positive numbers accurately",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-18",
+      "skillId": null,
+      "label": "Use consistent length units and compare measured lengths",
+      "description": "Use consistent length units and compare measured lengths",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-19",
+      "skillId": null,
+      "label": "Read a scale drawing and identify the relevant lengths",
+      "description": "Read a scale drawing and identify the relevant lengths",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-20",
+      "skillId": "mathematics-skill-ad6b0bdfed823beb",
+      "label": "Identify, name, describe and classify basic 2D shapes",
+      "description": "Identify, name, describe and classify rectangles, squares, triangles, circles, half circles and quarter circles.",
+      "topics": [
+        "Geometry: 2D Shapes"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-1:part-01",
+          "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-1",
+          "pathway": "primary-common",
+          "year": "P1",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: 2D Shapes",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "32"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ad6b0bdfed823beb"
+        }
+      ]
+    },
+    {
+      "id": "pyth-21",
+      "skillId": "mathematics-skill-65e91f5bf9463246",
+      "label": "angle sum of a triangle",
+      "description": "angle sum of a triangle",
+      "topics": [
+        "Geometry: Triangle",
+        "Geometry: Rectangle, square and triangle"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-2:part-01",
+          "objectiveId": "math-primary-standard-p5-measurement-and-geometry-geometry-triangle-2-2",
+          "pathway": "primary-standard",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              42
+            ],
+            "printedPages": [
+              "42"
+            ],
+            "item": "2.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-65e91f5bf9463246"
+        },
+        {
+          "id": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p6-measurement-and-geometry-geometry-rectangle-square-and-triangle-1-2",
+          "pathway": "primary-foundation",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: Rectangle, square and triangle",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              49
+            ],
+            "printedPages": [
+              "49"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-65e91f5bf9463246"
+        }
+      ]
+    },
+    {
+      "id": "pyth-22",
+      "skillId": "mathematics-skill-55899274f9ae21c9",
+      "label": "determining whether a triangle is right-angled given the lengths of three sides",
+      "description": "determining whether a triangle is right-angled given the lengths of three sides",
+      "topics": [
+        "G3. Pythagoras’ theorem",
+        "G4. Pythagoras’ theorem and trigonometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-2-3-2-060:part-01",
+          "objectiveId": "math-secondary-g1-sec-2-3-2-060",
+          "pathway": "secondary-g1",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G3. Pythagoras’ theorem",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "3.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-55899274f9ae21c9"
+        },
+        {
+          "id": "math-secondary-g3-sec-2-4-2-169:part-01",
+          "objectiveId": "math-secondary-g3-sec-2-4-2-169",
+          "pathway": "secondary-g3",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Pythagoras’ theorem and trigonometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "4.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-55899274f9ae21c9"
+        }
+      ]
+    },
+    {
+      "id": "pyth-23",
+      "skillId": "mathematics-skill-6456067a4eda8336",
+      "label": "Calculate squares and cubes with a calculator",
+      "description": "Use a calculator to calculate squares and cubes.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-4-004:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-4-004",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-6456067a4eda8336"
+        }
+      ]
+    },
+    {
+      "id": "pyth-24",
+      "skillId": null,
+      "label": "Explain squaring as multiplying a length by itself and interpret the resulting square units",
+      "description": "Explain squaring as multiplying a length by itself and interpret the resulting square units",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-25",
+      "skillId": null,
+      "label": "Distinguish a length from its numerical square and preserve units when comparing them",
+      "description": "Distinguish a length from its numerical square and preserve units when comparing them",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-26",
+      "skillId": null,
+      "label": "Identify the hypotenuse as the side opposite the right angle and the longest side",
+      "description": "Identify the hypotenuse as the side opposite the right angle and the longest side",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-27",
+      "skillId": null,
+      "label": "Understand equality as a statement that two quantities have the same value under the stated conditions",
+      "description": "Understand equality as a statement that two quantities have the same value under the stated conditions",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-28",
+      "skillId": null,
+      "label": "Use inverse operations conceptually to recover a length from its square",
+      "description": "Use inverse operations conceptually to recover a length from its square",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-29",
+      "skillId": "mathematics-skill-09d63c9b2a245efc",
+      "label": "using appropriate units of measurement and their abbreviations m, g, kg, ℓ",
+      "description": "using appropriate units of measurement and their abbreviations m, g, kg, ℓ",
+      "topics": [
+        "Measurement: Length, Mass and Volume"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-2:part-01",
+          "objectiveId": "math-primary-common-p2-measurement-and-geometry-measurement-length-mass-and-volume-1-2",
+          "pathway": "primary-common",
+          "year": "P2",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Measurement: Length, Mass and Volume",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              34
+            ],
+            "printedPages": [
+              "34"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-09d63c9b2a245efc"
+        }
+      ]
+    },
+    {
+      "id": "pyth-30",
+      "skillId": "mathematics-skill-14ca6dc56a8db954",
+      "label": "measuring area in square units, cm² and m², excluding conversion between cm² and m²",
+      "description": "measuring area in square units, cm² and m², excluding conversion between cm² and m²",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [
+            "measuring area in square units, cm² and m², excluding conversion between cm² and m²"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-14ca6dc56a8db954"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-2",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [
+            "measuring area in square units, cm² and m², excluding conversion between cm² and m²"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-14ca6dc56a8db954"
+        }
+      ]
+    },
+    {
+      "id": "pyth-31",
+      "skillId": null,
+      "label": "Understand a square of a length as the area of a square with that side length",
+      "description": "Understand a square of a length as the area of a square with that side length",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-32",
+      "skillId": null,
+      "label": "Recognise that rearrangement or calculation can preserve an equality of quantities",
+      "description": "Recognise that rearrangement or calculation can preserve an equality of quantities",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-33",
+      "skillId": "mathematics-skill-719175609974e18e",
+      "label": "Perform the four operations with integers",
+      "description": "Perform addition, subtraction, multiplication and division with integers.",
+      "topics": [
+        "N1. Numbers and their operations"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-2-002:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-2-002",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N1. Numbers and their operations",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "1.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-719175609974e18e"
+        }
+      ]
+    },
+    {
+      "id": "pyth-34",
+      "skillId": "mathematics-skill-002d3eb1b93b596f",
+      "label": "identifying the 2D shapes that make up a given figure",
+      "description": "identifying the 2D shapes that make up a given figure",
+      "topics": [
+        "Geometry: 2D Shapes"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-3:part-01",
+          "objectiveId": "math-primary-common-p1-measurement-and-geometry-geometry-2d-shapes-1-3",
+          "pathway": "primary-common",
+          "year": "P1",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Geometry: 2D Shapes",
+          "constraints": [
+            "identifying the 2D shapes that make up a given figure"
+          ],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "32"
+            ],
+            "item": "1.3"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-002d3eb1b93b596f"
+        }
+      ]
+    },
+    {
+      "id": "pyth-35",
+      "skillId": "mathematics-skill-025f37bd8cbf6edf",
+      "label": "Find the area of composite plane figures",
+      "description": "Find or solve problems involving the area of composite plane figures.",
+      "topics": [
+        "G4. Mensuration",
+        "G5. Mensuration"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-4-4-035:part-02",
+          "objectiveId": "math-secondary-g1-sec-1-4-4-035",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G4. Mensuration",
+          "constraints": [],
+          "scopeNotes": [
+            "Figures are composite plane figures."
+          ],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "4.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        },
+        {
+          "id": "math-secondary-g3-sec-1-5-2-137:part-02",
+          "objectiveId": "math-secondary-g3-sec-1-5-2-137",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G5. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        },
+        {
+          "id": "math-secondary-g2-sec-1-5-2-274:part-02",
+          "objectiveId": "math-secondary-g2-sec-1-5-2-274",
+          "pathway": "secondary-g2",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G5. Mensuration",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              28
+            ],
+            "printedPages": [
+              "26"
+            ],
+            "item": "5.2"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-025f37bd8cbf6edf"
+        }
+      ]
+    },
+    {
+      "id": "pyth-36",
+      "skillId": "mathematics-skill-fc95079990371f20",
+      "label": "using a letter to represent an unknown number",
+      "description": "using a letter to represent an unknown number",
+      "topics": [
+        "Algebra: Algebra"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-1:part-01",
+          "objectiveId": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-1",
+          "pathway": "primary-standard",
+          "year": "P6",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "Algebra: Algebra",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              43
+            ],
+            "printedPages": [
+              "43"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-fc95079990371f20"
+        }
+      ]
+    },
+    {
+      "id": "pyth-37",
+      "skillId": null,
+      "label": "Distinguish a pattern supported by examples from a general theorem",
+      "description": "Distinguish a pattern supported by examples from a general theorem",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-38",
+      "skillId": null,
+      "label": "recognise a right-angled triangle and identify the hypotenuse",
+      "description": "recognise a right-angled triangle and identify the hypotenuse",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-39",
+      "skillId": null,
+      "label": "understand a square as multiplying a number by itself",
+      "description": "understand a square as multiplying a number by itself",
+      "kind": "inferred-instructional-subskill",
+      "appearances": []
+    },
+    {
+      "id": "pyth-40",
+      "skillId": "mathematics-skill-ce21c87d0d544933",
+      "label": "Identify right, acute, obtuse and reflex angles",
+      "description": "Identify right, acute, obtuse and reflex angles.",
+      "topics": [
+        "G1. Angles, triangles and quadrilaterals"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-1-1-1-026:part-01",
+          "objectiveId": "math-secondary-g1-sec-1-1-1-026",
+          "pathway": "secondary-g1",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G1. Angles, triangles and quadrilaterals",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ce21c87d0d544933"
+        }
+      ]
+    },
+    {
+      "id": "pyth-41",
+      "skillId": "mathematics-skill-e488912f1bb94adb",
+      "label": "Cartesian coordinates in two dimensions",
+      "description": "Cartesian coordinates in two dimensions",
+      "topics": [
+        "N6. Functions and graphs"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g1-sec-2-6-1-047:part-01",
+          "objectiveId": "math-secondary-g1-sec-2-6-1-047",
+          "pathway": "secondary-g1",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g1-secondary",
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        },
+        {
+          "id": "math-secondary-g3-sec-1-6-1-120:part-01",
+          "objectiveId": "math-secondary-g3-sec-1-6-1-120",
+          "pathway": "secondary-g3",
+          "year": "Sec 1",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              18
+            ],
+            "printedPages": [
+              "16"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        },
+        {
+          "id": "math-secondary-g2-sec-2-6-1-290:part-01",
+          "objectiveId": "math-secondary-g2-sec-2-6-1-290",
+          "pathway": "secondary-g2",
+          "year": "Sec 2",
+          "role": "syllabus-content",
+          "strand": "Number and Algebra",
+          "topic": "N6. Functions and graphs",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ],
+            "item": "6.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-e488912f1bb94adb"
+        }
+      ]
+    },
+    {
+      "id": "pyth-42",
+      "skillId": "mathematics-skill-f18c5a005cb855d2",
+      "label": "geometric problems involving the use of coordinates",
+      "description": "geometric problems involving the use of coordinates",
+      "topics": [
+        "G6. Coordinate geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-sec-3-4-6-4-214:part-01",
+          "objectiveId": "math-secondary-g3-sec-3-4-6-4-214",
+          "pathway": "secondary-g3",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G6. Coordinate geometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              22
+            ],
+            "printedPages": [
+              "20"
+            ],
+            "item": "6.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f18c5a005cb855d2"
+        },
+        {
+          "id": "math-secondary-g2-sec-3-4-6-4-354:part-01",
+          "objectiveId": "math-secondary-g2-sec-3-4-6-4-354",
+          "pathway": "secondary-g2",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G6. Coordinate geometry",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "math-g2-g3-secondary",
+            "pdfPages": [
+              32
+            ],
+            "printedPages": [
+              "30"
+            ],
+            "item": "6.4"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-f18c5a005cb855d2"
+        }
+      ]
+    },
+    {
+      "id": "pyth-43",
+      "skillId": "mathematics-skill-bf6173e91a146d89",
+      "label": "Use similar triangles in proofs",
+      "description": "Use similar triangles in proofs.",
+      "topics": [
+        "G3. Proofs in plane geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-additional-sec-5-3-2-488:part-02",
+          "objectiveId": "math-secondary-g3-additional-sec-5-3-2-488",
+          "pathway": "secondary-g3-additional",
+          "year": "Sec 5",
+          "role": "syllabus-content",
+          "strand": "Geometry and Measurement",
+          "topic": "G3. Proofs in plane geometry",
+          "constraints": [
+            "The body heading says Content for Sec 5 students taking G3 Additional Mathematics, while the table of contents says Content for Sec 5 students taking G2 Additional Mathematics.",
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-additional-secondary",
+            "pdfPages": [
+              26
+            ],
+            "printedPages": [
+              "24"
+            ],
+            "item": "3.2"
+          },
+          "status": "source-uncertain",
+          "skillId": "mathematics-skill-bf6173e91a146d89"
+        }
+      ]
+    },
+    {
+      "id": "pyth-44",
+      "skillId": "mathematics-skill-051b9d0e45383abf",
+      "label": "Use triangle properties in proofs",
+      "description": "Use properties of triangles in proofs.",
+      "topics": [
+        "G3. Proofs in plane geometry"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-secondary-g3-additional-sec-3-4-3-1-416:part-02",
+          "objectiveId": "math-secondary-g3-additional-sec-3-4-3-1-416",
+          "pathway": "secondary-g3-additional",
+          "year": "Sec 3-4",
+          "role": "syllabus-content",
+          "strand": "Geometry and Trigonometry",
+          "topic": "G3. Proofs in plane geometry",
+          "constraints": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "scopeNotes": [
+            "These properties are learnt in G3 Mathematics."
+          ],
+          "source": {
+            "documentId": "math-g2-g3-additional-secondary",
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ],
+            "item": "3.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-051b9d0e45383abf"
+        }
+      ]
+    },
+    {
+      "id": "pyth-45",
+      "skillId": "mathematics-skill-ff206476f8a1e86d",
+      "label": "Understand the concept of area of a plane figure",
+      "description": "Understand the concept of area of a plane figure.",
+      "topics": [
+        "Area And Volume: Area and Perimeter"
+      ],
+      "kind": "catalogue-skill",
+      "appearances": [
+        {
+          "id": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1:part-01",
+          "objectiveId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+          "pathway": "primary-common",
+          "year": "P3",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              36
+            ],
+            "printedPages": [
+              "36"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ff206476f8a1e86d"
+        },
+        {
+          "id": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1:part-01",
+          "objectiveId": "math-primary-foundation-p5-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1",
+          "pathway": "primary-foundation",
+          "year": "P5",
+          "role": "syllabus-content",
+          "strand": "Measurement and Geometry",
+          "topic": "Area And Volume: Area and Perimeter",
+          "constraints": [],
+          "scopeNotes": [],
+          "source": {
+            "documentId": "primary-2021-2025",
+            "pdfPages": [
+              47
+            ],
+            "printedPages": [
+              "47"
+            ],
+            "item": "1.1"
+          },
+          "status": "ready",
+          "skillId": "mathematics-skill-ff206476f8a1e86d"
+        }
+      ]
+    }
+  ],
+  "note": "Trial only. Inferred instructional subskills are hypotheses, not quoted syllabus learning objectives; no year is asserted for them. Evaluate all exact candidate scopes, including overlaps, independently. Proposal rationales and identities are withheld."
+}

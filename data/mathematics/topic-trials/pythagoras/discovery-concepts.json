@@ -1,0 +1,61 @@
+{
+  "assessor": "concepts",
+  "question": "What concepts must a student already understand to make sense of WHY a²+b²=c² applies, and what knowledge is introduced as part of teaching the theorem itself?",
+  "candidates": [
+    {
+      "skillId": "mathematics-skill-b8e579ca9d227a35",
+      "label": "Identify right angles",
+      "reason": "Essential prerequisite: the theorem is conditional on one angle being 90°, so a student must recognise the defining condition before understanding when it applies."
+    },
+    {
+      "skillId": "mathematics-skill-06ee3a60b051acf1",
+      "label": "Describe properties of right-angled triangles",
+      "reason": "Essential prerequisite: the student needs to see the triangle as two perpendicular legs and a side opposite the right angle, with the theorem applying to that structure."
+    },
+    {
+      "skillId": "mathematics-skill-0d3bd526e6bd05bf",
+      "label": "perpendicular and parallel lines",
+      "reason": "Helpful prerequisite for the geometric meaning: perpendicular sides create the right angle and the square-area relationship behind the theorem."
+    },
+    {
+      "skillId": "mathematics-skill-abbe29f3b6286878",
+      "label": "area of rectangle/square",
+      "reason": "Essential for understanding why the terms are squared: a², b² and c² can represent the areas of squares built on the three sides."
+    },
+    {
+      "skillId": "mathematics-skill-1e2ddb09fbd8f406",
+      "label": "Interpret algebraic notation and equivalent forms",
+      "reason": "Essential prerequisite for reading a²+b²=c² as squares of lengths added together, rather than as unexplained symbols."
+    },
+    {
+      "skillId": "mathematics-skill-fe3edd15df2533f0",
+      "label": "Perform the four operations on numbers",
+      "reason": "Essential procedural prerequisite for squaring lengths, adding the two square values, and rearranging or checking numerical instances of the theorem."
+    },
+    {
+      "skillId": "mathematics-skill-f207aae3904c6d8c",
+      "label": "Calculate square roots and cube roots with a calculator",
+      "reason": "Needed when the unknown is a side found by taking a square root; the square-root operation is part of applying the theorem, though calculator use is a tool rather than its meaning."
+    },
+    {
+      "skillId": "mathematics-skill-13280dc03d854ab6",
+      "label": "finding the value of an unknown quantity in a given formula",
+      "reason": "Essential for using the theorem in all orientations: students must substitute known side lengths and isolate the unknown quantity."
+    },
+    {
+      "skillId": "mathematics-skill-0e0a095410df4fc3",
+      "label": "changing the subject of a simple formula",
+      "reason": "Helpful prerequisite for deriving c²=a²+b², a²=c²−b² or b²=c²−a² before taking the relevant square root; it supports application but is not the theorem's geometric justification."
+    },
+    {
+      "skillId": "mathematics-skill-0429f7a004522fb0",
+      "label": "Find the area of a triangle",
+      "reason": "Optional explanatory proof technique: a proof or visual derivation may compare areas of triangles and squares, but routine theorem use does not require this skill."
+    },
+    {
+      "skillId": "mathematics-skill-d742f69680f9e577",
+      "label": "finding the area of composite figures made up of rectangles, squares and triangles",
+      "reason": "Optional explanatory proof technique: rearranging or decomposing a square into triangles and smaller squares can motivate why the areas satisfy the equation, but this is not a universal prerequisite."
+    }
+  ]
+}
