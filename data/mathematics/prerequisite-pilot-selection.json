@@ -1,0 +1,245 @@
+{
+  "purpose": "Pilot set of 40 plausible direct prerequisite pairs for independent essential/helpful/none voting; appearance IDs preserve source scope and pathway evidence.",
+  "pairs": [
+    {
+      "id": "pilot-001",
+      "prerequisiteAppearanceId": "math-primary-common-p1-number-and-algebra-whole-numbers-numbers-up-to-100-1-2:part-01",
+      "dependentAppearanceId": "math-primary-common-p1-number-and-algebra-whole-numbers-numbers-up-to-100-1-5:part-01",
+      "reasonForCandidate": "Place-value notation gives the number representation needed to compare and order numbers."
+    },
+    {
+      "id": "pilot-002",
+      "prerequisiteAppearanceId": "math-primary-common-p2-number-and-algebra-fractions-fraction-of-a-whole-1-1:part-01",
+      "dependentAppearanceId": "math-primary-common-p2-number-and-algebra-fractions-addition-and-subtraction-2-1:part-01",
+      "reasonForCandidate": "Understanding a fraction as part of a whole supports adding and subtracting like fractions within one whole."
+    },
+    {
+      "id": "pilot-003",
+      "prerequisiteAppearanceId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-1:part-01",
+      "dependentAppearanceId": "math-primary-common-p3-measurement-and-geometry-area-and-volume-area-and-perimeter-1-4:part-01",
+      "reasonForCandidate": "The concept of area is needed before applying the rectangle and square area relationship."
+    },
+    {
+      "id": "pilot-004",
+      "prerequisiteAppearanceId": "math-primary-foundation-p5-number-and-algebra-fractions-concepts-of-fractions-1-1:part-01",
+      "dependentAppearanceId": "math-primary-foundation-p5-number-and-algebra-fractions-equivalent-fractions-2-1:part-01",
+      "reasonForCandidate": "The part-whole fraction concept supports recognising equivalent fractions."
+    },
+    {
+      "id": "pilot-005",
+      "prerequisiteAppearanceId": "math-primary-foundation-p5-number-and-algebra-fractions-equivalent-fractions-2-1:part-01",
+      "dependentAppearanceId": "math-primary-foundation-p5-number-and-algebra-fractions-four-operations-4-1:part-01",
+      "reasonForCandidate": "Equivalent fractions support finding common denominators for fraction addition and subtraction."
+    },
+    {
+      "id": "pilot-006",
+      "prerequisiteAppearanceId": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-1:part-01",
+      "dependentAppearanceId": "math-primary-foundation-p6-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+      "reasonForCandidate": "Identifying a triangle base and height supports finding its area."
+    },
+    {
+      "id": "pilot-007",
+      "prerequisiteAppearanceId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-1:part-01",
+      "dependentAppearanceId": "math-primary-standard-p5-measurement-and-geometry-area-and-volume-area-of-triangle-1-2:part-01",
+      "reasonForCandidate": "Identifying a triangle base and height supports finding its area."
+    },
+    {
+      "id": "pilot-008",
+      "prerequisiteAppearanceId": "math-primary-standard-p6-number-and-algebra-ratio-ratio-1-1:part-01",
+      "dependentAppearanceId": "math-primary-standard-p6-number-and-algebra-ratio-ratio-1-2:part-01",
+      "reasonForCandidate": "Ratio notation and interpretation supports recognising equivalent ratios."
+    },
+    {
+      "id": "pilot-009",
+      "prerequisiteAppearanceId": "math-primary-standard-p6-number-and-algebra-ratio-ratio-1-2:part-01",
+      "dependentAppearanceId": "math-primary-standard-p6-number-and-algebra-ratio-ratio-1-3:part-01",
+      "reasonForCandidate": "Equivalent ratios support dividing a quantity in a given ratio."
+    },
+    {
+      "id": "pilot-010",
+      "prerequisiteAppearanceId": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-1:part-01",
+      "dependentAppearanceId": "math-primary-standard-p6-number-and-algebra-algebra-algebra-1-2:part-01",
+      "reasonForCandidate": "Using a letter for an unknown supports interpreting simple algebraic expressions."
+    },
+    {
+      "id": "pilot-011",
+      "prerequisiteAppearanceId": "math-secondary-g1-sec-1-1-2-002:part-01",
+      "dependentAppearanceId": "math-secondary-g1-sec-1-1-3-003:part-01",
+      "reasonForCandidate": "Integer operations support performing the corresponding operations with fractions."
+    },
+    {
+      "id": "pilot-012",
+      "prerequisiteAppearanceId": "math-secondary-g1-sec-2-6-3-049:part-01",
+      "dependentAppearanceId": "math-secondary-g1-sec-2-6-4-050:part-01",
+      "reasonForCandidate": "The linear-function form supports graphing linear functions."
+    },
+    {
+      "id": "pilot-013",
+      "prerequisiteAppearanceId": "math-secondary-g1-sec-3-4-5-13-077:part-01",
+      "dependentAppearanceId": "math-secondary-g1-sec-3-4-5-14-078:part-01",
+      "reasonForCandidate": "Factoring a linear expression is a direct algebraic building block for factoring quadratic expressions."
+    },
+    {
+      "id": "pilot-014",
+      "prerequisiteAppearanceId": "math-secondary-g2-sec-1-1-1-231:part-01",
+      "dependentAppearanceId": "math-secondary-g2-sec-1-1-1-231:part-02",
+      "reasonForCandidate": "Identifying primes is required for prime factorisation."
+    },
+    {
+      "id": "pilot-015",
+      "prerequisiteAppearanceId": "math-secondary-g2-sec-1-1-1-231:part-02",
+      "dependentAppearanceId": "math-secondary-g2-sec-1-1-2-232:part-01",
+      "reasonForCandidate": "Prime factorisation is the stated method for finding the highest common factor."
+    },
+    {
+      "id": "pilot-016",
+      "prerequisiteAppearanceId": "math-secondary-g2-sec-2-6-3-292:part-01",
+      "dependentAppearanceId": "math-secondary-g2-sec-2-6-4-293:part-01",
+      "reasonForCandidate": "The linear-function form supports graphing linear functions."
+    },
+    {
+      "id": "pilot-017",
+      "prerequisiteAppearanceId": "math-secondary-g2-sec-1-5-1-273:part-01",
+      "dependentAppearanceId": "math-secondary-g2-sec-1-5-2-274:part-02",
+      "reasonForCandidate": "Basic area calculation supports finding the area of composite plane figures."
+    },
+    {
+      "id": "pilot-018",
+      "prerequisiteAppearanceId": "math-secondary-g3-sec-1-1-1-093:part-01",
+      "dependentAppearanceId": "math-secondary-g3-sec-1-1-1-093:part-02",
+      "reasonForCandidate": "Identifying primes is required for prime factorisation."
+    },
+    {
+      "id": "pilot-019",
+      "prerequisiteAppearanceId": "math-secondary-g3-sec-1-6-3-122:part-01",
+      "dependentAppearanceId": "math-secondary-g3-sec-1-6-4-123:part-01",
+      "reasonForCandidate": "The linear-function form supports graphing linear functions."
+    },
+    {
+      "id": "pilot-020",
+      "prerequisiteAppearanceId": "math-secondary-g3-sec-2-5-14-152:part-01",
+      "dependentAppearanceId": "math-secondary-g3-sec-3-4-7-11-187:part-01",
+      "reasonForCandidate": "Quadratic factorisation is one of the stated methods for solving quadratic equations."
+    },
+    {
+      "id": "pilot-021",
+      "prerequisiteAppearanceId": "math-secondary-g3-sec-2-4-3-170:part-01",
+      "dependentAppearanceId": "math-secondary-g3-sec-2-4-3-170:part-02",
+      "reasonForCandidate": "Using trigonometric ratios for sides supports using inverse ratios to find unknown acute angles."
+    },
+    {
+      "id": "pilot-022",
+      "prerequisiteAppearanceId": "math-secondary-g2-additional-sec-3-4-1-1-450:part-01",
+      "dependentAppearanceId": "math-secondary-g2-additional-sec-3-4-1-3-452:part-01",
+      "reasonForCandidate": "The six trigonometric functions support evaluating exact values at special angles."
+    },
+    {
+      "id": "pilot-023",
+      "prerequisiteAppearanceId": "math-secondary-g2-additional-sec-3-4-1-2-465:part-01",
+      "dependentAppearanceId": "math-secondary-g2-additional-sec-3-4-1-3-466:part-01",
+      "reasonForCandidate": "Understanding the derivative as a rate of change supports using standard differentiation notation."
+    },
+    {
+      "id": "pilot-024",
+      "prerequisiteAppearanceId": "math-secondary-g2-additional-sec-3-4-1-3-466:part-01",
+      "dependentAppearanceId": "math-secondary-g2-additional-sec-3-4-1-4-467:part-01",
+      "reasonForCandidate": "Standard differentiation notation supports differentiating xⁿ for rational n."
+    },
+    {
+      "id": "pilot-025",
+      "prerequisiteAppearanceId": "math-secondary-g3-additional-sec-3-4-1-1-401:part-01",
+      "dependentAppearanceId": "math-secondary-g3-additional-sec-3-4-1-3-403:part-01",
+      "reasonForCandidate": "The six trigonometric functions support evaluating exact values at special angles."
+    },
+    {
+      "id": "pilot-026",
+      "prerequisiteAppearanceId": "math-secondary-g3-additional-sec-3-4-1-6-406:part-01",
+      "dependentAppearanceId": "math-secondary-g3-additional-sec-3-4-1-7-407:part-01",
+      "reasonForCandidate": "Basic trigonometric identities support simplifying trigonometric expressions."
+    },
+    {
+      "id": "pilot-027",
+      "prerequisiteAppearanceId": "math-secondary-g3-additional-sec-3-4-1-2-421:part-01",
+      "dependentAppearanceId": "math-secondary-g3-additional-sec-3-4-1-3-422:part-01",
+      "reasonForCandidate": "Understanding the derivative as a rate of change supports using standard differentiation notation."
+    },
+    {
+      "id": "pilot-028",
+      "prerequisiteAppearanceId": "math-alevel-h1-mathematics-001:part-01",
+      "dependentAppearanceId": "math-alevel-h1-mathematics-002:part-01",
+      "reasonForCandidate": "The concept of a function supports working with exponential and logarithmic functions and their graphs."
+    },
+    {
+      "id": "pilot-029",
+      "prerequisiteAppearanceId": "math-alevel-h1-mathematics-016:part-01",
+      "dependentAppearanceId": "math-alevel-h1-mathematics-017:part-01",
+      "reasonForCandidate": "The derivative as the gradient of a tangent supports applying standard derivative formulae."
+    },
+    {
+      "id": "pilot-030",
+      "prerequisiteAppearanceId": "math-alevel-h1-mathematics-045:part-01",
+      "dependentAppearanceId": "math-alevel-h1-mathematics-046:part-01",
+      "reasonForCandidate": "The standard normal distribution supports finding a normal probability from x₁, μ, and σ."
+    },
+    {
+      "id": "pilot-031",
+      "prerequisiteAppearanceId": "math-alevel-h1-mathematics-041:part-01",
+      "dependentAppearanceId": "math-alevel-h1-mathematics-042:part-01",
+      "reasonForCandidate": "The binomial distribution model supports using its mean and variance."
+    },
+    {
+      "id": "pilot-032",
+      "prerequisiteAppearanceId": "math-alevel-h2-mathematics-001:part-01",
+      "dependentAppearanceId": "math-alevel-h2-mathematics-002:part-01",
+      "reasonForCandidate": "Understanding functions, domain, and range supports using inverse functions."
+    },
+    {
+      "id": "pilot-033",
+      "prerequisiteAppearanceId": "math-alevel-h2-mathematics-129:part-01",
+      "dependentAppearanceId": "math-alevel-h2-mathematics-130:part-01",
+      "reasonForCandidate": "The derivative as rate of change supports differentiating standard functions."
+    },
+    {
+      "id": "pilot-034",
+      "prerequisiteAppearanceId": "math-alevel-h2-mathematics-091:part-01",
+      "dependentAppearanceId": "math-alevel-h2-mathematics-092:part-01",
+      "reasonForCandidate": "The standard normal distribution supports finding a normal probability from x₁, μ, and σ."
+    },
+    {
+      "id": "pilot-035",
+      "prerequisiteAppearanceId": "math-alevel-h3-mathematics-002:part-01",
+      "dependentAppearanceId": "math-alevel-h3-mathematics-009:part-01",
+      "reasonForCandidate": "If-then conditionals support structuring a direct mathematical proof."
+    },
+    {
+      "id": "pilot-036",
+      "prerequisiteAppearanceId": "math-alevel-h3-mathematics-003:part-01",
+      "dependentAppearanceId": "math-alevel-h3-mathematics-012:part-01",
+      "reasonForCandidate": "Existential quantifiers support proving existence."
+    },
+    {
+      "id": "pilot-037",
+      "prerequisiteAppearanceId": "math-alevel-h2-further-mathematics-001:part-01",
+      "dependentAppearanceId": "math-alevel-h2-further-mathematics-004:part-01",
+      "reasonForCandidate": "Polar and exponential forms of complex numbers support applying de Moivre’s theorem to powers and roots."
+    },
+    {
+      "id": "pilot-038",
+      "prerequisiteAppearanceId": "math-alevel-h2-further-mathematics-011:part-01",
+      "dependentAppearanceId": "math-alevel-h2-further-mathematics-012:part-01",
+      "reasonForCandidate": "Functions of two variables support finding first-order partial derivatives."
+    },
+    {
+      "id": "pilot-039",
+      "prerequisiteAppearanceId": "math-alevel-h2-further-mathematics-023:part-01",
+      "dependentAppearanceId": "math-alevel-h2-further-mathematics-024:part-01",
+      "reasonForCandidate": "Understanding sequence behaviour supports solving first-order recurrence relations."
+    },
+    {
+      "id": "pilot-040",
+      "prerequisiteAppearanceId": "math-alevel-h2-further-mathematics-018:part-01",
+      "dependentAppearanceId": "math-alevel-h2-further-mathematics-020:part-01",
+      "reasonForCandidate": "A first-order differential-equation solution supports working with families of solution curves."
+    }
+  ]
+}

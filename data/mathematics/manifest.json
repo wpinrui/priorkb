@@ -26,8 +26,21 @@
   "editorialDecisionSchema": "../editorial-decisions.schema.json",
   "sourceRoot": "../..",
   "schoolYearPolicy": "Use official primary and secondary years or bands. A-level years are intentionally null.",
-  "relationshipStatus": "Not generated",
+  "relationshipStatus": "Five-agent pilot assessment; full graph not assessed",
   "skillEquivalences": "skill-equivalences.json",
   "skillEquivalenceSchema": "../skill-equivalences.schema.json",
-  "editorialReport": "editorial-report.md"
+  "editorialReport": "editorial-report.md",
+  "relationshipsPacket": "prerequisite-pilot.json",
+  "relationshipSelections": "prerequisite-pilot-selection.json",
+  "relationshipVotes": [
+    "prerequisite-votes/luna-01.json",
+    "prerequisite-votes/luna-02.json",
+    "prerequisite-votes/luna-03.json",
+    "prerequisite-votes/luna-04.json",
+    "prerequisite-votes/luna-05.json"
+  ],
+  "relationships": "relationships.json",
+  "relationshipSchema": "../relationships.schema.json",
+  "relationshipPolicy": "prerequisite-policy.md",
+  "relationshipReport": "prerequisite-pilot-report.md"
 }

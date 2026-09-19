@@ -9,8 +9,8 @@ Document interpretation still needs subject-aware extraction and inspection.
 The first dataset is [mathematics](mathematics/manifest.json). Its records are
 syllabus occurrences and objective candidates. `knowledge.json` is the derived
 skill catalogue. Shared skills retain a separate appearance for each pathway and
-source item. No prerequisite or helpful prior-knowledge relationships have been
-generated yet.
+source item. A prerequisite pilot now supplies inferred links for a limited
+selection of skills; the remaining graph is unassessed.
 
 ## Record meaning
 
@@ -76,3 +76,43 @@ from the five-agent prerequisite assessment.
 
 The catalogue groups inspected candidate overlaps conservatively. It does not
 claim that every differently worded equivalent skill has already been found.
+
+## Prerequisite votes
+
+The manifest identifies a frozen evidence packet, five independent vote files,
+and a generated relationship file. The packet contains explicit candidate pairs,
+their appearance contexts and source evidence. See the
+[pilot report](mathematics/prerequisite-pilot-report.md) and
+[classification policy](mathematics/prerequisite-policy.md).
+
+Run `python scripts/build_relationships.py data/mathematics/manifest.json` to
+aggregate the recorded votes. Each pair requires five complete votes from
+distinct sessions. Four or five votes for the same class accept an essential or
+helpful link, or reject a candidate classified as `none`. Other splits remain
+`needs-decision`. Cycles in accepted essential links are also flagged.
+
+Only entries whose `status` is `accepted` belong in the active graph. A disputed
+entry has no consensus classification. Keep its full vote record visible for a
+human decision. These links are inferred assessments, not official MOE claims.
+
+The evidence and catalogue SHA-256 values use UTF-8 text with line endings
+normalized to LF. Changed catalogue or evidence text invalidates prior votes.
+Coverage is explicit for every skill: having no candidate is `unassessed`, not
+evidence that a skill needs no prior knowledge.
+
+For a new subject or assessment batch, provide appearance-pair selections and
+new vote output paths in its manifest. `prepare_relationships.py --manifest ...`
+builds the evidence packet. `run_relationship_voters.py --manifest ...
+--output-dir temp/new-batch` starts five new isolated Codex CLI sessions using
+Luna by default. `import_relationship_votes.py --manifest ... --raw-output-dir
+temp/new-batch` imports completed results with session IDs, prompt provenance and
+usage metadata. Both voting and import refuse to overwrite existing votes.
+Only the voting command makes model calls; packet preparation and aggregation
+run locally with the Python standard library.
+
+The initial pilot was executed before the reusable runner recorded run metadata.
+Its imported votes explicitly say so and preserve the original prompt recovered
+from that batch's script. Later runs record the packet and prompt hashes before
+execution. The reusable prompt now makes clear that parent syllabus bullets are
+context and must not broaden a split skill's scope. This clarification was not
+part of the original pilot prompt.
