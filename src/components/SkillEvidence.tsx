@@ -116,7 +116,12 @@ function ContextDetails({ relationship, catalogue }: { relationship: Relationshi
   return (
     <details className="evidence-details">
       <summary>Evidence details</summary>
-      {relationship.contexts.length > 0 ? (
+      {relationship.trialEvidence ? <div className="context-list">
+        {relationship.trialEvidence.kind === 'inferred-instructional-subskill' && <p>Instructional subskill; no standalone syllabus record.</p>}
+        {relationship.trialEvidence.prerequisiteAppearances.length > 0 && <><strong>Prior knowledge</strong><ul>{relationship.trialEvidence.prerequisiteAppearances.map((appearance) => <li key={appearance.id}>{contextLabel(appearance)}. {sourcePages(appearance)}</li>)}</ul></>}
+        <strong>Target</strong><ul>{relationship.trialEvidence.targetAppearances.map((appearance) => <li key={appearance.id}>{contextLabel(appearance)}. {sourcePages(appearance)}</li>)}</ul>
+        {relationship.trialEvidence.findings.map((finding, index) => <p key={index}>{finding.description}</p>)}
+      </div> : relationship.contexts.length > 0 ? (
         <div className="context-list">
           <strong>Specific contexts</strong>
           {relationship.contexts.map((context, index) => (
@@ -149,6 +154,8 @@ function RelationCard({ relationship, linkedSkill, catalogue, direction, onSelec
       <div className="relation-card-main">
         <button className="link-button" type="button" onClick={() => onSelect(linkedSkill.id)}>{linkedSkill.label}</button>
         <span className={`role relation-badge relation-${relationship.effectiveClassification ?? "unresolved"}`}>{classificationLabel(relationship.effectiveClassification)}</span>
+        {linkedSkill.kind === 'instructional' && <span className="role">Subskill</span>}
+        {!!relationship.trialEvidence?.findings.length && <span className="role">Scope disputed</span>}
       </div>
       <ContextDetails relationship={relationship} catalogue={catalogue} />
       {unresolved && <p className="notice">Needs decision</p>}
@@ -159,7 +166,7 @@ function RelationCard({ relationship, linkedSkill, catalogue, direction, onSelec
 function RelationGroup({ title, classification, items, skill, catalogue, direction, onSelect }: { title: string; classification: "essential" | "helpful"; items: Relationship[]; skill: Skill; catalogue: Catalogue; direction: "incoming" | "outgoing"; onSelect: (id: string) => void }) {
   const filtered = items.filter((relationship) => relationship.effectiveClassification === classification);
   if (filtered.length === 0) return null;
-  return <div className="relation-group"><h4>{title}<span>{filtered.length}</span></h4>{filtered.map((relationship) => { const id = direction === "incoming" ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = catalogue.skills.find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={direction} onSelect={onSelect} /> : null; })}</div>;
+  return <div className="relation-group"><h4>{title}<span>{filtered.length}</span></h4>{filtered.map((relationship) => { const id = direction === "incoming" ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = [...catalogue.skills, ...catalogue.supplementalSkills].find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={direction} onSelect={onSelect} /> : null; })}</div>;
 }
 
 export function SkillEvidence({ skill, catalogue, onSelect }: SkillEvidenceProps) {
@@ -172,15 +179,15 @@ export function SkillEvidence({ skill, catalogue, onSelect }: SkillEvidenceProps
 
   return (
     <div className="skill-evidence">
-      <section className="detail-section" aria-label="Syllabus">
+      {skill.kind !== 'instructional' && <section className="detail-section" aria-label="Syllabus">
         {appearances.length === 0 ? <p className="muted">No syllabus appearance recorded.</p> : <details className="syllabus-details"><summary>Syllabus ({appearances.length})</summary><div className="appearance-list">{appearances.map((appearance) => { const first = appearance.role === "syllabus-content" && !firstByPathway.has(appearance.pathway); if (first) firstByPathway.add(appearance.pathway); return <AppearanceRow key={appearance.id} appearance={appearance} first={first} source={sourceFor(appearance)} />; })}</div></details>}
-      </section>
+      </section>}
 
       <section className="detail-section relation-section" aria-labelledby="relationships-heading">
         <div className="section-heading"><div><h3 id="relationships-heading">Prior knowledge</h3></div></div>
         <div className="relation-group"><RelationGroup title="Essential" classification="essential" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={incoming} skill={skill} catalogue={catalogue} direction="incoming" onSelect={onSelect} />{incoming.length === 0 && <p className="muted">Not yet mapped</p>}</div>
         {outgoing.length > 0 && <div className="relation-group"><h4>Builds towards</h4><RelationGroup title="Essential" classification="essential" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /><RelationGroup title="Helpful" classification="helpful" items={outgoing} skill={skill} catalogue={catalogue} direction="outgoing" onSelect={onSelect} /></div>}
-        {unresolved.length > 0 && <div className="relation-group unresolved-relations"><h4>Needs decision <span>{unresolved.length}</span></h4>{unresolved.map((relationship) => { const id = relationship.dependentSkillId === skill.id ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = catalogue.skills.find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={relationship.dependentSkillId === skill.id ? "incoming" : "outgoing"} onSelect={onSelect} /> : null; })}</div>}
+        {unresolved.length > 0 && <details className="relation-group unresolved-relations"><summary>Needs decision ({unresolved.length})</summary>{unresolved.map((relationship) => { const id = relationship.dependentSkillId === skill.id ? relationship.prerequisiteSkillId : relationship.dependentSkillId; const linkedSkill = [...catalogue.skills, ...catalogue.supplementalSkills].find((candidate) => candidate.id === id); return linkedSkill ? <RelationCard key={relationship.id} relationship={relationship} linkedSkill={linkedSkill} catalogue={catalogue} direction={relationship.dependentSkillId === skill.id ? "incoming" : "outgoing"} onSelect={onSelect} /> : null; })}</details>}
       </section>
     </div>
   );

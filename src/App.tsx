@@ -78,7 +78,7 @@ export function App() {
     return () => { clearTimeout(timer); request.current += 1; };
   }, [catalogue, query, filters, semantic, resultKey]);
   const results = semantic && semanticResult?.key === resultKey ? semanticResult.skills : lexical;
-  const selected = catalogue?.skills.find((skill) => skill.id === navigation.skill) ?? (!navigation.skill ? results[0] : undefined);
+  const selected = catalogue && ([...catalogue.skills, ...catalogue.supplementalSkills].find((skill) => skill.id === navigation.skill) ?? (!navigation.skill ? results[0] : undefined));
   useEffect(() => {
     if (!navigation.skill && selected) {
       const next = { ...navigation, skill: selected.id };
@@ -100,7 +100,7 @@ export function App() {
   const pathways = catalogue ? [...new Set(catalogue.appearances.map((appearance) => appearance.pathway))] : [];
   const years = catalogue ? [...new Set(catalogue.appearances.filter((appearance) => !pathway || appearance.pathway === pathway || (['primary-standard', 'primary-foundation'].includes(pathway) && appearance.pathway === 'primary-common')).map((appearance) => appearance.year).filter((value): value is string => Boolean(value)))].sort((a, b) => a.localeCompare(b, undefined, { numeric: true })) : [];
   const accepted = catalogue?.relationships.filter((r) => r.status === 'accepted' && ['essential', 'helpful'].includes(r.effectiveClassification ?? '')) ?? [];
-  const outside = selected && !lexical.some((skill) => skill.id === selected.id) && !(semantic && results.some((skill) => skill.id === selected.id));
+  const outside = selected && (query || pathway || year || linkedOnly) && !lexical.some((skill) => skill.id === selected.id) && !(semantic && results.some((skill) => skill.id === selected.id));
 
   return <div className="app-shell">
     <a className="skip-link" href="#search">Skip to search</a>
@@ -124,7 +124,7 @@ export function App() {
           {results.length ? <div className="result-list">{results.slice(0, limit).map((skill) => <button className={`result-item ${selected?.id === skill.id ? 'active' : ''}`} aria-current={selected?.id === skill.id ? 'true' : undefined} key={skill.id} onClick={() => select(skill.id)}><span className="result-label">{skill.label}</span><span>{skill.topics.slice(0, 2).join(' / ')}</span><span className="result-meta">{skill.appearanceIds.length} syllabus {skill.appearanceIds.length === 1 ? 'appearance' : 'appearances'}{accepted.some((r) => r.prerequisiteSkillId === skill.id || r.dependentSkillId === skill.id) ? ', pilot links available' : ''}</span></button>)}{limit < results.length && <button className="secondary-button show-more" onClick={() => setLimit(limit + 40)}>Show more ({results.length - limit} remaining)</button>}</div> : <div className="empty"><h3>No matching skills</h3><p>Try a broader topic or remove a filter.</p><button className="link-button" onClick={reset}>Reset filters</button></div>}
         </aside>
         <article className="detail-pane" aria-label="Selected skill">{selected ? <div className="detail">
-          <div className="detail-heading"><div><span className="eyebrow">Learning objective</span><h2 ref={detailHeading} tabIndex={-1}>{selected.label}</h2>{selected.description !== selected.label && <p>{selected.description}</p>}</div><button className="share-button" onClick={copy}>{copied ? 'Link copied' : 'Copy link'}</button></div>
+          <div className="detail-heading"><div><span className="eyebrow">{selected.kind === 'instructional' ? 'Instructional subskill' : 'Learning objective'}</span><h2 ref={detailHeading} tabIndex={-1}>{selected.label}</h2>{selected.description !== selected.label && <p>{selected.description}</p>}</div><button className="share-button" onClick={copy}>{copied ? 'Link copied' : 'Copy link'}</button></div>
           {outside && <p className="notice">Outside current filters.</p>}
           <SkillEvidence key={selected.id} skill={selected} catalogue={catalogue!} onSelect={select}/>
         </div> : <div className="detail-empty"><h2>{navigation.skill ? 'This skill link is unavailable' : 'Select a skill to explore'}</h2><p>{navigation.skill ? 'The skill may belong to another catalogue version. Search for its topic to find the current record.' : 'Choose a result to see its syllabus appearances and relationship evidence.'}</p></div>}</article>
