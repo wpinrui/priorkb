@@ -42,6 +42,9 @@
   "relationshipDecisions": "prerequisite-decisions.json",
   "relationshipDecisionSchema": "../relationship-decisions.schema.json",
   "relationships": "relationships.json",
+  "topicAssessments": [
+    "topic-trials/pythagoras/assessment.json"
+  ],
   "relationshipSchema": "../relationships.schema.json",
   "relationshipPolicy": "prerequisite-policy.md",
   "relationshipReport": "prerequisite-conceptual-report.md",

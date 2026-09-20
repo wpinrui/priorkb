@@ -25,8 +25,13 @@ its essential prerequisites, helpful prior knowledge and outgoing connections.
 Separate appearances preserve overlaps between pathways. Primary Standard and
 Foundation filters include their shared primary content.
 
-The relationship graph is a pilot of 36 accepted links: 26 essential and 10
-helpful. The interface labels missing assessments explicitly. An empty list does
+The site loads the 36-link pilot plus the Pythagoras topic assessment: 63 accepted
+links in total, with 15 disputed Pythagoras candidates kept under **Needs decision**.
+Pythagoras has 10 essential and 17 helpful candidate links, including overlapping
+competencies. Inferred instructional subskills are labelled separately and have no
+invented source or introduction year. Source-backed skills keep their original
+IDs; the semantic search catalogue remains unchanged.
+The interface labels missing assessments explicitly. An empty list does
 not establish that a topic has no prerequisites. Votes, human decisions and the
 specific syllabus contexts assessed remain visible beside the links.
 
